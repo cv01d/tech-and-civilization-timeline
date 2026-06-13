@@ -1,0 +1,12 @@
+# Build-time tooling (not part of the shipped static site)
+tools/
+node_modules/
+package-lock.json
+
+# Source material — kept local, not published
+extracted/
+*.pdf
+
+# OS / editor cruft
+.DS_Store
+*.log
