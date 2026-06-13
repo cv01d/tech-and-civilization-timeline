@@ -1,0 +1,447 @@
+// SUPPLEMENT — the American surveillance & privacy chronology.
+// A dense run of the laws, court cases, agencies, and programs through which the
+// United States built (and intermittently constrained) its capacity to watch its
+// people. Interleaves chronologically; each carries an `era` field for its gallery.
+window.ATLAS_EVENTS.push(
+
+{ id:"lanternlaws", year:1713, date:"1700s", era:2, cat:"surveillance",
+  title:"The Lantern Laws",
+  wiki:"Lantern laws", gallery:["Slavery in the colonial history of the United States","New York City"],
+  summary:"New York requires Black, mixed-race, and Indigenous enslaved people to carry a lit lantern after dark when not accompanied by a white person — surveillance written onto the body.",
+  importance:"Among the earliest American surveillance ordinances, the lantern laws made the enslaved person literally luminous: anyone unaccompanied by a white person after sundown had to carry a candle lantern, turning the body into a beacon for inspection. The scholar Simone Browne reads them as a foundational technology of racialized surveillance — the demand that the watched make themselves visible to power. The logic runs forward to slave patrols, Jim Crow pass systems, and the disproportionate gaze of modern policing.",
+  impact:{
+    surveillance:"Visibility is mandated by law — the watched are compelled to illuminate themselves.",
+    power:"Racial control is enforced through the regulation of movement and light after dark.",
+    society:"Establishes an American template: surveillance falls first and hardest on the racially marked." },
+  causes:["jamestown"], effects:["slavepatrols","plessy"] },
+
+{ id:"aliensedition", year:1798, date:"1798", era:3, cat:"law",
+  title:"The Alien and Sedition Acts",
+  wiki:"Alien and Sedition Acts", gallery:["John Adams","Quasi-War"],
+  summary:"The Adams administration empowers the government to deport 'dangerous' foreigners and to prosecute critical speech — the new republic's first surveillance-and-censorship regime.",
+  importance:"Passed amid war fever with France, the four acts let the president deport non-citizens at will and made it a crime to publish 'false, scandalous, and malicious' criticism of the government — used to jail opposition editors. They expired as Adams left office, and Jefferson pardoned those convicted, but they set the recurring American pattern the timeline keeps meeting: external threat invoked to expand surveillance and suppress dissent, from the Espionage Act to the Red Scares to the PATRIOT Act.",
+  impact:{
+    law:"The first federal collision between security and the First Amendment — a precedent argued over ever since.",
+    surveillance:"Non-citizens become the test population for expanded state power.",
+    government:"Establishes the wartime ratchet: emergency powers easy to grant, hard to retract." },
+  causes:["usbillofrights"], effects:["espionageact","palmerraids","patriotact"] },
+
+{ id:"slavepatrols", year:1819, date:"1819", era:3, cat:"surveillance",
+  title:"Slave Patrols",
+  wiki:"Slave patrol", gallery:["Slavery in the United States","Fugitive slave laws in the United States"],
+  summary:"South Carolina compels all white men over 18 to serve in armed patrols that police, search, and terrorize the enslaved — an ancestor of American policing.",
+  importance:"Slave patrols, formalized across the South (South Carolina's 1819 statute conscripted nearly all adult white men), enforced the pass system, broke up gatherings, and raided quarters at will. Historians trace a direct institutional line from these patrols to modern Southern police forces. They are the clearest early case of mass surveillance as racial control — and of policing born to protect property in human beings.",
+  impact:{
+    surveillance:"Population-wide monitoring of an enslaved people, enforced by conscripted civilians.",
+    power:"Racial domination is maintained by routine, legalized search and terror.",
+    society:"A founding strand of American policing, with consequences the civil-rights era confronts." },
+  causes:["lanternlaws","jamestown"], effects:["plessy","civilrightsact"] },
+
+{ id:"cawiretap1862", year:1862, date:"1862", era:3, cat:"law",
+  title:"California Bans Telegraph Wiretapping",
+  wiki:"Telephone tapping", gallery:["Electrical telegraph","California"],
+  summary:"Months after the transcontinental telegraph reaches the coast, California criminalizes wiretapping — the first anti-eavesdropping statute, prompted by a broker stealing market news.",
+  importance:"New communications technology produced new crime almost instantly. With the Pacific Telegraph newly arrived, California passed an early law against tapping the wires; the first convicted was a stockbroker caught reading corporate telegrams and selling the intelligence to traders. It is the earliest American recognition that the network is also a target — the same problem that returns with the telephone, the internet, and end-to-end encryption.",
+  impact:{
+    law:"The first statutory answer to electronic eavesdropping in America.",
+    surveillance:"Interception is recognized as a distinct harm the moment the wire arrives.",
+    communications:"Establishes that confidentiality of transmitted messages is a legal interest." },
+  causes:["telegraph"], effects:["olmstead","wiretapact1968"] },
+
+{ id:"policewiretap1895", year:1895, date:"1895", era:4, cat:"surveillance",
+  title:"The First Police Wiretapping",
+  wiki:"Telephone tapping", gallery:["New York City Police Department","Telephone"],
+  summary:"A former telephone worker turned New York policeman proposes tapping criminals' lines; the mayor approves, and the department wiretaps in secret for years.",
+  importance:"Almost as soon as the telephone exchange existed, the police were inside it. New York's secret program — begun on the suggestion of an officer who had worked for the phone company, with the mayor's quiet blessing — is the first recorded instance of law-enforcement wiretapping. It ran unregulated and undisclosed, prefiguring a century in which surveillance capability routinely outruns the law meant to govern it.",
+  impact:{
+    surveillance:"Police wiretapping begins — covert, unauthorized, and unexamined.",
+    law:"Demonstrates the lag the courts (Olmstead, Katz) and Congress spend decades trying to close.",
+    communications:"The telephone network is revealed as a standing surveillance resource." },
+  causes:["bell"], effects:["nywiretapscandal","olmstead"] },
+
+{ id:"nbi1897", year:1897, date:"1897", era:4, cat:"surveillance",
+  title:"The National Bureau of Identification",
+  wiki:"International Association of Chiefs of Police", gallery:["Mug shot","Bertillon system"],
+  summary:"Police chiefs found a central bureau to pool identifying records on criminals — the first national identification database in the United States.",
+  importance:"Founded by the National Chiefs of Police Union (later the IACP), the National Bureau of Identification centralized mug shots and Bertillon body-measurement records so that a suspect known in one city could be identified in another. It is the institutional seed of the national criminal-records infrastructure that the FBI's fingerprint database (1924) and later the NCIC inherit — the state assembling, for the first time, a searchable memory of identified individuals.",
+  impact:{
+    surveillance:"The first national pooling of identification records — a searchable archive of persons.",
+    technology:"Bertillonage and photography are organized into a system; biometrics begins bureaucratically.",
+    government:"Identification becomes a shared national capacity rather than a local one." },
+  causes:["kodak"], effects:["bureauinvestigation","fingerprintdb"] },
+
+{ id:"bureauinvestigation", year:1908, date:"1908", era:4, cat:"surveillance",
+  title:"The Bureau of Investigation",
+  wiki:"Bureau of Investigation", gallery:["Federal Bureau of Investigation","J. Edgar Hoover","Charles Joseph Bonaparte"],
+  summary:"Attorney General Charles Bonaparte creates a standing force of federal agents — the body that in 1935 becomes the FBI.",
+  importance:"Born of rising urban crime and the Justice Department's lack of its own investigators, the Bureau of Investigation began small and controversial (Congress feared a federal secret police). Under J. Edgar Hoover from 1924, it became the FBI in 1935 and the central instrument of domestic intelligence for the American century — the agency behind the Palmer Raids' files, COINTELPRO, the surveillance of Martin Luther King, and the abuses the Church Committee would expose.",
+  impact:{
+    surveillance:"A permanent federal investigative apparatus is established.",
+    government:"Domestic intelligence acquires its enduring institutional home.",
+    society:"The fear voiced at its founding — a federal secret police — shadows it for a century." },
+  causes:["nbi1897"], effects:["fingerprintdb","palmerraids","churchcommittee"] },
+
+{ id:"nywiretapscandal", year:1916, date:"1916", era:4, cat:"surveillance",
+  title:"The New York Wiretapping Scandal",
+  wiki:"Telephone tapping", gallery:["New York City Police Department","Trade union"],
+  summary:"An inquiry finds New York police tapping hundreds of phones a year — to track criminals and to spy on labor organizers. National outcry follows.",
+  importance:"A 1916 investigation of public utilities exposed that the NYPD was tapping hundreds of lines annually, including those of union activists — surveillance turned against labor as much as crime. The scandal produced a Senate committee's call to rein in police wiretapping, an early instance of the exposure-and-reform cycle. (The same era saw the Bureau of Investigation's mail-opening of suspected subversives checked by Solicitor General William Lamar's 1917 ruling upholding the sanctity of sealed mail.)",
+  impact:{
+    surveillance:"Police wiretapping is revealed as routine — and as a tool against organized labor.",
+    labor:"Surveillance is shown serving employers and the state against union activity.",
+    law:"Spurs the first legislative attempts to constrain police interception." },
+  causes:["policewiretap1895"], effects:["olmstead","lafollette"] },
+
+{ id:"espionageact", year:1917, date:"June 1917", era:4, cat:"law",
+  title:"The Espionage Act",
+  wiki:"Espionage Act of 1917", gallery:["Eugene V. Debs","Schenck v. United States","World War I"],
+  summary:"Congress criminalizes obtaining defense information and interfering with the war effort — a statute still used a century later against leakers and whistleblowers.",
+  importance:"Enacted weeks after America entered World War I, the Espionage Act targeted spying but swept far wider, criminalizing dissent: Eugene Debs was imprisoned for an anti-war speech, and Schenck v. United States (1919) gave us 'clear and present danger.' Never repealed, it is the law under which Daniel Ellsberg, Chelsea Manning, Edward Snowden, and modern leakers have been charged — the enduring legal edge of the national-security state.",
+  impact:{
+    law:"The foundational U.S. national-security statute, still wielded against disclosure today.",
+    surveillance:"Defense information is fenced off; its protection justifies expanding state secrecy.",
+    society:"Wartime speech is criminalized, testing the First Amendment under pressure." },
+  causes:["aliensedition","wwi"], effects:["palmerraids","snowden"] },
+
+{ id:"palmerraids", year:1919, date:"1919–1920", era:4, cat:"surveillance",
+  title:"The Palmer Raids & the First Red Scare",
+  wiki:"Palmer Raids", gallery:["A. Mitchell Palmer","First Red Scare","J. Edgar Hoover"],
+  summary:"Attorney General Palmer's agents round up and deport thousands of suspected anarchists and radicals — until the raids' brutality discredits them.",
+  importance:"Spurred by post-war fear of Bolshevism, Palmer and a young J. Edgar Hoover orchestrated mass warrantless arrests of foreign radicals, often without charges, holding thousands in squalid conditions and deporting hundreds. When the lawlessness became public, Palmer's credibility collapsed and the scare subsided. The episode is the prototype of the security panic — the Espionage Act's logic turned inward — and a direct rehearsal for McCarthyism three decades later.",
+  impact:{
+    surveillance:"Mass political policing of immigrants and the left, by file and by raid.",
+    government:"Demonstrates both the reach of the security panic and the limits public exposure can impose.",
+    society:"Civil-liberties opposition crystallizes — the ACLU is founded in its wake (1920)." },
+  causes:["espionageact","russianrev","aliensedition"], effects:["huac","churchcommittee"] },
+
+{ id:"fingerprintdb", year:1924, date:"1924", era:4, cat:"surveillance",
+  title:"The National Fingerprint Database",
+  wiki:"Fingerprint", gallery:["Federal Bureau of Investigation","Biometrics"],
+  summary:"The FBI is given a legislative mandate to run a national fingerprint repository — 100 million records by 1946, and the backbone of American identification.",
+  importance:"Consolidating earlier collections, the Bureau's Identification Division made the fingerprint the dominant mode of American identification. By 1946 it held 100 million cards; the database it began runs unbroken into today's IAFIS and the biometric state. Fingerprinting fused the body to the file permanently — the most durable identifier before DNA, and the model for every biometric system that follows.",
+  impact:{
+    surveillance:"A permanent, searchable national biometric registry is built.",
+    technology:"The fingerprint becomes the standard that later facial recognition and DNA databases extend.",
+    government:"Identification at population scale becomes a routine federal capacity." },
+  causes:["nbi1897","bureauinvestigation"], effects:["ring"] },
+
+{ id:"panopticon", year:1925, date:"1925", era:4, cat:"surveillance",
+  title:"The Panopticon Realized",
+  wiki:"Panopticon", gallery:["Jeremy Bentham","Stateville Correctional Center","Discipline and Punish"],
+  summary:"Illinois opens Stateville's 'roundhouse' — a working panopticon where one guard can watch every cell, and no prisoner can tell when he is watched.",
+  importance:"Jeremy Bentham designed the panopticon in 1785: a ring of cells around a central tower, engineered so inmates, never knowing if they are observed, must behave as if always watched. Stateville's F-House made it concrete in 1925. Michel Foucault later made the panopticon the master metaphor of modern power — discipline internalized through the mere possibility of surveillance. It is the conceptual key to everything from the time-clocked factory to CCTV to the self-censoring user of the data age.",
+  impact:{
+    surveillance:"The architecture of permanent visibility — the founding model of disciplinary watching.",
+    society:"Foucault's panopticon names how surveillance shapes behavior without force, by uncertainty alone.",
+    power:"The watched discipline themselves — the cheapest and most total form of control." },
+  causes:[], effects:["cctv","taylorism","greatfirewall"] },
+
+{ id:"olmstead", year:1928, date:"1928", era:4, cat:"law",
+  title:"Olmstead v. United States",
+  wiki:"Olmstead v. United States", gallery:["William Howard Taft","Telephone tapping","Prohibition in the United States"],
+  summary:"The Supreme Court permits warrantless wiretapping — a phone call, Chief Justice Taft writes, is no more private than a conversation overheard in the street.",
+  importance:"By 5–4, Olmstead held that wiretapping a bootlegger's phone from outside his property was no Fourth Amendment 'search,' since nothing physical was trespassed. The lasting power of the case lies in Louis Brandeis's dissent, which argued for 'the right to be let alone' against new technology and presciently warned of future means of surveillance 'more far-reaching' than any then imagined. Olmstead governed for forty years until Katz (1967) adopted Brandeis's view.",
+  impact:{
+    law:"Confines the Fourth Amendment to physical trespass — a doctrine that stands until Katz overturns it.",
+    surveillance:"Warrantless wiretapping is constitutionally blessed for two generations.",
+    society:"Brandeis's dissent becomes the founding text of constitutional privacy, vindicated in time." },
+  causes:["cawiretap1862","brandeis","policewiretap1895"], effects:["katz","keithcase"] },
+
+{ id:"lafollette", year:1936, date:"1936–1941", era:4, cat:"labor",
+  title:"The La Follette Civil Liberties Committee",
+  wiki:"La Follette Committee", gallery:["Robert M. La Follette Jr.","Labor spying","Strikebreaking"],
+  summary:"A Senate committee exposes the vast private surveillance industry — corporate spies, informers, and munitions stockpiles used to break unions.",
+  importance:"Investigating employers' methods against organized labor, Senator Robert La Follette Jr.'s committee documented an enormous private-sector surveillance apparatus: companies like General Motors and Pinkerton ran armies of labor spies, wiretappers, and informers to identify and crush union organizers. It remains the fullest record of corporate surveillance of workers — a domain, as the timeline keeps noting, that the law scarcely touches even now.",
+  impact:{
+    labor:"The private surveillance of workers is exposed at industrial scale.",
+    surveillance:"Demonstrates that mass surveillance is corporate as well as governmental.",
+    regulation:"Bolsters the Wagner Act's protections by documenting the methods used to defeat unions." },
+  causes:["nywiretapscandal","taylorism","wagneract"], effects:["gigeconomy"] },
+
+{ id:"huac", year:1938, date:"1938", era:4, cat:"surveillance",
+  title:"The House Un-American Activities Committee",
+  wiki:"House Un-American Activities Committee", gallery:["McCarthyism","Joseph McCarthy","Hollywood blacklist"],
+  summary:"Congress creates a committee to investigate 'disloyalty' — the engine of the blacklists and, with McCarthy, of the Second Red Scare.",
+  importance:"HUAC institutionalized the political loyalty investigation, hauling private citizens and public employees before it to answer for suspected Communist ties. Through the late 1940s and 1950s — amplified by Senator Joseph McCarthy's parallel crusade — it powered the Hollywood blacklist, ruined careers on accusation, and made surveillance of belief a normal instrument of American politics. 'McCarthyism' became the word for the security panic's domestic form.",
+  impact:{
+    surveillance:"Loyalty and belief become objects of state investigation.",
+    society:"Blacklists and ruined lives chill speech and association for a generation.",
+    government:"The Red Scare's machinery is given a permanent congressional seat." },
+  causes:["palmerraids","russianrev"], effects:["churchcommittee"] },
+
+{ id:"shamrock", year:1939, date:"1939", era:4, cat:"surveillance",
+  title:"Operation SHAMROCK",
+  wiki:"Project SHAMROCK", gallery:["National Security Agency","Western Union","Church Committee"],
+  summary:"The government begins copying virtually all international telegrams leaving the United States — a bulk-collection program that runs in secret for thirty years.",
+  importance:"Beginning in wartime and continuing under the NSA until 1975, SHAMROCK obtained copies of essentially all telegrams to and from the U.S. through the cooperation of Western Union and other carriers — bulk collection of Americans' communications decades before the digital age, with no warrant and no law. Its exposure by the Church Committee was a primary spur to FISA (1978). It is the direct ancestor, in scale and secrecy, of the programs Snowden revealed.",
+  impact:{
+    surveillance:"Bulk collection of Americans' communications — the template Snowden later finds digitized.",
+    government:"Carrier cooperation makes mass interception possible — the public-private surveillance partnership.",
+    regulation:"Its disclosure helps produce FISA and the entire oversight framework." },
+  causes:["cabinetnoir","wwi"], effects:["nsa","churchcommittee","fisa","prism"] },
+
+{ id:"prosser", year:1960, date:"1960", era:5, cat:"law",
+  title:"Prosser's Privacy Torts",
+  wiki:"William L. Prosser", gallery:["Privacy laws of the United States","Tort"],
+  summary:"Legal scholar William Prosser sorts seven decades of privacy cases into four distinct torts — the framework American privacy law still uses.",
+  importance:"Seventy years after Warren and Brandeis proposed a 'right to privacy,' Prosser's 1960 article distilled the case law into four wrongs one can sue over: intrusion upon seclusion; public disclosure of private facts; false light; and appropriation of name or likeness. Adopted into the Restatement of Torts, this taxonomy remains the backbone of American privacy litigation — the common-law counterpart to the statutory and constitutional privacy that develops alongside it.",
+  impact:{
+    law:"Gives American privacy law its working structure — four torts, still in force.",
+    society:"Turns Brandeis's abstract right into actionable, everyday legal claims.",
+    regulation:"Provides the doctrinal vocabulary later statutes and the FTC build upon." },
+  causes:["brandeis"], effects:["griswold","westin"] },
+
+{ id:"griswold", year:1965, date:"1965", era:5, cat:"law",
+  title:"Griswold v. Connecticut",
+  wiki:"Griswold v. Connecticut", gallery:["Right to privacy","Estelle Griswold","Comstock laws"],
+  summary:"Striking down a ban on contraception, the Supreme Court finds a constitutional 'right to privacy' in the penumbras of the Bill of Rights.",
+  importance:"Griswold located a right to marital privacy implied by the First, Third, Fourth, and Fifth Amendments — the first time the Court named a constitutional privacy right as such. Extended to unmarried people in Eisenstadt v. Baird (1972) and to other intimate decisions thereafter, it became the doctrinal foundation of substantive-privacy jurisprudence. It is the constitutional branch of the privacy tree whose other branches are the Fourth Amendment cases and the data-protection statutes.",
+  impact:{
+    law:"Establishes a constitutional right to privacy — the basis of decades of intimate-liberty rulings.",
+    society:"Personal autonomy in private life acquires constitutional protection.",
+    government:"Limits the state's reach into the most private decisions of citizens." },
+  causes:["usbillofrights","prosser","brandeis"], effects:["carpenter"] },
+
+{ id:"westin", year:1967, date:"1967", era:5, cat:"power",
+  title:"Westin's Privacy and Freedom",
+  wiki:"Alan Westin", gallery:["Information privacy","Privacy"],
+  summary:"Alan Westin defines privacy as the individual's claim to control when and how information about them is shared — the conceptual seed of modern data protection.",
+  importance:"Westin's 1967 Privacy and Freedom reframed privacy for the computer age, defining it as 'the claim of individuals to determine for themselves when, how, and to what extent information about them is communicated to others.' That definition — informational self-determination — became the intellectual foundation of the Fair Information Practices (1973), the Privacy Act, and ultimately the European data-protection tradition. Westin gave the data age the idea it needed: privacy as control over one's information.",
+  impact:{
+    power:"Privacy is redefined as control over personal information — the governing idea of the data era.",
+    regulation:"Directly shapes the FIPPs, the Privacy Act, and Europe's data-protection law.",
+    society:"Anticipates, by decades, the central problem of surveillance capitalism." },
+  causes:["prosser"], effects:["fipps","privacyact","volkszahlung","gdpr"] },
+
+{ id:"wiretapact1968", year:1968, date:"1968", era:5, cat:"law",
+  title:"The Wiretap Act (Title III)",
+  wiki:"Omnibus Crime Control and Safe Streets Act of 1968", gallery:["Telephone tapping","Fourth Amendment to the United States Constitution"],
+  summary:"Congress legalizes law-enforcement wiretapping — but only under a warrant, on probable cause, for enumerated crimes. The rules that still govern the tap.",
+  importance:"Responding to Berger v. New York and Katz (both 1967), Title III of the Omnibus Crime Control Act set the statutory framework for lawful interception: a court order, probable cause, particularity, minimization. It brought police wiretapping — secret and unregulated since 1895 — under the rule of law, and became the foundation that ECPA (1986) extended to electronic communications and CALEA (1994) bent to digital networks.",
+  impact:{
+    law:"Wiretapping is brought under warrant requirements — the durable statutory baseline.",
+    surveillance:"Lawful interception is defined and bounded after seven decades of secrecy.",
+    regulation:"The framework ECPA and CALEA later inherit and adapt." },
+  causes:["katz","cawiretap1862","policewiretap1895"], effects:["ecpa","calea"] },
+
+{ id:"keithcase", year:1972, date:"1972", era:5, cat:"law",
+  title:"The Keith Case",
+  wiki:"United States v. U.S. District Court", gallery:["Fourth Amendment to the United States Constitution","Richard Nixon"],
+  summary:"A unanimous Supreme Court rules that even domestic 'national security' wiretaps require a warrant — there is no blanket exception for the executive.",
+  importance:"The Nixon administration claimed it could wiretap domestic radicals without warrants in the name of national security. In United States v. U.S. District Court (the 'Keith' case), the Court unanimously rejected the claim: domestic security surveillance still needs judicial authorization. The ruling drew the line between foreign and domestic intelligence and directly shaped FISA (1978), which built a special court precisely to supply warrants for the foreign-intelligence side.",
+  impact:{
+    law:"No executive blank check for domestic surveillance — a warrant is required.",
+    surveillance:"Forces the foreign/domestic distinction that structures U.S. intelligence law.",
+    government:"A unanimous check on presidential surveillance power, on the eve of Watergate." },
+  causes:["olmstead","katz"], effects:["fisa"] },
+
+{ id:"nixonenemies", year:1973, date:"1973", era:5, cat:"surveillance",
+  title:"Nixon's Enemies List",
+  wiki:"Nixon's Enemies List", gallery:["Watergate scandal","Richard Nixon","John Dean"],
+  summary:"Watergate reveals a White House list of political opponents to be harassed through tax audits and federal machinery — surveillance turned to private revenge.",
+  importance:"Exposed during the Watergate hearings by counsel John Dean, the 'enemies list' showed the surveillance state aimed at the president's personal foes — the IRS, FBI, and other agencies to be weaponized against journalists, politicians, and donors. Together with the burglaries and wiretaps of Watergate, it crystallized the danger of unaccountable executive surveillance and helped drive the reforms of the mid-1970s: the Church Committee, FISA, and the Privacy Act.",
+  impact:{
+    surveillance:"State power is revealed turned against the president's personal enemies.",
+    government:"Watergate's abuses become the catalyst for a decade of surveillance reform.",
+    society:"Public trust in government surveillance collapses, enabling oversight legislation." },
+  causes:["bureauinvestigation"], effects:["churchcommittee","privacyact","fisa"] },
+
+{ id:"ferpa", year:1974, date:"1974", era:5, cat:"law",
+  title:"FERPA: Student Privacy",
+  wiki:"Family Educational Rights and Privacy Act", gallery:["Privacy laws of the United States","Education in the United States"],
+  summary:"Federal law gives students and parents control over education records — one of the first sectoral privacy statutes of the data age.",
+  importance:"Passed the same year as the Privacy Act, FERPA gave families the right to inspect, correct, and limit disclosure of school records — applying Westin's control principle and the new Fair Information Practices to a specific sector. It typifies the American approach the timeline keeps noting: where Europe legislates privacy comprehensively, the U.S. proceeds statute by sector — education here, health (HIPAA) and finance (GLBA) later. (The Privacy Act's own watchdog, the 1977 Privacy Protection Study Commission, urged extending such protections further.)",
+  impact:{
+    law:"Education records get federal privacy protection — the sectoral model in action.",
+    regulation:"Implements the FIPPs in a specific domain, the pattern U.S. privacy law follows.",
+    society:"Families gain control over a key category of personal records." },
+  causes:["fipps","westin","privacyact"], effects:["hipaa","glba"] },
+
+{ id:"eo12333", year:1981, date:"1981", era:5, cat:"law",
+  title:"Executive Order 12333",
+  wiki:"Executive Order 12333", gallery:["Ronald Reagan","United States Intelligence Community","National Security Agency"],
+  summary:"Reagan's order sets the rules — largely outside congressional control — for how U.S. intelligence agencies collect on citizens and foreigners abroad.",
+  importance:"EO 12333 is the foundational charter governing the intelligence community's collection activities, especially overseas, where much of the NSA's most expansive surveillance operates beyond FISA's reach. Because it is an executive order, it can be rewritten by the president alone, and critics note that a great deal of collection affecting Americans' data occurs under 12333 rather than statute — the durable, low-visibility legal basis beneath the programs Snowden revealed.",
+  impact:{
+    law:"Sets intelligence-collection rules by executive fiat, largely outside Congress.",
+    surveillance:"Governs much overseas collection — the authority beneath bulk programs.",
+    government:"Concentrates surveillance rule-making in the presidency itself." },
+  causes:["fisa","nsa"], effects:["prism","snowden","section702"] },
+
+{ id:"tcpa", year:1991, date:"1991", era:6, cat:"law",
+  title:"The TCPA & Do Not Call",
+  wiki:"Telephone Consumer Protection Act of 1991", gallery:["National Do Not Call Registry","Robocall"],
+  summary:"Congress restricts telemarketing and auto-dialed calls; the 2003 Do Not Call Registry lets tens of millions opt out — privacy as the right to be left alone, by phone.",
+  importance:"The TCPA curbed unsolicited calls, faxes, and the first robocalls, and in 2003 the FTC's Do Not Call Registry — one of the most popular federal programs ever, with tens of millions enrolling within days — let people opt out of telemarketing entirely. It marks privacy's expansion from the state-surveillance frame to the commercial-intrusion frame: the consumer's interest in not being contacted, the same interest that CAN-SPAM and later marketing rules extend.",
+  impact:{
+    law:"Commercial intrusion becomes a regulated privacy harm.",
+    society:"The Do Not Call Registry shows the public's appetite for privacy protection when offered.",
+    regulation:"Establishes opt-out as a workable privacy mechanism at mass scale." },
+  causes:["bell"], effects:["coppa"] },
+
+{ id:"commonrule", year:1991, date:"1991", era:6, cat:"law",
+  title:"The Common Rule",
+  wiki:"Common Rule", gallery:["Institutional review board","Belmont Report"],
+  summary:"Federal ethics rules for research on human subjects — informed consent and review boards — codify privacy and dignity into science.",
+  importance:"Building on the Belmont Report and the reaction to abuses like the Tuskegee study, the 1991 Common Rule standardized protections for human research subjects across federal agencies: informed consent, Institutional Review Board oversight, and confidentiality of data. Updated in 2018 for the era of big data and genomics, it is the framework through which the privacy and autonomy of research subjects are protected — an ethics infrastructure that the data-hungry science of the AI age continually tests.",
+  impact:{
+    law:"Human-subject research is bound by consent and confidentiality rules.",
+    society:"Privacy and dignity are written into the conduct of science itself.",
+    regulation:"Sets standards later strained by big-data and genomic research." },
+  causes:["udhr"], effects:[] },
+
+{ id:"hipaa", year:1996, date:"1996", era:6, cat:"law",
+  title:"HIPAA: Medical Privacy",
+  wiki:"Health Insurance Portability and Accountability Act", gallery:["Medical privacy","Protected health information"],
+  summary:"Federal law sets national standards for the privacy and security of health information — the sectoral privacy regime for the most sensitive personal data.",
+  importance:"As medical records digitized, HIPAA (the Kennedy-Kassebaum Act) created federal rules for handling protected health information: limits on disclosure, patient access rights, and security requirements for the healthcare and insurance industries. It is the most consequential American sectoral privacy law, governing a category of data — diagnoses, genetics, mental health — that the data economy and AI diagnostics now press against from every side.",
+  impact:{
+    law:"National privacy and security standards for health data are established.",
+    regulation:"The U.S. sectoral model reaches its most sensitive domain.",
+    society:"Patients gain rights over records that can decide employment, insurance, and stigma." },
+  causes:["ferpa","fipps"], effects:["glba"] },
+
+{ id:"coppa", year:1998, date:"1998", era:6, cat:"law",
+  title:"COPPA: Children's Online Privacy",
+  wiki:"Children's Online Privacy Protection Act", gallery:["Federal Trade Commission","Internet privacy"],
+  summary:"The U.S. bars websites from collecting data on children under 13 without verifiable parental consent — one of the few broadly applicable federal online-privacy laws.",
+  importance:"As the commercial web learned to harvest data, COPPA carved out special protection for children under 13: notice, parental consent, and limits on collection, enforced by the FTC. In a country with no general online-privacy law, it is a rare instance of broad federal consumer privacy regulation — and the basis of major enforcement actions (against YouTube, TikTok, and others) as platforms built on data collided with the one population Congress chose to protect.",
+  impact:{
+    law:"Children's data collection is federally restricted — a rare broad U.S. online-privacy rule.",
+    regulation:"Gives the FTC a concrete privacy mandate it still enforces against platforms.",
+    society:"Establishes that some populations warrant heightened data protection." },
+  causes:["cookie","tcpa"], effects:["ccpa","ftcfacebook"] },
+
+{ id:"glba", year:1999, date:"1999", era:6, cat:"law",
+  title:"Gramm-Leach-Bliley",
+  wiki:"Gramm–Leach–Bliley Act", gallery:["Financial privacy","Federal Trade Commission"],
+  summary:"Banks must disclose how they share customer data and let customers opt out — financial privacy's sectoral statute, alongside a deregulation that helped enable 2008.",
+  importance:"GLBA's privacy provisions required financial institutions to explain their data-sharing, offer opt-outs, and secure customer information under a Safeguards Rule — the finance counterpart to HIPAA and FERPA. (The same act repealed Glass-Steagall's separation of commercial and investment banking, a deregulation later blamed for amplifying the 2008 crisis — the timeline's recurring entanglement of finance and information.) The era also formalized the corporate privacy profession: the first Chief Privacy Officers were appointed around 1999.",
+  impact:{
+    law:"Financial data gets a federal privacy regime built on disclosure and opt-out.",
+    regulation:"Completes the U.S. sectoral trio — education, health, finance.",
+    power:"Its banking-deregulation half feeds the conditions for the 2008 crisis." },
+  causes:["ferpa","hipaa"], effects:["financialcrisis"] },
+
+{ id:"kyllo", year:2001, date:"2001", era:6, cat:"law",
+  title:"Kyllo v. United States",
+  wiki:"Kyllo v. United States", gallery:["Thermographic camera","Fourth Amendment to the United States Constitution"],
+  summary:"Pointing a thermal imager at a home from the street is a search, the Court rules — sensing technology cannot quietly erase the Fourth Amendment.",
+  importance:"Police used a thermal camera to detect heat from indoor cannabis lamps without a warrant. The Court held this a search: where the government uses sense-enhancing technology 'not in general public use' to learn what it could otherwise only know by entering the home, a warrant is required. Kyllo is the Fourth Amendment confronting the sensor age — the principle later extended to GPS (Jones) and cell-site data (Carpenter) as surveillance technology kept advancing.",
+  impact:{
+    law:"Novel sensing technology aimed at the home is constrained by the warrant requirement.",
+    surveillance:"Sets a limit on technological surveillance that bypasses physical entry.",
+    society:"Affirms the home as the Fourth Amendment's innermost protected space." },
+  causes:["katz"], effects:["usjones","riley","carpenter"] },
+
+{ id:"egov2002", year:2002, date:"2002", era:6, cat:"law",
+  title:"The E-Government Act",
+  wiki:"E-Government Act of 2002", gallery:["E-government","Office of Management and Budget"],
+  summary:"Federal agencies must assess the privacy impact of new systems that collect personal data — privacy review built into government IT.",
+  importance:"As government moved online, the E-Government Act required agencies to conduct a Privacy Impact Assessment before deploying technology that collects or aggregates personal information — making privacy a design-stage question rather than an afterthought. It institutionalized the FIPPs inside federal IT procurement and modeled the 'privacy by design' thinking that GDPR later mandates for everyone.",
+  impact:{
+    law:"Privacy assessment becomes a required step in government technology.",
+    regulation:"Embeds 'privacy by design' in U.S. federal practice before GDPR generalizes it.",
+    government:"Agencies must reckon with data collection's risks before building." },
+  causes:["privacyact","fipps"], effects:["gdpr"] },
+
+{ id:"databreach2003", year:2003, date:"2003", era:6, cat:"law",
+  title:"Data Breach Notification Begins",
+  wiki:"Security breach notification laws", gallery:["Data breach","California"],
+  summary:"California is first to require companies to tell people when their personal data is exposed — a model nearly every state then copies.",
+  importance:"California's 2003 law created a new privacy mechanism: mandatory disclosure when personal data is breached, forcing companies to confront the costs of insecurity and giving people a chance to protect themselves. Almost every U.S. state followed, and breach notification became one of the few near-universal American privacy norms — the lens through which the public experiences events like the Equifax breach. (Related identity-theft rules, like the FTC's Red Flags Rule enforced from 2010, extended the same protective logic.)",
+  impact:{
+    law:"Breach notification becomes a de facto national norm via state law.",
+    society:"The public gains visibility into the insecurity of its own data.",
+    regulation:"Demonstrates the state-led patchwork that substitutes for federal privacy law." },
+  causes:["creditreporting"], effects:["equifaxbreach","ccpa"] },
+
+{ id:"room641a", year:2003, date:"2003", era:6, cat:"surveillance",
+  title:"Room 641A",
+  wiki:"Room 641A", gallery:["Mark Klein","AT&T","NSA warrantless surveillance (2001–2007)"],
+  summary:"Inside an AT&T building in San Francisco, a secret room splits the internet's traffic to the NSA — warrantless mass surveillance, exposed by a technician's conscience.",
+  importance:"Room 641A housed a fiber-optic 'splitter' duplicating vast volumes of internet traffic — domestic and international — to the NSA, beginning around 2003 and revealed in 2006 by AT&T technician Mark Klein. It made concrete what SHAMROCK had been for telegrams: bulk collection through carrier cooperation, now at internet scale and without warrants. It was the physical reality beneath the legal abstractions, and a direct precursor to the PRISM and upstream programs Snowden documented.",
+  impact:{
+    surveillance:"Bulk internet interception via carrier infrastructure is made physically concrete.",
+    government:"Reveals the public-private architecture of post-9/11 mass surveillance.",
+    society:"A single whistleblower exposes what law and secrecy had hidden — a rehearsal for Snowden." },
+  causes:["shamrock","patriotact","calea"], effects:["section702","snowden"] },
+
+{ id:"section702", year:2008, date:"2008", era:6, cat:"law",
+  title:"FISA Section 702",
+  wiki:"FISA Amendments Act of 2008", gallery:["PRISM","Foreign Intelligence Surveillance Act","National Security Agency"],
+  summary:"Congress legalizes warrantless collection of foreigners' communications — sweeping up Americans' messages 'incidentally,' and requiring renewal every few years.",
+  importance:"The FISA Amendments Act's Section 702 gave statutory cover to programs like Room 641A's: the NSA may collect, without individual warrants, the communications of non-Americans abroad — a category that, because foreigners talk to Americans, hoovers up enormous amounts of U.S. persons' data 'incidentally.' PRISM operates under it. Periodically reauthorized amid fierce debate (the Intelligence Reform Act of 2004 had already restructured oversight), 702 remains the central legal engine of American digital surveillance.",
+  impact:{
+    law:"Warrantless foreign-intelligence collection is given a renewable statutory basis.",
+    surveillance:"Becomes the authority under which PRISM and upstream collection run.",
+    government:"Sets up the recurring reauthorization fights over the surveillance state's scope." },
+  causes:["eo12333","room641a","fisa","patriotact"], effects:["snowden","usafreedom","risaa"] },
+
+{ id:"usjones", year:2012, date:"2012", era:7, cat:"law",
+  title:"United States v. Jones",
+  wiki:"United States v. Jones", gallery:["Global Positioning System","Fourth Amendment to the United States Constitution"],
+  summary:"Attaching a GPS tracker to a car and following it for a month is a search, the Court rules — continuous location tracking meets the Fourth Amendment.",
+  importance:"The FBI tracked a suspect's car by GPS for 28 days without a valid warrant. The Court held it a search — the majority on trespass grounds, but five justices in concurrence warned that long-term location tracking violates reasonable privacy expectations regardless of trespass. That concurrence laid the groundwork for Carpenter (2018): the recognition that aggregated location data reveals a life, and the third-party doctrine cannot simply absorb it.",
+  impact:{
+    law:"Persistent GPS tracking is recognized as a Fourth Amendment search.",
+    surveillance:"The aggregation of location data is flagged as a distinct privacy harm.",
+    society:"Sets the Court on the path to constraining digital-age location surveillance." },
+  causes:["kyllo","katz"], effects:["carpenter"] },
+
+{ id:"riley", year:2014, date:"2014", era:7, cat:"law",
+  title:"Riley v. California",
+  wiki:"Riley v. California", gallery:["Smartphone","Fourth Amendment to the United States Constitution"],
+  summary:"Police need a warrant to search an arrestee's phone, a unanimous Court rules — the device holds 'the privacies of life,' not the contents of a pocket.",
+  importance:"Long-standing doctrine let police search anything on an arrested person. A unanimous Court refused to extend it to smartphones: their immense, intimate contents — messages, photos, location history, the record of a life — demand a warrant. Chief Justice Roberts wrote that phones are 'such a pervasive and insistent part of daily life' that the answer to what police must do before searching one is 'simple — get a warrant.' Riley is the Court grasping that the smartphone is the self's archive.",
+  impact:{
+    law:"The smartphone's contents win full warrant protection.",
+    surveillance:"Recognizes the phone as a uniquely revealing repository of personal life.",
+    society:"Affirms digital privacy at the point of arrest — a landmark for everyone who carries a phone." },
+  causes:["kyllo","iphone","katz"], effects:["carpenter"] },
+
+{ id:"usafreedom", year:2015, date:"2015", era:7, cat:"law",
+  title:"The USA FREEDOM Act",
+  wiki:"USA Freedom Act", gallery:["Edward Snowden","Mass surveillance in the United States","Patriot Act"],
+  summary:"Two years after Snowden, Congress ends the NSA's bulk collection of Americans' phone records — the first real rollback of post-9/11 surveillance.",
+  importance:"Snowden's disclosures revealed that Section 215 of the PATRIOT Act had been secretly read to authorize bulk collection of essentially all Americans' phone metadata. The USA FREEDOM Act ended that program, leaving the records with the carriers and requiring targeted requests. Modest but real, it was the first legislative contraction of the surveillance state since the 1970s — the exposure-and-reform cycle, from Church to Snowden, completing one more turn.",
+  impact:{
+    law:"Domestic bulk telephone-metadata collection is ended by statute.",
+    surveillance:"The first rollback of post-9/11 mass surveillance authorities.",
+    government:"Demonstrates that disclosure can still, occasionally, produce reform." },
+  causes:["snowden","patriotact","churchcommittee","section702"], effects:["risaa"] },
+
+{ id:"stateprivacy2021", year:2021, date:"2021", era:7, cat:"law",
+  title:"The State Privacy Patchwork",
+  wiki:"Virginia Consumer Data Protection Act", gallery:["California Consumer Privacy Act","Information privacy law"],
+  summary:"Virginia and Colorado follow California into comprehensive privacy law — and a U.S. patchwork forms in the continued absence of a federal statute.",
+  importance:"With Congress still unable to pass a national privacy law, the states moved: Virginia's Consumer Data Protection Act and Colorado's Privacy Act (both 2021) joined California's CCPA, and a dozen-plus states followed. The result is the American answer to the federal vacuum the timeline keeps noting — a growing, inconsistent patchwork of state privacy regimes that companies must navigate and that collectively approximate, state by state, what Europe did at a stroke with GDPR.",
+  impact:{
+    law:"Comprehensive consumer privacy spreads state by state, building a patchwork.",
+    regulation:"States substitute for the missing federal privacy statute.",
+    society:"Privacy rights now depend, for Americans, on which state they live in." },
+  causes:["ccpa","gdpr","databreach2003"], effects:["stateai2025"] },
+
+{ id:"risaa", year:2024, date:"2024", era:7, cat:"law",
+  title:"The Reforming Intelligence and Securing America Act",
+  wiki:"Section 702 of the Foreign Intelligence Surveillance Act", gallery:["Foreign Intelligence Surveillance Act","Mass surveillance in the United States"],
+  summary:"Congress reauthorizes Section 702 — extending the central engine of foreign-intelligence surveillance, with reforms critics call insufficient.",
+  importance:"In 2024 Congress reauthorized Section 702 through the Reforming Intelligence and Securing America Act after a bruising fight over whether to require warrants before agencies query Americans' communications swept up under the program. The compromise extended 702 with added oversight but no warrant requirement for U.S.-person queries — the latest turn in the permanent argument, running from SHAMROCK to Snowden, over how much the security state may watch in the name of foreign intelligence.",
+  impact:{
+    law:"Section 702 is renewed — the surveillance debate's recurring reauthorization ritual continues.",
+    surveillance:"The core foreign-intelligence collection authority persists into the AI era.",
+    government:"The unresolved warrant question for Americans' incidentally-collected data carries forward." },
+  causes:["section702","usafreedom"], effects:["present"] },
+
+{ id:"stateai2025", year:2025, date:"2025", era:7, cat:"law",
+  title:"State AI Laws",
+  wiki:"Regulation of artificial intelligence", gallery:["Artificial intelligence","California"],
+  summary:"With no federal AI statute, the states again move first — California, Colorado, and Utah regulate training-data transparency, algorithmic discrimination, and AI disclosure.",
+  importance:"Echoing the privacy patchwork, states began legislating AI directly: California's AB 2013 requires disclosure of AI training data, Colorado's AI Act (effective 2026) targets algorithmic discrimination in high-risk systems, and Utah mandates disclosure when generative AI is used. As the EU implements its comprehensive AI Act and Congress debates, the American response again forms from the bottom up — fifty laboratories writing the rules for the most consequential technology of the age.",
+  impact:{
+    law:"AI regulation in the U.S. begins at the state level, as privacy did.",
+    regulation:"Training-data transparency and anti-discrimination rules enter force without a federal floor.",
+    society:"How AI may be built and used starts to depend, again, on jurisdiction." },
+  causes:["aiact","stateprivacy2021","chatgpt"], effects:["present"] }
+
+);
