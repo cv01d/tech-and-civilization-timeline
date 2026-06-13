@@ -1,9 +1,9 @@
 // SUPPLEMENT — heredity, from the first deliberate breeding of crops to CRISPR. This
-// is the museum's hardest thread, because the technology of life is also a technology
+// is the atlas's hardest thread, because the technology of life is also a technology
 // of power over bodies: the same century that mapped the gene also sterilized the
 // "unfit" by law. The pattern holds — capability outruns ethics, and the first people
 // to feel the consequence are those with the least power to refuse. Cross-links to the
-// existing `dnacode` (Gleick's information framing) and `aiact`. cat:"biotech".
+// existing `dnacode` (the information framing) and `aiact`. cat:"biotech".
 // Round one: data only — images to follow.
 window.ATLAS_EVENTS.push(
 
@@ -77,7 +77,7 @@ window.ATLAS_EVENTS.push(
   title:"Galton Coins 'Eugenics'",
   wiki:"Francis Galton",
   summary:"Francis Galton names 'eugenics' — the idea that human heredity can and should be deliberately guided to 'improve' the species — turning the breeder's logic on humanity itself.",
-  importance:"Darwin's cousin took the ancient craft of selective breeding and proposed applying it to people: encourage the 'fit' to reproduce, discourage or prevent the 'unfit.' Dressed in the prestige of the new genetics, eugenics offered states a scientific-sounding rationale for controlling who could have children. Within a generation it would be written into sterilization statutes, immigration law, and ultimately genocide — the darkest demonstration in this museum of technology outrunning ethics.",
+  importance:"Darwin's cousin took the ancient craft of selective breeding and proposed applying it to people: encourage the 'fit' to reproduce, discourage or prevent the 'unfit.' Dressed in the prestige of the new genetics, eugenics offered states a scientific-sounding rationale for controlling who could have children. Within a generation it would be written into sterilization statutes, immigration law, and ultimately genocide — the darkest demonstration in this atlas of technology outrunning ethics.",
   impact:{
     biotech:"Selective breeding is proposed as policy for the human species.",
     surveillance:"Heredity becomes grounds for classifying and ranking citizens.",
@@ -110,7 +110,7 @@ window.ATLAS_EVENTS.push(
   title:"Where Eugenics Leads",
   wiki:"Law for the Prevention of Hereditarily Diseased Offspring",
   summary:"Nazi Germany's 1933 sterilization law leads to some 400,000 forced sterilizations; the T-4 program then murders roughly 300,000 disabled people — and the Holocaust shows the full destination of eugenic ideology.",
-  importance:"Germany took the American model and accelerated it past any limit: a 1933 law sterilized hundreds of thousands deemed hereditarily diseased, and the T-4 program moved from preventing 'unfit' births to murdering the disabled outright, pioneering the gas chambers later used in the Holocaust. Eugenics had reached its logical end — the industrial killing of those a state judged unworthy of life. It is the museum's gravest lesson in what follows when a technology of heredity is fused to a doctrine of human ranking.",
+  importance:"Germany took the American model and accelerated it past any limit: a 1933 law sterilized hundreds of thousands deemed hereditarily diseased, and the T-4 program moved from preventing 'unfit' births to murdering the disabled outright, pioneering the gas chambers later used in the Holocaust. Eugenics had reached its logical end — the industrial killing of those a state judged unworthy of life. It is the atlas's gravest lesson in what follows when a technology of heredity is fused to a doctrine of human ranking.",
   impact:{
     biotech:"Eugenic ideology reaches its end point in mass sterilization and murder.",
     surveillance:"The state's power to classify by heredity becomes the power to exterminate.",
@@ -132,7 +132,7 @@ window.ATLAS_EVENTS.push(
   title:"The Double Helix",
   wiki:"Nucleic acid double helix",
   summary:"Watson and Crick publish the double-helix structure of DNA — built crucially on Rosalind Franklin's X-ray data — revealing how genetic information is stored and copied, and how, by 1961, it is read as a code.",
-  importance:"The twin helix, its strands complementary, instantly suggested how heredity is copied: unzip the two sides and each templates a new partner. Watson and Crick's 1953 model — leaning heavily on Rosalind Franklin's crystallography, her contribution long underacknowledged — turned the gene into readable, writable chemistry, and by 1961 researchers were cracking the code by which DNA triplets specify amino acids. It is the moment biology becomes an information science, the link to Gleick's framing of life as code.",
+  importance:"The twin helix, its strands complementary, instantly suggested how heredity is copied: unzip the two sides and each templates a new partner. Watson and Crick's 1953 model — leaning heavily on Rosalind Franklin's crystallography, her contribution long underacknowledged — turned the gene into readable, writable chemistry, and by 1961 researchers were cracking the code by which DNA triplets specify amino acids. It is the moment biology becomes an information science, the moment life became legible as code.",
   impact:{
     biotech:"The structure of DNA reveals how genes are stored, copied, and read.",
     computing:"Heredity is recast as digital information — a code in four letters.",
@@ -308,7 +308,7 @@ window.ATLAS_EVENTS.push(
   title:"The First Gene-Edited Babies",
   wiki:"He Jiankui affair",
   summary:"He Jiankui announces the birth of twin girls whose CCR5 gene he edited as embryos — the first gene-edited humans, created without ethics approval and in defiance of global consensus. He is sentenced to three years in prison; the world condemns him.",
-  importance:"He Jiankui crossed the line the field had explicitly drawn, editing the embryos of twin girls to confer HIV resistance and bringing them to birth — the first humans with deliberately altered, heritable genomes, produced with neither ethical approval nor scientific justification. The condemnation was near-universal, and a Chinese court imprisoned him, but the breach was permanent: the consensus had proven unenforceable against one determined actor with a cheap tool. It is the museum's clearest proof that voluntary restraint cannot, alone, hold a democratized technology.",
+  importance:"He Jiankui crossed the line the field had explicitly drawn, editing the embryos of twin girls to confer HIV resistance and bringing them to birth — the first humans with deliberately altered, heritable genomes, produced with neither ethical approval nor scientific justification. The condemnation was near-universal, and a Chinese court imprisoned him, but the breach was permanent: the consensus had proven unenforceable against one determined actor with a cheap tool. It is the atlas's clearest proof that voluntary restraint cannot, alone, hold a democratized technology.",
   impact:{
     biotech:"Heritable human genome editing is performed and brought to birth.",
     law:"A criminal sentence follows, but only after the irreversible line is crossed.",
@@ -330,7 +330,7 @@ window.ATLAS_EVENTS.push(
   title:"AI Meets the Genome",
   wiki:"Genomics",
   summary:"The EU AI Act adds provisions on AI used in genomics as the fusion of artificial intelligence with genetic data intensifies — promising faster discovery while opening new surveillance risks, with germline governance still fragmented and untreatied worldwide.",
-  importance:"As AI systems learned to predict protein structures and mine genomes for risk, the two most powerful technologies in this museum converged — and the EU AI Act became one of the first laws to grapple with AI applied to genetic data. The promise is faster cures; the peril is a new genetic surveillance, where models infer health, ancestry, and behavior from DNA at scale. Meanwhile no binding international treaty governs human germline editing, leaving the UK, EU, and China to diverge — the genetic thread ending exactly where the whole atlas does: capability racing ahead, governance fragmented and behind.",
+  importance:"As AI systems learned to predict protein structures and mine genomes for risk, the two most powerful technologies in this atlas converged — and the EU AI Act became one of the first laws to grapple with AI applied to genetic data. The promise is faster cures; the peril is a new genetic surveillance, where models infer health, ancestry, and behavior from DNA at scale. Meanwhile no binding international treaty governs human germline editing, leaving the UK, EU, and China to diverge — the genetic thread ending exactly where the whole atlas does: capability racing ahead, governance fragmented and behind.",
   impact:{
     biotech:"AI accelerates genomic discovery and prediction at unprecedented scale.",
     surveillance:"Models inferring health and ancestry from DNA open a new frontier of genetic surveillance.",

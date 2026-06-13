@@ -1,18 +1,18 @@
 // SUPPLEMENT — events drawn from two source books, woven into the existing galleries:
-//   • James Gleick, "The Information: A History, a Theory, a Flood" (2011)
+//   • histories of information and communication
 //   • Niall Ferguson, "The Ascent of Money: A Financial History of the World" (2008)
 // The app sorts ATLAS_EVENTS by year, so these interleave chronologically; each
 // carries an `era` field placing it in the correct gallery.
 window.ATLAS_EVENTS.push(
 
-// ========== THE INFORMATION (Gleick) ==========
+// ========== INFORMATION & COMMUNICATION ==========
 { id:"talkingdrums", year:-1000, date:"antiquity", era:1, cat:"communications",
   title:"The African Talking Drums",
   wiki:"Talking drum", gallery:["Slit drum","Griot","Sub-Saharan Africa"],
   summary:"Across central Africa, tonal drums relay messages village to village faster than any runner — a telecommunications network ages before the telegraph.",
-  importance:"James Gleick opens The Information with the talking drums precisely because they confront, in the deep past, the problems Claude Shannon would formalize in 1948. The drums encode the tones of speech, and because tonal words are ambiguous, drummers add redundancy — stock phrases that pad each word with context, exactly Shannon's remedy for noise. Relayed village to village, a message could outrun a traveler by a hundred miles in an hour. European missionaries like John Carrington spent years realizing the 'drum language' was not code but speech itself, drummed. Encoding, redundancy, error, transmission: the engineering of information is older than writing.",
+  importance:"The talking drums confront, in the deep past, the problems Claude Shannon would formalize in 1948. The drums encode the tones of speech, and because tonal words are ambiguous, drummers add redundancy — stock phrases that pad each word with context, exactly Shannon's remedy for noise. Relayed village to village, a message could outrun a traveler by a hundred miles in an hour. European missionaries like John Carrington spent years realizing the 'drum language' was not code but speech itself, drummed. Encoding, redundancy, error, transmission: the engineering of information is older than writing.",
   impact:{
-    communications:"Long-distance signaling by relay — the conceptual ancestor of every network in this museum.",
+    communications:"Long-distance signaling by relay — the conceptual ancestor of every network in this atlas.",
     technology:"Redundancy as error-correction is discovered empirically millennia before information theory names it.",
     society:"An oral culture builds a communications system as sophisticated, in principle, as the telegraph." },
   causes:[], effects:["telegraph","shannon"] },
@@ -21,7 +21,7 @@ window.ATLAS_EVENTS.push(
   title:"Johnson's Dictionary",
   wiki:"A Dictionary of the English Language", gallery:["Samuel Johnson","Dictionary"],
   summary:"Samuel Johnson, nearly single-handed, fixes the spelling and meaning of English — standardizing the code of a language.",
-  importance:"Gleick treats the dictionary as an information technology in its own right. Before Robert Cawdrey's first English wordlist (1604) and Johnson's monumental Dictionary of the English Language (1755), spelling was improvisation and meaning was local. Johnson defined some 40,000 words with 114,000 literary quotations, imposing reference and consistency on a sprawling living code. To standardize a language is to treat it as a formal system with rules — a step on the road that runs through Boole's logic to the formal languages of computing.",
+  importance:"The dictionary is itself an information technology. Before Robert Cawdrey's first English wordlist (1604) and Johnson's monumental Dictionary of the English Language (1755), spelling was improvisation and meaning was local. Johnson defined some 40,000 words with 114,000 literary quotations, imposing reference and consistency on a sprawling living code. To standardize a language is to treat it as a formal system with rules — a step on the road that runs through Boole's logic to the formal languages of computing.",
   impact:{
     communications:"Language acquires a fixed reference standard — shared meaning at scale.",
     society:"Literacy and printing get an authority to appeal to; the lexicographer becomes a kind of legislator.",
@@ -32,7 +32,7 @@ window.ATLAS_EVENTS.push(
   title:"Boole's Laws of Thought",
   wiki:"George Boole", gallery:["Boolean algebra","The Laws of Thought"],
   summary:"George Boole reduces logic to an algebra of true and false — the math that, a century later, becomes the language of every digital circuit.",
-  importance:"In An Investigation of the Laws of Thought (1854), Boole showed that reasoning itself could be written as algebra: AND, OR, NOT operating on values that are only 1 or 0. It was treated as a philosophical curiosity for eighty years — until Claude Shannon's 1937 master's thesis proved that Boolean algebra exactly describes networks of electrical switches. Boole's binary logic is the hinge Gleick traces between human thought and the logic gate: every processor in this museum computes in his algebra.",
+  importance:"In An Investigation of the Laws of Thought (1854), Boole showed that reasoning itself could be written as algebra: AND, OR, NOT operating on values that are only 1 or 0. It was treated as a philosophical curiosity for eighty years — until Claude Shannon's 1937 master's thesis proved that Boolean algebra exactly describes networks of electrical switches. Boole's binary logic is the hinge between human thought and the logic gate: every processor in this atlas computes in his algebra.",
   impact:{
     computing:"Binary logic — the formal foundation on which all digital circuitry is built.",
     technology:"Reasoning is shown to be mechanizable, decades before a machine could run it.",
@@ -43,7 +43,7 @@ window.ATLAS_EVENTS.push(
   title:"Maxwell's Demon",
   wiki:"Maxwell's demon", gallery:["James Clerk Maxwell","Entropy","Second law of thermodynamics"],
   summary:"Maxwell imagines a tiny demon sorting molecules to cheat the second law of thermodynamics — binding information to physics itself.",
-  importance:"Gleick's 'Information Is Physical' turns on Maxwell's 1867 thought experiment: a demon sorting fast and slow molecules seems to lower entropy for free, violating the second law. The paradox stood for decades until Szilard and finally Landauer resolved it — the demon must acquire, store, and erase information, and erasing a bit necessarily dissipates heat (Landauer's principle). Information is not abstract; it has a physical, thermodynamic cost. This is the deepest thread in Gleick's book: Shannon's bit and Boltzmann's entropy are the same quantity.",
+  importance:"The principle that information is physical turns on Maxwell's 1867 thought experiment: a demon sorting fast and slow molecules seems to lower entropy for free, violating the second law. The paradox stood for decades until Szilard and finally Landauer resolved it — the demon must acquire, store, and erase information, and erasing a bit necessarily dissipates heat (Landauer's principle). Information is not abstract; it has a physical, thermodynamic cost. This is the deepest thread of information theory: Shannon's bit and Boltzmann's entropy are the same quantity.",
   impact:{
     computing:"Establishes that computation and erasure have an irreducible energy cost — a limit physics imposes on every chip.",
     technology:"Information is shown to be physical, not merely symbolic.",
@@ -54,7 +54,7 @@ window.ATLAS_EVENTS.push(
   title:"The Memex",
   wiki:"Memex", gallery:["Vannevar Bush","As We May Think"],
   summary:"Vannevar Bush imagines a desk that stores all one's books and records and links them by association — the hyperlink, sketched in 1945.",
-  importance:"In 'As We May Think' (The Atlantic, July 1945), the war's chief scientist described the 'memex': a microfilm desk on which a researcher builds 'associative trails' connecting documents — memory extended and externalized. It directly inspired Douglas Engelbart's mouse-and-windows demo, Ted Nelson's hypertext, and ultimately Berners-Lee's Web. Bush reframed information's problem from storage to retrieval and connection — the problem Gleick calls the flood, and the one the next half-century of computing tries to solve.",
+  importance:"In 'As We May Think' (The Atlantic, July 1945), the war's chief scientist described the 'memex': a microfilm desk on which a researcher builds 'associative trails' connecting documents — memory extended and externalized. It directly inspired Douglas Engelbart's mouse-and-windows demo, Ted Nelson's hypertext, and ultimately Berners-Lee's Web. Bush reframed information's problem from storage to retrieval and connection — the problem of the coming information flood, and the one the next half-century of computing tries to solve.",
   impact:{
     computing:"The associative link — the conceptual seed of hypertext and the Web.",
     communications:"Reframes information from a storage problem to a connection problem.",
@@ -65,7 +65,7 @@ window.ATLAS_EVENTS.push(
   title:"Wiener's Cybernetics",
   wiki:"Cybernetics", gallery:["Norbert Wiener","Cybernetics: Or Control and Communication in the Animal and the Machine"],
   summary:"Norbert Wiener names 'cybernetics' — the science of control and communication by feedback, in animals and machines alike.",
-  importance:"Published the same year as Shannon's theory, Wiener's Cybernetics supplied its companion vision: information as the medium of feedback, control, and purpose. Where Shannon measured the channel, Wiener studied the loop — the thermostat, the gun-director, the reflex arc, the brain. The book deliberately blurred animal and machine and seeded control theory, artificial intelligence, neuroscience, ecology, even management. Gleick pairs the two 1948 works as the founding documents of the information age's self-understanding.",
+  importance:"Published the same year as Shannon's theory, Wiener's Cybernetics supplied its companion vision: information as the medium of feedback, control, and purpose. Where Shannon measured the channel, Wiener studied the loop — the thermostat, the gun-director, the reflex arc, the brain. The book deliberately blurred animal and machine and seeded control theory, artificial intelligence, neuroscience, ecology, even management. The two 1948 works are the founding documents of the information age's self-understanding.",
   impact:{
     computing:"Feedback and control become formal, machine-and-organism-spanning concepts — groundwork for AI and robotics.",
     society:"The cybernetic metaphor reshapes biology, economics, and management for a generation.",
@@ -76,7 +76,7 @@ window.ATLAS_EVENTS.push(
   title:"The Genetic Code",
   wiki:"DNA", gallery:["Francis Crick","Rosalind Franklin","Genetic code"],
   summary:"Watson and Crick — on Rosalind Franklin's data — reveal DNA's double helix, and biology discovers it has been running an information code all along.",
-  importance:"Gleick devotes a central chapter to the moment heredity became information. Building on Rosalind Franklin's X-ray crystallography, Watson and Crick's 1953 double helix revealed a four-letter code — A, T, G, C — copied, transmitted, and occasionally miscopied. Schrödinger had predicted a 'code-script'; now life was legibly a message. Biology became an information science, and the way was open for Dawkins to call the gene, quite literally, information that propagates.",
+  importance:"This is the moment heredity became information. Building on Rosalind Franklin's X-ray crystallography, Watson and Crick's 1953 double helix revealed a four-letter code — A, T, G, C — copied, transmitted, and occasionally miscopied. Schrödinger had predicted a 'code-script'; now life was legibly a message. Biology became an information science, and the way was open for Dawkins to call the gene, quite literally, information that propagates.",
   impact:{
     technology:"Heredity is reconceived as a digital code — the conceptual root of genomics and biotechnology.",
     computing:"Shannon's information theory finds an unexpected home inside the cell.",
@@ -87,7 +87,7 @@ window.ATLAS_EVENTS.push(
   title:"The Meme",
   wiki:"Meme", gallery:["Richard Dawkins","The Selfish Gene"],
   summary:"Richard Dawkins coins the 'meme' — an idea as a replicator, copying itself from mind to mind like a gene. Culture as information that evolves.",
-  importance:"In the last pages of The Selfish Gene (1976), Dawkins proposed that genes are not the only replicators: tunes, ideas, fashions, and catchphrases also copy themselves from brain to brain, subject to variation and selection. Gleick uses the meme as the bridge from biology's information to culture's. The coinage proved self-fulfilling: in the network age 'meme' returns as the native unit of online culture — viral information, replicating at the speed of the Like button.",
+  importance:"In the last pages of The Selfish Gene (1976), Dawkins proposed that genes are not the only replicators: tunes, ideas, fashions, and catchphrases also copy themselves from brain to brain, subject to variation and selection. The meme is the bridge from biology's information to culture's. The coinage proved self-fulfilling: in the network age 'meme' returns as the native unit of online culture — viral information, replicating at the speed of the Like button.",
   impact:{
     communications:"Culture is reframed as self-propagating information — prophetic of the viral internet.",
     society:"Ideas acquire an evolutionary account of their own spread and survival.",
@@ -98,7 +98,7 @@ window.ATLAS_EVENTS.push(
   title:"Quantum Information",
   wiki:"Quantum information", gallery:["Qubit","Shor's algorithm","Quantum computing"],
   summary:"Peter Shor shows a quantum computer could shatter modern encryption — information goes quantum, where a bit can be 0 and 1 at once.",
-  importance:"Gleick closes on physics: the qubit, which by superposition and entanglement holds more than Shannon's classical bit. Shor's 1994 algorithm proved a quantum machine could factor large numbers fast enough to break the RSA encryption guarding the internet, igniting the field. Drawing on Bennett, Wiesner, and Wheeler's 'it from bit,' quantum information theory extends Shannon and Maxwell's demon into the quantum world — and suggests, in Wheeler's phrase, that information may be the bedrock of physical reality.",
+  importance:"Physics extends the story: the qubit, which by superposition and entanglement holds more than Shannon's classical bit. Shor's 1994 algorithm proved a quantum machine could factor large numbers fast enough to break the RSA encryption guarding the internet, igniting the field. Drawing on Bennett, Wiesner, and Wheeler's 'it from bit,' quantum information theory extends Shannon and Maxwell's demon into the quantum world — and suggests, in Wheeler's phrase, that information may be the bedrock of physical reality.",
   impact:{
     computing:"A new substrate for computation and a standing threat to all current cryptography.",
     technology:"Information theory is extended into quantum mechanics — the qubit joins the bit.",
@@ -109,7 +109,7 @@ window.ATLAS_EVENTS.push(
   title:"Wikipedia & the Flood",
   wiki:"Wikipedia", gallery:["Jimmy Wales","Encyclopédie"],
   summary:"Anyone can edit. A free encyclopedia written by volunteers becomes the largest reference work in history — and the emblem of information abundance.",
-  importance:"Gleick ends The Information on 'the flood' — the moment information's defining problem flips from scarcity to overload, from finding to filtering. Wikipedia (2001) realizes the encyclopedic dream that runs from Diderot's Encyclopédie to H.G. Wells's 'World Brain': universal knowledge, but written by everyone and never finished. It is Bush's associative memex at planetary scale, and the purest case study in the new economics of abundance — where the scarce resource is no longer the information but the attention to attend to it.",
+  importance:"The story culminates in 'the flood' — the moment information's defining problem flips from scarcity to overload, from finding to filtering. Wikipedia (2001) realizes the encyclopedic dream that runs from Diderot's Encyclopédie to H.G. Wells's 'World Brain': universal knowledge, but written by everyone and never finished. It is Bush's associative memex at planetary scale, and the purest case study in the new economics of abundance — where the scarce resource is no longer the information but the attention to attend to it.",
   impact:{
     communications:"Crowdsourced knowledge at planetary scale — the encyclopedia reinvented as a living process.",
     society:"Abundance replaces scarcity as information's central problem; filtering becomes the task.",
@@ -132,7 +132,7 @@ window.ATLAS_EVENTS.push(
   title:"Fibonacci's Liber Abaci",
   wiki:"Liber Abaci", gallery:["Fibonacci","Hindu–Arabic numeral system","Arabic numerals"],
   summary:"Leonardo of Pisa brings Hindu-Arabic numerals and place-value arithmetic to European merchants — the math that makes modern finance computable.",
-  importance:"Ferguson marks Fibonacci's Liber Abaci (1202) as a turning point in the history of money. Having learned the numerals among Arab merchants in North Africa, Leonardo of Pisa gave Europe the zero, place value, and the algorithms of commercial arithmetic — present value, profit-and-loss, currency conversion, compound interest. These were the computational tools without which double-entry bookkeeping, banking, and the bond market could not exist. It is also a Gleick-adjacent truth: a change in notation is a change in what can be thought.",
+  importance:"Ferguson marks Fibonacci's Liber Abaci (1202) as a turning point in the history of money. Having learned the numerals among Arab merchants in North Africa, Leonardo of Pisa gave Europe the zero, place value, and the algorithms of commercial arithmetic — present value, profit-and-loss, currency conversion, compound interest. These were the computational tools without which double-entry bookkeeping, banking, and the bond market could not exist. It is also a deeper truth: a change in notation is a change in what can be thought.",
   impact:{
     technology:"Place-value arithmetic — the computational engine of commerce, accounting, and finance.",
     power:"Compound interest and present value make capital calculable, and thus accumulable at scale.",

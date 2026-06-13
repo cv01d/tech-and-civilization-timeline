@@ -4,10 +4,13 @@ Guidance for Claude Code (and other agents) working in this repository.
 
 ## What this is
 
-**The Atlas of Technology and Civilization** — an interactive, museum-style timeline
-of ~5,000 years of technology, labor, communication, surveillance, and the laws that
-answered them (c. 3400 BCE → 2026 CE). 243 exhibits across 7 "galleries." It is a
-**static site** published for the public.
+**The Atlas of Technology and Civilization** — an interactive timeline of ~5,000 years
+of technology, labor, communication, surveillance, and the laws that answered them
+(c. 3400 BCE → 2026 CE). Hundreds of exhibits across 7 "galleries." It is a **static
+site**, publicly available, built as a companion to a book in progress by C. Raynor —
+a research aid that anyone can explore. It is styled like a gallery exhibit, but it is
+not a museum: don't call it one in the prose. Use "this atlas" / "this timeline" for
+self-reference (never "this museum").
 
 ## Hard constraints
 
@@ -84,7 +87,7 @@ cd site && python3 -m http.server 8000   # any static server works
 node tools/shoot.mjs <url> <out.png> [scrollY] [exhibitId]   # headless screenshot (needs Chrome)
 ```
 
-Verify visually after meaningful changes — the whole point is the museum aesthetic.
+Verify visually after meaningful changes — the whole point is the gallery-exhibit aesthetic.
 
 ## Style notes
 
@@ -92,6 +95,8 @@ Verify visually after meaningful changes — the whole point is the museum aesth
   Each `impact` line is one sharp sentence.
 - The visual theme (bone/gold on near-black, serif display type, golden spine) lives
   entirely in `css/styles.css`; keep new UI consistent with it.
-- Threads from James Gleick's *The Information*, Lewis Mumford's *Technics and
-  Civilization*, and Cade Metz's *Genius Makers* are woven through the computing/AI
-  exhibits intentionally — preserve that framing.
+- Exhibit prose should be self-contained, general explanation. Do **not** name or quote
+  specific books or authors as the framing device (e.g. no "as the author writes…", no
+  "the book argues…"). State the history and ideas directly. (Exhibits that are *about* a book
+  — e.g. the "Empire of AI" card — are fine; the rule is against using a book as the
+  narrative lens for unrelated exhibits.)

@@ -100,7 +100,7 @@ window.ATLAS_EVENTS.push(
   title:"The IP Camera",
   wiki:"IP camera",
   summary:"Axis Communications builds the first network camera — able to connect to the internet, stream footage anywhere, and store it digitally rather than on tape — laying the architecture of modern networked surveillance.",
-  importance:"Putting the camera on the internet changed everything: footage no longer lived on a tape in a back room but could be streamed, centralized, stored cheaply, and accessed from anywhere. The IP camera is the bridge from isolated CCTV to the networked, searchable, integrable surveillance that AI would later make legible at scale. Every city-wide system and every cloud-stored doorbell camera in this museum runs on the architecture Axis introduced in 1996.",
+  importance:"Putting the camera on the internet changed everything: footage no longer lived on a tape in a back room but could be streamed, centralized, stored cheaply, and accessed from anywhere. The IP camera is the bridge from isolated CCTV to the networked, searchable, integrable surveillance that AI would later make legible at scale. Every city-wide system and every cloud-stored doorbell camera in this atlas runs on the architecture Axis introduced in 1996.",
   impact:{
     surveillance:"Cameras become networked nodes, their footage centralized and remotely accessible.",
     technology:"Digital, IP-based capture replaces the analog tape.",
@@ -188,7 +188,7 @@ window.ATLAS_EVENTS.push(
   title:"The Vendors Pull Back",
   wiki:"Amazon Rekognition",
   summary:"Amid the George Floyd protests and mounting evidence of biased misidentification, IBM, Amazon, and Microsoft announce they will pause or end sales of facial recognition to U.S. police.",
-  importance:"In the weeks after George Floyd's killing, three of the largest technology companies stepped back from selling facial recognition to police — IBM exiting the business, Amazon and Microsoft pausing — a rare case of industry self-restraint under public pressure rather than law. It signaled how toxic the bias evidence and the accountability moment had made the technology, at least in the American policing market. Yet, as with the companion-AI reckoning elsewhere in this museum, voluntary restraint substituted for the binding rules that legislators did not pass.",
+  importance:"In the weeks after George Floyd's killing, three of the largest technology companies stepped back from selling facial recognition to police — IBM exiting the business, Amazon and Microsoft pausing — a rare case of industry self-restraint under public pressure rather than law. It signaled how toxic the bias evidence and the accountability moment had made the technology, at least in the American policing market. Yet, as with the companion-AI reckoning elsewhere in this atlas, voluntary restraint substituted for the binding rules that legislators did not pass.",
   impact:{
     law:"Major vendors halt facial-recognition sales to police under public pressure, not statute.",
     surveillance:"The U.S. police market for facial recognition partially freezes.",
@@ -224,7 +224,7 @@ window.ATLAS_EVENTS.push(
   importance:"Surveillance never only recorded public space; it helped manage it, and no group felt that management more than the unhoused. As CCTV spread through city centers, transit hubs, and business-improvement districts, operators were documented disproportionately tracking homeless people — not for crimes but for the 'antisocial' fact of their visible presence — while hostile architecture made the same spaces physically unlivable. The cameras built for terrorism and crime became, in practice, instruments of poverty management, pushing the most powerless people further out of sight and further from help.",
   impact:{
     power:"Surveillance and hostile design together police who may exist in public space.",
-    surveillance:"Homeless people are tracked for their presence, the museum's clearest case of targeting the powerless.",
+    surveillance:"Homeless people are tracked for their presence, the atlas's clearest case of targeting the powerless.",
     law:"Business-improvement districts run private camera networks with no public accountability." },
   causes:["maxsurveillance","chicagocameras"], effects:["martinboise","grantspass"] },
 
@@ -298,7 +298,7 @@ window.ATLAS_EVENTS.push(
   title:"The Camera as Refuge",
   wiki:"Closed-circuit television",
   summary:"A BBC report documents a homeless man who deliberately sleeps where CCTV can see him because the cameras make him feel safer — a striking inversion of the surveillance logic, where being watched means protection from violence rather than displacement.",
-  importance:"For most of this gallery the camera is an instrument of exclusion, but for some of the most exposed people it is the opposite: a 2025 BBC account followed a rough sleeper named Rich who sought out CCTV-covered spots precisely because the lens implied witnesses, and witnesses implied safety from the assaults the unhoused so often suffer. It is the museum's sharpest reminder that surveillance is never one thing — the same camera that documents an encampment for clearance can be the only thing standing between a vulnerable person and a beating. Watching can mean control, and it can mean care; who is watched, and why, decides which.",
+  importance:"For most of this gallery the camera is an instrument of exclusion, but for some of the most exposed people it is the opposite: a 2025 BBC account followed a rough sleeper named Rich who sought out CCTV-covered spots precisely because the lens implied witnesses, and witnesses implied safety from the assaults the unhoused so often suffer. It is the atlas's sharpest reminder that surveillance is never one thing — the same camera that documents an encampment for clearance can be the only thing standing between a vulnerable person and a beating. Watching can mean control, and it can mean care; who is watched, and why, decides which.",
   impact:{
     surveillance:"The watched, for once, seek the camera — visibility as protection, not threat.",
     power:"For the most exposed, being seen can mean safety the state otherwise fails to provide.",

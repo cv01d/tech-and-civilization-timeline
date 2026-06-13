@@ -4,7 +4,7 @@ window.ATLAS_EVENTS.push(
   title:"Writing Is Invented",
   wiki:"Cuneiform", gallery:["Egyptian hieroglyphs","Kish tablet","Scribe"],
   summary:"Formal writing systems emerge in Mesopotamia (cuneiform) and Egypt (hieroglyphics) — and the earliest surviving tablets are not poetry but receipts.",
-  importance:"The transition from token-based accounting to fully developed writing is the foundational information technology of civilization. As James Gleick observes in The Information, writing was the first technology to make memory external and persistent — and its first use was bureaucratic. The earliest cuneiform tablets record grain, livestock, and labor obligations, which means the written word was born as an instrument of accounting and administration before it ever became literature.",
+  importance:"The transition from token-based accounting to fully developed writing is the foundational information technology of civilization. Writing was the first technology to make memory external and persistent — and its first use was bureaucratic. The earliest cuneiform tablets record grain, livestock, and labor obligations, which means the written word was born as an instrument of accounting and administration before it ever became literature.",
   impact:{
     technology:"Every subsequent information technology — the alphabet, the press, the database — is an elaboration of this first act of externalizing memory onto a medium.",
     society:"Writing divides history from prehistory and creates a literate administrative class, the scribes, with privileged access to recorded knowledge.",
@@ -62,7 +62,7 @@ window.ATLAS_EVENTS.push(
   title:"The Phoenician Alphabet",
   wiki:"Phoenician alphabet", gallery:["Phoenicia","Greek alphabet"],
   summary:"Phoenician traders compress writing into ~22 phonetic signs — a system simple enough for merchants, not just scribes.",
-  importance:"Long-distance trade required credit, contract, and information that could travel. The alphabet was the killer app of Mediterranean commerce: a writing system learnable in weeks rather than years, breaking the scribal monopoly on literacy. Adapted by the Greeks (who added vowels) and then the Romans, it became the script in which most of this museum's later documents are written. Gleick treats it as the first great compression algorithm — fewer symbols, more expressive power.",
+  importance:"Long-distance trade required credit, contract, and information that could travel. The alphabet was the killer app of Mediterranean commerce: a writing system learnable in weeks rather than years, breaking the scribal monopoly on literacy. Adapted by the Greeks (who added vowels) and then the Romans, it became the script in which most of this atlas's later documents are written. It can be seen as the first great compression algorithm — fewer symbols, more expressive power.",
   impact:{
     technology:"Phonetic compression makes literacy scalable; every later Western information technology inherits the character set.",
     society:"Literacy escapes the palace and temple, seeding the possibility of a reading public.",
@@ -185,7 +185,7 @@ window.ATLAS_EVENTS.push(
   title:"The First University",
   wiki:"University of Bologna", gallery:["University of Oxford","Medieval university"],
   summary:"Bologna's law teachers and students organize — as a guild. The university is born as collective self-governance of a profession.",
-  importance:"The University of Bologna grew out of freelance law teachers in the late eleventh century, chartered by Frederick Barbarossa's Authentica Habita in 1155. It originated as a guild of students — the university tradition begins as an organizational form analogous to craft guilds: practitioners governing their own profession. Oxford and Paris followed, becoming the templates for the institution that would eventually produce most of the science in this museum.",
+  importance:"The University of Bologna grew out of freelance law teachers in the late eleventh century, chartered by Frederick Barbarossa's Authentica Habita in 1155. It originated as a guild of students — the university tradition begins as an organizational form analogous to craft guilds: practitioners governing their own profession. Oxford and Paris followed, becoming the templates for the institution that would eventually produce most of the science in this atlas.",
   impact:{
     society:"Institutionalizes the production and transmission of knowledge outside church and crown.",
     labor:"The scholar becomes a self-governing professional — academic freedom begins as guild privilege.",
@@ -208,7 +208,7 @@ window.ATLAS_EVENTS.push(
   title:"Magna Carta",
   wiki:"Magna Carta", gallery:["King John of England","Runnymede"],
   summary:"Rebel barons force King John to concede that even the king is subject to law — with due process, proportional fines, and standard weights and measures.",
-  importance:"Born of a baronial revolt against arbitrary taxation and abused feudal custom, Magna Carta established the principle that power is bounded by law. Its due-process clause — no free man imprisoned except by lawful judgment of his peers — became foundational to the Western constitutional tradition, and its less famous economic clauses (standardizing measures for wine, ale, corn, and cloth) made it also an early commercial regulation. Reissued and reinterpreted for eight centuries, it is the symbolic ancestor of every bill of rights in this museum.",
+  importance:"Born of a baronial revolt against arbitrary taxation and abused feudal custom, Magna Carta established the principle that power is bounded by law. Its due-process clause — no free man imprisoned except by lawful judgment of his peers — became foundational to the Western constitutional tradition, and its less famous economic clauses (standardizing measures for wine, ale, corn, and cloth) made it also an early commercial regulation. Reissued and reinterpreted for eight centuries, it is the symbolic ancestor of every bill of rights in this atlas.",
   impact:{
     regulation:"The constitutional idea: law above the lawgiver.",
     government:"Establishes negotiated, documented limits on executive power as a political technology.",

@@ -29,7 +29,7 @@ window.ATLAS_EVENTS.push(
   title:"Rana Plaza",
   wiki:"Rana Plaza collapse", gallery:["2013 Savar building collapse","Garment industry in Bangladesh"],
   summary:"A Dhaka garment factory complex collapses on its workers: 1,134 dead, sewing for the world's clothing brands.",
-  importance:"Cracks had appeared the day before; workers were ordered in anyway. The deadliest garment-industry disaster in history — Triangle's toll eight times over — produced the Bangladesh Accord on Fire and Building Safety, a legally binding brand-union agreement covering thousands of factories. Rana Plaza stands in this museum as globalization's Triangle fire: the periodic, terrible audit of what supply chains cost, and proof that enforceable agreements — not voluntary codes — are what change buildings.",
+  importance:"Cracks had appeared the day before; workers were ordered in anyway. The deadliest garment-industry disaster in history — Triangle's toll eight times over — produced the Bangladesh Accord on Fire and Building Safety, a legally binding brand-union agreement covering thousands of factories. Rana Plaza stands in this atlas as globalization's Triangle fire: the periodic, terrible audit of what supply chains cost, and proof that enforceable agreements — not voluntary codes — are what change buildings.",
   impact:{
     labor:"Supply-chain labor conditions become subject to binding international agreement — a first.",
     regulation:"The Accord model: enforceable private governance where state inspection failed.",
@@ -123,7 +123,7 @@ window.ATLAS_EVENTS.push(
   title:"Cambridge Analytica",
   wiki:"Facebook–Cambridge Analytica data scandal", gallery:["Cambridge Analytica","Mark Zuckerberg","Christopher Wylie"],
   summary:"Eighty-seven million Facebook profiles, harvested via a personality quiz, fuel political targeting — and the platform era's defining scandal.",
-  importance:"Surfacing from 2016 and breaking fully in March 2018, the story fused every anxiety the museum's recent galleries had assembled: behavioral data, psychometric targeting, electoral manipulation claims around Brexit and the U.S. election (whose actual efficacy remains debated — the data practices were the proven scandal). Zuckerberg testified before a Congress visibly unequipped; the FTC's $5 billion settlement (2019) set a record and was widely judged insufficient. Political momentum for GDPR enforcement, CCPA, and platform regulation worldwide drew on this moment.",
+  importance:"Surfacing from 2016 and breaking fully in March 2018, the story fused every anxiety the atlas's recent galleries had assembled: behavioral data, psychometric targeting, electoral manipulation claims around Brexit and the U.S. election (whose actual efficacy remains debated — the data practices were the proven scandal). Zuckerberg testified before a Congress visibly unequipped; the FTC's $5 billion settlement (2019) set a record and was widely judged insufficient. Political momentum for GDPR enforcement, CCPA, and platform regulation worldwide drew on this moment.",
   impact:{
     surveillance:"The behavioral-data economy's political uses become a household story.",
     regulation:"Record FTC fine, GDPR's first marquee enforcement climate, CCPA's tailwind — the regulatory awakening's catalyst.",
@@ -159,7 +159,7 @@ window.ATLAS_EVENTS.push(
   title:"GDPR Takes Effect",
   wiki:"General Data Protection Regulation", gallery:["European Union","Privacy by design"],
   summary:"Europe's General Data Protection Regulation arrives: rights, fines up to 4% of global revenue, and the de facto world standard.",
-  importance:"Adopted 2016, effective 2018, GDPR consolidated the lineage this museum traces from Warren and Brandeis through the FIPPs, the census judgment, and the 1995 Directive — now with extraterritorial reach and fines that command attention. It became the global template ('the Brussels effect'), influencing CCPA, Brazil's LGPD, and dozens of successors. Its critics note consent fatigue and compliance moats favoring incumbents; its defenders note that for the first time, the behavioral-data economy answers to someone. Carpenter v. United States, decided the same year, was America's parallel step.",
+  importance:"Adopted 2016, effective 2018, GDPR consolidated the lineage this atlas traces from Warren and Brandeis through the FIPPs, the census judgment, and the 1995 Directive — now with extraterritorial reach and fines that command attention. It became the global template ('the Brussels effect'), influencing CCPA, Brazil's LGPD, and dozens of successors. Its critics note consent fatigue and compliance moats favoring incumbents; its defenders note that for the first time, the behavioral-data economy answers to someone. Carpenter v. United States, decided the same year, was America's parallel step.",
   impact:{
     regulation:"Omnibus data protection with teeth — the strongest general answer yet to the data economy.",
     surveillance:"Lawful basis, purpose limitation, and erasure rights constrain — imperfectly — the extraction default.",
@@ -284,7 +284,7 @@ window.ATLAS_EVENTS.push(
     computing:"Conversational AI becomes infrastructure; the chat box becomes computing's new front door.",
     society:"Hundreds of millions converse with a machine — education, work, and information habits reorganize within a year.",
     labor:"Knowledge work's automation debate goes from speculative to budgetary in one fiscal cycle.",
-    regulation:"ChatGPT-to-AI-Act is the new Titanic-to-Radio-Act: the museum's fastest modern invention-to-regulation chain.",
+    regulation:"ChatGPT-to-AI-Act is the new Titanic-to-Radio-Act: the atlas's fastest modern invention-to-regulation chain.",
     government:"AI capability becomes a first-order question of national strategy, safety institutes, and summitry." },
   causes:["gpt3","openai","transformer","turingtest","aws"], effects:["aiact","claude","wga2023","agents"] },
 
@@ -316,7 +316,7 @@ window.ATLAS_EVENTS.push(
   title:"GPT-4, Claude & the Frontier Race",
   wiki:"GPT-4", gallery:["Generative artificial intelligence","Anthropic","Large language model"],
   summary:"OpenAI ships GPT-4; Anthropic — founded by safety-focused OpenAI alumni — releases Claude; the frontier becomes a contested oligopoly with safety as a selling point.",
-  importance:"GPT-4's leap (passing professional exams, multimodal input) reset capability expectations; Anthropic's Claude, built around 'constitutional AI' training, made safety methodology a market differentiator; Google's Gemini consolidated the third pole. Open-weight models (Meta's Llama line) ran the counter-argument. Capability, safety technique, and concentration now advance together — the museum's oldest question (who controls the transformative technology?) asked of its newest exhibit, in real time.",
+  importance:"GPT-4's leap (passing professional exams, multimodal input) reset capability expectations; Anthropic's Claude, built around 'constitutional AI' training, made safety methodology a market differentiator; Google's Gemini consolidated the third pole. Open-weight models (Meta's Llama line) ran the counter-argument. Capability, safety technique, and concentration now advance together — the atlas's oldest question (who controls the transformative technology?) asked of its newest exhibit, in real time.",
   impact:{
     computing:"Frontier capability becomes a three-way race measured in benchmarks and compute.",
     power:"A handful of labs, bound to a handful of clouds, hold the frontier — concentration as safety argument and antitrust concern at once.",
@@ -364,7 +364,7 @@ window.ATLAS_EVENTS.push(
   title:"AI Agents",
   wiki:"Intelligent agent", gallery:["Agentic AI","Automation"],
   summary:"Models stop just answering and start doing — operating software, browsing, booking, coding across whole tasks — woven into calendars, documents, and inboxes.",
-  importance:"Computer-use capabilities and agent products (2024) and the first generation of AI integrated with personal communication and document infrastructure (2025) crossed a categorical line the source timeline marks precisely: between the user and the digital extension acting on the user's behalf. Agents hold credentials, take actions, and leave audit problems; AI-related labor disputes proliferate as deployment spreads. Every prior question in this museum — liability, surveillance, labor displacement, who controls the network — re-arrives wearing autonomy.",
+  importance:"Computer-use capabilities and agent products (2024) and the first generation of AI integrated with personal communication and document infrastructure (2025) crossed a categorical line the source timeline marks precisely: between the user and the digital extension acting on the user's behalf. Agents hold credentials, take actions, and leave audit problems; AI-related labor disputes proliferate as deployment spreads. Every prior question in this atlas — liability, surveillance, labor displacement, who controls the network — re-arrives wearing autonomy.",
   impact:{
     computing:"Software operates software; the interface becomes delegation.",
     labor:"Task automation graduates to workflow automation — the disputes of 2025 are the Luddites. question again, at higher abstraction.",
@@ -378,7 +378,7 @@ window.ATLAS_EVENTS.push(
   summary:"EU frameworks mature through implementation; America regulates by lawsuit and state law; China runs the surveillance-market synthesis; the AI question is open.",
   importance:"The source timelines end here, mid-pattern. The EU's regulatory trilogy phases in; U.S. antitrust remedies and fifty-state privacy law substitute for absent federal statutes; China's model demonstrates that surveillance and market dynamism cohabit. Climate change reshapes labor through heat, migration, and transition; AI's labor consequences arrive faster than any prior wave, with unions, courts, and parliaments responding in real time. Five thousand years of evidence in the galleries behind this point suggest one safe prediction: the reckoning always comes — the only variables are the lag, and who pays during it.",
   impact:{
-    society:"The museum's patterns — invention first, reckoning after; the state siding with power until forced otherwise — are all live questions again.",
+    society:"The atlas's patterns — invention first, reckoning after; the state siding with power until forced otherwise — are all live questions again.",
     labor:"AI displacement, gig classification, and a reviving labor movement contest the next settlement of work.",
     regulation:"Three governance models compete for the network's and the model's future.",
     government:"What the ledger was to Sumer and the census to Rome, the model is to the present: the instrument by which power knows — and the next thing law must learn to bind." },

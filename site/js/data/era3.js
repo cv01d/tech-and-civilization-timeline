@@ -15,7 +15,7 @@ window.ATLAS_EVENTS.push(
   title:"The Optical Telegraph",
   wiki:"Optical telegraph", gallery:["Claude Chappe","Semaphore line"],
   summary:"Claude Chappe's semaphore towers relay coded messages across France faster than any horse — the first telecommunications network.",
-  importance:"Gleick opens The Information's telegraph story here: revolutionary France built lines of towers with pivoting arms, sending encoded messages from Paris to Lille in minutes. It was a state monopoly from birth — used for military and government traffic, closed to the public, and famously abused for lottery fraud in the 1830s. Every issue of the electric telegraph era — state control, codes, interception, speculation on early information — appears first in the optical one.",
+  importance:"The telegraph's prehistory begins here: revolutionary France built lines of towers with pivoting arms, sending encoded messages from Paris to Lille in minutes. It was a state monopoly from birth — used for military and government traffic, closed to the public, and famously abused for lottery fraud in the 1830s. Every issue of the electric telegraph era — state control, codes, interception, speculation on early information — appears first in the optical one.",
   impact:{
     communications:"Information first travels faster than matter; the network era begins in wood and rope.",
     government:"Born as a state monopoly for military intelligence — telecommunications and state power entwined from the first tower.",
@@ -49,7 +49,7 @@ window.ATLAS_EVENTS.push(
   title:"The Slave Trade Abolished",
   wiki:"Slave Trade Act 1807", gallery:["William Wilberforce","Olaudah Equiano","Abolitionism in the United Kingdom"],
   summary:"Britain bans the slave trade after decades of abolitionist organizing; the U.S. prohibition takes effect months later.",
-  importance:"The first great victory of the first modern human-rights campaign — built by Wilberforce, Clarkson, Sharp, and Equiano through petitions, boycotts, pamphlets, and testimony. Slavery itself persisted (in British colonies to 1833, in the U.S. to 1865), but the trade's abolition proved that sustained moral mobilization could overturn an entrenched economic system. The abolitionists' toolkit — investigation, publicity, mass petition — becomes the template for every later reform movement in this museum.",
+  importance:"The first great victory of the first modern human-rights campaign — built by Wilberforce, Clarkson, Sharp, and Equiano through petitions, boycotts, pamphlets, and testimony. Slavery itself persisted (in British colonies to 1833, in the U.S. to 1865), but the trade's abolition proved that sustained moral mobilization could overturn an entrenched economic system. The abolitionists' toolkit — investigation, publicity, mass petition — becomes the template for every later reform movement in this atlas.",
   impact:{
     labor:"The Atlantic system's supply line is cut — the beginning of slavery's long, contested end.",
     society:"Mass moral campaigning is invented: the boycott, the petition, the eyewitness pamphlet.",
@@ -108,7 +108,7 @@ window.ATLAS_EVENTS.push(
   title:"Babbage's Engines",
   wiki:"Analytical engine", gallery:["Charles Babbage","Difference engine"],
   summary:"Charles Babbage designs the Difference Engine, then the Analytical Engine — a general-purpose, programmable computer, on paper, in the 1830s.",
-  importance:"Frustrated by error-ridden mathematical tables, Babbage designed machinery to compute them — then leapt further to the Analytical Engine: a mill (processor), store (memory), and punched-card programs borrowed from Jacquard. It was never completed, but it is the conceptual blueprint of the computer a century early. Gleick presents Babbage as the man who saw that calculation itself could be mechanized — and was stranded by his own century's metalworking.",
+  importance:"Frustrated by error-ridden mathematical tables, Babbage designed machinery to compute them — then leapt further to the Analytical Engine: a mill (processor), store (memory), and punched-card programs borrowed from Jacquard. It was never completed, but it is the conceptual blueprint of the computer a century early. Babbage was the man who saw that calculation itself could be mechanized — and was stranded by his own century's metalworking.",
   impact:{
     computing:"The architecture of computing — processor, memory, program — drafted in Victorian brass.",
     technology:"Establishes the gap between conceptual and buildable that defines hardware history.",
@@ -188,7 +188,7 @@ window.ATLAS_EVENTS.push(
   title:"Morse's Telegraph: 'What Hath God Wrought'",
   wiki:"Electrical telegraph", gallery:["Samuel Morse","Morse code","Baltimore and Ohio Railroad"],
   summary:"The first commercial telegraph message runs from Washington to Baltimore. Information now travels at the speed of electricity.",
-  importance:"Gleick calls the telegraph the moment information detached from any physical carrier a human could see. Markets, news, diplomacy, and war reorganized around instantaneity; Morse code became the first widely used digital encoding. The telegraph also immediately posed the questions that define the rest of this museum: who owns the network (a monopoly by 1866), can the state read the traffic (it did), and what happens to societies when information outruns understanding.",
+  importance:"The telegraph was the moment information detached from any physical carrier a human could see. Markets, news, diplomacy, and war reorganized around instantaneity; Morse code became the first widely used digital encoding. The telegraph also immediately posed the questions that define the rest of this atlas: who owns the network (a monopoly by 1866), can the state read the traffic (it did), and what happens to societies when information outruns understanding.",
   impact:{
     communications:"Instantaneous long-distance communication — the founding stroke of the networked world.",
     technology:"Binary-like encoding, relays, and multiplexing seed both telephony and computing.",
@@ -223,7 +223,7 @@ window.ATLAS_EVENTS.push(
   title:"The Communist Manifesto",
   wiki:"The Communist Manifesto", gallery:["Karl Marx","Friedrich Engels"],
   summary:"'A spectre is haunting Europe.' Marx and Engels publish the most consequential pamphlet ever printed.",
-  importance:"Commissioned by the Communist League on the eve of the 1848 revolutions, the Manifesto compressed a theory of history into forty pages: class struggle as history's engine, capitalism as its own gravedigger. Engels had documented the factories in The Condition of the Working Class in England (1845); Das Kapital (1867) would supply the analysis. Within a century, governments claiming its lineage ruled a third of humanity — making this slim pamphlet, for better and worse, among the most consequential information artifacts in this museum.",
+  importance:"Commissioned by the Communist League on the eve of the 1848 revolutions, the Manifesto compressed a theory of history into forty pages: class struggle as history's engine, capitalism as its own gravedigger. Engels had documented the factories in The Condition of the Working Class in England (1845); Das Kapital (1867) would supply the analysis. Within a century, governments claiming its lineage ruled a third of humanity — making this slim pamphlet, for better and worse, among the most consequential information artifacts in this atlas.",
   impact:{
     society:"Provides the labor movement a world-historical narrative and vocabulary.",
     labor:"Workers' organization reframed from local grievance to international project — 'Workers of the world, unite.'",
@@ -234,7 +234,7 @@ window.ATLAS_EVENTS.push(
   title:"Seneca Falls Convention",
   wiki:"Seneca Falls Convention", gallery:["Elizabeth Cady Stanton","Declaration of Sentiments"],
   summary:"The first women's rights convention issues its Declaration of Sentiments — beginning the organized American women's movement.",
-  importance:"Drafted on the model of the Declaration of Independence, the Declaration of Sentiments demanded the vote, property rights, and access to the professions. The movement it launched runs through this museum's later labor galleries: women's trade unions, protective hours laws, the Nineteenth Amendment, the Equal Pay Act, and the Equal Credit Opportunity Act of 1974 — the moment married women could finally hold credit in their own names.",
+  importance:"Drafted on the model of the Declaration of Independence, the Declaration of Sentiments demanded the vote, property rights, and access to the professions. The movement it launched runs through this atlas's later labor galleries: women's trade unions, protective hours laws, the Nineteenth Amendment, the Equal Pay Act, and the Equal Credit Opportunity Act of 1974 — the moment married women could finally hold credit in their own names.",
   impact:{
     society:"Women's equality becomes an organized political project.",
     labor:"Sets in motion the long integration of women into the full labor market and its protections.",
@@ -257,7 +257,7 @@ window.ATLAS_EVENTS.push(
   title:"Russia Frees the Serfs",
   wiki:"Emancipation reform of 1861", gallery:["Alexander II of Russia","Serfdom in Russia"],
   summary:"Tsar Alexander II emancipates 23 million serfs — with land terms so burdensome that bondage continues by other means.",
-  importance:"Defeat in Crimea convinced the autocracy that serfdom was militarily and economically untenable. But emancipation without real land reform left former serfs paying redemption dues until 1907, demonstrating a rule that recurs at every liberation in this museum: freeing labor without resources reproduces exploitation in new legal dress. The unresolved agrarian question would help bring down the dynasty in 1917.",
+  importance:"Defeat in Crimea convinced the autocracy that serfdom was militarily and economically untenable. But emancipation without real land reform left former serfs paying redemption dues until 1907, demonstrating a rule that recurs at every liberation in this atlas: freeing labor without resources reproduces exploitation in new legal dress. The unresolved agrarian question would help bring down the dynasty in 1917.",
   impact:{
     labor:"The largest single emancipation in European history — 38% of Russia's population.",
     society:"A peasantry legally free, economically bound: revolutionary tinder for two generations.",

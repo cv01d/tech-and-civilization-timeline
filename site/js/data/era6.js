@@ -75,7 +75,7 @@ window.ATLAS_EVENTS.push(
   title:"Amazon & the E-Commerce Era",
   wiki:"Amazon (company)", gallery:["Jeff Bezos","E-commerce","Amazon warehouse"],
   summary:"A hedge-fund quant starts selling books online; eBay launches the next year; retail begins its migration into the database.",
-  importance:"Amazon's significance compounds through every later gallery: e-commerce normalized the online transaction; the recommendation engine made purchase data productive; AWS (2006) turned its infrastructure into the cloud everyone else rents; and its warehouses became the algorithmically managed workplaces where Taylorism finally met the wearable scanner. The everything store is also this museum's bridge from retail history to labor history to computing history.",
+  importance:"Amazon's significance compounds through every later gallery: e-commerce normalized the online transaction; the recommendation engine made purchase data productive; AWS (2006) turned its infrastructure into the cloud everyone else rents; and its warehouses became the algorithmically managed workplaces where Taylorism finally met the wearable scanner. The everything store is also this atlas's bridge from retail history to labor history to computing history.",
   impact:{
     society:"Shopping moves online; the logistics network becomes consumer society's hidden circulatory system.",
     labor:"The fulfillment center — rate-tracked, sensor-monitored — becomes the era's emblematic surveilled workplace.",
@@ -193,7 +193,7 @@ window.ATLAS_EVENTS.push(
   title:"9/11 & the PATRIOT Act",
   wiki:"Patriot Act", gallery:["September 11 attacks","Total Information Awareness"],
   summary:"Forty-five days after the attacks, surveillance authorities expand across the board; Section 215 will justify bulk collection of Americans' phone records.",
-  importance:"The attacks reversed the post-Church settlement in weeks: the PATRIOT Act loosened FISA's walls, expanded national security letters, and enabled — via Section 215, as Snowden later revealed — bulk telephone metadata collection. Total Information Awareness (2002), defunded after outcry, continued under other names. The era demonstrates the museum's recurring exchange rate: visible catastrophe purchases surveillance expansion swiftly; retrenchment, if it comes, takes a generation (USA FREEDOM Act, 2015).",
+  importance:"The attacks reversed the post-Church settlement in weeks: the PATRIOT Act loosened FISA's walls, expanded national security letters, and enabled — via Section 215, as Snowden later revealed — bulk telephone metadata collection. Total Information Awareness (2002), defunded after outcry, continued under other names. The era demonstrates the atlas's recurring exchange rate: visible catastrophe purchases surveillance expansion swiftly; retrenchment, if it comes, takes a generation (USA FREEDOM Act, 2015).",
   impact:{
     surveillance:"The post-9/11 collection apparatus — bulk, secret, and statutorily blessed — is built.",
     regulation:"Emergency legislation's ratchet: passed in days, reformed in decades.",
@@ -222,7 +222,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Personal data becomes the raw material of a trillion-dollar extraction economy.",
     power:"Google's revenue engine funds dominance across search, video, mobile, and ads — the adtech antitrust cases of the 2020s trace here.",
     society:"Free services priced in attention and data become the internet's default bargain.",
-    regulation:"The model grows for a generation in America's regulatory vacuum — the museum's largest modern silence." },
+    regulation:"The model grows for a generation in America's regulatory vacuum — the atlas's largest modern silence." },
   causes:["googlefounding","dotcom","cookie","attention"], effects:["likebutton","gdpr","googlecase"] },
 
 { id:"facebook", year:2004, date:"2004–2006", era:6, cat:"social",

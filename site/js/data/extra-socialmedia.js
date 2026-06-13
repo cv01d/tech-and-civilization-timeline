@@ -1,5 +1,5 @@
 // SUPPLEMENT — the social platform, from the dial-up bulletin board to the global
-// regulatory wave. The through-line is the museum's oldest: the technology outpaces
+// regulatory wave. The through-line is the atlas's oldest: the technology outpaces
 // the law by a decade, a crisis (an election, a genocide, a livestreamed massacre, a
 // teenager's harm) forces public attention, Congress holds hearings but rarely
 // legislates, the EU moves first with binding rules, and the rest of the world
@@ -177,7 +177,7 @@ window.ATLAS_EVENTS.push(
   title:"Facebook and the Rohingya Genocide",
   wiki:"Rohingya genocide",
   summary:"In Myanmar, where Facebook is effectively the internet, anti-Rohingya hate spreads almost unchecked for want of Burmese-language moderators; UN investigators later find the platform played a 'determining role' in inciting genocidal violence.",
-  importance:"Facebook entered Myanmar as the de facto internet for millions, yet staffed almost no moderators who could read Burmese, and for years incitement against the Rohingya minority circulated unchecked as violence escalated toward genocide. In 2018 UN investigators stated the platform had played a 'determining role,' and Facebook conceded it had been too slow. It is the museum's gravest case of the engagement machine's externalities — a recommender tuned for reach, loosed on a society it did not bother to understand, with lethal results.",
+  importance:"Facebook entered Myanmar as the de facto internet for millions, yet staffed almost no moderators who could read Burmese, and for years incitement against the Rohingya minority circulated unchecked as violence escalated toward genocide. In 2018 UN investigators stated the platform had played a 'determining role,' and Facebook conceded it had been too slow. It is the atlas's gravest case of the engagement machine's externalities — a recommender tuned for reach, loosed on a society it did not bother to understand, with lethal results.",
   impact:{
     power:"An unmoderated platform is found to have helped incite a genocide.",
     society:"The human cost of scaling reach without moderation becomes undeniable.",

@@ -66,7 +66,7 @@ window.ATLAS_EVENTS.push(
   title:"Alexa and the Always-On Home",
   wiki:"Amazon Alexa",
   summary:"Amazon's Echo puts a listening, conversational AI in the living room — the assistant becomes ambient, summoned by name across the house.",
-  importance:"With the Echo, Amazon moved the voice assistant off the phone and into the home as an always-listening fixture answering to 'Alexa.' It made conversational AI ambient — no screen, no app, just a name spoken into a room — and it folded a microphone permanently into domestic space, raising privacy questions that recur through the rest of this museum. The assistant was no longer something one picked up; it was something one lived with.",
+  importance:"With the Echo, Amazon moved the voice assistant off the phone and into the home as an always-listening fixture answering to 'Alexa.' It made conversational AI ambient — no screen, no app, just a name spoken into a room — and it folded a microphone permanently into domestic space, raising privacy questions that recur through the rest of this atlas. The assistant was no longer something one picked up; it was something one lived with.",
   impact:{
     computing:"The far-field voice interface establishes a screenless mode of AI interaction.",
     surveillance:"An always-on microphone takes up residence in the home.",
@@ -231,7 +231,7 @@ window.ATLAS_EVENTS.push(
   title:"Character.AI Bars Minors",
   wiki:"Character.ai",
   summary:"Under litigation and the FTC probe — not legislation — Character.AI announces it will stop letting under-18 users chat on the platform, abruptly cutting off teenagers who had built emotional dependencies on it.",
-  importance:"Facing wrongful-death suits and a federal inquiry, Character.AI moved to block open-ended chat for anyone under 18, calling it a precedent that prioritized teen safety. The change came from legal pressure, not law — industry self-regulating under threat, the recurring pattern of this museum. It also raised a hard, unresolved question that lawyers for bereaved families pressed: what is the psychological cost of severing, overnight, a relationship a vulnerable young person had come to depend on?",
+  importance:"Facing wrongful-death suits and a federal inquiry, Character.AI moved to block open-ended chat for anyone under 18, calling it a precedent that prioritized teen safety. The change came from legal pressure, not law — industry self-regulating under threat, the recurring pattern of this atlas. It also raised a hard, unresolved question that lawyers for bereaved families pressed: what is the psychological cost of severing, overnight, a relationship a vulnerable young person had come to depend on?",
   impact:{
     law:"A sweeping product change is driven by lawsuits and a regulator, not by statute.",
     society:"Protecting minors and abruptly cutting them off prove to be the same act, with its own harms.",

@@ -62,7 +62,7 @@ window.ATLAS_EVENTS.push(
   title:"Shannon's Information Theory",
   wiki:"A Mathematical Theory of Communication", gallery:["Claude Shannon","Information theory","Bit"],
   summary:"Claude Shannon defines information itself — the bit, channel capacity, redundancy — in one Bell Labs paper.",
-  importance:"The founding document of the information age, and the spine of Gleick's The Information: Shannon showed that all communication — voice, text, image — reduces to one measurable currency, the bit, and that error-free transmission over noisy channels has exact mathematical limits. Every modem, compression format, and storage device is engineered against his theorems. Norbert Wiener's Cybernetics, published the same year, supplied the companion vision of feedback and control. No regulation ever touched the theory; it quietly underlies everything regulated since.",
+  importance:"The founding document of the information age, and the foundation of information theory: Shannon showed that all communication — voice, text, image — reduces to one measurable currency, the bit, and that error-free transmission over noisy channels has exact mathematical limits. Every modem, compression format, and storage device is engineered against his theorems. Norbert Wiener's Cybernetics, published the same year, supplied the companion vision of feedback and control. No regulation ever touched the theory; it quietly underlies everything regulated since.",
   impact:{
     computing:"Information becomes a quantity — the conceptual foundation of the digital world.",
     technology:"Coding and compression theory enable telecommunications, storage, broadcasting, and the internet.",
@@ -96,7 +96,7 @@ window.ATLAS_EVENTS.push(
   title:"The Fairness Doctrine",
   wiki:"FCC fairness doctrine", gallery:["Federal Communications Commission","Talk radio"],
   summary:"The FCC requires broadcasters to cover controversy fairly — a rule whose 1987 repeal remakes American political media.",
-  importance:"Built on the public-trustee framework of 1927, the doctrine governed broadcast political speech for thirty-eight years. Its Reagan-era repeal — justified by channel abundance and First Amendment arguments — released the talk-radio boom and presaged cable news: the partisan media environment of the present is, in part, the doctrine's absence. The episode is the museum's cleanest demonstration that deregulation reshapes culture as surely as regulation does.",
+  importance:"Built on the public-trustee framework of 1927, the doctrine governed broadcast political speech for thirty-eight years. Its Reagan-era repeal — justified by channel abundance and First Amendment arguments — released the talk-radio boom and presaged cable news: the partisan media environment of the present is, in part, the doctrine's absence. The episode is the atlas's cleanest demonstration that deregulation reshapes culture as surely as regulation does.",
   impact:{
     regulation:"Content obligations attach to spectrum licenses — then detach, with consequences.",
     society:"Repeal restructures American political discourse within a decade.",
@@ -222,7 +222,7 @@ window.ATLAS_EVENTS.push(
   title:"The Civil Rights Act & Voting Rights Act",
   wiki:"Civil Rights Act of 1964", gallery:["March on Washington for Jobs and Freedom","Martin Luther King Jr.","Voting Rights Act of 1965"],
   summary:"The March on Washington for Jobs and Freedom; then Title VII bans employment discrimination, and the franchise is federally protected.",
-  importance:"The movement that overturned Plessy fused civil and labor demands — the 1963 march's full name claimed both, and King was assassinated in 1968 supporting Memphis's striking sanitation workers, whose signs read 'I AM A MAN.' Title VII created the EEOC and made discrimination in employment unlawful; the Voting Rights Act (1965) re-enfranchised the South. The FBI's surveillance and harassment of King — exposed by the Church Committee — runs through the same years: the museum's starkest case of state surveillance aimed at a movement for rights.",
+  importance:"The movement that overturned Plessy fused civil and labor demands — the 1963 march's full name claimed both, and King was assassinated in 1968 supporting Memphis's striking sanitation workers, whose signs read 'I AM A MAN.' Title VII created the EEOC and made discrimination in employment unlawful; the Voting Rights Act (1965) re-enfranchised the South. The FBI's surveillance and harassment of King — exposed by the Church Committee — runs through the same years: the atlas's starkest case of state surveillance aimed at a movement for rights.",
   impact:{
     labor:"Employment discrimination becomes federally actionable; Black workers begin entering occupations and unions long closed.",
     regulation:"The Reconstruction amendments are finally enforced by statute.",
@@ -439,7 +439,7 @@ window.ATLAS_EVENTS.push(
   title:"Solidarity",
   wiki:"Solidarity (Polish trade union)", gallery:["Lech Wałęsa","Gdańsk Shipyard","Round Table Agreement"],
   summary:"Gdańsk's shipyard strike births the Soviet bloc's first independent union — ten million members within a year, and the lever that cracks communism.",
-  importance:"Lech Wałęsa's electricians and shipwrights forced the Gdańsk Agreement: an independent, self-governing trade union inside a communist state. Martial law (1981) drove Solidarity underground but could not dissolve it; by 1989 the regime negotiated with the union it had banned, and Poland's semi-free elections began the bloc's collapse. The supreme irony of the museum's labor wing: the workers' state, brought down by a workers' movement.",
+  importance:"Lech Wałęsa's electricians and shipwrights forced the Gdańsk Agreement: an independent, self-governing trade union inside a communist state. Martial law (1981) drove Solidarity underground but could not dissolve it; by 1989 the regime negotiated with the union it had banned, and Poland's semi-free elections began the bloc's collapse. The supreme irony of the atlas's labor wing: the workers' state, brought down by a workers' movement.",
   impact:{
     labor:"Demonstrates labor organization's power against the regime claiming to embody it.",
     government:"Begins the negotiated end of Eastern European communism.",
@@ -456,7 +456,7 @@ window.ATLAS_EVENTS.push(
     labor:"The strike weapon is broken in America for a generation; union density enters long decline.",
     government:"The state's ancient employer-side reflex returns in modern dress — by executive order rather than statute.",
     society:"Inequality's forty-year climb begins; 'flexibility' becomes the labor market's official virtue.",
-    regulation:"Deregulation becomes governing philosophy across telecom, finance, and transport — reshaping every network industry in this museum." },
+    regulation:"Deregulation becomes governing philosophy across telecom, finance, and transport — reshaping every network industry in this atlas." },
   causes:["tafthartley","treatyofdetroit","wright"], effects:["minersstrike"] },
 
 { id:"ibmpc", year:1981, date:"1981", era:5, cat:"computing",
@@ -475,7 +475,7 @@ window.ATLAS_EVENTS.push(
   title:"The AT&T Breakup",
   wiki:"Breakup of the Bell System", gallery:["Regional Bell Operating Company","AT&T Corporation"],
   summary:"The 1974 antitrust suit ends in divestiture: on January 1, 1984, the Bell System becomes seven regional companies plus a competitive long-distance market.",
-  importance:"Seventy years of regulated monopoly, eroded by Carterfone, MCI, and microwave and fiber economics, ended in the Modification of Final Judgment (1982) and the largest corporate dissolution ever executed. The breakup created the competitive environment the consumer internet grew up inside — the Baby Bells became the broadband providers of the 1990s, and long-distance competition collapsed prices. Standard Oil's precedent, finally applied to communications; the museum's biggest demonstration that structural antitrust can still happen.",
+  importance:"Seventy years of regulated monopoly, eroded by Carterfone, MCI, and microwave and fiber economics, ended in the Modification of Final Judgment (1982) and the largest corporate dissolution ever executed. The breakup created the competitive environment the consumer internet grew up inside — the Baby Bells became the broadband providers of the 1990s, and long-distance competition collapsed prices. Standard Oil's precedent, finally applied to communications; the atlas's biggest demonstration that structural antitrust can still happen.",
   impact:{
     regulation:"Divestiture's second masterpiece — the regulated-monopoly century formally closes.",
     communications:"Competition and falling prices remake American telephony; the internet inherits the opened field.",
@@ -547,7 +547,7 @@ window.ATLAS_EVENTS.push(
   title:"Backpropagation",
   wiki:"Backpropagation", gallery:["Geoffrey Hinton","Artificial neural network","David Rumelhart"],
   summary:"Rumelhart, Hinton, and Williams show how multi-layer neural networks can learn — the algorithm that ends the first AI winter's verdict.",
-  importance:"The Nature paper popularized training deep networks by propagating error backward through layers — answering, in practice, the limitation Minsky and Papert had made canonical. Genius Makers centers Hinton's decades of persistence here: connectionism worked, but needed data and compute that wouldn't exist for twenty-five more years. Backprop is the algorithm beneath AlexNet, the Transformer, and ChatGPT — the museum's longest fuse between method and detonation.",
+  importance:"The Nature paper popularized training deep networks by propagating error backward through layers — answering, in practice, the limitation Minsky and Papert had made canonical. Genius Makers centers Hinton's decades of persistence here: connectionism worked, but needed data and compute that wouldn't exist for twenty-five more years. Backprop is the algorithm beneath AlexNet, the Transformer, and ChatGPT — the atlas's longest fuse between method and detonation.",
   impact:{
     computing:"Deep learning's core algorithm arrives — and waits a quarter-century for its hardware.",
     technology:"Learning from data re-established as AI's viable path.",

@@ -8,7 +8,7 @@ window.ATLAS_EVENTS.push(
   title:"Talos & the Dream of Artificial Life",
   wiki:"Talos", gallery:["Automaton","Hephaestus"],
   summary:"Greek myth imagines Talos, a bronze giant guarding Crete, and Hephaestus's golden handmaidens — the oldest dream of the made, mechanical servant.",
-  importance:"Long before any machine could move on its own, Greek mythology imagined it: Talos, the bronze automaton circling Crete three times a day, and the golden serving-women the smith-god Hephaestus forged to attend him. As the classicist Adrienne Mayor argues, these were not gods or spirits but explicitly manufactured beings — the earliest cultural expression of the idea this museum tracks to Optimus and Atlas: that humans might build artificial workers in their own image. The hope and the dread arrive together, at the very start.",
+  importance:"Long before any machine could move on its own, Greek mythology imagined it: Talos, the bronze automaton circling Crete three times a day, and the golden serving-women the smith-god Hephaestus forged to attend him. As the classicist Adrienne Mayor argues, these were not gods or spirits but explicitly manufactured beings — the earliest cultural expression of the idea this atlas tracks to Optimus and Atlas: that humans might build artificial workers in their own image. The hope and the dread arrive together, at the very start.",
   impact:{
     society:"The artificial servant enters human imagination 2,000 years before it can be built.",
     technology:"Sets the aspirational target — the made being — that engineering chases for millennia.",
@@ -96,7 +96,7 @@ window.ATLAS_EVENTS.push(
   title:"The Word 'Robot' Is Born — R.U.R.",
   wiki:"R.U.R.", gallery:["Karel Čapek","Robot"],
   summary:"Karel Čapek's play coins 'robot' — from the Czech for forced labor — and its artificial workers promptly revolt and destroy humanity, setting the template of robot fear.",
-  importance:"Čapek's R.U.R. (Rossum's Universal Robots) gave the world its word for the artificial worker, rooted in robota — forced labor, drudgery, serfdom. The play's robots, mass-produced to do humanity's work, rise up and exterminate their makers, fixing in the first instance the template that recurs ever after: the made servant that overthrows the master. That the word for robot means 'forced labor' is the museum's whole argument in a single etymology — the robot is, from birth, a labor question.",
+  importance:"Čapek's R.U.R. (Rossum's Universal Robots) gave the world its word for the artificial worker, rooted in robota — forced labor, drudgery, serfdom. The play's robots, mass-produced to do humanity's work, rise up and exterminate their makers, fixing in the first instance the template that recurs ever after: the made servant that overthrows the master. That the word for robot means 'forced labor' is the atlas's whole argument in a single etymology — the robot is, from birth, a labor question.",
   impact:{
     society:"'Robot' enters every language — and arrives already meaning revolt.",
     labor:"The robot is named for forced labor: automation framed as a labor relation from word one.",
@@ -319,7 +319,7 @@ window.ATLAS_EVENTS.push(
   title:"Governing Military AI",
   wiki:"Artificial intelligence arms race", gallery:["Lethal autonomous weapon","Military robot"],
   summary:"As autonomous weapons spread, states reach for soft governance: a 2023 U.S.-led declaration on responsible military AI wins 50+ endorsers, but no binding treaty — and the UN keeps pressing.",
-  importance:"With binding restrictions blocked by the U.S., Russia, and others at the UN, governance moved to non-binding consensus: the 2023 U.S. State Department Political Declaration on Responsible Military Use of AI, endorsed by more than 50 nations, affirmed principles like human control over nuclear and lethal decisions. The UN Secretary-General has repeatedly called autonomous weapons 'morally repugnant' and urged a binding instrument. The pattern is the museum's oldest: the technology races ahead, and the law assembles slowly, in soft law and summitry, behind it.",
+  importance:"With binding restrictions blocked by the U.S., Russia, and others at the UN, governance moved to non-binding consensus: the 2023 U.S. State Department Political Declaration on Responsible Military Use of AI, endorsed by more than 50 nations, affirmed principles like human control over nuclear and lethal decisions. The UN Secretary-General has repeatedly called autonomous weapons 'morally repugnant' and urged a binding instrument. The pattern is the atlas's oldest: the technology races ahead, and the law assembles slowly, in soft law and summitry, behind it.",
   impact:{
     law:"Soft-law declarations substitute for the binding treaty that autonomous weapons still lack.",
     power:"The great powers resist constraints even as autonomous weapons proliferate.",
@@ -342,7 +342,7 @@ window.ATLAS_EVENTS.push(
   title:"Robotaxis at Scale",
   wiki:"Waymo", gallery:["Robotaxi","Self-driving car"],
   summary:"Waymo runs fully driverless robotaxis commercially in San Francisco, Los Angeles, and Phoenix — the first sustained at-scale autonomous transport service — still with no federal AV law.",
-  importance:"Two decades after Stanley crossed the desert and a decade after the first AV deaths, Waymo's driverless robotaxis became a routine commercial service across several U.S. cities, carrying paying passengers with no human behind the wheel and a safety record it argues beats human drivers. It marks autonomous machines crossing into trusted everyday infrastructure — even as the United States still has no federal autonomous-vehicle law, governance left to a patchwork of states and the companies themselves, the museum's recurring lag once more.",
+  importance:"Two decades after Stanley crossed the desert and a decade after the first AV deaths, Waymo's driverless robotaxis became a routine commercial service across several U.S. cities, carrying paying passengers with no human behind the wheel and a safety record it argues beats human drivers. It marks autonomous machines crossing into trusted everyday infrastructure — even as the United States still has no federal autonomous-vehicle law, governance left to a patchwork of states and the companies themselves, the atlas's recurring lag once more.",
   impact:{
     labor:"Driverless transport at commercial scale puts the automation of driving within sight.",
     law:"At-scale autonomy arrives with no federal framework — regulation lags deployment again.",

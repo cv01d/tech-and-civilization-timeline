@@ -4,7 +4,7 @@ window.ATLAS_EVENTS.push(
   title:"Gutenberg's Printing Press",
   wiki:"Printing press", gallery:["Johannes Gutenberg","Gutenberg Bible","Movable type"],
   summary:"Movable type arrives in Mainz. Within fifty years Europe prints more books than it had produced in the previous thousand.",
-  importance:"Building on Chinese woodblock printing and Korean movable type, Gutenberg's press is the most consequential communications invention before the telegraph. An estimated 15–20 million books appeared within half a century. It enabled the Reformation, the rapid exchange of scientific findings, pamphlet warfare and the public sphere — and made printers one of the first proto-industrial workforces. Gleick's The Information treats print as the moment knowledge became reproducible at scale; everything later in this museum is downstream of it.",
+  importance:"Building on Chinese woodblock printing and Korean movable type, Gutenberg's press is the most consequential communications invention before the telegraph. An estimated 15–20 million books appeared within half a century. It enabled the Reformation, the rapid exchange of scientific findings, pamphlet warfare and the public sphere — and made printers one of the first proto-industrial workforces. Print was the moment knowledge became reproducible at scale; everything later in this atlas is downstream of it.",
   impact:{
     technology:"Mass reproduction of information — the founding act of media technology.",
     society:"Literacy, vernacular publics, and eventually public opinion become possible.",
@@ -199,7 +199,7 @@ window.ATLAS_EVENTS.push(
   title:"The South Sea Bubble & the Bubble Act",
   wiki:"South Sea Company", gallery:["South Sea Bubble","Bubble Act"],
   summary:"Britain's first great stock mania collapses amid fraud — and triggers its first major financial regulation.",
-  importance:"Speculative mania in South Sea Company stock, inflated by corruption reaching into Parliament, burst in 1720 and ruined thousands. The Bubble Act, passed that same year, restricted joint-stock company formation for a century — the first demonstration of the cycle this museum displays repeatedly: innovation, mania, scandal, statute. It also shows regulation's costs: the Act hobbled British corporate development until its repeal in 1825.",
+  importance:"Speculative mania in South Sea Company stock, inflated by corruption reaching into Parliament, burst in 1720 and ruined thousands. The Bubble Act, passed that same year, restricted joint-stock company formation for a century — the first demonstration of the cycle this atlas displays repeatedly: innovation, mania, scandal, statute. It also shows regulation's costs: the Act hobbled British corporate development until its repeal in 1825.",
   impact:{
     regulation:"The founding precedent of financial regulation as crisis response.",
     society:"The speculative bubble enters public consciousness as a recurring social drama.",
@@ -246,7 +246,7 @@ window.ATLAS_EVENTS.push(
   title:"American Independence",
   wiki:"United States Declaration of Independence", gallery:["American Revolution","Thomas Jefferson"],
   summary:"The colonies declare independence on Lockean grounds: natural rights and government by consent.",
-  importance:"The Declaration converted Enlightenment political theory into a state-founding act. Won through eight years of war, American independence produced the first large modern republic and the constitutional laboratory in which much of this museum's later law — speech, search, due process, commerce — would be worked out. Its assertion that all men are created equal coexisted with chattel slavery, an unresolved contradiction that would take a civil war to address.",
+  importance:"The Declaration converted Enlightenment political theory into a state-founding act. Won through eight years of war, American independence produced the first large modern republic and the constitutional laboratory in which much of this atlas's later law — speech, search, due process, commerce — would be worked out. Its assertion that all men are created equal coexisted with chattel slavery, an unresolved contradiction that would take a civil war to address.",
   impact:{
     government:"Republican constitutionalism moves from theory to practice at national scale.",
     society:"Revolution becomes a modern political instrument, soon exported to France and Latin America.",
@@ -293,7 +293,7 @@ window.ATLAS_EVENTS.push(
   title:"The U.S. Bill of Rights",
   wiki:"United States Bill of Rights", gallery:["First Amendment to the United States Constitution","Fourth Amendment to the United States Constitution"],
   summary:"Ten amendments ratify the deal: speech, press, and assembly protected; unreasonable searches forbidden; due process guaranteed.",
-  importance:"Won by Anti-Federalist pressure during ratification, the Bill of Rights established the constitutional protections that shape all subsequent American surveillance, communications, and labor law: the First Amendment (speech, press, assembly, petition), the Fourth (searches and seizures), the Fifth (due process, self-incrimination). Katz, Miller, Carpenter, Reno v. ACLU — most of the courtroom dramas in this museum's later galleries are arguments about these few hundred words.",
+  importance:"Won by Anti-Federalist pressure during ratification, the Bill of Rights established the constitutional protections that shape all subsequent American surveillance, communications, and labor law: the First Amendment (speech, press, assembly, petition), the Fourth (searches and seizures), the Fifth (due process, self-incrimination). Katz, Miller, Carpenter, Reno v. ACLU — most of the courtroom dramas in this atlas's later galleries are arguments about these few hundred words.",
   impact:{
     regulation:"The legal bedrock of American privacy, speech, and assembly doctrine.",
     surveillance:"The Fourth Amendment becomes the permanent battlefield between investigative technology and liberty.",

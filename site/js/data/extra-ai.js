@@ -9,7 +9,7 @@ window.ATLAS_EVENTS.push(
   title:"The First Artificial Neuron",
   wiki:"Artificial neuron", gallery:["Walter Pitts","Warren Sturgis McCulloch"],
   summary:"McCulloch and Pitts model the neuron as a logic gate — and prove that networks of them could, in principle, compute anything a Turing machine can.",
-  importance:"Warren McCulloch and Walter Pitts's 'A Logical Calculus of Ideas Immanent in Nervous Activity' (1943) fused neuroscience, logic, and Turing's computation into a single idea: a neuron as a binary threshold unit, and networks of them as universal computers. It is the founding paper of both neural networks and computational neuroscience — the conceptual seed from which the perceptron, backpropagation, and every deep network in this museum eventually grow.",
+  importance:"Warren McCulloch and Walter Pitts's 'A Logical Calculus of Ideas Immanent in Nervous Activity' (1943) fused neuroscience, logic, and Turing's computation into a single idea: a neuron as a binary threshold unit, and networks of them as universal computers. It is the founding paper of both neural networks and computational neuroscience — the conceptual seed from which the perceptron, backpropagation, and every deep network in this atlas eventually grow.",
   impact:{
     computing:"The neuron is recast as a logic element — the theoretical basis of neural networks.",
     technology:"Brain and computer are bridged by a single formalism, decades before the hardware to test it.",

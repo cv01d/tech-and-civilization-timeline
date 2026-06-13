@@ -176,7 +176,7 @@ window.ATLAS_EVENTS.push(
   title:"Locating the Cell Phone",
   wiki:"Enhanced 9-1-1",
   summary:"The Wireless Communications and Public Safety Act makes 911 the universal number for mobile phones and requires carriers to deliver caller location — first by cell tower, then to GPS precision.",
-  importance:"As calls migrated to mobile phones that carried no fixed address, a 911 system built around wired location was suddenly blind to most callers; the 1999 Act and the FCC's phased mandates forced carriers to deliver first approximate (tower-based) and then precise (handset GPS) location. It dragged emergency location into the wireless age and asserted a regulatory principle that recurs through this museum: that the network owes the public safety the ability to be found. The mandate's slow, contested rollout also previewed how far implementation can lag a law.",
+  importance:"As calls migrated to mobile phones that carried no fixed address, a 911 system built around wired location was suddenly blind to most callers; the 1999 Act and the FCC's phased mandates forced carriers to deliver first approximate (tower-based) and then precise (handset GPS) location. It dragged emergency location into the wireless age and asserted a regulatory principle that recurs through this atlas: that the network owes the public safety the ability to be found. The mandate's slow, contested rollout also previewed how far implementation can lag a law.",
   impact:{
     law:"Carriers are legally compelled to make mobile emergency callers locatable.",
     communications:"911 is extended to the mobile network that was eclipsing the landline.",
@@ -220,7 +220,7 @@ window.ATLAS_EVENTS.push(
   title:"Next Generation 911 Becomes a Mandate",
   wiki:"9-1-1",
   summary:"The FCC adopts binding rules compelling carriers to begin the move to IP-based Next Generation 911 — text, data, and multimedia alongside voice — more than 15 years after the concept was first written into law.",
-  importance:"NG911 had been a stated goal since 2007, yet most of the country's 6,000-plus answering points still ran on protocols little changed since 1968, hobbled by funding gaps and infrastructure debt. The FCC's 2024 rules were the first binding federal mandate forcing the analog-to-IP transition that would let 911 carry text, images, and data, not just voice. The fifteen-year gap between codifying the idea and compelling it is this museum's recurring lesson in miniature: the mandate is slow, and implementation slower still.",
+  importance:"NG911 had been a stated goal since 2007, yet most of the country's 6,000-plus answering points still ran on protocols little changed since 1968, hobbled by funding gaps and infrastructure debt. The FCC's 2024 rules were the first binding federal mandate forcing the analog-to-IP transition that would let 911 carry text, images, and data, not just voice. The fifteen-year gap between codifying the idea and compelling it is this atlas's recurring lesson in miniature: the mandate is slow, and implementation slower still.",
   impact:{
     law:"A binding rule finally compels the IP overhaul long urged and long deferred.",
     communications:"911 moves toward carrying multimedia and data, not voice alone.",
@@ -275,7 +275,7 @@ window.ATLAS_EVENTS.push(
   title:"The 1993 Warning Ignored",
   wiki:"1993 World Trade Center bombing",
   summary:"During the World Trade Center bombing, New York police and fire crews struggle to coordinate on incompatible systems — a clear interoperability failure that is noted and then left unaddressed, eight years before 9/11.",
-  importance:"The 1993 truck-bombing of the World Trade Center forced NYPD and FDNY to respond together, and exposed exactly the communications incompatibility that would prove catastrophic in the same towers in 2001: radios that could not talk across agencies, command structures that could not share a picture. The problem was documented and then deferred — no structural reform followed. It stands as the museum's sharpest example of a warning delivered, understood, and ignored until the disaster it predicted arrived.",
+  importance:"The 1993 truck-bombing of the World Trade Center forced NYPD and FDNY to respond together, and exposed exactly the communications incompatibility that would prove catastrophic in the same towers in 2001: radios that could not talk across agencies, command structures that could not share a picture. The problem was documented and then deferred — no structural reform followed. It stands as the atlas's sharpest example of a warning delivered, understood, and ignored until the disaster it predicted arrived.",
   impact:{
     communications:"Cross-agency radio incompatibility is exposed at the WTC — and not fixed.",
     power:"A documented interoperability failure is deferred for eight years.",

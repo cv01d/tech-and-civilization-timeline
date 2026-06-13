@@ -40,7 +40,7 @@ window.ATLAS_ERAS = [
     id: 7, num: "GALLERY VII",
     title: "The Thinking Machine",
     range: "2012 — 2026",
-    blurb: "A neural network sees, then speaks. Deep learning escapes the lab, Snowden opens the state's files, regulators awaken on two continents, and a chatbot reaches a hundred million people in eight weeks. The oldest pattern in this museum — invention first, reckoning after — plays out one more time, at unprecedented speed."
+    blurb: "A neural network sees, then speaks. Deep learning escapes the lab, Snowden opens the state's files, regulators awaken on two continents, and a chatbot reaches a hundred million people in eight weeks. The oldest pattern in this atlas — invention first, reckoning after — plays out one more time, at unprecedented speed."
   }
 ];
 

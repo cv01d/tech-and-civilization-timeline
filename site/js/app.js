@@ -1,6 +1,6 @@
 /* ============================================================
    THE ATLAS OF TECHNOLOGY AND CIVILIZATION
-   Interactive museum timeline — application logic
+   Interactive timeline — application logic
    ============================================================ */
 (function () {
   "use strict";

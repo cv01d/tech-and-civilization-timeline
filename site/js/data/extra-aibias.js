@@ -1,4 +1,4 @@
-// SUPPLEMENT — algorithmic bias, the most direct proof that this museum's pattern applies
+// SUPPLEMENT — algorithmic bias, the most direct proof that this atlas's pattern applies
 // to AI itself: harm documented in research, confirmed in journalism, made visceral by a
 // named victim, forcing corporate retreat and local rules — but no federal law. The people
 // who named the problem (Buolamwini, Gebru, the ProPublica team) did the work regulators
@@ -44,7 +44,7 @@ window.ATLAS_EVENTS.push(
   title:"Joy Buolamwini and the Coded Gaze",
   wiki:"Joy Buolamwini",
   summary:"After facial-detection software failed to see her dark-skinned face until she held up a white mask, MIT's Joy Buolamwini built Gender Shades (2018, with Timnit Gebru) — proving systems that read light-skinned men at 99% accuracy erred on dark-skinned women up to 34% of the time. She founds the Algorithmic Justice League, audits Amazon's Rekognition, testifies to Congress, and writes Unmasking AI.",
-  importance:"Buolamwini named 'the coded gaze' — the way AI encodes the worldview of its mostly white, mostly male makers — and proved it with the first rigorous external audit of commercial AI, Gender Shades. The error rates were not bugs but the logical output of training data overstuffed with light male faces. Her Algorithmic Justice League turned research into accountability: IBM and Microsoft measurably improved under scrutiny, Amazon attacked her methods and lost the argument, and her 2019 congressional testimony shifted lawmakers toward facial-recognition moratoriums. She is the museum's clearest case of a researcher forcing change the law would not.",
+  importance:"Buolamwini named 'the coded gaze' — the way AI encodes the worldview of its mostly white, mostly male makers — and proved it with the first rigorous external audit of commercial AI, Gender Shades. The error rates were not bugs but the logical output of training data overstuffed with light male faces. Her Algorithmic Justice League turned research into accountability: IBM and Microsoft measurably improved under scrutiny, Amazon attacked her methods and lost the argument, and her 2019 congressional testimony shifted lawmakers toward facial-recognition moratoriums. She is the atlas's clearest case of a researcher forcing change the law would not.",
   impact:{
     computing:"The first rigorous external bias audit of commercial AI proves the 'coded gaze' real.",
     power:"Research and advocacy force measurable corporate change where regulation lagged.",
@@ -66,7 +66,7 @@ window.ATLAS_EVENTS.push(
   title:"Regulating Bias — Locally, Not Nationally",
   wiki:"Regulation of artificial intelligence",
   summary:"Cities ban government facial recognition (San Francisco 2019 on); New York's Local Law 144 (2023) mandates bias audits for AI hiring tools; Illinois regulates AI video interviews; a 2023 White House order targets algorithmic discrimination; the 2024 EU AI Act makes justice, hiring, and credit AI 'high-risk.' Amazon quietly resumes Rekognition police sales in 2022. No U.S. federal law results.",
-  importance:"The response to algorithmic bias followed the museum's exact arc: vigorous local and European action, federal paralysis. Municipal facial-recognition bans, New York's first-in-the-nation hiring-audit law, Illinois's interview-disclosure rule, and the EU AI Act's binding 'high-risk' regime all moved — while Amazon quietly let its Rekognition police moratorium lapse and the U.S. passed no federal law governing facial recognition, requiring no bias audits of criminal-justice algorithms, prohibiting nothing. COMPAS still scores defendants; the research that named the harm has outrun the law by years, and the law has outrun nothing.",
+  importance:"The response to algorithmic bias followed the atlas's exact arc: vigorous local and European action, federal paralysis. Municipal facial-recognition bans, New York's first-in-the-nation hiring-audit law, Illinois's interview-disclosure rule, and the EU AI Act's binding 'high-risk' regime all moved — while Amazon quietly let its Rekognition police moratorium lapse and the U.S. passed no federal law governing facial recognition, requiring no bias audits of criminal-justice algorithms, prohibiting nothing. COMPAS still scores defendants; the research that named the harm has outrun the law by years, and the law has outrun nothing.",
   impact:{
     law:"Cities, states, and the EU regulate algorithmic bias; the U.S. passes no federal law.",
     computing:"Bias audits and 'high-risk' classification become binding only in some jurisdictions.",

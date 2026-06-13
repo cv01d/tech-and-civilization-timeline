@@ -1,4 +1,4 @@
-// SUPPLEMENT — radio, the museum's clearest regulatory arc: a medium invented by
+// SUPPLEMENT — radio, the atlas's clearest regulatory arc: a medium invented by
 // physicists, commercialized by engineers, regulated because it created physical chaos
 // (spectrum interference, maritime disaster), shaped by two world wars, wielded as
 // democracy's greatest tool and totalitarianism's sharpest weapon at once, corrupted by
@@ -69,7 +69,7 @@ window.ATLAS_EVENTS.push(
   title:"Armstrong's FM — and Its Suppression",
   wiki:"Edwin Howard Armstrong",
   summary:"Edwin Howard Armstrong demonstrates wideband FM, eliminating the static of AM with dramatically superior sound — but RCA, whose AM empire it threatens, buries the technology and litigates Armstrong into ruin; he dies by suicide in 1954, his widow later winning the patent suits.",
-  importance:"FM was plainly better — clear, static-free, high-fidelity — yet because it threatened RCA's AM dominance, the company suppressed rather than adopted it, and tied Armstrong up in twenty years of patent litigation that destroyed him financially and personally. RCA's refusal delayed FM's adoption by some thirty years, one of the most consequential corporate decisions in broadcast history. Armstrong's tragedy is the museum's starkest case of a superior technology buried by the incumbent it threatened.",
+  importance:"FM was plainly better — clear, static-free, high-fidelity — yet because it threatened RCA's AM dominance, the company suppressed rather than adopted it, and tied Armstrong up in twenty years of patent litigation that destroyed him financially and personally. RCA's refusal delayed FM's adoption by some thirty years, one of the most consequential corporate decisions in broadcast history. Armstrong's tragedy is the atlas's starkest case of a superior technology buried by the incumbent it threatened.",
   impact:{
     radio:"Static-free, high-fidelity FM is invented — then suppressed for a generation.",
     power:"An incumbent buries a superior technology to protect its existing empire.",
@@ -146,7 +146,7 @@ window.ATLAS_EVENTS.push(
   title:"Clear Channel and the Homogenization of Radio",
   wiki:"IHeartMedia",
   summary:"The 1996 Telecommunications Act lifts radio ownership caps; Clear Channel explodes from 40 to over 1,240 stations, replacing local DJs with syndicated national voices, gutting local news, and standardizing formats across hundreds of markets. The local station as community institution all but disappears.",
-  importance:"By eliminating national ownership caps, the 1996 Act unleashed the fastest consolidation in radio history: Clear Channel (later iHeartMedia) grew thirtyfold, centralizing programming and piping syndicated voices into hundreds of markets while local DJs and local news vanished. The community institution radio had been since the 1920s gave way to homogenized national formats delivered from distant headquarters. It is the museum's clearest case of deregulation converting a local medium into a consolidated oligopoly.",
+  importance:"By eliminating national ownership caps, the 1996 Act unleashed the fastest consolidation in radio history: Clear Channel (later iHeartMedia) grew thirtyfold, centralizing programming and piping syndicated voices into hundreds of markets while local DJs and local news vanished. The community institution radio had been since the 1920s gave way to homogenized national formats delivered from distant headquarters. It is the atlas's clearest case of deregulation converting a local medium into a consolidated oligopoly.",
   impact:{
     radio:"Ownership deregulation triggers mass consolidation and the loss of local radio.",
     power:"One company comes to dominate American radio across nearly every market.",
@@ -212,7 +212,7 @@ window.ATLAS_EVENTS.push(
   title:"Radio's Long Decline",
   wiki:"Radio broadcasting",
   summary:"U.S. broadcast radio ad revenue falls below $10 billion — down 44% from 2005 — as podcasting replaces talk radio and streaming replaces music radio. SiriusXM and iHeartMedia explore merging the last large satellite and terrestrial operators, while the 1927-era regulatory framework governs an aging, shrinking audience.",
-  importance:"By the mid-2020s radio's cultural centrality was gone: ad revenue had nearly halved, podcasting had absorbed talk radio's function and streaming had absorbed music radio's — neither carrying any of broadcast's public obligations. The FCC still licenses every station, enforces indecency, and demands operation in the public interest, but it governs an audience that averages 65 and older and keeps shrinking. The medium that once made whole nations listen together has become background noise, eroded even there by apps that answer to no public-interest standard at all — the museum's clearest portrait of a regulated medium outlived by an unregulated one.",
+  importance:"By the mid-2020s radio's cultural centrality was gone: ad revenue had nearly halved, podcasting had absorbed talk radio's function and streaming had absorbed music radio's — neither carrying any of broadcast's public obligations. The FCC still licenses every station, enforces indecency, and demands operation in the public interest, but it governs an audience that averages 65 and older and keeps shrinking. The medium that once made whole nations listen together has become background noise, eroded even there by apps that answer to no public-interest standard at all — the atlas's clearest portrait of a regulated medium outlived by an unregulated one.",
   impact:{
     radio:"Broadcast radio enters structural decline as podcasts and streaming take its functions.",
     law:"A 1927-era framework governs a shrinking, aging audience while its successors go unregulated.",

@@ -62,7 +62,7 @@ window.ATLAS_EVENTS.push(
   title:"The Kodak Camera",
   wiki:"Kodak", gallery:["George Eastman","Box camera"],
   summary:"'You press the button, we do the rest.' Eastman puts photography in everyone's hands — and privacy law is invented in response.",
-  importance:"The Kodak made photographing strangers effortless, and the 'kodaker' lurking outside weddings and beaches became a press scandal. Two Boston lawyers answered: Warren and Brandeis's 'The Right to Privacy' (1890) — the foundational document of American privacy law — was provoked directly by the camera and yellow journalism. The pair (gadget, then doctrine) is this museum's cleanest specimen of technology creating a legal idea: the right to be let alone.",
+  importance:"The Kodak made photographing strangers effortless, and the 'kodaker' lurking outside weddings and beaches became a press scandal. Two Boston lawyers answered: Warren and Brandeis's 'The Right to Privacy' (1890) — the foundational document of American privacy law — was provoked directly by the camera and yellow journalism. The pair (gadget, then doctrine) is this atlas's cleanest specimen of technology creating a legal idea: the right to be let alone.",
   impact:{
     technology:"Image capture is democratized — the ancestor of the camera phone in every pocket.",
     regulation:"Directly triggers the invention of privacy as a legal right.",
@@ -74,7 +74,7 @@ window.ATLAS_EVENTS.push(
   title:"Hertz Confirms Electromagnetic Waves",
   wiki:"Heinrich Hertz", gallery:["Electromagnetic radiation","James Clerk Maxwell"],
   summary:"Hertz experimentally proves Maxwell's invisible waves — 'of no use whatsoever,' he says. Radio is seven years away.",
-  importance:"Maxwell's equations had predicted electromagnetic waves; Hertz generated and detected them, then famously declared the discovery useless. Marconi disagreed within a decade. The episode is the museum's standing reminder that the regulatory future of a technology — spectrum law, broadcast licensing, the FCC — can be entirely invisible at the moment of scientific birth. No regulation ever touched Hertz's waves; everything regulated what people built on them.",
+  importance:"Maxwell's equations had predicted electromagnetic waves; Hertz generated and detected them, then famously declared the discovery useless. Marconi disagreed within a decade. The episode is the atlas's standing reminder that the regulatory future of a technology — spectrum law, broadcast licensing, the FCC — can be entirely invisible at the moment of scientific birth. No regulation ever touched Hertz's waves; everything regulated what people built on them.",
   impact:{
     technology:"The scientific foundation of all wireless communication.",
     society:"Pure research's unforeseeable consequences become a recurring policy parable.",
@@ -156,7 +156,7 @@ window.ATLAS_EVENTS.push(
   title:"Plessy v. Ferguson",
   wiki:"Plessy v. Ferguson", gallery:["Jim Crow laws","Racial segregation in the United States","John Marshall Harlan"],
   summary:"The Supreme Court ratifies 'separate but equal' — the constitutional foundation of Jim Crow for fifty-eight years.",
-  importance:"Plessy constitutionalized segregation, completing the betrayal begun when Reconstruction ended in 1877. For Black labor, the consequences were total: disenfranchisement, exclusion from trades and unions, sharecropping and convict leasing enforced by law and terror. The decision stood until Brown v. Board of Education (1954) — and its shadow lies across every labor statistic in the American galleries of this museum.",
+  importance:"Plessy constitutionalized segregation, completing the betrayal begun when Reconstruction ended in 1877. For Black labor, the consequences were total: disenfranchisement, exclusion from trades and unions, sharecropping and convict leasing enforced by law and terror. The decision stood until Brown v. Board of Education (1954) — and its shadow lies across every labor statistic in the American galleries of this atlas.",
   impact:{
     regulation:"Legal segregation receives constitutional sanction.",
     labor:"Black workers are systematically excluded from the era's labor gains — and many unions cooperated.",
@@ -236,7 +236,7 @@ window.ATLAS_EVENTS.push(
 { id:"titanic", year:1912, date:"April–August 1912", era:4, cat:"radio",
   title:"The Titanic & the Radio Act of 1912",
   wiki:"Sinking of the Titanic", gallery:["RMS Titanic","Radio Act of 1912","Wireless telegraphy"],
-  summary:"Confused and crowded airwaves hamper the rescue; four months later, Congress licenses the spectrum. The fastest invention-to-regulation chain in this museum.",
+  summary:"Confused and crowded airwaves hamper the rescue; four months later, Congress licenses the spectrum. The fastest invention-to-regulation chain in this atlas.",
   importance:"Amateur transmissions and uncoordinated operators muddled the Titanic's distress traffic; some nearby ships' operators were simply off duty. The Radio Act of August 1912 imposed licensing, frequency allocation, and 24-hour watch requirements. Disaster-to-statute in four months — the clearest case on record of visible, politically urgent failure producing immediate regulation, against the usual pattern of decades-long lag. The EU's 18-month sprint from ChatGPT to the AI Act is this chain's modern echo.",
   impact:{
     regulation:"Spectrum licensing begins; the state becomes radio's landlord.",
@@ -285,7 +285,7 @@ window.ATLAS_EVENTS.push(
   title:"The First World War",
   wiki:"World War I", gallery:["Trench warfare","Zimmermann Telegram","Women in World War I"],
   summary:"Industrial war: 17–19 million dead, four empires destroyed, women in the factories, signals intelligence institutionalized, and propaganda made a science.",
-  importance:"The war transformed every domain this museum tracks. Signals intelligence expanded on all sides (the intercepted Zimmermann Telegram helped bring America in), establishing the institutions that became peacetime SIGINT and eventually the NSA. War economies demonstrated total state direction of labor; women entered industrial work in the millions. The Creel Committee ran propaganda at scale, teaching a generation — including Edward Bernays — that mass opinion could be engineered. The Espionage Act (1917) remains on the books, used against leakers a century later.",
+  importance:"The war transformed every domain this atlas tracks. Signals intelligence expanded on all sides (the intercepted Zimmermann Telegram helped bring America in), establishing the institutions that became peacetime SIGINT and eventually the NSA. War economies demonstrated total state direction of labor; women entered industrial work in the millions. The Creel Committee ran propaganda at scale, teaching a generation — including Edward Bernays — that mass opinion could be engineered. The Espionage Act (1917) remains on the books, used against leakers a century later.",
   impact:{
     surveillance:"Modern SIGINT institutionalized; censorship and espionage statutes erected — and never fully dismantled.",
     labor:"Total mobilization shows labor's strategic power; the 8-hour day becomes the postwar international standard.",
@@ -297,7 +297,7 @@ window.ATLAS_EVENTS.push(
   title:"The Russian Revolution",
   wiki:"Russian Revolution", gallery:["Vladimir Lenin","October Revolution","Cheka"],
   summary:"The Tsar falls in February; the Bolsheviks seize October. The world's first communist state — and within weeks, the Cheka.",
-  importance:"The century's most consequential revolution established a state claiming labor's name — decreeing the 8-hour day immediately — and built, almost as quickly, the Cheka, ancestor of the OGPU, NKVD, and KGB: the most elaborate political-surveillance apparatus yet constructed. The Soviet project shaped global labor standards through competition, inspired movements and parties worldwide through the Comintern (1919), and demonstrated in the Gulag and the purges the extremes of state-coerced labor. Its 1991 dissolution closes this museum's longest single arc.",
+  importance:"The century's most consequential revolution established a state claiming labor's name — decreeing the 8-hour day immediately — and built, almost as quickly, the Cheka, ancestor of the OGPU, NKVD, and KGB: the most elaborate political-surveillance apparatus yet constructed. The Soviet project shaped global labor standards through competition, inspired movements and parties worldwide through the Comintern (1919), and demonstrated in the Gulag and the purges the extremes of state-coerced labor. Its 1991 dissolution closes this atlas's longest single arc.",
   impact:{
     labor:"Labor's revolution delivers the 8-hour day — and ultimately the Gulag: both poles of the state-labor relationship.",
     surveillance:"The modern total-surveillance state is pioneered — informers, internal passports, political police.",
@@ -438,7 +438,7 @@ window.ATLAS_EVENTS.push(
   title:"The Wagner Act",
   wiki:"National Labor Relations Act of 1935", gallery:["National Labor Relations Board","Congress of Industrial Organizations"],
   summary:"The state, for once, takes labor's side: the right to organize and bargain collectively becomes federal law, with a board to enforce it.",
-  importance:"Against the 4,000-year pattern this museum documents — Statute of Labourers to the injunction era — the National Labor Relations Act guaranteed organizing rights and outlawed employer interference, upheld by the Supreme Court's 1937 about-face in NLRB v. Jones & Laughlin. The CIO organized mass-production industry in its shelter; union density tripled in a decade. Taft-Hartley (1947) would claw back ground, but the Wagner framework remains American labor law's foundation — the great exception that proves the ancient rule.",
+  importance:"Against the 4,000-year pattern this atlas documents — Statute of Labourers to the injunction era — the National Labor Relations Act guaranteed organizing rights and outlawed employer interference, upheld by the Supreme Court's 1937 about-face in NLRB v. Jones & Laughlin. The CIO organized mass-production industry in its shelter; union density tripled in a decade. Taft-Hartley (1947) would claw back ground, but the Wagner framework remains American labor law's foundation — the great exception that proves the ancient rule.",
   impact:{
     labor:"The legal foundation of the American labor movement's golden age.",
     regulation:"Collective bargaining becomes administered public policy, not private war.",
@@ -450,7 +450,7 @@ window.ATLAS_EVENTS.push(
   title:"Social Security — and the Number",
   wiki:"Social Security Act", gallery:["Social Security number","Frances Perkins","New Deal"],
   summary:"America builds federal social insurance — and in doing so issues the identifier that becomes the de facto national ID.",
-  importance:"Fifty years after Bismarck, the Depression forced American social insurance into existence under Frances Perkins's hand. The Act created the first mass federal individual-records system; the nine-digit Social Security number, intended for one program's bookkeeping, crept across five decades into employment, credit, tax, and identity itself. That identifier creep — convenience hardening into infrastructure — is among the museum's clearest specimens of surveillance by accretion, and helped provoke both the FCRA (1970) and the Privacy Act (1974).",
+  importance:"Fifty years after Bismarck, the Depression forced American social insurance into existence under Frances Perkins's hand. The Act created the first mass federal individual-records system; the nine-digit Social Security number, intended for one program's bookkeeping, crept across five decades into employment, credit, tax, and identity itself. That identifier creep — convenience hardening into infrastructure — is among the atlas's clearest specimens of surveillance by accretion, and helped provoke both the FCRA (1970) and the Privacy Act (1974).",
   impact:{
     regulation:"The American welfare state is founded.",
     surveillance:"The SSN becomes the master key of American records — never designed, merely accumulated.",
@@ -462,7 +462,7 @@ window.ATLAS_EVENTS.push(
   title:"Turing's 'On Computable Numbers'",
   wiki:"Turing machine", gallery:["Alan Turing","Entscheidungsproblem"],
   summary:"To settle a question in logic, Alan Turing imagines a universal machine — and founds computer science before the computer exists.",
-  importance:"Turing's paper defined computation itself: a simple abstract machine reading and writing symbols on a tape, capable — if universal — of simulating any other. Gleick places it at the heart of The Information: the discovery that computation is substrate-independent, that one machine can do what any machine can do. Every computer since is an engineering approximation of this 1936 thought experiment. Zuse was building his Z1 in Berlin the same year; theory and hardware were converging from both ends.",
+  importance:"Turing's paper defined computation itself: a simple abstract machine reading and writing symbols on a tape, capable — if universal — of simulating any other. It marks the discovery that computation is substrate-independent, that one machine can do what any machine can do. Every computer since is an engineering approximation of this 1936 thought experiment. Zuse was building his Z1 in Berlin the same year; theory and hardware were converging from both ends.",
   impact:{
     computing:"The theoretical foundation of all computing — universality, programs as data, the limits of the decidable.",
     technology:"Defines what machines can and cannot compute before any exist to try.",

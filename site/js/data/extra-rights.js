@@ -1,5 +1,5 @@
 // SUPPLEMENT — the long road of human rights, from the moral codes of antiquity to the
-// modern treaty system. The thread runs alongside the museum's law spine: the idea that
+// modern treaty system. The thread runs alongside the atlas's law spine: the idea that
 // the powerful owe duties to the powerless is articulated first by religious and moral
 // traditions, then by revolutionary declarations, and finally — after the catastrophe of
 // the Second World War — by a body of binding international law. Cross-links the existing
