@@ -225,7 +225,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The model grows for a generation in America's regulatory vacuum — the museum's largest modern silence." },
   causes:["googlefounding","dotcom","cookie","attention"], effects:["likebutton","gdpr","googlecase"] },
 
-{ id:"facebook", year:2004, date:"2004–2006", era:6, cat:"communications",
+{ id:"facebook", year:2004, date:"2004–2006", era:6, cat:"social",
   title:"Facebook & the Social Media Era",
   wiki:"Facebook", gallery:["Mark Zuckerberg","Social media","MySpace"],
   summary:"A Harvard dorm project opens to the world in 2006 — the social graph becomes a product, and society gets a feed.",
@@ -237,7 +237,7 @@ window.ATLAS_EVENTS.push(
     power:"Speech governance privatizes; content moderation becomes a sovereign-scale function performed by companies." },
   causes:["telecomact","webpublic"], effects:["likebutton","cambridgeanalytica","arabspring"] },
 
-{ id:"youtube", year:2005, date:"2005–2006", era:6, cat:"communications",
+{ id:"youtube", year:2005, date:"2005–2006", era:6, cat:"social",
   title:"YouTube",
   wiki:"YouTube", gallery:["Google","Online video"],
   summary:"Anyone can broadcast; within eighteen months Google buys the result for $1.65 billion.",
@@ -308,7 +308,7 @@ window.ATLAS_EVENTS.push(
     power:"Cheap capital underwrites a decade of platform consolidation and blitzscaling." },
   causes:["crash1929","southsea"], effects:["gigeconomy","occupy"] },
 
-{ id:"likebutton", year:2009, date:"2009", era:6, cat:"surveillance",
+{ id:"likebutton", year:2009, date:"2009", era:6, cat:"social",
   title:"The Like Button",
   wiki:"Like button", gallery:["Facebook like button","Social media"],
   summary:"Facebook's thumbs-up spreads across the web — one of digital advertising's most consequential design decisions, per the source timeline.",

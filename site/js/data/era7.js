@@ -119,7 +119,7 @@ window.ATLAS_EVENTS.push(
     technology:"Lovelace's originality objection takes its hardest empirical hit yet." },
   causes:["deepmind","alexnet","deepblue"], effects:["transformer"] },
 
-{ id:"cambridgeanalytica", year:2018, date:"2016–2018", era:7, cat:"surveillance",
+{ id:"cambridgeanalytica", year:2018, date:"2016–2018", era:7, cat:"social",
   title:"Cambridge Analytica",
   wiki:"Facebook–Cambridge Analytica data scandal", gallery:["Cambridge Analytica","Mark Zuckerberg","Christopher Wylie"],
   summary:"Eighty-seven million Facebook profiles, harvested via a personality quiz, fuel political targeting — and the platform era's defining scandal.",
