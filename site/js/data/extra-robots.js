@@ -1,0 +1,353 @@
+// SUPPLEMENT — Robots & Automata. The 2,400-year dream of the artificial servant:
+// from Talos and Hero's temple machines through the Antikythera mechanism, al-Jazari,
+// and Leonardo, to industrial arms, humanoids, autonomous weapons, and robotaxis —
+// and the labor and law that answered each. Tagged cat:"robotics" for its own filter.
+window.ATLAS_EVENTS.push(
+
+{ id:"talos", year:-400, date:"c. 400 BCE", era:1, cat:"robotics",
+  title:"Talos & the Dream of Artificial Life",
+  wiki:"Talos", gallery:["Automaton","Hephaestus"],
+  summary:"Greek myth imagines Talos, a bronze giant guarding Crete, and Hephaestus's golden handmaidens — the oldest dream of the made, mechanical servant.",
+  importance:"Long before any machine could move on its own, Greek mythology imagined it: Talos, the bronze automaton circling Crete three times a day, and the golden serving-women the smith-god Hephaestus forged to attend him. As the classicist Adrienne Mayor argues, these were not gods or spirits but explicitly manufactured beings — the earliest cultural expression of the idea this museum tracks to Optimus and Atlas: that humans might build artificial workers in their own image. The hope and the dread arrive together, at the very start.",
+  impact:{
+    society:"The artificial servant enters human imagination 2,000 years before it can be built.",
+    technology:"Sets the aspirational target — the made being — that engineering chases for millennia.",
+    power:"The myth already carries the anxiety: who controls the made thing, and what if it turns?" },
+  causes:[], effects:["heroalexandria","rur1920"] },
+
+{ id:"heroalexandria", year:-270, date:"c. 270 BCE", era:1, cat:"robotics",
+  title:"Hero of Alexandria's Automata",
+  wiki:"Hero of Alexandria", gallery:["Ctesibius","Aeolipile","Automaton"],
+  summary:"Ctesibius and Hero of Alexandria build water- and steam-powered moving figures, automatic temple doors, and coin-operated holy-water dispensers — the first programmable machines.",
+  importance:"In Hellenistic Alexandria, engineers made the dream mechanical. Ctesibius built water-powered figures and hydraulic organs; Hero designed temple doors that opened by unseen steam, programmable theaters of moving figures, and the first vending machine — a coin-operated holy-water dispenser. Driven by water, air, weights, and falling sand, and sequenced by pegged cylinders, these are the first documented programmable automata: the principle of the stored sequence of operations, 2,000 years before the punched card.",
+  impact:{
+    technology:"The first programmable machines — sequences of action encoded in mechanism.",
+    society:"Wonder and worship are engineered; the automaton enters religion and theater.",
+    computing:"The pegged drum that sequences Hero's figures is a distant ancestor of the program." },
+  causes:["talos"], effects:["antikythera","aljazari"] },
+
+{ id:"antikythera", year:-100, date:"c. 100 BCE", era:1, cat:"robotics",
+  title:"The Antikythera Mechanism",
+  wiki:"Antikythera mechanism", gallery:["Ancient Greek technology","Orrery"],
+  summary:"A gear-driven analog computer from a Greek shipwreck predicts eclipses and planetary positions — the most sophisticated machine of the ancient world, by a millennium.",
+  importance:"Recovered from a Roman-era shipwreck in 1901 and decoded over the following century, the Antikythera mechanism is a bronze device of at least thirty interlocking gears that modeled the heavens: the phases of the Moon, the positions of the Sun and planets, the timing of eclipses, even the cycle of the Olympic games. Nothing of comparable mechanical complexity survives for another fourteen hundred years. It proves the ancient world possessed the gearing — and the conceptual ambition — to build a calculating machine; the knowledge was simply lost.",
+  impact:{
+    computing:"The first known analog computer — geared calculation, a millennium ahead of its time.",
+    technology:"Demonstrates that complex precision gearing existed in antiquity, then vanished.",
+    society:"A reminder that technological knowledge can be wholly lost, not only gained." },
+  causes:["heroalexandria"], effects:["clock","babbage"] },
+
+{ id:"susong", year:1088, date:"1088", era:1, cat:"robotics",
+  title:"Su Song's Cosmic Engine",
+  wiki:"Su Song", gallery:["Astronomical clock","Cosmic Engine"],
+  summary:"In Song China, Su Song builds a 40-foot water-powered astronomical clock tower with mechanical figures that chime the hours — large-scale automated timekeeping.",
+  importance:"Su Song's clock tower at Kaifeng married astronomy, hydraulics, and automata: a water-driven escapement turned an armillary sphere tracking the heavens while ranks of mechanical mannequins emerged to ring bells and display the hours. It was among the most sophisticated machines on Earth, and its escapement principle — controlling motion in regular, countable beats — is the same idea the European mechanical clock would rediscover two centuries later. Automated time, and the automated figure, were realized first in China.",
+  impact:{
+    technology:"A monumental automated machine — escapement-controlled timekeeping at scale.",
+    society:"Time and the cosmos are mechanized for the state, centuries before Europe.",
+    computing:"The escapement — regular, countable motion — is a building block of all later machinery." },
+  causes:[], effects:["clock","aljazari"] },
+
+{ id:"aljazari", year:1206, date:"1206", era:1, cat:"robotics",
+  title:"Al-Jazari's Ingenious Devices",
+  wiki:"Ismail al-Jazari", gallery:["Elephant clock","Automaton","Book of Knowledge of Ingenious Mechanical Devices"],
+  summary:"In the Islamic Golden Age, al-Jazari documents dozens of automata — humanoid musicians, a hand-washing servant, programmable drum machines — and the engineering to build them.",
+  importance:"Al-Jazari's Book of Knowledge of Ingenious Mechanical Devices (1206) is the richest automata text of the medieval world: a robot band on a boat, a humanoid that handed soap and towels, peacocks that poured water, and drum machines whose rhythm could be reprogrammed by moving pegs — arguably the first programmable humanoid machines. His camshafts, crankshafts, and segmental gears entered European clockmaking within a century. The Islamic world carried the automaton tradition across the centuries that Europe had forgotten it.",
+  impact:{
+    technology:"The medieval high point of automata; mechanisms that pass into European engineering.",
+    computing:"Peg-programmable rhythm machines — reconfigurable behavior encoded in hardware.",
+    society:"Wonder-engineering flourishes; the made servant is built, not just imagined." },
+  causes:["heroalexandria","susong"], effects:["clock","leonardorobot"] },
+
+{ id:"leonardorobot", year:1495, date:"c. 1495", era:2, cat:"robotics",
+  title:"Leonardo's Robot Knight",
+  wiki:"Leonardo's robot", gallery:["Leonardo da Vinci","Automaton"],
+  summary:"Leonardo da Vinci sketches a mechanical knight driven by cables and pulleys that could sit, stand, and move its arms — possibly the first design for a programmable humanoid.",
+  importance:"Among Leonardo's notebooks are designs for an armored automaton operated by a system of cables, pulleys, and gears, able to sit, stand, raise its visor, and move its arms — and a programmable cam mechanism may have driven it. Whether it was ever built is unknown, but reconstructions show the design is workable. It is the Renaissance fusing the al-Jazari automaton tradition with anatomical study into the recognizable dream of the humanoid robot — a dream that waits five centuries for the technology to fulfill it.",
+  impact:{
+    technology:"A credible design for a programmable humanoid, four centuries early.",
+    society:"The human-shaped machine becomes an explicit engineering goal in the West.",
+    computing:"A cam programmer hints at encoded, repeatable behavior." },
+  causes:["aljazari"], effects:["vaucanson"] },
+
+{ id:"vaucanson", year:1769, date:"1737–1769", era:2, cat:"robotics",
+  title:"Vaucanson's Automata & Automated Loom",
+  wiki:"Jacques de Vaucanson", gallery:["Digesting Duck","Automaton"],
+  summary:"Jacques de Vaucanson astonishes Europe with a flute-playing android and a 'digesting' mechanical duck — then builds an automated loom controlled by punched cards.",
+  importance:"Vaucanson's lifelike automata — a flute player that actually blew air through moving lips, and a duck that appeared to eat, digest, and excrete — made him the most famous engineer in Europe and pushed the illusion of artificial life to its 18th-century limit. More consequentially, he applied the same logic to industry: an automated loom (1745) that wove patterns from instructions on punched cards. It directly inspired the Jacquard loom — and so the automaton tradition flows straight into the punched-card lineage of computing and the first machine-breaking revolts.",
+  impact:{
+    technology:"The automaton's mechanism is turned to industrial production — the programmable loom.",
+    labor:"Encoded patterns begin to displace skilled handwork, foreshadowing the Luddite revolt.",
+    computing:"Vaucanson's punched-card loom is the bridge from automata to Jacquard to Babbage." },
+  causes:["leonardorobot"], effects:["jacquard","luddites"] },
+
+{ id:"android1886", year:1886, date:"1886", era:4, cat:"robotics",
+  title:"The Word 'Android'",
+  wiki:"The Future Eve", gallery:["Auguste Villiers de l'Isle-Adam","Android (robot)"],
+  summary:"Villiers de l'Isle-Adam's novel L'Ève future imagines a perfect artificial woman built by a fictional Edison — and popularizes the word 'android.'",
+  importance:"In L'Ève future, the French writer Villiers de l'Isle-Adam imagined an electrically animated artificial woman, 'Hadaly,' built by a fictionalized Thomas Edison — and gave the modern world the word 'android.' It marks the moment fiction, not engineering, begins to shape public expectations of robots: a pattern that recurs through R.U.R., Metropolis, HAL, and the Terminator. The image of the artificial human enters mass culture decades before a real one is possible, pre-loading society's hopes and fears.",
+  impact:{
+    society:"Fiction begins programming the public imagination of robots — the word 'android' is born.",
+    power:"The artificial human as object of desire and dread enters modern culture.",
+    technology:"Expectation runs far ahead of capability — the gap that defines robotics' public story." },
+  causes:[], effects:["rur1920"] },
+
+{ id:"rur1920", year:1920, date:"1920", era:4, cat:"robotics",
+  title:"The Word 'Robot' Is Born — R.U.R.",
+  wiki:"R.U.R.", gallery:["Karel Čapek","Robot"],
+  summary:"Karel Čapek's play coins 'robot' — from the Czech for forced labor — and its artificial workers promptly revolt and destroy humanity, setting the template of robot fear.",
+  importance:"Čapek's R.U.R. (Rossum's Universal Robots) gave the world its word for the artificial worker, rooted in robota — forced labor, drudgery, serfdom. The play's robots, mass-produced to do humanity's work, rise up and exterminate their makers, fixing in the first instance the template that recurs ever after: the made servant that overthrows the master. That the word for robot means 'forced labor' is the museum's whole argument in a single etymology — the robot is, from birth, a labor question.",
+  impact:{
+    society:"'Robot' enters every language — and arrives already meaning revolt.",
+    labor:"The robot is named for forced labor: automation framed as a labor relation from word one.",
+    power:"Establishes the durable cultural script of the machine uprising — the HAL/Terminator lineage.",
+    technology:"Cements the artificial worker as the organizing image of the coming machine age." },
+  causes:["android1886","luddites"], effects:["metropolis","elektro","asimovlaws"] },
+
+{ id:"metropolis", year:1927, date:"1927", era:4, cat:"robotics",
+  title:"Metropolis & the Robot Maria",
+  wiki:"Metropolis (1927 film)", gallery:["Maschinenmensch","Fritz Lang"],
+  summary:"Fritz Lang's film gives cinema its first great robot — the false Maria, a machine-woman who incites workers to ruin — burning the 'robot as threat' image into mass culture.",
+  importance:"Lang's Metropolis turned R.U.R.'s idea into an indelible image: the Maschinenmensch, a gleaming robot built to impersonate and corrupt, sowing chaos among the underground workers who run the city's machines. Its art-deco robot became the visual template for every screen android since, from C-3PO onward. The film fused the robot fear with the era's labor terror — the machine deployed by capital against rebellious workers — making explicit the class politics latent in the whole automation story.",
+  impact:{
+    society:"Cinema's founding robot image — the machine-human as beautiful threat.",
+    labor:"Dramatizes automation as a weapon of capital against labor, in the factory-city.",
+    power:"Sets the screen iconography of AI dread that HAL and the Terminator inherit." },
+  causes:["rur1920"], effects:["hal9000"] },
+
+{ id:"elektro", year:1939, date:"1939", era:4, cat:"robotics",
+  title:"Elektro, the First Celebrity Robot",
+  wiki:"Elektro", gallery:["1939 New York World's Fair","Westinghouse Electric Corporation"],
+  summary:"Westinghouse unveils Elektro at the New York World's Fair — a seven-foot humanoid that walks, speaks 700 words, and smokes cigarettes — drawing enormous crowds.",
+  importance:"Built to showcase Westinghouse's electrical prowess, Elektro could walk on command, distinguish colors, count on its fingers, and deliver 700 words via record player — and it smoked. As the first 'celebrity robot,' it gave millions their first encounter with a humanoid machine and previewed the modern spectacle of the robot demo: more performance than autonomy, but a powerful shaper of public expectation. The lineage runs straight to ASIMO's stage shows and Atlas's viral parkour.",
+  impact:{
+    society:"The public meets the humanoid robot as mass spectacle and corporate showpiece.",
+    technology:"Establishes the robot demo — capability theater that shapes expectation.",
+    power:"Corporate robotics learns that the humanoid is, first, a marketing instrument." },
+  causes:["rur1920"], effects:["asimo","atlasrobot"] },
+
+{ id:"asimovlaws", year:1942, date:"1942", era:4, cat:"robotics",
+  title:"Asimov's Three Laws of Robotics",
+  wiki:"Three Laws of Robotics", gallery:["Isaac Asimov","I, Robot"],
+  summary:"Isaac Asimov proposes three rules to make robots safe — then spends a career writing stories showing how even perfect rules produce catastrophe.",
+  importance:"In 'Runaround' (1942), Asimov gave robots a built-in ethics: a robot may not harm a human, must obey orders unless they conflict with the first law, and must protect itself unless that conflicts with the first two. It was the first systematic attempt at a safety framework for autonomous machines — and Asimov's genius was to show, story after story, how clear rules generate disastrous edge cases. The Three Laws are the direct ancestor of modern AI alignment: the recognition that specifying good behavior for an autonomous agent is far harder than it looks.",
+  impact:{
+    society:"The first ethical framework for autonomous machines enters the culture.",
+    law:"Prefigures the central problem of AI alignment and autonomous-weapons law: specifying safe behavior.",
+    computing:"'Aligning' an autonomous agent to human values is named as a problem, in fiction, decades early." },
+  causes:["rur1920"], effects:["aisafetyletters","killerrobots"] },
+
+{ id:"unimate", year:1961, date:"1954–1961", era:5, cat:"robotics",
+  title:"Unimate: The First Industrial Robot",
+  wiki:"Unimate", gallery:["George Devol","Industrial robot","General Motors"],
+  summary:"George Devol's Unimate, the first digitally programmable robot arm, joins a GM assembly line in New Jersey in 1961 — doing the dangerous die-casting and welding humans dreaded.",
+  importance:"Devol patented the 'programmed article transfer' in 1954; in 1961 the resulting Unimate arm went to work at General Motors in Ewing Township, lifting hot die-cast parts and spot-welding — jobs hot, fumey, and dangerous enough that management argued no human wanted them, even as the UAW eyed it warily. It was the birth of industrial robotics, a multi-hundred-billion-dollar industry, and the start of the modern argument the whole timeline circles: which jobs should machines take, who decides, and who bears the cost.",
+  impact:{
+    labor:"Automation enters the factory floor in earnest; the displacement debate becomes concrete.",
+    technology:"The programmable robot arm — the template for all industrial robotics.",
+    power:"Management and unions begin negotiating the terms of the automated workplace.",
+    law:"Sets up the safety and liability questions that robot fatalities soon force." },
+  causes:["jacquard","ford"], effects:["wabot","robotfatality","cobots","kivarobots"] },
+
+{ id:"wabot", year:1970, date:"1970–1973", era:5, cat:"robotics",
+  title:"WABOT-1: The First Full Humanoid",
+  wiki:"WABOT", gallery:["Waseda University","Humanoid robot"],
+  summary:"Japan's Waseda University builds WABOT-1, the first full-scale humanoid robot — it could walk, grip objects, measure distance, and hold a simple conversation.",
+  importance:"WABOT-1 integrated limbs, vision, touch, and speech into the first complete anthropomorphic robot, walking (slowly) on two legs and conversing in Japanese. With Victor Scheinman's all-electric Stanford Arm (1969) supplying the precise, computer-controlled manipulator that became every robot arm's model, the turn of the 1970s established both halves of modern robotics — the dexterous arm and the walking humanoid. Japan's enduring national commitment to humanoid robotics, running through ASIMO to today, begins here.",
+  impact:{
+    technology:"The first complete humanoid — locomotion, manipulation, perception, and speech combined.",
+    society:"Launches Japan's long leadership in humanoid robotics.",
+    labor:"The general-purpose human-shaped robot — the form factor of today's Optimus and Atlas — is born." },
+  causes:["unimate"], effects:["asimo"] },
+
+{ id:"robotfatality", year:1979, date:"1979–1981", era:5, cat:"robotics",
+  title:"The First Robot Deaths",
+  wiki:"Robert Williams (robot fatality)", gallery:["Industrial robot","Occupational safety and health"],
+  summary:"Robert Williams (Michigan, 1979) and Kenji Urada (Japan, 1981) become the first people killed by industrial robots — and the law of robot liability and safety begins.",
+  importance:"In 1979 a Ford casting-plant arm struck and killed Robert Williams — the first known robot fatality; his family won a $10 million judgment, an early landmark in employer liability for robot injury. In 1981 a Kawasaki robot killed maintenance worker Kenji Urada in Japan. The deaths drove the first occupational-safety standards specifically for robots — Japan's Ministry of Labour in 1981, OSHA guidelines in the U.S. by 1988, European standards through the decade. The human cost of the automated workplace forces the law to reckon with the machine that can kill.",
+  impact:{
+    labor:"The automated workplace's lethal risk is made undeniable; worker safety becomes the issue.",
+    law:"Establishes employer liability for robot injury and the first robot-specific safety standards.",
+    society:"The question of who is responsible when a machine kills enters law — a question autonomy reopens." },
+  causes:["unimate","oshact"], effects:["uberav"] },
+
+{ id:"asimo", year:1986, date:"1986–2000", era:5, cat:"robotics",
+  title:"Honda's Humanoid Program → ASIMO",
+  wiki:"ASIMO", gallery:["Honda","Humanoid robot"],
+  summary:"Honda begins secret bipedal-robot research in 1986, culminating in ASIMO (2000) — a walking, running, stair-climbing humanoid and the most sustained corporate commitment to the form.",
+  importance:"Honda's Project E launched the most sustained corporate humanoid effort in history, solving the brutally hard problem of stable bipedal walking and producing the P-series prototypes and, in 2000, ASIMO — which could walk, run, climb stairs, and greet dignitaries. For two decades ASIMO was the public face of the humanoid dream and the benchmark every rival measured against. Its careful, balletic locomotion is the direct technical ancestor of Atlas's parkour and the factory humanoids now entering production.",
+  impact:{
+    technology:"Solves dynamic bipedal walking — the core problem of the humanoid robot.",
+    society:"ASIMO becomes the global icon of the friendly humanoid for a generation.",
+    labor:"Proves a corporation will invest decades in the general-purpose human-shaped worker." },
+  causes:["elektro","wabot"], effects:["atlasrobot","optimus","robonaut"] },
+
+{ id:"sojourner", year:1997, date:"1997", era:6, cat:"robotics",
+  title:"Sojourner: A Robot on Mars",
+  wiki:"Sojourner (rover)", gallery:["Mars Pathfinder","Mars rover"],
+  summary:"NASA's Sojourner becomes the first wheeled robot to operate on another planet — proof that autonomous machines can work where no human can follow.",
+  importance:"Rolling off the Pathfinder lander in July 1997, the microwave-sized Sojourner drove across Martian soil analyzing rocks, the first mobile robot on another world. With a 10-minute signal delay making direct control impossible, it had to act with real autonomy — sensing hazards and picking its own path. It proved the case for robotic exploration of environments lethal or unreachable for humans, and founded the lineage of Spirit, Opportunity, Curiosity, and Perseverance: the robot as humanity's advance scout.",
+  impact:{
+    technology:"Autonomous mobile robotics proven in the most unforgiving environment imaginable.",
+    society:"Establishes the robot as explorer — extending human reach beyond the survivable.",
+    computing:"Signal delay forces genuine onboard autonomy — decisions made without a human in the loop." },
+  causes:[], effects:["bigdog"] },
+
+{ id:"roomba", year:2001, date:"2002", era:6, cat:"robotics",
+  title:"Roomba: The Robot in the Home",
+  wiki:"Roomba", gallery:["iRobot","Robotic vacuum cleaner"],
+  summary:"iRobot's Roomba becomes the first mass-market autonomous consumer robot — tens of millions sold — quietly normalizing the autonomous machine in the home.",
+  importance:"At $200, the Roomba (2002) did something no humanoid had: it put an autonomous robot in tens of millions of ordinary homes, navigating floors with simple sensors and behavior-based AI descended from MIT's Rodney Brooks. Unspectacular but pervasive, it normalized cohabitation with a machine that moves and decides on its own — the domestic beachhead later widened by Alexa, Ring, and the smart home. The robot future arrived not as a humanoid servant but as a disc under the couch.",
+  impact:{
+    society:"Millions begin living with an autonomous robot — the machine in the home, normalized.",
+    technology:"Behavior-based robotics reaches mass-market consumer scale.",
+    labor:"Domestic labor is partially automated — the first robot to take a household chore at scale." },
+  causes:["shakey"], effects:["ring"] },
+
+{ id:"packbot", year:2002, date:"2002", era:6, cat:"robotics",
+  title:"PackBot Goes to War",
+  wiki:"PackBot", gallery:["iRobot","Military robot","Improvised explosive device"],
+  summary:"iRobot's PackBot deploys to Afghanistan to find and disarm bombs — and the military robot becomes a standard tool of war.",
+  importance:"Tele-operated PackBots deployed to Afghanistan and then Iraq to inspect and defuse IEDs, putting a machine where a soldier's death had been the alternative — thousands were fielded, and they saved many lives. They began the normalization of robots on the battlefield and opened, in earnest, the question the rest of this section turns on: as such machines gain autonomy, who decides when they use force? The tele-operated bomb-disposal robot is the on-ramp to the autonomous weapon.",
+  impact:{
+    power:"The military robot becomes standard equipment; the battlefield begins to de-populate of humans.",
+    law:"Raises the autonomy-in-warfare question that 'killer robots' debates later confront.",
+    technology:"Rugged mobile robotics matures under combat conditions." },
+  causes:["shakey"], effects:["bigdog","dronewarfare"] },
+
+{ id:"bigdog", year:2005, date:"2005", era:6, cat:"robotics",
+  title:"BigDog & Boston Dynamics",
+  wiki:"BigDog", gallery:["Boston Dynamics","Legged robot"],
+  summary:"DARPA-funded BigDog, a four-legged robot that carries heavy loads over rough terrain, stuns audiences with eerily animal-like balance — and announces a new era of legged robots.",
+  importance:"Boston Dynamics' BigDog could haul 340 pounds across mud, ice, and hillsides, recovering from kicks with an unsettlingly lifelike stagger that made its viral videos a cultural event. It demonstrated dynamic balance — the hard problem of legged locomotion — at a level that reset expectations, and launched Boston Dynamics as the company whose Spot and Atlas would define advanced mobile robotics. The animal-like movement that fascinated and disturbed viewers is the aesthetic that still shapes public feeling about robots.",
+  impact:{
+    technology:"Dynamic legged locomotion over rough terrain — a foundational robotics breakthrough.",
+    society:"Boston Dynamics' viral robots reset public intuition about what machines can physically do.",
+    power:"Military-funded from the start, it keeps the autonomy-in-warfare question in view." },
+  causes:["packbot","sojourner"], effects:["atlasrobot","optimus"] },
+
+{ id:"cobots", year:2008, date:"2008", era:6, cat:"robotics",
+  title:"Cobots: Robots That Share the Floor",
+  wiki:"Cobot", gallery:["Universal Robots","Industrial robot"],
+  summary:"Denmark's Universal Robots pioneers the 'cobot' — a collaborative robot safe enough to work beside humans without a cage — remaking the economics of automation.",
+  importance:"For half a century industrial robots were so dangerous they lived behind safety fences. Universal Robots' collaborative arms, force-limited to stop on contact, could work directly alongside people without cages — cheap and flexible enough to bring automation to small workshops, not just car plants. The cobot reframed the human-robot relationship from replacement-behind-a-fence toward collaboration on a shared task, and seeded the safety and proximity questions the humanoid factory robots now inherit.",
+  impact:{
+    labor:"Automation reaches small business; the human and robot share the task, not just the building.",
+    technology:"Force-limited, sensor-rich arms make caged safety barriers unnecessary.",
+    law:"New safety regimes for human-robot collaboration become necessary." },
+  causes:["unimate"], effects:["optimus"] },
+
+{ id:"robonaut", year:2011, date:"2011", era:6, cat:"robotics",
+  title:"Robonaut 2: A Humanoid in Space",
+  wiki:"Robonaut", gallery:["International Space Station","NASA"],
+  summary:"NASA and GM's Robonaut 2 arrives at the International Space Station — the first humanoid robot in space, built to handle tools made for human hands.",
+  importance:"Robonaut 2, a dexterous humanoid torso developed by NASA with General Motors, reached the ISS in 2011 to test whether a human-shaped robot could take on tasks too dull or dangerous for astronauts — using the same tools and interfaces built for people. It embodied the core argument for the humanoid form: a world built for human bodies is most easily worked by a human-shaped machine. That argument is exactly the one Tesla and Figure now make for the factory humanoid.",
+  impact:{
+    technology:"Dexterous humanoid manipulation tested in orbit, using human tools.",
+    labor:"Makes the case for the humanoid form: it fits the world humans already built.",
+    society:"The humanoid robot reaches space, the most demanding workplace of all." },
+  causes:["asimo"], effects:["optimus"] },
+
+{ id:"kivarobots", year:2012, date:"2012", era:7, cat:"robotics",
+  title:"Amazon's Warehouse Robots",
+  wiki:"Amazon Robotics", gallery:["Kiva Systems","Automation","Warehouse"],
+  summary:"Amazon buys Kiva Systems for $775M and floods its warehouses with robots that bring shelves to workers — automating logistics at vast scale.",
+  importance:"Amazon's acquisition of Kiva put hundreds of thousands of mobile robots into its fulfillment centers, ferrying shelves to stationary human pickers and reorganizing the warehouse around the machine. It supercharged e-commerce logistics — and made Amazon's fulfillment center the emblematic 21st-century workplace, where algorithmic management, rate-tracking, and robotics meet, and where the question of automation's effect on warehouse jobs is fought in real time. Taylor's stopwatch, the cobot, and the gig app converge on the warehouse floor.",
+  impact:{
+    labor:"Logistics labor is reorganized around robots; the warehouse becomes automation's front line.",
+    technology:"Coordinated robot fleets at warehouse scale become routine infrastructure.",
+    power:"Amazon's scale makes its automation choices a bellwether for the whole economy.",
+    surveillance:"Robotic warehouses intensify the metric-tracked, algorithmically managed workplace." },
+  causes:["unimate","amazon"], effects:["gigeconomy"] },
+
+{ id:"killerrobots", year:2013, date:"2013–2015", era:7, cat:"robotics",
+  title:"The 'Killer Robots' Debate",
+  wiki:"Lethal autonomous weapon", gallery:["Campaign to Stop Killer Robots","Convention on Certain Conventional Weapons"],
+  summary:"The UN and the technical community confront lethal autonomous weapons: a 2013 UN warning, the first CCW expert meetings, and a 2015 open letter from 1,000+ researchers urging a ban.",
+  importance:"As machines that could select and strike targets without a human became feasible, the alarm went up: a 2013 UN report by Christof Heyns warned that lethal autonomous weapons threatened the foundations of international humanitarian law; the Convention on Certain Conventional Weapons convened its first expert meetings (2014); and in 2015 over a thousand AI and robotics researchers — Musk, Hawking, Wozniak among them — signed an open letter calling for a ban. Asimov's question went from fiction to Geneva: can, and should, a machine be allowed to decide to kill?",
+  impact:{
+    law:"Lethal autonomous weapons enter the international legal agenda — without, yet, a treaty.",
+    power:"The decision to kill begins, in principle, to pass from human to machine.",
+    society:"The technical community publicly mobilizes against a use of its own creations." },
+  causes:["asimovlaws","packbot","aisafetyletters"], effects:["dronewarfare","militaryai"] },
+
+{ id:"teslaautopilot", year:2016, date:"2016", era:7, cat:"robotics",
+  title:"The First Self-Driving Death",
+  wiki:"Tesla Autopilot", gallery:["Self-driving car","National Highway Traffic Safety Administration"],
+  summary:"Joshua Brown dies when his Tesla on Autopilot drives under a truck — the first fatality involving a semi-autonomous car — opening a decade of accidents, recalls, and regulatory scramble.",
+  importance:"Brown's 2016 death — the system failed to distinguish a white trailer from bright sky — was the first fatality of the autonomous-driving era, and it set the pattern: NHTSA investigations, a 2021 recall of thousands of vehicles, hundreds of logged Autopilot crashes, and a persistent gap between marketing and capability. Nevada had legalized self-driving cars in 2011 with no federal framework to follow; a decade on, the U.S. still had none. The autonomous machine met public roads, and the law was nowhere ready.",
+  impact:{
+    law:"Autonomous-vehicle safety regulation is forced onto the agenda — and Congress fails to act.",
+    society:"The public reckons with machines that can kill by error, at speed, in traffic.",
+    labor:"The automation of driving — one of the most common jobs on Earth — proceeds amid the wreckage." },
+  causes:["darpachallenge"], effects:["uberav","waymo"] },
+
+{ id:"atlasrobot", year:2016, date:"2016–2024", era:7, cat:"robotics",
+  title:"Atlas: From Backflips to the Factory",
+  wiki:"Atlas (robot)", gallery:["Boston Dynamics","Humanoid robot"],
+  summary:"Boston Dynamics' Atlas does backflips and parkour in viral videos, then in 2024 is reborn all-electric — the research humanoid becoming a commercial product.",
+  importance:"Atlas's viral demonstrations — backflips (2017), parkour, gymnastics — repeatedly redrew the public's sense of what a robot's body could do, even as skeptics noted the gap between choreographed demos and useful work. In April 2024 Boston Dynamics retired the hydraulic Atlas and unveiled an all-electric successor aimed at real deployment, marking the field's shift from research spectacle to commercial humanoid. With Hyundai (its owner) as the intended customer, Atlas joins the race to put humanoids on the factory floor.",
+  impact:{
+    technology:"Pushes humanoid agility to its limit, then pivots toward deployable electric hardware.",
+    society:"Atlas's videos are the era's defining images of robotic physical capability.",
+    labor:"The research humanoid turns commercial, aiming squarely at industrial work." },
+  causes:["bigdog","asimo","elektro"], effects:["optimus"] },
+
+{ id:"uberav", year:2018, date:"2018", era:7, cat:"robotics",
+  title:"Uber's Self-Driving Car Kills a Pedestrian",
+  wiki:"Death of Elaine Herzberg", gallery:["Self-driving car","Uber"],
+  summary:"In Tempe, Arizona, an autonomous Uber test car kills pedestrian Elaine Herzberg — the first pedestrian death caused by a self-driving vehicle.",
+  importance:"The car detected Herzberg but its software, tuned to suppress false alarms, failed to brake; the safety driver was looking away. It was the first pedestrian killed by an autonomous vehicle, and it crystallized the field's hardest questions: how safe is safe enough, where does liability fall among software, operator, and company, and who consents to sharing the road with a machine in testing. Uber suspended its program; the safety driver was charged; Congress again failed to pass an AV framework. The bystander, not the buyer, bore the cost.",
+  impact:{
+    law:"Liability for autonomous-vehicle harm is tested in court; federal AV law remains absent.",
+    society:"The public learns it is an unconsenting participant in autonomous-vehicle testing.",
+    labor:"The push to automate driving continues despite an unresolved safety and accountability gap." },
+  causes:["teslaautopilot","robotfatality","darpachallenge"], effects:["waymo"] },
+
+{ id:"dronewarfare", year:2022, date:"2022", era:7, cat:"robotics",
+  title:"Autonomous Weapons in Ukraine",
+  wiki:"Loitering munition", gallery:["HESA Shahed 136","Unmanned combat aerial vehicle"],
+  summary:"Loitering munitions and drone swarms are used at scale in Ukraine — cheap, self-guiding weapons that can loiter and strike — exposing how unready international law is for autonomous war.",
+  importance:"The war in Ukraine became the first conflict to use loitering munitions and increasingly autonomous drones at massive scale, on both sides — weapons that can search for, identify, and attack targets with diminishing human involvement. The 'killer robots' the diplomats had debated in the abstract were now in mass combat use, and international humanitarian law — built for human decision-makers — was shown wholly inadequate to govern machines operating this way. The autonomous weapon arrived before its treaty, as new weapons usually do.",
+  impact:{
+    power:"Autonomous and semi-autonomous weapons enter mass warfare — a historic threshold crossed.",
+    law:"International law is exposed as unready to govern machine-made lethal decisions.",
+    society:"The decision to kill is delegated, in practice, to machines on the battlefield." },
+  causes:["killerrobots","packbot"], effects:["militaryai"] },
+
+{ id:"militaryai", year:2023, date:"2023–2025", era:7, cat:"robotics",
+  title:"Governing Military AI",
+  wiki:"Artificial intelligence arms race", gallery:["Lethal autonomous weapon","Military robot"],
+  summary:"As autonomous weapons spread, states reach for soft governance: a 2023 U.S.-led declaration on responsible military AI wins 50+ endorsers, but no binding treaty — and the UN keeps pressing.",
+  importance:"With binding restrictions blocked by the U.S., Russia, and others at the UN, governance moved to non-binding consensus: the 2023 U.S. State Department Political Declaration on Responsible Military Use of AI, endorsed by more than 50 nations, affirmed principles like human control over nuclear and lethal decisions. The UN Secretary-General has repeatedly called autonomous weapons 'morally repugnant' and urged a binding instrument. The pattern is the museum's oldest: the technology races ahead, and the law assembles slowly, in soft law and summitry, behind it.",
+  impact:{
+    law:"Soft-law declarations substitute for the binding treaty that autonomous weapons still lack.",
+    power:"The great powers resist constraints even as autonomous weapons proliferate.",
+    government:"International AI governance forms, slowly and non-bindingly, against an accelerating threat." },
+  causes:["killerrobots","dronewarfare","aiact"], effects:["present"] },
+
+{ id:"optimus", year:2024, date:"2024–2025", era:7, cat:"robotics",
+  title:"The Humanoid Robot Race",
+  wiki:"Optimus (robot)", gallery:["Tesla, Inc.","Humanoid robot","Figure AI"],
+  summary:"Tesla's Optimus begins work inside Tesla factories as Musk targets a million humanoids a year — and Tesla, Boston Dynamics, Figure, Agility, and Chinese firms race to build the general-purpose worker.",
+  importance:"Powered by the same deep-learning advances driving large language models, the general-purpose humanoid moved from demo to deployment: Tesla's Optimus began performing tasks in Tesla's own factories with Musk projecting eventual production of a million units a year, while Figure, Agility's Digit, Boston Dynamics' electric Atlas, and well-funded Chinese firms joined a sudden, intense race. The 2,400-year dream that opened this section — the artificial worker — is being seriously attempted at last, reopening every labor question the timeline has tracked since Talos and R.U.R.",
+  impact:{
+    labor:"The general-purpose humanoid worker moves toward mass production — the displacement question at full scale.",
+    technology:"AI advances finally make a useful general humanoid plausible; capital floods in.",
+    power:"A global race — U.S. firms versus Chinese — to own the embodied-labor platform.",
+    society:"R.U.R.'s premise — mass-produced artificial workers — approaches reality, fears intact." },
+  causes:["asimo","atlasrobot","kivarobots","cobots","robonaut"], effects:["present"] },
+
+{ id:"waymo", year:2025, date:"2025", era:7, cat:"robotics",
+  title:"Robotaxis at Scale",
+  wiki:"Waymo", gallery:["Robotaxi","Self-driving car"],
+  summary:"Waymo runs fully driverless robotaxis commercially in San Francisco, Los Angeles, and Phoenix — the first sustained at-scale autonomous transport service — still with no federal AV law.",
+  importance:"Two decades after Stanley crossed the desert and a decade after the first AV deaths, Waymo's driverless robotaxis became a routine commercial service across several U.S. cities, carrying paying passengers with no human behind the wheel and a safety record it argues beats human drivers. It marks autonomous machines crossing into trusted everyday infrastructure — even as the United States still has no federal autonomous-vehicle law, governance left to a patchwork of states and the companies themselves, the museum's recurring lag once more.",
+  impact:{
+    labor:"Driverless transport at commercial scale puts the automation of driving within sight.",
+    law:"At-scale autonomy arrives with no federal framework — regulation lags deployment again.",
+    society:"The public begins, city by city, to trust its life to a driverless machine.",
+    technology:"Full autonomy in the chaotic real world is shown commercially viable." },
+  causes:["teslaautopilot","uberav","darpachallenge"], effects:["present"] }
+
+);

@@ -50,6 +50,15 @@
     const i = img(ev.wiki);
     return i ? i.p : `https://en.wikipedia.org/wiki/${encodeURIComponent(ev.wiki)}`;
   }
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  // One image's attribution line: subject — author · license, linked to its Commons file page.
+  function creditEntry(g) {
+    const src = g.f || g.p;
+    const subject = src ? `<a href="${esc(src)}" target="_blank" rel="noopener">${esc(g.title)}</a>` : esc(g.title);
+    const who = g.a ? esc(g.a) : "Unknown author";
+    const lic = g.lu ? `<a href="${esc(g.lu)}" target="_blank" rel="noopener">${esc(g.l || "see source")}</a>` : esc(g.l || "see source");
+    return `<li>${subject} — ${who} · ${lic}</li>`;
+  }
 
   // ============================================================
   //  BUILD: era rail, filters, timeline
@@ -215,7 +224,7 @@
     }
 
     // source
-    $("#ex-source").innerHTML = `Reference &amp; imagery: <a href="${sourceLink(ev)}" target="_blank" rel="noopener">${ev.wiki} — Wikipedia</a>. Images via Wikimedia Commons, credited at the linked source.`;
+    $("#ex-source").innerHTML = `Reference: <a href="${sourceLink(ev)}" target="_blank" rel="noopener">${esc(ev.wiki)} — Wikipedia</a>.`;
 
     // media — cascade the hero through the gallery until one image verifiably loads
     exHeroImg.style.backgroundImage = "";
@@ -249,6 +258,12 @@
         exGallery.appendChild(t);
       });
     }
+
+    // per-image credits (author + license for every Wikimedia Commons image shown)
+    const credWrap = $("#ex-credits");
+    credWrap.innerHTML = gal.length
+      ? `<h4>Image credits</h4><ul>${gal.map(creditEntry).join("")}</ul><p class="ex-credits-note">Images via Wikimedia Commons, reused under public-domain or Creative Commons licenses.</p>`
+      : "";
 
     // show + animate
     exhibit.classList.add("open");
@@ -288,6 +303,42 @@
   $("#exhibit-backdrop").addEventListener("click", closeExhibit);
   document.addEventListener("keydown", e => {
     if (e.key === "Escape" && exhibit.classList.contains("open")) closeExhibit();
+  });
+
+  // ============================================================
+  //  IMAGE CREDITS OVERLAY (site-wide attribution)
+  // ============================================================
+  const credits = $("#credits");
+  const creditsList = $("#credits-list");
+  function buildCredits() {
+    if (creditsList.dataset.built) return;
+    const seen = new Set(), rows = [];
+    Object.entries(IMAGES).forEach(([title, v]) => {
+      if (!v.t || seen.has(v.t)) return;       // one row per distinct bundled image
+      seen.add(v.t);
+      rows.push({ title, ...v });
+    });
+    rows.sort((a, b) => a.title.localeCompare(b.title));
+    creditsList.innerHTML = `<p class="credits-count">${rows.length} images</p><ul>${rows.map(creditEntry).join("")}</ul>`;
+    creditsList.dataset.built = "1";
+  }
+  function openCredits() {
+    buildCredits();
+    credits.classList.add("open");
+    credits.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+    $("#credits-close").focus();
+  }
+  function closeCredits() {
+    credits.classList.remove("open");
+    credits.setAttribute("aria-hidden", "true");
+    if (!exhibit.classList.contains("open")) document.body.style.overflow = "";
+  }
+  $("#open-credits").addEventListener("click", openCredits);
+  $("#credits-close").addEventListener("click", closeCredits);
+  $("#credits-backdrop").addEventListener("click", closeCredits);
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && credits.classList.contains("open")) closeCredits();
   });
 
   // ============================================================

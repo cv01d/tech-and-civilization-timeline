@@ -85,6 +85,28 @@
   </div>
 </section>
 
+<!-- ===== Footer ===== -->
+<footer id="site-footer">
+  <p class="foot-line">The Atlas of Technology and Civilization · a companion timeline by C.&nbsp;Raynor</p>
+  <p class="foot-line foot-sub">Every image is a real photograph or document from
+    <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia&nbsp;Commons</a>,
+    reused under public-domain or Creative&nbsp;Commons licenses.
+    <button id="open-credits" class="foot-link" type="button">View full image credits ›</button></p>
+</footer>
+
+<!-- ===== Image credits overlay ===== -->
+<div id="credits" role="dialog" aria-modal="true" aria-hidden="true">
+  <div id="credits-backdrop"></div>
+  <article id="credits-card">
+    <button id="credits-close" aria-label="Close credits">✕</button>
+    <h2 class="credits-head">Image Credits</h2>
+    <p class="credits-intro">Each image bundled with this site is a real photograph or document from
+      Wikimedia&nbsp;Commons, resized locally and reused under its stated license — public domain or
+      Creative&nbsp;Commons. Author and license below are as reported by the Wikimedia&nbsp;API.</p>
+    <div id="credits-list"></div>
+  </article>
+</div>
+
 <!-- ===== Exhibit popup ===== -->
 <div id="exhibit" role="dialog" aria-modal="true" aria-hidden="true">
   <div id="exhibit-backdrop"></div>
@@ -106,6 +128,7 @@
       <div id="ex-impacts"></div>
       <div id="ex-threads"></div>
       <p class="ex-source" id="ex-source"></p>
+      <div class="ex-credits" id="ex-credits"></div>
     </div>
   </article>
 </div>
@@ -129,6 +152,7 @@
 <script src="js/data/extra-surveillance.js"></script>
 <script src="js/data/extra-artifacts.js"></script>
 <script src="js/data/extra-ai.js"></script>
+<script src="js/data/extra-robots.js"></script>
 <script src="js/images.js"></script>
 <script src="js/app.js"></script>
 </body>

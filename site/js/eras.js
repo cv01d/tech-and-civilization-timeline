@@ -48,6 +48,7 @@ window.ATLAS_CATEGORIES = [
   { key: "technology",     label: "Technology" },
   { key: "communications", label: "Communications" },
   { key: "computing",      label: "Computing & AI" },
+  { key: "robotics",       label: "Robots & Automata" },
   { key: "surveillance",   label: "Surveillance" },
   { key: "labor",          label: "Labor" },
   { key: "law",            label: "Law & Regulation" },
