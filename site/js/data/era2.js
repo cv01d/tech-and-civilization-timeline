@@ -1,6 +1,6 @@
 // GALLERY II — Print, Plague & Powder (1400–1791)
 window.ATLAS_EVENTS.push(
-{ id:"printingpress", year:1440, date:"c. 1440", era:2, cat:"power",
+{ id:"printingpress", year:1440, date:"c. 1440", era:2, cat:["print","power"],
   title:"Gutenberg's Printing Press",
   wiki:"Printing press", gallery:["Johannes Gutenberg","Gutenberg Bible","Movable type"],
   summary:"Movable type arrives in Mainz. Within fifty years Europe prints more books than it had produced in the previous thousand.",
@@ -36,7 +36,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The legal fiction of 'discovery' becomes the charter of international colonialism." },
   causes:[], effects:["slavetrade1807","jamestown"] },
 
-{ id:"reformation", year:1517, date:"1517", era:2, cat:"power",
+{ id:"reformation", year:1517, date:"1517", era:2, cat:["power","print"],
   title:"Luther's Ninety-Five Theses",
   wiki:"Ninety-five Theses", gallery:["Martin Luther","Reformation"],
   summary:"The Reformation begins — and spreads at the speed of the printing press.",
@@ -172,7 +172,7 @@ window.ATLAS_EVENTS.push(
     society:"National debt binds the propertied classes to the state's survival — a new political alloy." },
   causes:["glorious","voc"], effects:["southsea"] },
 
-{ id:"statuteofanne", year:1710, date:"1710", era:2, cat:"law",
+{ id:"statuteofanne", year:1710, date:"1710", era:2, cat:["print","law"],
   title:"The Statute of Anne: Copyright Is Born",
   wiki:"Statute of Anne", gallery:["Copyright","Stationers' Company"],
   summary:"Parliament replaces the printers' guild monopoly with a 14-year statutory right belonging to authors.",

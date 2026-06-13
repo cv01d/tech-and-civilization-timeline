@@ -15,7 +15,7 @@ window.ATLAS_EVENTS.push(
     society:"Establishes an American template: surveillance falls first and hardest on the racially marked." },
   causes:["jamestown"], effects:["slavepatrols","plessy"] },
 
-{ id:"aliensedition", year:1798, date:"1798", era:3, cat:"law",
+{ id:"aliensedition", year:1798, date:"1798", era:3, cat:["print","law"],
   title:"The Alien and Sedition Acts",
   wiki:"Alien and Sedition Acts", gallery:["John Adams","Quasi-War"],
   summary:"The Adams administration empowers the government to deport 'dangerous' foreigners and to prosecute critical speech — the new republic's first surveillance-and-censorship regime.",
@@ -92,7 +92,7 @@ window.ATLAS_EVENTS.push(
     law:"Spurs the first legislative attempts to constrain police interception." },
   causes:["policewiretap1895"], effects:["olmstead","lafollette"] },
 
-{ id:"espionageact", year:1917, date:"June 1917", era:4, cat:"law",
+{ id:"espionageact", year:1917, date:"June 1917", era:4, cat:["print","law"],
   title:"The Espionage Act",
   wiki:"Espionage Act of 1917", gallery:["Eugene V. Debs","Schenck v. United States","World War I"],
   summary:"Congress criminalizes obtaining defense information and interfering with the war effort — a statute still used a century later against leakers and whistleblowers.",

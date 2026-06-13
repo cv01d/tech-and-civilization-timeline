@@ -49,6 +49,7 @@ window.ATLAS_CATEGORIES = [
   { key: "tv",             label: "Television & Cable" },
   { key: "internet",       label: "The Internet" },
   { key: "social",         label: "Social Media" },
+  { key: "print",          label: "News & Print" },
   { key: "computing",      label: "Computing & AI" },
   { key: "robotics",       label: "Robots & Automata" },
   { key: "biotech",        label: "Genetics & Biotech" },
