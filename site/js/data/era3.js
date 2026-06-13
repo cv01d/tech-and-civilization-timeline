@@ -334,7 +334,7 @@ window.ATLAS_EVENTS.push(
     government:"The state shifts from jailing labor leaders to negotiating with them — most of the time." },
   causes:["combinationacts","tolpuddle"], effects:["waldeckrousseau","wagneract"] },
 
-{ id:"bell", year:1876, date:"March 7, 1876", era:3, cat:"communications",
+{ id:"bell", year:1876, date:"March 7, 1876", era:3, cat:"radio",
   title:"Bell Patents the Telephone",
   wiki:"Alexander Graham Bell", gallery:["Invention of the telephone","Bell Telephone Company"],
   summary:"The most valuable patent in history converts the wire from code to voice — and founds a monopoly that will be litigated for a century.",

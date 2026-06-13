@@ -81,7 +81,7 @@ window.ATLAS_EVENTS.push(
     communications:"Opens the spectrum — a new commons whose enclosure and licensing will occupy the next century." },
   causes:[], effects:["marconi"] },
 
-{ id:"strowger", year:1891, date:"1889–1892", era:4, cat:"technology",
+{ id:"strowger", year:1891, date:"1889–1892", era:4, cat:"radio",
   title:"The Strowger Switch",
   wiki:"Strowger switch", gallery:["Almon Brown Strowger","Telephone exchange"],
   summary:"An undertaker, convinced operators are diverting his calls to rivals, invents automatic switching — surveillance distrust as the mother of automation.",
@@ -245,7 +245,7 @@ window.ATLAS_EVENTS.push(
     government:"Establishes the template the 1927 Radio Act and FCC inherit." },
   causes:["marconi"], effects:["radioact1927"] },
 
-{ id:"kingsbury", year:1913, date:"1913", era:4, cat:"law",
+{ id:"kingsbury", year:1913, date:"1913", era:4, cat:"radio",
   title:"The Kingsbury Commitment",
   wiki:"Kingsbury Commitment", gallery:["AT&T Corporation","Theodore Newton Vail"],
   summary:"Facing antitrust threat, AT&T agrees to interconnection and divests Western Union — purchasing seventy years of regulated monopoly.",

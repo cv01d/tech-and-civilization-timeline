@@ -178,7 +178,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Securities enforcement follows the fraud; the business-model shift, more consequential, draws none." },
   causes:["mosaic","southsea"], effects:["adwords"] },
 
-{ id:"cameraphone", year:2000, date:"2000", era:6, cat:"technology",
+{ id:"cameraphone", year:2000, date:"2000", era:6, cat:"radio",
   title:"The Camera Phone",
   wiki:"Camera phone", gallery:["Sharp J-SH04","Smartphone"],
   summary:"Japan ships the first phones with cameras — the beginning of universal photographic witness.",
@@ -261,7 +261,7 @@ window.ATLAS_EVENTS.push(
     technology:"Elastic scale makes data hoarding and model training economically routine." },
   causes:["amazon"], effects:["alexnet","chatgpt"] },
 
-{ id:"iphone", year:2007, date:"June 29, 2007", era:6, cat:"technology",
+{ id:"iphone", year:2007, date:"June 29, 2007", era:6, cat:"radio",
   title:"The iPhone",
   wiki:"IPhone (1st generation)", gallery:["Steve Jobs","IPhone","Android (operating system)"],
   summary:"The most regulatorily consequential invention of the 21st century, per the source timeline: the networked sensor-computer that goes everywhere humans go.",

@@ -389,7 +389,7 @@ window.ATLAS_EVENTS.push(
     society:"Sets the Court on the path to constraining digital-age location surveillance." },
   causes:["kyllo","katz"], effects:["carpenter"] },
 
-{ id:"riley", year:2014, date:"2014", era:7, cat:"law",
+{ id:"riley", year:2014, date:"2014", era:7, cat:"radio",
   title:"Riley v. California",
   wiki:"Riley v. California", gallery:["Smartphone","Fourth Amendment to the United States Constitution"],
   summary:"Police need a warrant to search an arrestee's phone, a unanimous Court rules — the device holds 'the privacies of life,' not the contents of a pocket.",

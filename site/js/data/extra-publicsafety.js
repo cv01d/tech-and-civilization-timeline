@@ -73,7 +73,7 @@ window.ATLAS_EVENTS.push(
     technology:"Redundancy enters the design vocabulary of public-safety systems." },
   causes:["firealarmtelegraph","policeboxchicago"], effects:["policeradio","sept11comms"] },
 
-{ id:"policeradio", year:1928, date:"1928", era:4, cat:"communications",
+{ id:"policeradio", year:1928, date:"1928", era:4, cat:"radio",
   title:"Police Radio: From Reactive to Proactive",
   wiki:"Police radio",
   summary:"Detroit puts a one-way radio system into patrol cars; headquarters can now push a dispatch to every car at once — inverting the model from the officer who calls in to the center that reaches out.",
@@ -84,7 +84,7 @@ window.ATLAS_EVENTS.push(
     technology:"The patrol car becomes a node in a wireless network." },
   causes:["policeboxchicago","sfquake1906comms"], effects:["twowayradio","apcotencodes"] },
 
-{ id:"twowayradio", year:1933, date:"1933", era:4, cat:"communications",
+{ id:"twowayradio", year:1933, date:"1933", era:4, cat:"radio",
   title:"Two-Way Police Radio",
   wiki:"Two-way radio",
   summary:"Two-way radio lets officers both receive and transmit, turning the patrol car from a broadcast endpoint into an interactive node — and World War II perfects the technology at scale.",
@@ -95,7 +95,7 @@ window.ATLAS_EVENTS.push(
     labor:"The dispatcher and the radio-equipped officer become a coordinated pair." },
   causes:["policeradio"], effects:["apcotencodes","emergency911"] },
 
-{ id:"apcotencodes", year:1937, date:"1937", era:4, cat:"communications",
+{ id:"apcotencodes", year:1937, date:"1937", era:4, cat:"radio",
   title:"The Ten-Codes",
   wiki:"Ten-code",
   summary:"APCO standardizes radio brevity codes — '10-4,' '10-20' — to compress speech and spare scarce channels, giving American policing a structured, near-machine-readable language decades before machines.",
@@ -172,7 +172,7 @@ window.ATLAS_EVENTS.push(
     technology:"Cellular collapse under load motivates a dedicated responder network." },
   causes:["project25","emergency911","sfquake1906comms"], effects:["firstnet","ng911"] },
 
-{ id:"wirelesse911", year:1999, date:"1999", era:6, cat:"law",
+{ id:"wirelesse911", year:1999, date:"1999", era:6, cat:"radio",
   title:"Locating the Cell Phone",
   wiki:"Enhanced 9-1-1",
   summary:"The Wireless Communications and Public Safety Act makes 911 the universal number for mobile phones and requires carriers to deliver caller location — first by cell tower, then to GPS precision.",

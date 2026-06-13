@@ -168,7 +168,7 @@ window.ATLAS_EVENTS.push(
     government:"Regulatory divergence completes: Europe writes rules, America litigates, China builds state systems." },
   causes:["dpd1995","volkszahlung","fipps","brandeis","cookie","adwords","cambridgeanalytica","schrems","rtbf","ibmnazi","udhr","fcra","privacyact"], effects:["ccpa","aiact"] },
 
-{ id:"carpenter", year:2018, date:"2018", era:7, cat:"law",
+{ id:"carpenter", year:2018, date:"2018", era:7, cat:"radio",
   title:"Carpenter v. United States",
   wiki:"Carpenter v. United States", gallery:["Cell site","Supreme Court of the United States"],
   summary:"The Supreme Court holds that cell-site location history requires a warrant — the third-party doctrine's first major retreat.",

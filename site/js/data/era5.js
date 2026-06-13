@@ -148,7 +148,7 @@ window.ATLAS_EVENTS.push(
     technology:"Drives cryptography and computing research from behind the curtain — and battles their public spread in the crypto wars." },
   causes:["coldwar","ww2","cabinetnoir"], effects:["churchcommittee","fisa","prism","snowden"] },
 
-{ id:"attdecree1956", year:1956, date:"1956", era:5, cat:"law",
+{ id:"attdecree1956", year:1956, date:"1956", era:5, cat:"radio",
   title:"The 1956 Consent Decrees: AT&T and IBM",
   wiki:"Bell System", gallery:["Bell Labs","IBM","Western Electric"],
   summary:"AT&T is barred from computing and must license its patents; IBM must sell, not just lease, its machines. Two settlements quietly shape the industry for thirty years.",
@@ -253,7 +253,7 @@ window.ATLAS_EVENTS.push(
     government:"Drives data integration underground into agency-by-agency accretion rather than visible architecture." },
   causes:["hollerith","ssa1935"], effects:["fipps","privacyact"] },
 
-{ id:"carterfone", year:1968, date:"1968", era:5, cat:"law",
+{ id:"carterfone", year:1968, date:"1968", era:5, cat:"radio",
   title:"The Carterfone Decision",
   wiki:"Carterfone", gallery:["Federal Communications Commission","Modem"],
   summary:"The FCC rules that any lawful device that does no harm may connect to the phone network — AT&T's equipment monopoly falls.",
@@ -355,7 +355,7 @@ window.ATLAS_EVENTS.push(
     government:"A study commission's framework outlives and outgrows every statute it inspired." },
   causes:["natdatacenter","fcra","brandeis"], effects:["privacyact","gdpr"] },
 
-{ id:"mobilephone", year:1973, date:"April 3, 1973", era:5, cat:"communications",
+{ id:"mobilephone", year:1973, date:"April 3, 1973", era:5, cat:"radio",
   title:"The First Cell Phone Call",
   wiki:"Martin Cooper (inventor)", gallery:["Motorola DynaTAC","Cellular network"],
   summary:"Motorola's Martin Cooper calls his Bell Labs rival from a Manhattan sidewalk on a two-pound prototype.",
@@ -471,7 +471,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Sets the stage for the defining tech antitrust case of the century's end." },
   causes:["intel4004","altair","attdecree1956"], effects:["microsoftcase"] },
 
-{ id:"attbreakup", year:1984, date:"1974–1984", era:5, cat:"law",
+{ id:"attbreakup", year:1984, date:"1974–1984", era:5, cat:"radio",
   title:"The AT&T Breakup",
   wiki:"Breakup of the Bell System", gallery:["Regional Bell Operating Company","AT&T Corporation"],
   summary:"The 1974 antitrust suit ends in divestiture: on January 1, 1984, the Bell System becomes seven regional companies plus a competitive long-distance market.",
