@@ -205,6 +205,7 @@ window.ATLAS_EVENTS.push(
     computing:"Models are trained on the corpus of human creativity without permission or pay.",
     law:"The defining copyright fight of the era — fair use or mass infringement — opens.",
     print:"The economic value of human authorship itself is put in question." },
-  causes:["copyright1976","googlebooks","tasini","cariouprince","ascap"], effects:[] }
+  causes:["copyright1976","googlebooks","tasini","cariouprince","ascap"],
+  effects:["gettystability","kadreymeta","nytopenai","rossintelligence","musicpublishersai","ainewsdeals"] }
 
 );

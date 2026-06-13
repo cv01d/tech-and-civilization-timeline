@@ -310,7 +310,7 @@ window.ATLAS_EVENTS.push(
     technology:"Consent and compensation enter AI deployment as negotiated requirements, not aspirations.",
     society:"The AI-displacement debate acquires its first organized, victorious protagonists.",
     regulation:"Contract law leads statute — the labor movement as de facto first AI regulator." },
-  causes:["chatgpt","copilot","luddites","unionwave"], effects:[] },
+  causes:["chatgpt","copilot","luddites","unionwave","cnetai"], effects:[] },
 
 { id:"claude", year:2023, date:"2023", era:7, cat:"computing",
   title:"GPT-4, Claude & the Frontier Race",
