@@ -258,7 +258,7 @@ window.ATLAS_EVENTS.push(
     technology:"Demonstrates AI as an instrument of discovery, not only of generation." },
   causes:["deepmind","alphago"], effects:["nobelai"] },
 
-{ id:"anthropicfounded", year:2021, date:"2021", era:7, cat:"power",
+{ id:"anthropicfounded", year:2021, date:"2021", era:7, cat:"computing",
   title:"Anthropic Is Founded",
   wiki:"Anthropic", gallery:["Dario Amodei","AI safety","Claude (language model)"],
   summary:"A group of senior researchers leaves OpenAI to build a lab with safety at its center — and an empirical, hard-science culture.",
