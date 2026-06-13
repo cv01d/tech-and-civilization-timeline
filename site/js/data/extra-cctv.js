@@ -8,7 +8,7 @@
 // Round one: data only — images to follow.
 window.ATLAS_EVENTS.push(
 
-{ id:"theremintv", year:1927, date:"1927", era:4, cat:"surveillance",
+{ id:"theremintv", year:1927, date:"1927", era:4, cat:"cctv",
   title:"Theremin's Television Eye",
   wiki:"Léon Theremin",
   summary:"The Russian physicist Léon Theremin reportedly demonstrates an early television-surveillance system to the Soviet leadership — among the first known uses of live video to watch people for the state.",
@@ -19,7 +19,7 @@ window.ATLAS_EVENTS.push(
     power:"The watching eye is imagined as an instrument of political control." },
   effects:["cctvpeenemunde"] },
 
-{ id:"cctvpeenemunde", year:1942, date:"1942", era:4, cat:"surveillance",
+{ id:"cctvpeenemunde", year:1942, date:"1942", era:4, cat:"cctv",
   title:"The First CCTV: Watching a Rocket",
   wiki:"Closed-circuit television",
   summary:"Siemens engineer Walter Bruch installs the first documented closed-circuit television at Peenemünde, so personnel can watch V-2 rocket launches from a bunker — live only, recording nothing.",
@@ -30,7 +30,7 @@ window.ATLAS_EVENTS.push(
     power:"The state's first CCTV serves the apparatus of war." },
   causes:["theremintv"], effects:["vericon","cctvcoronation"] },
 
-{ id:"vericon", year:1949, date:"1949", era:5, cat:"surveillance",
+{ id:"vericon", year:1949, date:"1949", era:5, cat:"cctv",
   title:"CCTV Goes Commercial",
   wiki:"Closed-circuit television",
   summary:"Vericon markets the first commercial CCTV in the United States — still unable to record, still demanding constant human monitoring — sold to banks and industrial sites as a niche product.",
@@ -41,7 +41,7 @@ window.ATLAS_EVENTS.push(
     law:"An unregulated private surveillance market takes root before any rules exist." },
   causes:["cctvpeenemunde"], effects:["olean1968","ipcamera"] },
 
-{ id:"cctvcoronation", year:1953, date:"1953", era:5, cat:"surveillance",
+{ id:"cctvcoronation", year:1953, date:"1953", era:5, cat:"cctv",
   title:"Cameras at the Coronation",
   wiki:"Coronation of Elizabeth II",
   summary:"London installs cameras to monitor the crowds at Elizabeth II's coronation — the first recorded use of surveillance cameras at a mass public event.",
@@ -52,7 +52,7 @@ window.ATLAS_EVENTS.push(
     technology:"The camera proves its use for crowd observation at scale." },
   causes:["cctvpeenemunde"], effects:["trafalgarcctv","kingslynn"] },
 
-{ id:"trafalgarcctv", year:1960, date:"1960", era:5, cat:"surveillance",
+{ id:"trafalgarcctv", year:1960, date:"1960", era:5, cat:"cctv",
   title:"Trafalgar Square: Watching the Protest",
   wiki:"Trafalgar Square",
   summary:"The Metropolitan Police mount cameras in Trafalgar Square to monitor political demonstrations — the first police use of public street surveillance in a Western democracy.",
@@ -63,7 +63,7 @@ window.ATLAS_EVENTS.push(
     law:"The watching of protest proceeds with no law to constrain it." },
   causes:["cctvcoronation"], effects:["kingslynn","ringofsteel"] },
 
-{ id:"olean1968", year:1968, date:"1968", era:5, cat:"surveillance",
+{ id:"olean1968", year:1968, date:"1968", era:5, cat:"cctv",
   title:"Olean: The First Wired Main Street",
   wiki:"Olean, New York",
   summary:"Olean, New York becomes the first city in the world to line its main commercial street with CCTV for crime deterrence — the model cities everywhere will copy. The arrival of VCRs the same era lets cameras finally record.",
@@ -74,7 +74,7 @@ window.ATLAS_EVENTS.push(
     law:"Footage that can be stored and shared outruns any rule on retention." },
   causes:["vericon"], effects:["kingslynn","chicagocameras"] },
 
-{ id:"kingslynn", year:1987, date:"1987", era:5, cat:"surveillance",
+{ id:"kingslynn", year:1987, date:"1987", era:5, cat:"cctv",
   title:"King's Lynn: The Municipal Floodgates",
   wiki:"King's Lynn",
   summary:"King's Lynn runs the first local-government-operated public CCTV network in Britain; its claimed success in deterring crime opens the floodgates for municipal surveillance across the country.",
@@ -85,7 +85,7 @@ window.ATLAS_EVENTS.push(
     law:"Cameras proliferate years ahead of any data-protection rule to govern them." },
   causes:["cctvcoronation","trafalgarcctv","olean1968"], effects:["ringofsteel","maxsurveillance"] },
 
-{ id:"ringofsteel", year:1993, date:"1992–1993", era:6, cat:"surveillance",
+{ id:"ringofsteel", year:1993, date:"1992–1993", era:6, cat:"cctv",
   title:"London's Ring of Steel",
   wiki:"Ring of steel (London)",
   summary:"After IRA bombings in the City of London, a cordon of cameras and checkpoints rings the financial district — a counter-terror measure that becomes permanent infrastructure and the template for justifying urban surveillance in the name of security.",
@@ -96,7 +96,7 @@ window.ATLAS_EVENTS.push(
     technology:"Automatic number-plate recognition enters routine city surveillance." },
   causes:["trafalgarcctv","kingslynn"], effects:["london77","chinasurveillance"] },
 
-{ id:"ipcamera", year:1996, date:"1996", era:6, cat:"surveillance",
+{ id:"ipcamera", year:1996, date:"1996", era:6, cat:"cctv",
   title:"The IP Camera",
   wiki:"IP camera",
   summary:"Axis Communications builds the first network camera — able to connect to the internet, stream footage anywhere, and store it digitally rather than on tape — laying the architecture of modern networked surveillance.",
@@ -107,7 +107,7 @@ window.ATLAS_EVENTS.push(
     computing:"Networked storage makes footage searchable and ready for later AI analysis." },
   causes:["vericon"], effects:["chicagocameras","chinasurveillance","ring"] },
 
-{ id:"maxsurveillance", year:1999, date:"1999", era:6, cat:"surveillance",
+{ id:"maxsurveillance", year:1999, date:"1999", era:6, cat:"cctv",
   title:"The Maximum Surveillance Society",
   wiki:"Mass surveillance in the United Kingdom",
   summary:"Clive Norris and Gary Armstrong's study of CCTV control rooms documents that operators disproportionately target Black men, the young, and the visibly poor — the first hard evidence of discriminatory surveillance patterns.",
@@ -118,7 +118,7 @@ window.ATLAS_EVENTS.push(
     law:"Discriminatory targeting is documented years before any rule addresses it." },
   causes:["kingslynn"], effects:["gendershades","hostilearchitecture"] },
 
-{ id:"chicagocameras", year:2003, date:"2003", era:6, cat:"surveillance",
+{ id:"chicagocameras", year:2003, date:"2003", era:6, cat:"cctv",
   title:"Chicago Builds the Integrated Network",
   wiki:"Mass surveillance in the United States",
   summary:"Chicago links its cameras into a single citywide system — growing to some 15,000 by 2009 — the first major American city to build integrated mass surveillance, funded in the post-9/11 homeland-security boom.",
@@ -129,7 +129,7 @@ window.ATLAS_EVENTS.push(
     technology:"A unified command center integrates a city's cameras into a single view." },
   causes:["ipcamera","olean1968","patriotact"], effects:["hostilearchitecture","metlfr"] },
 
-{ id:"london77", year:2005, date:"July 7, 2005", era:6, cat:"surveillance",
+{ id:"london77", year:2005, date:"July 7, 2005", era:6, cat:"cctv",
   title:"7/7 and the Vindication of CCTV",
   wiki:"7 July 2005 London bombings",
   summary:"CCTV footage identifies the London bombers within hours, becoming the most-cited proof of the camera's counter-terror value — by which point Britain has an estimated 4.2 million cameras, one for every fourteen people.",
@@ -140,7 +140,7 @@ window.ATLAS_EVENTS.push(
     law:"Saturation surveillance expands faster than the oversight meant to check it." },
   causes:["ringofsteel"], effects:["chinasurveillance","metlfr"] },
 
-{ id:"chinasurveillance", year:2014, date:"2010s", era:7, cat:"surveillance",
+{ id:"chinasurveillance", year:2014, date:"2010s", era:7, cat:"cctv",
   title:"China's Surveillance State and the Social Credit System",
   wiki:"Social Credit System",
   summary:"China fuses CCTV with facial recognition, phone tracking, and financial data into the Social Credit System — the most comprehensive AI-enabled surveillance ever built, designed to shape behavior through visibility — and grows toward an estimated 700 million cameras.",
@@ -151,7 +151,7 @@ window.ATLAS_EVENTS.push(
     power:"Visibility itself is wielded as the instrument of governance." },
   causes:["ringofsteel","ipcamera","london77"], effects:["chinaexport","gendershades","euaiactfr"] },
 
-{ id:"chinaexport", year:2018, date:"2018", era:7, cat:"surveillance",
+{ id:"chinaexport", year:2018, date:"2018", era:7, cat:"cctv",
   title:"Exporting the Safe City",
   wiki:"Hikvision",
   summary:"Chinese firms — Huawei, Hikvision, Dahua — begin supplying camera systems and AI surveillance software to governments in dozens of countries, packaging the surveillance state as the fastest-growing product on the global market.",
@@ -162,7 +162,7 @@ window.ATLAS_EVENTS.push(
     technology:"Facial-recognition CCTV proliferates faster than any framework to constrain it." },
   causes:["chinasurveillance"], effects:["euaiactfr"] },
 
-{ id:"gendershades", year:2018, date:"2018", era:7, cat:"surveillance",
+{ id:"gendershades", year:2018, date:"2018", era:7, cat:"cctv",
   title:"Gender Shades: The Bias in the Machine",
   wiki:"Joy Buolamwini",
   summary:"An MIT Media Lab study finds leading facial-recognition systems misidentify dark-skinned women up to a third of the time while achieving near-perfect accuracy on white men — the most influential evidence of racial bias in AI surveillance.",
@@ -173,7 +173,7 @@ window.ATLAS_EVENTS.push(
     law:"The study becomes the evidentiary basis for bans and restrictions worldwide." },
   causes:["chinasurveillance","maxsurveillance"], effects:["sfbanfr","techfrpause","euaiactfr"] },
 
-{ id:"sfbanfr", year:2019, date:"May 2019", era:7, cat:"law",
+{ id:"sfbanfr", year:2019, date:"May 2019", era:7, cat:"cctv",
   title:"San Francisco Bans Facial Recognition",
   wiki:"Facial recognition system",
   summary:"San Francisco becomes the first city in the world to bar its agencies from using facial-recognition technology — a deliberate rebuke from the city that houses Silicon Valley — with Oakland, Berkeley, and Boston following within months.",
@@ -184,7 +184,7 @@ window.ATLAS_EVENTS.push(
     power:"The city housing the industry moves to constrain its core technology." },
   causes:["gendershades"], effects:["techfrpause","euaiactfr"] },
 
-{ id:"techfrpause", year:2020, date:"June 2020", era:7, cat:"law",
+{ id:"techfrpause", year:2020, date:"June 2020", era:7, cat:"cctv",
   title:"The Vendors Pull Back",
   wiki:"Amazon Rekognition",
   summary:"Amid the George Floyd protests and mounting evidence of biased misidentification, IBM, Amazon, and Microsoft announce they will pause or end sales of facial recognition to U.S. police.",
@@ -195,7 +195,7 @@ window.ATLAS_EVENTS.push(
     power:"A protest movement, not a legislature, forces the industry's hand." },
   causes:["gendershades","sfbanfr","ferguson"], effects:["euaiactfr"] },
 
-{ id:"euaiactfr", year:2023, date:"2023", era:7, cat:"law",
+{ id:"euaiactfr", year:2023, date:"2023", era:7, cat:"cctv",
   title:"The EU Restricts Biometric Surveillance",
   wiki:"Facial recognition system",
   summary:"The EU AI Act bans real-time biometric surveillance in public spaces, with narrow exceptions — the world's first binding regulation of AI-powered CCTV — while GDPR is wielded at maximum scale, including a €1.2 billion Meta fine.",
@@ -206,7 +206,7 @@ window.ATLAS_EVENTS.push(
     power:"Europe becomes the sole jurisdiction with enforceable limits on AI surveillance." },
   causes:["gendershades","chinasurveillance","chinaexport","sfbanfr","techfrpause"], effects:["metlfr"] },
 
-{ id:"metlfr", year:2024, date:"2024–2025", era:7, cat:"surveillance",
+{ id:"metlfr", year:2024, date:"2024–2025", era:7, cat:"cctv",
   title:"Permanent Live Facial Recognition in London",
   wiki:"Facial recognition system",
   summary:"The Metropolitan Police install permanent live facial-recognition cameras in South London — the only European force using ongoing live LFR in public — even as the EU bans the practice next door, drawing concern from the UN Human Rights Committee.",
@@ -217,7 +217,7 @@ window.ATLAS_EVENTS.push(
     power:"Continuous real-time identification becomes routine public infrastructure." },
   causes:["euaiactfr","london77","chicagocameras"], effects:[] },
 
-{ id:"hostilearchitecture", year:2015, date:"1980s–present", era:7, cat:"power",
+{ id:"hostilearchitecture", year:2015, date:"1980s–present", era:7, cat:"cctv",
   title:"Hostile Architecture and the Surveilled Poor",
   wiki:"Hostile architecture",
   summary:"CCTV joins anti-sleeping spikes, dividing benches, and boulders under bridges as a companion technology of exclusion — cameras and hostile design together deciding whose body is unwelcome in public space, with homeless people the group most directly managed.",
@@ -228,7 +228,7 @@ window.ATLAS_EVENTS.push(
     law:"Business-improvement districts run private camera networks with no public accountability." },
   causes:["maxsurveillance","chicagocameras"], effects:["martinboise","grantspass"] },
 
-{ id:"martinboise", year:2018, date:"2018", era:7, cat:"law",
+{ id:"martinboise", year:2018, date:"2018", era:7, cat:"cctv",
   title:"Martin v. Boise",
   wiki:"Martin v. City of Boise",
   summary:"The Ninth Circuit rules that cities cannot enforce anti-camping ordinances against homeless people when no shelter is available — the first constitutional limit on encampment sweeps, against which CCTV-documented sweep evidence is challenged for five years across nine western states.",
@@ -239,7 +239,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Footage gathered to justify sweeps is forced to meet a legal standard." },
   causes:["hostilearchitecture"], effects:["grantspass"] },
 
-{ id:"grantspass", year:2024, date:"June 28, 2024", era:7, cat:"law",
+{ id:"grantspass", year:2024, date:"June 28, 2024", era:7, cat:"cctv",
   title:"Grants Pass v. Johnson",
   wiki:"City of Grants Pass v. Johnson",
   summary:"The Supreme Court rules 6–3 that enforcing camping bans against homeless people is not cruel and unusual punishment, overturning Martin v. Boise; sweeps resume within weeks, and cities rapidly expand camera and AI tools to monitor encampments and document 'repeat occupiers.'",
@@ -250,7 +250,7 @@ window.ATLAS_EVENTS.push(
     power:"The least politically powerful are subjected to surveillance's consequences with the least recourse." },
   causes:["martinboise","hostilearchitecture","chicagocameras"], effects:[] },
 
-{ id:"frcctv1998", year:1998, date:"1998", era:6, cat:"surveillance",
+{ id:"frcctv1998", year:1998, date:"1998", era:6, cat:"cctv",
   title:"The First Face-Reading Cameras",
   wiki:"Facial recognition system",
   summary:"London authorities wire automated facial recognition into public CCTV — among the first deployments anywhere to try matching passers-by against a database in real time, turning the camera from a witness into an identifier.",
@@ -261,7 +261,7 @@ window.ATLAS_EVENTS.push(
     law:"The leap from recording to identifying outruns any rule built for mere recording." },
   causes:["trafalgarcctv","ipcamera"], effects:["gendershades","bridges2019","metlfr"] },
 
-{ id:"camcommissioner2016", year:2016, date:"2016", era:7, cat:"law",
+{ id:"camcommissioner2016", year:2016, date:"2016", era:7, cat:"cctv",
   title:"Britain's Toothless Camera Watchdog",
   wiki:"Mass surveillance in the United Kingdom",
   summary:"The UK establishes a Surveillance Camera Commissioner — its first statutory oversight body for public CCTV — but with limited enforcement power and no authority to compel a camera's removal.",
@@ -272,7 +272,7 @@ window.ATLAS_EVENTS.push(
     power:"Oversight is granted in form while the cameras stay exactly where they are." },
   causes:["maxsurveillance","kingslynn"], effects:["bridges2019","euaiactfr"] },
 
-{ id:"bridges2019", year:2019, date:"2019–2020", era:7, cat:"law",
+{ id:"bridges2019", year:2019, date:"2019–2020", era:7, cat:"cctv",
   title:"Bridges v. South Wales Police",
   wiki:"R (Bridges) v Chief Constable of South Wales Police",
   summary:"The first European court ruling on public live facial recognition: a UK court finds South Wales Police's use lawful in 2019, but the Court of Appeal overturns it in 2020, holding the deployment unlawful for breaching privacy and equality duties.",
@@ -283,7 +283,7 @@ window.ATLAS_EVENTS.push(
     computing:"Algorithmic bias becomes a legal liability, not merely an academic finding." },
   causes:["frcctv1998","gendershades","camcommissioner2016"], effects:["euaiactfr","metlfr"] },
 
-{ id:"courtspushback", year:2022, date:"2022–2023", era:7, cat:"law",
+{ id:"courtspushback", year:2022, date:"2022–2023", era:7, cat:"cctv",
   title:"The Courts Push Back",
   wiki:"Homelessness in the United States",
   summary:"In the interregnum under Martin v. Boise, state courts halt encampment sweeps: a San Francisco judge enjoins clearances in 2022 (relying partly on the city's own surveillance data as evidence), and a Seattle court strikes down displacement rules in 2023 as unconstitutionally broad.",
@@ -294,7 +294,7 @@ window.ATLAS_EVENTS.push(
     power:"For a brief window, surveillance is turned to the protection of the displaced." },
   causes:["martinboise","hostilearchitecture"], effects:["grantspass"] },
 
-{ id:"camerasafety", year:2025, date:"2025", era:7, cat:"surveillance",
+{ id:"camerasafety", year:2025, date:"2025", era:7, cat:"cctv",
   title:"The Camera as Refuge",
   wiki:"Closed-circuit television",
   summary:"A BBC report documents a homeless man who deliberately sleeps where CCTV can see him because the cameras make him feel safer — a striking inversion of the surveillance logic, where being watched means protection from violence rather than displacement.",

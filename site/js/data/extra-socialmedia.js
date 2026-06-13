@@ -8,7 +8,7 @@
 // Round one: data only — images to follow.
 window.ATLAS_EVENTS.push(
 
-{ id:"bbs", year:1978, date:"1978", era:5, cat:"communications",
+{ id:"bbs", year:1978, date:"1978", era:5, cat:"social",
   title:"The Bulletin Board System",
   wiki:"Bulletin board system",
   summary:"In a Chicago blizzard, Ward Christensen and Randy Suess build the first dial-up BBS — strangers phoning a single computer to post messages, swap files, and arrange to meet. The online community is born.",
@@ -19,7 +19,7 @@ window.ATLAS_EVENTS.push(
     society:"Geographically scattered people form communities around interests, not place." },
   causes:["arpanet"], effects:["thewell","irc","sixdegrees"] },
 
-{ id:"thewell", year:1985, date:"1985", era:5, cat:"communications",
+{ id:"thewell", year:1985, date:"1985", era:5, cat:"social",
   title:"CompuServe and The WELL",
   wiki:"The WELL",
   summary:"Commercial online services arrive: CompuServe sells forums, chat, and email to the mass market, while the Bay Area's WELL becomes the influential prototype of online community and digital culture.",
@@ -30,7 +30,7 @@ window.ATLAS_EVENTS.push(
     technology:"Forums, chat, and email are bundled into a single consumer experience." },
   causes:["bbs"], effects:["aol","sixdegrees"] },
 
-{ id:"irc", year:1988, date:"1988", era:5, cat:"communications",
+{ id:"irc", year:1988, date:"1988", era:5, cat:"social",
   title:"Internet Relay Chat",
   wiki:"Internet Relay Chat",
   summary:"Jarkko Oikarinen creates IRC — the first real-time, global, public chat infrastructure, where channels of strangers worldwide talk at once.",
@@ -41,7 +41,7 @@ window.ATLAS_EVENTS.push(
     technology:"The many-to-many chat protocol sets patterns later platforms inherit." },
   causes:["bbs"], effects:["aol","twitter"] },
 
-{ id:"aol", year:1993, date:"1993", era:6, cat:"communications",
+{ id:"aol", year:1993, date:"1993", era:6, cat:"social",
   title:"AOL and the Mass-Market Online",
   wiki:"AOL",
   summary:"America Online floods mailboxes with free trial discs and brings tens of millions of ordinary Americans their first email address, chat room, and screen name — the internet's mainstream on-ramp.",
@@ -52,7 +52,7 @@ window.ATLAS_EVENTS.push(
     technology:"The walled-garden portal model previews the platform era." },
   causes:["thewell","irc"], effects:["sixdegrees","myspace"] },
 
-{ id:"section230", year:1996, date:"1996", era:6, cat:"law",
+{ id:"section230", year:1996, date:"1996", era:6, cat:"social",
   title:"Section 230: Twenty-Six Words",
   wiki:"Section 230",
   summary:"The Communications Decency Act tries to police internet speech; the Supreme Court strikes most of it down in 1997, but Section 230 survives — granting platforms immunity for what their users post, the most consequential internet law ever written.",
@@ -63,7 +63,7 @@ window.ATLAS_EVENTS.push(
     power:"A single clause shapes the economic structure of the entire platform era." },
   causes:["webpublic"], effects:["facebookapi","gonzalez","kosa"] },
 
-{ id:"sixdegrees", year:1997, date:"1997", era:6, cat:"communications",
+{ id:"sixdegrees", year:1997, date:"1997", era:6, cat:"social",
   title:"SixDegrees: The First Social Network",
   wiki:"SixDegrees.com",
   summary:"SixDegrees.com combines profiles, friend lists, and messaging in one place — the first recognizable social network, years before the infrastructure could sustain it.",
@@ -74,7 +74,7 @@ window.ATLAS_EVENTS.push(
     society:"Identity online shifts from anonymous handle to mapped network of real ties." },
   causes:["aol","thewell"], effects:["friendster","myspace","facebookapi"] },
 
-{ id:"blogging", year:1999, date:"1999", era:6, cat:"communications",
+{ id:"blogging", year:1999, date:"1999", era:6, cat:"social",
   title:"Blogging Goes Mainstream",
   wiki:"Blog",
   summary:"LiveJournal and Blogger launch, putting publishing in everyone's hands; self-expression and personal journaling become a mass public act, the precursor to the status update.",
@@ -85,7 +85,7 @@ window.ATLAS_EVENTS.push(
     power:"The one-to-many monopoly of mass media is broken by the individual author." },
   causes:["webpublic"], effects:["myspace","twitter"] },
 
-{ id:"friendster", year:2002, date:"2002", era:6, cat:"communications",
+{ id:"friendster", year:2002, date:"2002", era:6, cat:"social",
   title:"Friendster's Flameout",
   wiki:"Friendster",
   summary:"Friendster brings the social network to the mainstream and rockets to three million users — then collapses under technical load it cannot handle, a cautionary tale of timing and scale.",
@@ -96,7 +96,7 @@ window.ATLAS_EVENTS.push(
     society:"Mapping real friendships online moves from novelty to expectation." },
   causes:["sixdegrees"], effects:["myspace","facebookapi"] },
 
-{ id:"myspace", year:2003, date:"2003", era:6, cat:"communications",
+{ id:"myspace", year:2003, date:"2003", era:6, cat:"social",
   title:"MySpace and LinkedIn",
   wiki:"Myspace",
   summary:"MySpace lets users customize garish profiles and follow music, becoming the world's most-visited website by 2006; LinkedIn applies the same graph to careers. The social network goes culturally dominant.",
@@ -107,7 +107,7 @@ window.ATLAS_EVENTS.push(
     technology:"The social graph splits into personal (MySpace) and professional (LinkedIn) forms." },
   causes:["friendster","blogging","aol"], effects:["facebookapi","obamacampaign"] },
 
-{ id:"twitter", year:2006, date:"2006", era:6, cat:"communications",
+{ id:"twitter", year:2006, date:"2006", era:6, cat:"social",
   title:"Twitter and the Real-Time Feed",
   wiki:"Twitter",
   summary:"Twitter's 140-character microblog turns the internet into a global, real-time nervous system — breaking news, organizing protest, and amplifying outrage faster than any institution can respond.",
@@ -118,7 +118,7 @@ window.ATLAS_EVENTS.push(
     society:"Instant amplification empowers activists and propagandists alike." },
   causes:["blogging","irc"], effects:["arabspring","russia2016","trumpban"] },
 
-{ id:"facebookapi", year:2007, date:"2007", era:6, cat:"surveillance",
+{ id:"facebookapi", year:2007, date:"2007", era:6, cat:"social",
   title:"Facebook Opens the Data Tap",
   wiki:"Facebook",
   summary:"Facebook opens its platform to third-party apps, letting outside developers harvest user data at scale — building the architecture that, a decade later, makes Cambridge Analytica possible.",
@@ -129,7 +129,7 @@ window.ATLAS_EVENTS.push(
     law:"The data architecture that enables the Cambridge Analytica scandal is laid." },
   causes:["facebook","sixdegrees","section230"], effects:["cambridgeanalytica","likebutton"] },
 
-{ id:"obamacampaign", year:2008, date:"2008", era:6, cat:"power",
+{ id:"obamacampaign", year:2008, date:"2008", era:6, cat:"social",
   title:"The First Social-Media Election",
   wiki:"Barack Obama 2008 presidential campaign",
   summary:"Barack Obama's campaign uses Facebook, YouTube, and email lists systematically to organize, fundraise, and mobilize — proving social media is now a decisive instrument of political power.",
@@ -140,7 +140,7 @@ window.ATLAS_EVENTS.push(
     society:"The hopeful view of platforms as democratizing reaches its high-water mark." },
   causes:["myspace","youtube","facebook"], effects:["russia2016","cambridgeanalytica"] },
 
-{ id:"instagram", year:2010, date:"2010", era:6, cat:"communications",
+{ id:"instagram", year:2010, date:"2010", era:6, cat:"social",
   title:"Instagram and the Image Feed",
   wiki:"Instagram",
   summary:"Instagram makes the photo the unit of social life; Facebook buys it for $1 billion in 2012. The curated image feed reshapes self-presentation, aspiration, and, eventually, teenage mental health.",
@@ -151,7 +151,7 @@ window.ATLAS_EVENTS.push(
     technology:"The smartphone camera and the feed fuse into a single habit." },
   causes:["iphone","facebook"], effects:["haugen","snapchat"] },
 
-{ id:"snapchat", year:2011, date:"2011", era:6, cat:"communications",
+{ id:"snapchat", year:2011, date:"2011", era:6, cat:"social",
   title:"Snapchat and the Disappearing Message",
   wiki:"Snapchat",
   summary:"Snapchat pioneers ephemeral content — messages and photos that vanish after viewing — reshaping expectations of privacy, permanence, and performance online.",
@@ -162,7 +162,7 @@ window.ATLAS_EVENTS.push(
     technology:"The 'Stories' format is invented and absorbed across every platform." },
   causes:["instagram"], effects:["haugen"] },
 
-{ id:"egyptshutdown", year:2011, date:"2011", era:6, cat:"power",
+{ id:"egyptshutdown", year:2011, date:"2011", era:6, cat:"social",
   title:"Egypt Pulls the Plug",
   wiki:"Egyptian revolution of 2011",
   summary:"As protesters organize on Facebook and Twitter, Egypt shuts down the entire national internet for five days — the first time a major state kills connectivity to suppress a social-media-driven uprising.",
@@ -173,7 +173,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Platforms are confirmed as a genuine threat to state control of information." },
   causes:["arabspring","twitter"], effects:["russia2016"] },
 
-{ id:"rohingya", year:2013, date:"2013–2017", era:7, cat:"power",
+{ id:"rohingya", year:2013, date:"2013–2017", era:7, cat:"social",
   title:"Facebook and the Rohingya Genocide",
   wiki:"Rohingya genocide",
   summary:"In Myanmar, where Facebook is effectively the internet, anti-Rohingya hate spreads almost unchecked for want of Burmese-language moderators; UN investigators later find the platform played a 'determining role' in inciting genocidal violence.",
@@ -184,7 +184,7 @@ window.ATLAS_EVENTS.push(
     law:"The episode fuels global demands that platforms answer for real-world harm." },
   causes:["facebook","likebutton"], effects:["christchurch","dsa"] },
 
-{ id:"gamergate", year:2014, date:"2014", era:7, cat:"power",
+{ id:"gamergate", year:2014, date:"2014", era:7, cat:"social",
   title:"Gamergate: The Harassment Template",
   wiki:"Gamergate (harassment campaign)",
   summary:"A coordinated campaign targeting women in the games industry shows that platforms can be weaponized for sustained, organized mob harassment with effectively no accountability — a playbook later adopted broadly.",
@@ -195,7 +195,7 @@ window.ATLAS_EVENTS.push(
     communications:"The brigading playbook is established and exported to politics." },
   causes:["twitter"], effects:["russia2016","kosa"] },
 
-{ id:"russia2016", year:2016, date:"2016", era:7, cat:"power",
+{ id:"russia2016", year:2016, date:"2016", era:7, cat:"social",
   title:"2016: The Disinformation Election",
   wiki:"Russian interference in the 2016 United States elections",
   summary:"Russia's Internet Research Agency runs a systematic disinformation campaign across Facebook, Twitter, and YouTube, reaching an estimated 126 million Americans on Facebook alone — and the engagement-maximizing algorithms amplify it.",
@@ -206,7 +206,7 @@ window.ATLAS_EVENTS.push(
     law:"The episode triggers the global wave of platform scrutiny and regulation." },
   causes:["facebookapi","twitter","obamacampaign","gamergate","egyptshutdown"], effects:["cambridgeanalytica","haugen","dsa"] },
 
-{ id:"pizzagate", year:2016, date:"2016", era:7, cat:"power",
+{ id:"pizzagate", year:2016, date:"2016", era:7, cat:"social",
   title:"Pizzagate: Conspiracy to Gunfire",
   wiki:"Pizzagate conspiracy theory",
   summary:"A viral conspiracy theory spread on Facebook and Reddit leads a man to fire a rifle inside a Washington, D.C. pizzeria — an early, vivid case of social-media falsehood producing real-world violence.",
@@ -217,7 +217,7 @@ window.ATLAS_EVENTS.push(
     communications:"Viral falsehood is reframed as a physical-safety problem, not just a truth problem." },
   causes:["russia2016","likebutton"], effects:["trumpban","infodemic"] },
 
-{ id:"alexjones", year:2018, date:"2018", era:7, cat:"power",
+{ id:"alexjones", year:2018, date:"2018", era:7, cat:"social",
   title:"Deplatforming Alex Jones",
   wiki:"Alex Jones",
   summary:"Facebook, YouTube, Apple, and Spotify remove Alex Jones and Infowars within days of one another — the first coordinated major deplatforming of a U.S. public figure, igniting the debate over private platform power over speech.",
@@ -228,7 +228,7 @@ window.ATLAS_EVENTS.push(
     communications:"'Deplatforming' enters the vocabulary as both remedy and threat." },
   causes:["russia2016"], effects:["trumpban","onlinesafetyact"] },
 
-{ id:"christchurch", year:2019, date:"2019", era:7, cat:"law",
+{ id:"christchurch", year:2019, date:"2019", era:7, cat:"social",
   title:"Christchurch: The Livestreamed Massacre",
   wiki:"Christchurch mosque shootings",
   summary:"A gunman livestreams the murder of 51 worshippers at two New Zealand mosques on Facebook; copies propagate across platforms for hours. New Zealand and Australia pass emergency laws compelling rapid removal of violent content.",
@@ -239,7 +239,7 @@ window.ATLAS_EVENTS.push(
     power:"Governments shift from requesting platform cooperation to mandating it." },
   causes:["rohingya","facebook"], effects:["onlinesafetyact","dsa"] },
 
-{ id:"libra", year:2019, date:"2019", era:7, cat:"law",
+{ id:"libra", year:2019, date:"2019", era:7, cat:"social",
   title:"Facebook's Currency Is Killed",
   wiki:"Diem (digital currency)",
   summary:"Facebook announces Libra, a global cryptocurrency; alarmed financial regulators worldwide force the project to collapse — the first time regulators successfully halt a major Facebook product before launch.",
@@ -250,7 +250,7 @@ window.ATLAS_EVENTS.push(
     society:"The limits of platform expansion into new domains become enforceable." },
   causes:["facebook"], effects:["dsa"] },
 
-{ id:"infodemic", year:2020, date:"2020", era:7, cat:"communications",
+{ id:"infodemic", year:2020, date:"2020", era:7, cat:"social",
   title:"The COVID Infodemic",
   wiki:"Infodemic",
   summary:"Health misinformation outruns fact-checks on every platform during the pandemic; the WHO names the crisis an 'infodemic,' and platforms begin labeling and removing health claims for the first time.",
@@ -261,7 +261,7 @@ window.ATLAS_EVENTS.push(
     power:"Content moderation expands from safety into the contested terrain of fact." },
   causes:["pizzagate","russia2016"], effects:["trumpban","dsa"] },
 
-{ id:"trumpban", year:2021, date:"January 2021", era:7, cat:"power",
+{ id:"trumpban", year:2021, date:"January 2021", era:7, cat:"social",
   title:"Deplatforming a President",
   wiki:"Donald Trump on social media",
   summary:"After the January 6 Capitol attack — organized in part on Facebook, Twitter, and Parler — Twitter, Facebook, YouTube, and Snapchat suspend or ban the sitting U.S. president, the most dramatic display of platform power ever seen.",
@@ -272,7 +272,7 @@ window.ATLAS_EVENTS.push(
     communications:"The fight over the public square moves to its highest possible stakes." },
   causes:["twitter","alexjones","pizzagate","infodemic"], effects:["dsa","kosa","onlinesafetyact"] },
 
-{ id:"haugen", year:2021, date:"2021", era:7, cat:"power",
+{ id:"haugen", year:2021, date:"2021", era:7, cat:"social",
   title:"The Facebook Whistleblower",
   wiki:"Frances Haugen",
   summary:"Frances Haugen leaks internal documents proving Facebook knew its algorithm amplified division and that Instagram harmed teen girls' mental health — yet chose growth over reform. She testifies before the Senate.",
@@ -283,7 +283,7 @@ window.ATLAS_EVENTS.push(
     law:"The leak supplies the evidentiary basis for child-safety legislation worldwide." },
   causes:["russia2016","instagram","snapchat"], effects:["kosa","onlinesafetyact","australiaban"] },
 
-{ id:"dsa", year:2022, date:"2022", era:7, cat:"law",
+{ id:"dsa", year:2022, date:"2022", era:7, cat:"social",
   title:"The EU Digital Services Act",
   wiki:"Digital Services Act",
   summary:"The EU passes the DSA, the most comprehensive platform regulation in history: very large platforms must assess systemic risks, open data to researchers, allow algorithm audits, and remove illegal content — with fines up to 6% of global revenue.",
@@ -294,7 +294,7 @@ window.ATLAS_EVENTS.push(
     communications:"Algorithmic transparency and researcher access become legal requirements." },
   causes:["russia2016","rohingya","christchurch","haugen","trumpban","gdpr"], effects:["kosa","australiaban","tiktokban"] },
 
-{ id:"kosa", year:2023, date:"2023", era:7, cat:"law",
+{ id:"kosa", year:2023, date:"2023", era:7, cat:"social",
   title:"KOSA and the Children's-Safety Push",
   wiki:"Kids Online Safety Act",
   summary:"The U.S. Senate passes the Kids Online Safety Act with rare bipartisan support, imposing a 'duty of care' on platforms used by minors — the most serious U.S. social-media legislation in years. It stalls in the House.",
@@ -305,7 +305,7 @@ window.ATLAS_EVENTS.push(
     power:"The American pattern of hearings-without-legislation repeats once more." },
   causes:["haugen","section230","gamergate"], effects:["australiaban"] },
 
-{ id:"metafine2023", year:2023, date:"May 2023", era:7, cat:"law",
+{ id:"metafine2023", year:2023, date:"May 2023", era:7, cat:"social",
   title:"The Largest GDPR Fine",
   wiki:"General Data Protection Regulation",
   summary:"Meta is fined €1.2 billion under GDPR for unlawfully transferring EU user data to U.S. servers — the largest privacy penalty in history, the enforcement edge of the Schrems data-transfer rulings.",
@@ -316,7 +316,7 @@ window.ATLAS_EVENTS.push(
     power:"Europe's privacy regime is shown to have enforcement teeth the U.S. lacks." },
   causes:["gdpr","schrems"], effects:["dsa"] },
 
-{ id:"gonzalez", year:2023, date:"2023", era:7, cat:"law",
+{ id:"gonzalez", year:2023, date:"2023", era:7, cat:"social",
   title:"Section 230 Survives the Court",
   wiki:"Gonzalez v. Google LLC",
   summary:"In Gonzalez v. Google, the Supreme Court declines to narrow Section 230's immunity for algorithmic recommendations, leaving the 1996 law — and the legal foundation of the platform economy — intact for now.",
@@ -327,7 +327,7 @@ window.ATLAS_EVENTS.push(
     communications:"The legal bedrock of the platform economy survives its biggest test." },
   causes:["section230"], effects:["kosa"] },
 
-{ id:"onlinesafetyact", year:2023, date:"2023", era:7, cat:"law",
+{ id:"onlinesafetyact", year:2023, date:"2023", era:7, cat:"social",
   title:"The UK Online Safety Act",
   wiki:"Online Safety Act 2023",
   summary:"Britain's Online Safety Act becomes law, requiring platforms to protect users from illegal and harmful content, imposing child-safety duties, and creating new offenses for sharing intimate images without consent.",
@@ -338,7 +338,7 @@ window.ATLAS_EVENTS.push(
     power:"The democratic world's post-self-regulation settlement takes hold." },
   causes:["christchurch","haugen","trumpban","alexjones"], effects:["australiaban"] },
 
-{ id:"tiktokban", year:2024, date:"2024–2025", era:7, cat:"law",
+{ id:"tiktokban", year:2024, date:"2024–2025", era:7, cat:"social",
   title:"The TikTok Divestment Law",
   wiki:"Restrictions on TikTok in the United States",
   summary:"Citing national-security fears over Chinese ownership, Congress passes a law forcing ByteDance to sell TikTok or face a U.S. ban; the Supreme Court upholds it unanimously, and TikTok briefly goes dark in January 2025 before a reprieve.",
@@ -349,7 +349,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Foreign ownership of a mass platform is treated as a security threat in itself." },
   causes:["dsa","snowden"], effects:["australiaban"] },
 
-{ id:"australiaban", year:2024, date:"2024–2026", era:7, cat:"law",
+{ id:"australiaban", year:2024, date:"2024–2026", era:7, cat:"social",
   title:"Australia Bans Under-16s",
   wiki:"Internet censorship in Australia",
   summary:"Australia passes the world's first age-based social-media ban, barring under-16s from major platforms with fines up to $50 million; enforced from December 2025, it is watched globally — and early results show little behavior change and rising cyberbullying complaints.",

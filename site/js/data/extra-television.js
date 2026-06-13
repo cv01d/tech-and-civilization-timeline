@@ -10,7 +10,7 @@
 // sonybetamax cards. Round one: data only — images to follow.
 window.ATLAS_EVENTS.push(
 
-{ id:"tvprecursors", year:1884, date:"1873–1908", era:4, cat:"technology",
+{ id:"tvprecursors", year:1884, date:"1873–1908", era:4, cat:"tv",
   title:"Seeing at a Distance",
   wiki:"Nipkow disk",
   summary:"Willoughby Smith finds selenium's resistance changes with light (1873); Paul Nipkow patents a spinning disk that scans an image line by line (1884); and Campbell-Swinton describes all-electronic television (1908) — nineteen years before anyone builds it.",
@@ -21,7 +21,7 @@ window.ATLAS_EVENTS.push(
     society:"'Television' is named before it exists — a concept awaiting its engineering." },
   causes:["telegraph"], effects:["baird1925","farnsworth"] },
 
-{ id:"baird1925", year:1925, date:"March 25, 1925", era:4, cat:"communications",
+{ id:"baird1925", year:1925, date:"March 25, 1925", era:4, cat:"tv",
   title:"Baird's Mechanical Television",
   wiki:"John Logie Baird",
   summary:"John Logie Baird gives the world's first public demonstration of working television at Selfridge's in London — crude silhouettes at first, recognizable moving faces within a year — and by 1929 the BBC begins the first regular public TV service on his system.",
@@ -32,7 +32,7 @@ window.ATLAS_EVENTS.push(
     society:"Audiences see, for the first time, moving images pulled from the air." },
   causes:["tvprecursors"], effects:["ntsc1941"] },
 
-{ id:"farnsworth", year:1927, date:"1927", era:4, cat:"communications",
+{ id:"farnsworth", year:1927, date:"1927", era:4, cat:"tv",
   title:"Farnsworth Invents Electronic TV",
   wiki:"Philo Farnsworth",
   summary:"Philo Farnsworth, a 21-year-old self-taught inventor who conceived the idea as a farm boy watching furrowed fields, transmits the first fully electronic television picture; Zworykin's iconoscope camera tube follows, and a long patent war with RCA's David Sarnoff begins.",
@@ -43,7 +43,7 @@ window.ATLAS_EVENTS.push(
     technology:"The electron beam replaces the spinning disk as television's engine." },
   causes:["tvprecursors","baird1925"], effects:["ntsc1941","colortv"] },
 
-{ id:"ntsc1941", year:1941, date:"1939–1941", era:4, cat:"communications",
+{ id:"ntsc1941", year:1941, date:"1939–1941", era:4, cat:"tv",
   title:"The Broadcast Standard Is Set",
   wiki:"NTSC",
   summary:"RCA televises FDR opening the 1939 World's Fair — the first president on television — and in 1941 the FCC sets the NTSC black-and-white standard (525 lines, 30 frames per second) that U.S. sets will use for sixty years. Then World War II halts civilian TV entirely.",
@@ -54,7 +54,7 @@ window.ATLAS_EVENTS.push(
     power:"The president on screen previews television's coming political centrality." },
   causes:["farnsworth","baird1925"], effects:["licensefreeze","colortv"] },
 
-{ id:"licensefreeze", year:1948, date:"1948–1952", era:5, cat:"law",
+{ id:"licensefreeze", year:1948, date:"1948–1952", era:5, cat:"tv",
   title:"The Freeze That Made the Networks",
   wiki:"FCC freeze of 1948",
   summary:"The FCC freezes new broadcast licenses for four years to sort out interference and spectrum — and in doing so cements the dominance of NBC, CBS, and ABC, the New York stations that became the de facto national networks while no new entrant could form.",
@@ -65,7 +65,7 @@ window.ATLAS_EVENTS.push(
     power:"Regulatory inaction, not competition, decides who controls the airwaves." },
   causes:["ntsc1941","communicationsact"], effects:["colortv","cableorigin","publicbroadcasting"] },
 
-{ id:"colortv", year:1953, date:"1953", era:5, cat:"communications",
+{ id:"colortv", year:1953, date:"1953", era:5, cat:"tv",
   title:"The Color Standard War",
   wiki:"Color television",
   summary:"The FCC approves RCA's color standard over CBS's incompatible system — because RCA's color works on the 12 million black-and-white sets already in homes while CBS's does not. National color broadcasting begins; by 1955 nearly every U.S. household has a TV.",
@@ -76,7 +76,7 @@ window.ATLAS_EVENTS.push(
     society:"Television completes its conquest of the American household." },
   causes:["ntsc1941","farnsworth"], effects:["nixonkennedy"] },
 
-{ id:"nixonkennedy", year:1960, date:"1960", era:5, cat:"power",
+{ id:"nixonkennedy", year:1960, date:"1960", era:5, cat:"tv",
   title:"The First Televised Debate",
   wiki:"Kennedy–Nixon debates",
   summary:"The Kennedy–Nixon debate is the first televised presidential debate — and radio listeners think Nixon won while TV viewers think Kennedy did, launching sixty years of argument about television's power to decide elections.",
@@ -87,7 +87,7 @@ window.ATLAS_EVENTS.push(
     society:"Image and appearance enter the center of democratic choice." },
   causes:["colortv"], effects:["vastwasteland","tvcollective"] },
 
-{ id:"vastwasteland", year:1961, date:"May 9, 1961", era:5, cat:"communications",
+{ id:"vastwasteland", year:1961, date:"May 9, 1961", era:5, cat:"tv",
   title:"The 'Vast Wasteland' Speech",
   wiki:"Newton Minow",
   summary:"New FCC chairman Newton Minow tells broadcasters that if they watch their own programming they will see 'a vast wasteland' of game shows, violence, and screaming commercials — the most famous statement about television ever made, sparking a decade of public-broadcasting activism.",
@@ -98,7 +98,7 @@ window.ATLAS_EVENTS.push(
     society:"The phrase galvanizes the movement that produces public broadcasting." },
   causes:["nixonkennedy","communicationsact"], effects:["publicbroadcasting"] },
 
-{ id:"tvcollective", year:1963, date:"1963–1969", era:5, cat:"power",
+{ id:"tvcollective", year:1963, date:"1963–1969", era:5, cat:"tv",
   title:"Television as Collective Reality",
   wiki:"Assassination of John F. Kennedy",
   summary:"Four days of continuous coverage of the Kennedy assassination — including Oswald's murder live on air — and then the 1969 moon landing watched by 600 million prove television's unmatched power to make a nation, and a planet, experience the same moment at once.",
@@ -109,7 +109,7 @@ window.ATLAS_EVENTS.push(
     society:"Collective reality is, for the first time, broadcast and simultaneous." },
   causes:["nixonkennedy"], effects:["cnn"] },
 
-{ id:"publicbroadcasting", year:1967, date:"1967–1969", era:5, cat:"communications",
+{ id:"publicbroadcasting", year:1967, date:"1967–1969", era:5, cat:"tv",
   title:"Public Broadcasting and Sesame Street",
   wiki:"Public Broadcasting Act of 1967",
   summary:"The Public Broadcasting Act creates the Corporation for Public Broadcasting and what becomes PBS — a direct answer to Minow's challenge — and in 1969 Sesame Street premieres, the most research-based children's program ever made, built to close the gap between rich and poor children.",
@@ -120,7 +120,7 @@ window.ATLAS_EVENTS.push(
     power:"The state affirms that some media needs cannot be left to the market." },
   causes:["vastwasteland","licensefreeze"], effects:["childrenstvact"] },
 
-{ id:"redlion", year:1969, date:"1969", era:5, cat:"law",
+{ id:"redlion", year:1969, date:"1969", era:5, cat:"tv",
   title:"Red Lion: Why Broadcast Is Different",
   wiki:"Red Lion Broadcasting Co. v. FCC",
   summary:"The Supreme Court upholds the Fairness Doctrine, ruling that the scarcity of broadcast spectrum justifies content regulation that would be unconstitutional for any other medium — the constitutional foundation on which all broadcast regulation rests.",
@@ -131,7 +131,7 @@ window.ATLAS_EVENTS.push(
     power:"The legal foundation for ninety years of public-interest obligation is set." },
   causes:["fairnessdoctrine"], effects:["fairnessrepeal","cableact1984","streamingvoid"] },
 
-{ id:"cableorigin", year:1948, date:"1948", era:5, cat:"communications",
+{ id:"cableorigin", year:1948, date:"1948", era:5, cat:"tv",
   title:"Cable Is Born in the Mountains",
   wiki:"Cable television",
   summary:"Where the Appalachians and Rockies block the broadcast signal, John Walson runs a wire from a mountaintop antenna to his Pennsylvania store and customers' homes — the first cable system. Cable begins not as a business idea but as a fix for invisible television.",
@@ -142,7 +142,7 @@ window.ATLAS_EVENTS.push(
     law:"Whether a signal-carrying wire is 'broadcasting' becomes the foundational question." },
   causes:["licensefreeze"], effects:["catvregulation","hbo"] },
 
-{ id:"catvregulation", year:1965, date:"1959–1972", era:5, cat:"law",
+{ id:"catvregulation", year:1965, date:"1959–1972", era:5, cat:"tv",
   title:"The FCC Claims the Wire",
   wiki:"Must-carry",
   summary:"The FCC first says it has no jurisdiction over cable (1959), then reverses: by 1965 it imposes 'must-carry' (cable must include local stations) and program-duplication limits, and by 1972 a full federal cable regime — explicitly protecting the broadcasters it licenses over the cable it does not.",
@@ -153,7 +153,7 @@ window.ATLAS_EVENTS.push(
     power:"Regulation is shaped to shield the licensed incumbent from the unlicensed rival." },
   causes:["cableorigin"], effects:["copyrightact1976","cable1992"] },
 
-{ id:"hbo", year:1972, date:"1972–1975", era:5, cat:"communications",
+{ id:"hbo", year:1972, date:"1972–1975", era:5, cat:"tv",
   title:"HBO and the Satellite That Made Cable National",
   wiki:"HBO",
   summary:"HBO launches in 1972 as the first premium pay-cable channel — the first time Americans pay specifically for content — and in 1975 transmits the 'Thrilla in Manila' by satellite, turning cable from a local reception utility into a national distribution system overnight.",
@@ -164,7 +164,7 @@ window.ATLAS_EVENTS.push(
     power:"A new programming economy emerges outside broadcast's advertiser model." },
   causes:["cableorigin"], effects:["cnn","mtv","backyarddish","copyrightact1976"] },
 
-{ id:"copyrightact1976", year:1976, date:"1976", era:5, cat:"law",
+{ id:"copyrightact1976", year:1976, date:"1976", era:5, cat:"tv",
   title:"Cable Must Pay for the Signal",
   wiki:"Copyright Act of 1976",
   summary:"The Copyright Act of 1976 ends cable's free ride: for the first time, cable systems must pay royalties for the broadcast signals they retransmit, through a compulsory license at statutory rates administered by the Copyright Office.",
@@ -175,7 +175,7 @@ window.ATLAS_EVENTS.push(
     power:"The price of carrying content is established — seed of the later carriage wars." },
   causes:["catvregulation","hbo"], effects:["cable1992"] },
 
-{ id:"cnn", year:1980, date:"1980", era:5, cat:"communications",
+{ id:"cnn", year:1980, date:"1980", era:5, cat:"tv",
   title:"CNN and the Birth of Breaking News",
   wiki:"CNN",
   summary:"Ted Turner launches CNN, the first 24-hour news network — satellite-distributed and cable-exclusive — transforming news from scheduled daily programs into a constant stream and making 'breaking news' a permanent mode. Turner's WTBS superstation and ESPN had already proven cable-native channels could work.",
@@ -186,7 +186,7 @@ window.ATLAS_EVENTS.push(
     society:"'Breaking news' becomes a constant condition of public life." },
   causes:["hbo","tvcollective"], effects:["streamingwars"] },
 
-{ id:"mtv", year:1981, date:"1981", era:5, cat:"communications",
+{ id:"mtv", year:1981, date:"1981", era:5, cat:"tv",
   title:"MTV: The Single-Format Channel",
   wiki:"MTV",
   summary:"MTV launches as the first channel built entirely around one content format — music videos — and in doing so reshapes popular music, youth culture, and advertising at once, proving cable could be a cultural force, not just a distribution pipe.",
@@ -197,7 +197,7 @@ window.ATLAS_EVENTS.push(
     power:"Narrowcasting to a slice of the audience displaces broadcast's mass model." },
   causes:["hbo"], effects:["streamingwars"] },
 
-{ id:"backyarddish", year:1984, date:"1981–1985", era:5, cat:"communications",
+{ id:"backyarddish", year:1984, date:"1981–1985", era:5, cat:"tv",
   title:"The Free Satellite Era Ends",
   wiki:"Satellite television",
   summary:"Hundreds of thousands of Americans buy 10-foot backyard dishes and pull HBO, ESPN, and CNN out of the sky for free — until 1984, when HBO moves to scramble its satellite feed with VideoCipher encryption, forcing dish owners to subscribe or go dark.",
@@ -208,7 +208,7 @@ window.ATLAS_EVENTS.push(
     law:"Unauthorized reception of scrambled signals becomes a legal battleground." },
   causes:["hbo"], effects:["captainmidnight","cableact1984"] },
 
-{ id:"captainmidnight", year:1986, date:"April 27, 1986", era:5, cat:"law",
+{ id:"captainmidnight", year:1986, date:"April 27, 1986", era:5, cat:"tv",
   title:"Captain Midnight Hijacks HBO",
   wiki:"Captain Midnight (HBO)",
   summary:"A Florida satellite dealer ruined by HBO's scrambling hijacks HBO's uplink mid-movie to post 'Good evening HBO from Captain Midnight. $12.95/month? No way!' Congress responds by making satellite hijacking a felony under the 1986 Electronic Communications Privacy Act.",
@@ -219,7 +219,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Transmitter-identification systems are built to police the airwaves." },
   causes:["backyarddish"], effects:["ecpa"] },
 
-{ id:"cableact1984", year:1984, date:"1984", era:5, cat:"law",
+{ id:"cableact1984", year:1984, date:"1984", era:5, cat:"tv",
   title:"Deregulating Cable",
   wiki:"Cable Communications Policy Act of 1984",
   summary:"The Cable Communications Policy Act deregulates basic cable rates and strengthens operators' franchise rights, while banning phone companies from offering cable in their own areas. With no competitive check, cable prices begin rising sharply.",
@@ -230,7 +230,7 @@ window.ATLAS_EVENTS.push(
     society:"Unchecked, cable prices rise far faster than inflation." },
   causes:["redlion","backyarddish"], effects:["cable1992"] },
 
-{ id:"fairnessrepeal", year:1987, date:"1987", era:5, cat:"law",
+{ id:"fairnessrepeal", year:1987, date:"1987", era:5, cat:"tv",
   title:"The Fairness Doctrine Falls",
   wiki:"FCC fairness doctrine",
   summary:"Reagan's FCC abolishes the Fairness Doctrine, arguing it chilled speech by making broadcasters avoid controversy. Talk radio explodes as stations, no longer required to balance political content, choose not to — and the polarization of American media begins.",
@@ -241,7 +241,7 @@ window.ATLAS_EVENTS.push(
     power:"The polarization of American political media accelerates from this point." },
   causes:["redlion","fairnessdoctrine"], effects:["streamingvoid"] },
 
-{ id:"childrenstvact", year:1990, date:"1990", era:6, cat:"law",
+{ id:"childrenstvact", year:1990, date:"1990", era:6, cat:"tv",
   title:"The Children's Television Act",
   wiki:"Children's Television Act",
   summary:"The first federal law requiring broadcasters to serve the educational needs of children; the FCC must weigh children's programming in license renewals, and by 1997 stations must air at least three hours a week of educational children's content.",
@@ -252,7 +252,7 @@ window.ATLAS_EVENTS.push(
     communications:"The public-interest obligation is made concrete for child audiences." },
   causes:["publicbroadcasting"], effects:["vchip","streamingvoid"] },
 
-{ id:"cable1992", year:1992, date:"1992", era:6, cat:"law",
+{ id:"cable1992", year:1992, date:"1992", era:6, cat:"tv",
   title:"Re-Regulation and Retransmission Consent",
   wiki:"Cable Television Consumer Protection and Competition Act of 1992",
   summary:"Over a presidential veto, Congress re-regulates cable: rate regulation is restored, must-carry is revived as economic regulation, and retransmission consent is created — letting each broadcaster choose every three years between guaranteed carriage or negotiated payment. This binary defines broadcast-cable economics for thirty years.",
@@ -263,7 +263,7 @@ window.ATLAS_EVENTS.push(
     power:"The retransmission-consent system that drives future blackouts is born." },
   causes:["cableact1984","catvregulation","copyrightact1976"], effects:["telecomact","retranswars","aereo"] },
 
-{ id:"vchip", year:1996, date:"1996", era:6, cat:"law",
+{ id:"vchip", year:1996, date:"1996", era:6, cat:"tv",
   title:"The V-Chip and TV Ratings",
   wiki:"V-chip",
   summary:"The Telecommunications Act of 1996 mandates V-chip technology in all new TV sets and prompts the TV Parental Guidelines (TV-Y through TV-MA) — the first systematic content rating for television, letting parents block rated programming.",
@@ -274,7 +274,7 @@ window.ATLAS_EVENTS.push(
     communications:"Parental control is built into the set, even as deregulation sweeps elsewhere." },
   causes:["childrenstvact","telecomact"], effects:["streamingvoid"] },
 
-{ id:"digitaltransition", year:2009, date:"2006–2009", era:6, cat:"technology",
+{ id:"digitaltransition", year:2009, date:"2006–2009", era:6, cat:"tv",
   title:"The Digital Switch",
   wiki:"Digital television transition in the United States",
   summary:"Congress mandates the end of analog broadcasting; by June 2009 all full-power stations transmit digital only, and the freed analog spectrum is auctioned for $19 billion — the first change to the technical standard of American television since 1941.",
@@ -285,7 +285,7 @@ window.ATLAS_EVENTS.push(
     communications:"Broadcast sharpens and multiplies just as streaming begins to rise." },
   causes:["ntsc1941"], effects:["netflixstreaming","cordcutting"] },
 
-{ id:"netflixstreaming", year:2007, date:"2007", era:6, cat:"communications",
+{ id:"netflixstreaming", year:2007, date:"2007", era:6, cat:"tv",
   title:"Netflix Starts Streaming",
   wiki:"Netflix",
   summary:"Netflix launches streaming as a supplement to its DVD-by-mail business; within a few years it becomes the primary business, reaching 20 million subscribers by 2010 and beginning to invest in original content. Hulu launches in 2008 as the networks' defensive answer.",
@@ -296,7 +296,7 @@ window.ATLAS_EVENTS.push(
     power:"The shift to the internet erodes the legal premise underpinning broadcast rules." },
   causes:["digitaltransition","sonybetamax"], effects:["houseofcards","cordcutting","streamingwars"] },
 
-{ id:"houseofcards", year:2013, date:"2013", era:7, cat:"communications",
+{ id:"houseofcards", year:2013, date:"2013", era:7, cat:"tv",
   title:"The Streamer Becomes a Studio",
   wiki:"House of Cards (American TV series)",
   summary:"Netflix debuts House of Cards, the first major original series from a streaming service, and wins an Emmy — becoming studio and broadcaster at once, yet subject to none of the regulatory obligations of either. The same year, the FCC rules that online video distributors fall outside its rules entirely.",
@@ -307,7 +307,7 @@ window.ATLAS_EVENTS.push(
     power:"The dominant new form of television is born entirely unregulated." },
   causes:["netflixstreaming"], effects:["euquota","streamingvoid"] },
 
-{ id:"aereo", year:2014, date:"2014", era:7, cat:"law",
+{ id:"aereo", year:2014, date:"2014", era:7, cat:"tv",
   title:"ABC v. Aereo",
   wiki:"American Broadcasting Cos., Inc. v. Aereo, Inc.",
   summary:"Aereo rents subscribers tiny individual antennas in data centers to stream over-the-air TV without paying retransmission fees; the Supreme Court rules this a 'public performance' requiring copyright permission, and Aereo shuts down within weeks.",
@@ -318,7 +318,7 @@ window.ATLAS_EVENTS.push(
     power:"Retransmitting broadcast is bound by old rules even as pure streaming is not." },
   causes:["cable1992"], effects:["retranswars"] },
 
-{ id:"cordcutting", year:2015, date:"2015", era:7, cat:"communications",
+{ id:"cordcutting", year:2015, date:"2015", era:7, cat:"tv",
   title:"Cord-Cutting Accelerates",
   wiki:"Cord-cutting",
   summary:"American households cancel cable at historic rates — 385,000 lost in a single quarter in 2015, then below 70% of TV homes by 2020 — as streaming alternatives proliferate. The trend is irreversible.",
@@ -329,7 +329,7 @@ window.ATLAS_EVENTS.push(
     society:"The shared cable-and-broadcast media world fragments into subscriptions." },
   causes:["netflixstreaming","digitaltransition"], effects:["streamingwars","streamingvoid"] },
 
-{ id:"euquota", year:2016, date:"2016", era:7, cat:"law",
+{ id:"euquota", year:2016, date:"2016", era:7, cat:"tv",
   title:"Europe Regulates Streaming First",
   wiki:"Audiovisual Media Services Directive",
   summary:"The EU begins requiring streaming services to carry at least 30% European content — the first major binding content regulation of streaming platforms in any major market, as a single global platform now operates under the laws of every nation at once.",
@@ -340,7 +340,7 @@ window.ATLAS_EVENTS.push(
     power:"Europe again sets the regulatory standard the U.S. declines to write." },
   causes:["houseofcards"], effects:["streamingvoid"] },
 
-{ id:"netneutrality", year:2017, date:"2017", era:7, cat:"law",
+{ id:"netneutrality", year:2017, date:"2017", era:7, cat:"tv",
   title:"Net Neutrality Repealed",
   wiki:"Net neutrality in the United States",
   summary:"The Trump FCC repeals net neutrality rules that had barred internet providers from throttling traffic — creating the legal possibility that an ISP could degrade a rival's streaming video while prioritizing its own.",
@@ -351,7 +351,7 @@ window.ATLAS_EVENTS.push(
     power:"Control of the pipe becomes a lever over the streaming services riding it." },
   causes:["cordcutting"], effects:["streamingwars"] },
 
-{ id:"streamingwars", year:2019, date:"2019–2020", era:7, cat:"communications",
+{ id:"streamingwars", year:2019, date:"2019–2020", era:7, cat:"tv",
   title:"The Streaming Wars",
   wiki:"Streaming wars",
   summary:"Disney+, Apple TV+, and HBO Max launch within months of one another; every major entertainment company now runs its own direct-to-consumer platform, bypassing broadcast and cable. By 2020 Netflix breaks the all-time Emmy-nomination record.",
@@ -362,7 +362,7 @@ window.ATLAS_EVENTS.push(
     society:"The bundled, scheduled television experience fragments into subscriptions." },
   causes:["netflixstreaming","cnn","mtv","cordcutting","netneutrality"], effects:["streamingvoid"] },
 
-{ id:"retranswars", year:2017, date:"2009–2026", era:7, cat:"law",
+{ id:"retranswars", year:2017, date:"2009–2026", era:7, cat:"tv",
   title:"The Carriage Blackout Wars",
   wiki:"Retransmission consent",
   summary:"The 1992 retransmission-consent system becomes commercial warfare: fees explode from under $0.5 billion to over $13 billion a year, blackouts hit a record 336 in 2020, and in 2026 a month-long Scripps–Comcast blackout strips local news from dozens of markets — the system meant to protect local broadcasting now routinely blocks it.",
@@ -373,7 +373,7 @@ window.ATLAS_EVENTS.push(
     power:"Viewers have no representation in disputes that black out their channels." },
   causes:["cable1992","aereo"], effects:["streamingvoid"] },
 
-{ id:"streamingvoid", year:2025, date:"2022–2026", era:7, cat:"law",
+{ id:"streamingvoid", year:2025, date:"2022–2026", era:7, cat:"tv",
   title:"The Regulatory Void of Streaming",
   wiki:"Over-the-top media service",
   summary:"Broadcast faces strict content, children's, and public-interest rules; cable faces lighter ones; streaming faces essentially none — even as streaming passes broadcast and cable in viewing time. In 2025 the FCC probes CBS over a broadcast interview it would have had zero jurisdiction over had it aired on Paramount+.",

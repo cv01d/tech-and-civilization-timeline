@@ -347,6 +347,7 @@
   const chrome = $("#chrome");
   const chromeYear = $("#chrome-year");
   const progressFill = $("#progress-fill");
+  const toTop = $("#to-top");
 
   $("#hero-cta").addEventListener("click", () => {
     const target = $("#controls");
@@ -355,6 +356,10 @@
   });
   $("#back-to-top").addEventListener("click", () => {
     if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 1.4, scrollTo: { y: 0 }, ease: "power2.inOut" });
+    else window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  toTop.addEventListener("click", () => {
+    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 1.1, scrollTo: { y: 0 }, ease: "power2.inOut" });
     else window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
@@ -374,6 +379,7 @@
     progressFill.style.width = (pct * 100) + "%";
     chrome.classList.toggle("visible", y > heroH() * 0.6);
     rail.classList.toggle("visible", y > heroH() * 0.6);
+    toTop.classList.toggle("visible", y > heroH() * 0.9);
 
     // nearest event to viewport center sets the year + active era
     const mid = y + window.innerHeight / 2;

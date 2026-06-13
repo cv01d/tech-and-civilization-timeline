@@ -9,7 +9,7 @@
 // gonzalez, netneutrality cards. Round one: data only — images to follow.
 window.ATLAS_EVENTS.push(
 
-{ id:"packetswitching", year:1962, date:"1958–1962", era:5, cat:"technology",
+{ id:"packetswitching", year:1962, date:"1958–1962", era:5, cat:"internet",
   title:"Packet Switching",
   wiki:"Packet switching",
   summary:"Responding to Sputnik, the U.S. creates ARPA and asks whether a network could survive a nuclear strike on any node; Paul Baran's answer — breaking data into packets that each find their own route — becomes the foundational architecture of the internet.",
@@ -20,7 +20,7 @@ window.ATLAS_EVENTS.push(
     power:"A network with no center becomes the substrate of free communication — and a target for control." },
   effects:["email1971","tcpip","arpanet"] },
 
-{ id:"email1971", year:1971, date:"1971", era:5, cat:"communications",
+{ id:"email1971", year:1971, date:"1971", era:5, cat:"internet",
   title:"Email and the @ Sign",
   wiki:"Ray Tomlinson",
   summary:"Ray Tomlinson sends the first email between two networked computers, choosing the '@' symbol to separate user from machine — a convention still in use more than half a century later.",
@@ -31,7 +31,7 @@ window.ATLAS_EVENTS.push(
     society:"The network's primary value reveals itself as human communication, not computation." },
   causes:["packetswitching","arpanet"], effects:["usenet","firstspam"] },
 
-{ id:"tcpip", year:1974, date:"1974", era:5, cat:"communications",
+{ id:"tcpip", year:1974, date:"1974", era:5, cat:"internet",
   title:"TCP/IP: The Language of the Internet",
   wiki:"Internet protocol suite",
   summary:"Vinton Cerf and Bob Kahn publish the protocol that lets any computer talk to any other — regardless of manufacturer, operating system, or physical connection — the conceptual foundation of the open, interoperable internet.",
@@ -42,7 +42,7 @@ window.ATLAS_EVENTS.push(
     power:"Openness and interoperability are written into the internet's foundational layer." },
   causes:["packetswitching"], effects:["flagday1983","dns"] },
 
-{ id:"usenet", year:1979, date:"1979", era:5, cat:"communications",
+{ id:"usenet", year:1979, date:"1979", era:5, cat:"internet",
   title:"Usenet",
   wiki:"Usenet",
   summary:"Usenet establishes distributed discussion boards organized by topic — the first large-scale public online community, decentralized with no central server or owner.",
@@ -53,7 +53,7 @@ window.ATLAS_EVENTS.push(
     power:"A discussion network with no central host proves hard to govern or silence." },
   causes:["email1971"], effects:["firstspam"] },
 
-{ id:"flagday1983", year:1983, date:"January 1, 1983", era:5, cat:"communications",
+{ id:"flagday1983", year:1983, date:"January 1, 1983", era:5, cat:"internet",
   title:"Flag Day: The Internet Is Born",
   wiki:"History of the Internet",
   summary:"ARPANET completes its switch to TCP/IP — 'flag day,' the birthday most historians accept as the internet's founding. Every connected machine now speaks the same language, and a military experiment becomes the basis of a global civilian medium.",
@@ -64,7 +64,7 @@ window.ATLAS_EVENTS.push(
     society:"A military project becomes the basis of a global civilian medium." },
   causes:["tcpip"], effects:["dns","nsfnet"] },
 
-{ id:"dns", year:1983, date:"1983", era:5, cat:"communications",
+{ id:"dns", year:1983, date:"1983", era:5, cat:"internet",
   title:"The Domain Name System",
   wiki:"Domain Name System",
   summary:"DNS gives the internet human-readable names — .com, .edu, .gov, .org — in place of numeric addresses; researcher Jon Postel runs the entire naming system of the internet, for years, essentially as a trusted volunteer.",
@@ -75,7 +75,7 @@ window.ATLAS_EVENTS.push(
     law:"Control of the naming system becomes a governance question for decades to come." },
   causes:["tcpip","flagday1983"], effects:["icann","icanntransition"] },
 
-{ id:"nsfnet", year:1986, date:"1986", era:5, cat:"communications",
+{ id:"nsfnet", year:1986, date:"1986", era:5, cat:"internet",
   title:"NSFNET: A Public Backbone",
   wiki:"National Science Foundation Network",
   summary:"The National Science Foundation builds NSFNET, a fast public backbone connecting universities and supercomputer centers — the de facto U.S. internet, growing from ~2,000 computers to over 2 million by 1993. Its Acceptable Use Policy bans commercial traffic: the internet is a research tool, not a marketplace.",
@@ -86,7 +86,7 @@ window.ATLAS_EVENTS.push(
     law:"A no-commercial-traffic rule defines, then later inverts, the internet's purpose." },
   causes:["flagday1983"], effects:["nsfnetprivatized"] },
 
-{ id:"nsfnetprivatized", year:1995, date:"1995", era:6, cat:"power",
+{ id:"nsfnetprivatized", year:1995, date:"1995", era:6, cat:"internet",
   title:"The Internet Is Privatized",
   wiki:"History of the Internet",
   summary:"NSFNET is decommissioned and Congress lifts the last restrictions on commercial use; the internet is handed entirely to commercial ISPs. The same year, Amazon and eBay launch — the public-goods internet becomes a private market almost overnight.",
@@ -97,7 +97,7 @@ window.ATLAS_EVENTS.push(
     law:"The last restrictions on commercial internet use are removed by Congress." },
   causes:["nsfnet","webpublic"], effects:["icann","renoaclu"] },
 
-{ id:"renoaclu", year:1997, date:"1997", era:6, cat:"law",
+{ id:"renoaclu", year:1997, date:"1997", era:6, cat:"internet",
   title:"Reno v. ACLU: The Internet Is Not Television",
   wiki:"Reno v. American Civil Liberties Union",
   summary:"The Supreme Court strikes down the Communications Decency Act's speech provisions, holding the internet is not like broadcast — there is no spectrum-scarcity rationale for content regulation — and granting internet speech the highest First Amendment protection. Section 230 survives intact.",
@@ -108,7 +108,7 @@ window.ATLAS_EVENTS.push(
     power:"The most speech-protective legal regime of any medium is established for the net." },
   causes:["nsfnetprivatized","section230"], effects:["sopa","fostasesta"] },
 
-{ id:"icann", year:1998, date:"1998", era:6, cat:"law",
+{ id:"icann", year:1998, date:"1998", era:6, cat:"internet",
   title:"ICANN and U.S. Control of the Net",
   wiki:"ICANN",
   summary:"ICANN is created under a U.S. Department of Commerce contract to manage the global Domain Name System; the U.S. government retains ultimate authority over DNS — making American control of the internet's naming system one of the most contested governance questions for two decades.",
@@ -119,7 +119,7 @@ window.ATLAS_EVENTS.push(
     communications:"The naming layer of a worldwide network is administered from one country." },
   causes:["dns","nsfnetprivatized"], effects:["icanntransition","splinternet"] },
 
-{ id:"dmca", year:1998, date:"1998", era:6, cat:"law",
+{ id:"dmca", year:1998, date:"1998", era:6, cat:"internet",
   title:"The Digital Millennium Copyright Act",
   wiki:"Digital Millennium Copyright Act",
   summary:"The DMCA criminalizes circumventing digital copy protection and creates a 'safe harbor' shielding platforms that remove infringing content when notified — shaping the relationship between copyright holders and internet platforms for decades.",
@@ -130,7 +130,7 @@ window.ATLAS_EVENTS.push(
     power:"Copyright holders and platforms strike the bargain that governs online content." },
   causes:["renoaclu"], effects:["napster","sopa"] },
 
-{ id:"canspam", year:2003, date:"2003", era:6, cat:"law",
+{ id:"canspam", year:2003, date:"2003", era:6, cat:"internet",
   title:"CAN-SPAM",
   wiki:"CAN-SPAM Act of 2003",
   summary:"The first federal law against email spam establishes opt-out requirements for commercial email — and proves largely ineffective: spam accounts for over 80% of all email by 2007.",
@@ -141,7 +141,7 @@ window.ATLAS_EVENTS.push(
     power:"Territorial law is shown to be feeble against borderless, zero-cost behavior." },
   causes:["firstspam"], effects:["splinternet"] },
 
-{ id:"netneutralitywars", year:2010, date:"2010–2025", era:7, cat:"law",
+{ id:"netneutralitywars", year:2010, date:"2010–2025", era:7, cat:"internet",
   title:"The Net Neutrality Wars",
   wiki:"Net neutrality in the United States",
   summary:"The most legally contested question in internet history: must ISPs treat all traffic equally? The FCC's answer flips with each administration — Title I rules struck down (2014), strong Title II rules imposed (2015), repealed (2017), reinstated (2024), struck down again (2025) after the end of Chevron deference.",
@@ -152,7 +152,7 @@ window.ATLAS_EVENTS.push(
     power:"The unresolved question of who controls the pipes defines a decade of internet law." },
   causes:["nsfnetprivatized"], effects:["netneutrality","splinternet"] },
 
-{ id:"sopa", year:2012, date:"January 2012", era:7, cat:"power",
+{ id:"sopa", year:2012, date:"January 2012", era:7, cat:"internet",
   title:"SOPA and the Internet Blackout",
   wiki:"Stop Online Piracy Act",
   summary:"Facing SOPA and PIPA — entertainment-backed bills that would let accused sites be blocked at the DNS level — Wikipedia, Google, Reddit, and 100,000+ sites stage a coordinated blackout on January 18, 2012. Within 48 hours the bills collapse as co-sponsors flee.",
@@ -163,7 +163,7 @@ window.ATLAS_EVENTS.push(
     society:"The internet demonstrates itself as a political constituency for the first time." },
   causes:["dmca","renoaclu"], effects:["splinternet"] },
 
-{ id:"icanntransition", year:2016, date:"October 1, 2016", era:7, cat:"law",
+{ id:"icanntransition", year:2016, date:"October 1, 2016", era:7, cat:"internet",
   title:"The U.S. Lets Go of DNS",
   wiki:"Internet Assigned Numbers Authority",
   summary:"The U.S. Department of Commerce relinquishes its oversight of IANA — the function managing DNS and IP-address allocation — transferring it to a global multi-stakeholder community after 18 years of de facto U.S. control. The Snowden revelations had made the change politically unavoidable.",
@@ -174,7 +174,7 @@ window.ATLAS_EVENTS.push(
     communications:"The internet's naming system is, formally, internationalized." },
   causes:["icann","dns","snowden"], effects:["splinternet"] },
 
-{ id:"fostasesta", year:2018, date:"2018", era:7, cat:"law",
+{ id:"fostasesta", year:2018, date:"2018", era:7, cat:"internet",
   title:"FOSTA-SESTA: The First Crack in Section 230",
   wiki:"FOSTA-SESTA",
   summary:"FOSTA-SESTA amends Section 230 to create platform liability for facilitating sex trafficking — the first statutory carve-out from the immunity, establishing that Congress can restrict platform protection for specific categories of harm.",
@@ -185,7 +185,7 @@ window.ATLAS_EVENTS.push(
     power:"Congress proves it can carve into the foundational law of the platform internet." },
   causes:["renoaclu","section230"], effects:["gonzalez"] },
 
-{ id:"splinternet", year:2018, date:"2016–2026", era:7, cat:"power",
+{ id:"splinternet", year:2018, date:"2016–2026", era:7, cat:"internet",
   title:"The Splinternet",
   wiki:"Splinternet",
   summary:"The dream of one global internet ends in practice: China's Great Firewall runs a separate, surveilled internet on its own platforms; Russia routes traffic domestically; India mandates data localization; the EU's GDPR/DSA/DMA form a distinct governance zone. What remains is interconnected but differently-governed national networks.",

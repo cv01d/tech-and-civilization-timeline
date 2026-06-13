@@ -70,7 +70,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Cheap photography arms not only citizens but detectives, employers, and states." },
   causes:["edison"], effects:["brandeis","cameraphone"] },
 
-{ id:"hertz", year:1888, date:"1888", era:4, cat:"technology",
+{ id:"hertz", year:1888, date:"1888", era:4, cat:"radio",
   title:"Hertz Confirms Electromagnetic Waves",
   wiki:"Heinrich Hertz", gallery:["Electromagnetic radiation","James Clerk Maxwell"],
   summary:"Hertz experimentally proves Maxwell's invisible waves — 'of no use whatsoever,' he says. Radio is seven years away.",
@@ -128,7 +128,7 @@ window.ATLAS_EVENTS.push(
     society:"'The right to be let alone' becomes the phrase with which citizens answer cameras, wiretaps, and databases alike." },
   causes:["kodak"], effects:["katz","fipps","gdpr"] },
 
-{ id:"marconi", year:1895, date:"1895–1901", era:4, cat:"communications",
+{ id:"marconi", year:1895, date:"1895–1901", era:4, cat:"radio",
   title:"Marconi's Wireless",
   wiki:"Guglielmo Marconi", gallery:["Wireless telegraphy","Marconi Company"],
   summary:"Radio telegraphy works — across a room, then the Channel, then the Atlantic (1901). The spectrum becomes territory.",
@@ -233,7 +233,7 @@ window.ATLAS_EVENTS.push(
     government:"Antitrust becomes a presidential-scale political instrument." },
   causes:["shermanact"], effects:["attbreakup","microsoftcase"] },
 
-{ id:"titanic", year:1912, date:"April–August 1912", era:4, cat:"law",
+{ id:"titanic", year:1912, date:"April–August 1912", era:4, cat:"radio",
   title:"The Titanic & the Radio Act of 1912",
   wiki:"Sinking of the Titanic", gallery:["RMS Titanic","Radio Act of 1912","Wireless telegraphy"],
   summary:"Confused and crowded airwaves hamper the rescue; four months later, Congress licenses the spectrum. The fastest invention-to-regulation chain in this museum.",
@@ -327,7 +327,7 @@ window.ATLAS_EVENTS.push(
     government:"Constitutional amendment proves still possible as a vehicle of mass-movement victory." },
   causes:["senecafalls","wwi"], effects:["ssa1935"] },
 
-{ id:"kdka", year:1920, date:"November 2, 1920", era:4, cat:"communications",
+{ id:"kdka", year:1920, date:"November 2, 1920", era:4, cat:"radio",
   title:"KDKA: Broadcasting Begins",
   wiki:"KDKA (AM)", gallery:["Golden Age of Radio","Crystal radio"],
   summary:"Pittsburgh's KDKA airs the Harding–Cox election returns on a regular schedule — commercial broadcasting is born.",
@@ -363,7 +363,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The persuasion industries remain essentially unregulated, a silence stretching to micro-targeting and dark patterns." },
   causes:["wwi","attention"], effects:["cambridgeanalytica"] },
 
-{ id:"radioact1927", year:1927, date:"1927", era:4, cat:"law",
+{ id:"radioact1927", year:1927, date:"1927", era:4, cat:"radio",
   title:"The Radio Act of 1927",
   wiki:"Radio Act of 1927", gallery:["Federal Radio Commission","NBC"],
   summary:"Spectrum chaos and network consolidation (NBC 1926, CBS 1927) force a new framework: licensed broadcasters as public trustees.",
@@ -480,7 +480,7 @@ window.ATLAS_EVENTS.push(
     government:"State force withheld from strikebreaking for once — and the outcome was a contract, not a massacre." },
   causes:["wagneract","ford"], effects:["treatyofdetroit"] },
 
-{ id:"waroftheworlds", year:1938, date:"October 30, 1938", era:4, cat:"communications",
+{ id:"waroftheworlds", year:1938, date:"October 30, 1938", era:4, cat:"radio",
   title:"The War of the Worlds Broadcast",
   wiki:"The War of the Worlds (1938 radio drama)", gallery:["Orson Welles","CBS"],
   summary:"Orson Welles's Martian invasion, staged as news bulletins, demonstrates broadcasting's power over mass belief.",

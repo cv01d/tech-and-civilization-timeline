@@ -47,10 +47,15 @@ window.ATLAS_ERAS = [
 window.ATLAS_CATEGORIES = [
   { key: "technology",     label: "Technology" },
   { key: "communications", label: "Communications" },
+  { key: "radio",          label: "Radio" },
+  { key: "tv",             label: "Television & Cable" },
+  { key: "internet",       label: "The Internet" },
+  { key: "social",         label: "Social Media" },
   { key: "computing",      label: "Computing & AI" },
   { key: "robotics",       label: "Robots & Automata" },
   { key: "biotech",        label: "Genetics & Biotech" },
   { key: "surveillance",   label: "Surveillance" },
+  { key: "cctv",           label: "CCTV & Cameras" },
   { key: "labor",          label: "Labor" },
   { key: "law",            label: "Law & Regulation" },
   { key: "power",          label: "Power & Society" }
