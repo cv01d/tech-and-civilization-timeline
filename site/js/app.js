@@ -10,6 +10,9 @@
   const CATS = window.ATLAS_CATEGORIES || [];
   const IMAGES = window.ATLAS_IMAGES || {};
   const byId = Object.fromEntries(EVENTS.map(e => [e.id, e]));
+  // An event's `cat` may be a single key or an array of keys (it can live in
+  // several tabs); it is still rendered once. The first key is its primary tab.
+  const catsOf = e => Array.isArray(e.cat) ? e.cat : [e.cat];
   const gsap = window.gsap;
   if (gsap && window.ScrollTrigger) gsap.registerPlugin(window.ScrollTrigger);
   if (gsap && window.ScrollToPlugin) gsap.registerPlugin(window.ScrollToPlugin);
@@ -113,10 +116,11 @@
       const side = (sideToggle++ % 2 === 0) ? "left" : "right";
       const row = el("article", `ev ${side}`);
       row.dataset.id = ev.id;
-      row.dataset.cat = ev.cat;
+      row.dataset.cat = catsOf(ev).join(" ");
 
       const hero = heroImageFor(ev);
-      const catLabel = (CATS.find(c => c.key === ev.cat) || {}).label || ev.cat;
+      const primaryCat = catsOf(ev)[0];
+      const catLabel = (CATS.find(c => c.key === primaryCat) || {}).label || primaryCat;
 
       row.innerHTML = `
         <span class="ev-node"></span>
@@ -149,7 +153,7 @@
     let shown = 0;
     allRows.forEach(row => {
       const ev = byId[row.dataset.id];
-      const catOk = activeCats.size === 0 || activeCats.has(ev.cat);
+      const catOk = activeCats.size === 0 || catsOf(ev).some(c => activeCats.has(c));
       const textOk = !q || (ev.title + " " + ev.summary + " " + ev.importance + " " + ev.date).toLowerCase().includes(q);
       const vis = catOk && textOk;
       row.classList.toggle("filtered", !vis);

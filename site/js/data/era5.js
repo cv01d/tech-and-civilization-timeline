@@ -12,7 +12,7 @@ window.ATLAS_EVENTS.push(
     government:"State demand — ballistics, census, code-breaking — is computing's founding market." },
   causes:["turing1936","ww2","audion","hollerith"], effects:["transistor","dartmouth","attdecree1956"] },
 
-{ id:"transistor", year:1947, date:"December 1947", era:5, cat:"technology",
+{ id:"transistor", year:1947, date:"December 1947", era:5, cat:["computing","radio"],
   title:"The Transistor",
   wiki:"Transistor", gallery:["Bell Labs","John Bardeen","William Shockley"],
   summary:"Bell Labs demonstrates the device that will replace the vacuum tube — and, in time, become the most manufactured object in history.",
@@ -171,7 +171,7 @@ window.ATLAS_EVENTS.push(
     government:"Defense funding (ARPA after 1958) becomes AI's patron through every winter." },
   causes:["turingtest","eniac","lovelace"], effects:["perceptron","perceptronsbook","alexnet"] },
 
-{ id:"ic1958", year:1958, date:"1958–1959", era:5, cat:"technology",
+{ id:"ic1958", year:1958, date:"1958–1959", era:5, cat:"computing",
   title:"The Integrated Circuit",
   wiki:"Integrated circuit", gallery:["Jack Kilby","Robert Noyce","Fairchild Semiconductor"],
   summary:"Kilby at Texas Instruments and Noyce at Fairchild put whole circuits on single chips — the device Moore's Law will ride for sixty years.",
@@ -206,7 +206,7 @@ window.ATLAS_EVENTS.push(
     technology:"Payment networks become early planetary-scale real-time data systems." },
   causes:["creditreporting"], effects:["fcra"] },
 
-{ id:"telstar", year:1962, date:"1962", era:5, cat:"communications",
+{ id:"telstar", year:1962, date:"1962", era:5, cat:"radio",
   title:"Telstar & the Satellite Age",
   wiki:"Telstar", gallery:["Communications satellite","Sputnik 1"],
   summary:"The first active communications satellite relays live television across the Atlantic; Congress legislates within four months.",
@@ -287,7 +287,7 @@ window.ATLAS_EVENTS.push(
     government:"States East and West answer with force, surveillance, and, eventually, accommodation." },
   causes:["pariscommune","treatyofdetroit"], effects:[] },
 
-{ id:"arpanet", year:1969, date:"October 29, 1969", era:5, cat:"communications",
+{ id:"arpanet", year:1969, date:"October 29, 1969", era:5, cat:"internet",
   title:"ARPANET Goes Live",
   wiki:"ARPANET", gallery:["Interface Message Processor","Leonard Kleinrock","J. C. R. Licklider"],
   summary:"UCLA sends 'LO' to Stanford before the system crashes — packet-switched networking's first two letters.",
@@ -554,7 +554,7 @@ window.ATLAS_EVENTS.push(
     society:"The patient heretics' vindication becomes one of science's great persistence stories." },
   causes:["perceptron","perceptronsbook"], effects:["alexnet"] },
 
-{ id:"morrisworm", year:1988, date:"November 2, 1988", era:5, cat:"technology",
+{ id:"morrisworm", year:1988, date:"November 2, 1988", era:5, cat:["internet","computing"],
   title:"The Morris Worm",
   wiki:"Morris worm", gallery:["Computer worm","Robert Tappan Morris"],
   summary:"A graduate student's experiment cripples a tenth of the internet overnight — and produces the first CFAA conviction.",
@@ -565,7 +565,7 @@ window.ATLAS_EVENTS.push(
     society:"The internet's interdependence — one student, ten percent of the net — enters public awareness." },
   causes:["ecpa","arpanet"], effects:[] },
 
-{ id:"wwwproposal", year:1989, date:"March 1989", era:5, cat:"communications",
+{ id:"wwwproposal", year:1989, date:"March 1989", era:5, cat:"internet",
   title:"Berners-Lee Proposes the Web",
   wiki:"Tim Berners-Lee", gallery:["World Wide Web","CERN","Information Management: A Proposal"],
   summary:"'Vague but exciting,' his supervisor writes on the memo. Hypertext plus the internet equals the World Wide Web.",

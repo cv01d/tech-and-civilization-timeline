@@ -11,7 +11,7 @@ window.ATLAS_EVENTS.push(
     technology:"Census scale eventually outruns clerks — directly producing Hollerith's tabulating machine in 1890." },
   causes:["domesday","romancensus","constitution"], effects:["hollerith"] },
 
-{ id:"chappe", year:1794, date:"1794", era:3, cat:"communications",
+{ id:"chappe", year:1794, date:"1794", era:3, cat:"radio",
   title:"The Optical Telegraph",
   wiki:"Optical telegraph", gallery:["Claude Chappe","Semaphore line"],
   summary:"Claude Chappe's semaphore towers relay coded messages across France faster than any horse — the first telecommunications network.",
@@ -92,7 +92,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Ten-hour agitation seeds the state hours legislation of the following decades." },
   causes:["slatermill"], effects:["triangle"] },
 
-{ id:"railway", year:1830, date:"1825–1830", era:3, cat:"technology",
+{ id:"railway", year:1830, date:"1825–1830", era:3, cat:"power",
   title:"The Railway Age Opens",
   wiki:"Liverpool and Manchester Railway", gallery:["Stockton and Darlington Railway","George Stephenson","Rocket (locomotive)"],
   summary:"Stockton & Darlington (1825), then Liverpool & Manchester (1830): steam railways begin annihilating distance on land.",
@@ -184,7 +184,7 @@ window.ATLAS_EVENTS.push(
     communications:"The Chartist press (the Northern Star) shows the radical newspaper as movement infrastructure." },
   causes:["peterloo","luddites"], effects:[] },
 
-{ id:"telegraph", year:1844, date:"1844", era:3, cat:"communications",
+{ id:"telegraph", year:1844, date:"1844", era:3, cat:"radio",
   title:"Morse's Telegraph: 'What Hath God Wrought'",
   wiki:"Electrical telegraph", gallery:["Samuel Morse","Morse code","Baltimore and Ohio Railroad"],
   summary:"The first commercial telegraph message runs from Washington to Baltimore. Information now travels at the speed of electricity.",
@@ -359,7 +359,7 @@ window.ATLAS_EVENTS.push(
     communications:"Telegraph and rail spread the strike — the network organizing against its owners." },
   causes:["railway","westernunion"], effects:["haymarket","pullman"] },
 
-{ id:"edison", year:1879, date:"1879", era:3, cat:"technology",
+{ id:"edison", year:1879, date:"1879", era:3, cat:"power",
   title:"Edison's Light",
   wiki:"Incandescent light bulb", gallery:["Thomas Edison","Pearl Street Station"],
   summary:"A practical incandescent lamp — and behind it, the generating station, the grid, and the electrified city.",

@@ -1,6 +1,6 @@
 // GALLERY I — The Invention of the State (c. 3400 BCE – 1400 CE)
 window.ATLAS_EVENTS.push(
-{ id:"writing", year:-3300, date:"c. 3400 BCE", era:1, cat:"communications",
+{ id:"writing", year:-3300, date:"c. 3400 BCE", era:1, cat:["power","surveillance"],
   title:"Writing Is Invented",
   wiki:"Cuneiform", gallery:["Egyptian hieroglyphs","Kish tablet","Scribe"],
   summary:"Formal writing systems emerge in Mesopotamia (cuneiform) and Egypt (hieroglyphics) — and the earliest surviving tablets are not poetry but receipts.",
@@ -58,7 +58,7 @@ window.ATLAS_EVENTS.push(
     government:"The Egyptian state's response — paying the arrears — set the oldest precedent for dispute resolution by concession." },
   causes:[], effects:["peasantsrevolt","haymarket"] },
 
-{ id:"alphabet", year:-1050, date:"c. 1050 BCE", era:1, cat:"communications",
+{ id:"alphabet", year:-1050, date:"c. 1050 BCE", era:1, cat:"power",
   title:"The Phoenician Alphabet",
   wiki:"Phoenician alphabet", gallery:["Phoenicia","Greek alphabet"],
   summary:"Phoenician traders compress writing into ~22 phonetic signs — a system simple enough for merchants, not just scribes.",
@@ -103,7 +103,7 @@ window.ATLAS_EVENTS.push(
     society:"Mutual-aid institutions are treated as political threats whenever they might mobilize the many." },
   causes:["twelvetables"], effects:["lechapelier","combinationacts"] },
 
-{ id:"cursus", year:-20, date:"c. 20 BCE", era:1, cat:"communications",
+{ id:"cursus", year:-20, date:"c. 20 BCE", era:1, cat:"power",
   title:"Cursus Publicus: The State Post",
   wiki:"Cursus publicus", gallery:["Roman roads","Augustus"],
   summary:"Augustus establishes the Roman postal and courier system — the first systematic state communications network.",
@@ -216,7 +216,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Its due-process legacy ultimately constrains search and seizure — the Fourth Amendment is its descendant." },
   causes:[], effects:["glorious","usbillofrights"] },
 
-{ id:"clock", year:1300, date:"c. 1300", era:1, cat:"technology",
+{ id:"clock", year:1300, date:"c. 1300", era:1, cat:["labor","power"],
   title:"The Mechanical Clock",
   wiki:"Escapement", gallery:["Astronomical clock","Salisbury Cathedral clock","Prague astronomical clock"],
   summary:"The weight-driven escapement appears in European monasteries and towers — the machine Lewis Mumford called the key invention of the industrial age.",

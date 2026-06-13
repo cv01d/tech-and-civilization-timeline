@@ -336,7 +336,7 @@ window.ATLAS_EVENTS.push(
     technology:"Provenance, opt-outs, and synthetic-data strategies reshape how models are built." },
   causes:["statuteofanne","sonybetamax","napster","copilot"], effects:[] },
 
-{ id:"deepfakes", year:2024, date:"2017–2026", era:7, cat:"communications",
+{ id:"deepfakes", year:2024, date:"2017–2026", era:7, cat:["computing","social"],
   title:"The Synthetic Media Era",
   wiki:"Deepfake", gallery:["Synthetic media","Media literacy"],
   summary:"Voices, faces, and events are now synthesizable on demand — election robocalls, fraud, and the slow repricing of all recorded evidence.",

@@ -45,8 +45,6 @@ window.ATLAS_ERAS = [
 ];
 
 window.ATLAS_CATEGORIES = [
-  { key: "technology",     label: "Technology" },
-  { key: "communications", label: "Communications" },
   { key: "radio",          label: "Radio & Telecom" },
   { key: "tv",             label: "Television & Cable" },
   { key: "internet",       label: "The Internet" },

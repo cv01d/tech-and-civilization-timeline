@@ -40,7 +40,7 @@ window.ATLAS_EVENTS.push(
     labor:"Mutual-aid fire companies organize urban labor around public safety." },
   causes:["rattlewatch"], effects:["firealarmtelegraph"] },
 
-{ id:"firealarmtelegraph", year:1852, date:"1852", era:3, cat:"communications",
+{ id:"firealarmtelegraph", year:1852, date:"1852", era:3, cat:"radio",
   title:"The Fire Alarm Telegraph",
   wiki:"Fire alarm system",
   summary:"Boston installs the first electric fire-alarm telegraph — street-corner pull boxes that send a coded location to a central station, which dispatches the apparatus. This is the architecture of all emergency dispatch.",
@@ -51,7 +51,7 @@ window.ATLAS_EVENTS.push(
     power:"The city gains a nervous system for sensing fire in real time." },
   causes:["unionfire","telegraph"], effects:["policeboxchicago","policeradio"] },
 
-{ id:"policeboxchicago", year:1880, date:"1880", era:4, cat:"communications",
+{ id:"policeboxchicago", year:1880, date:"1880", era:4, cat:"radio",
   title:"The Police Call Box",
   wiki:"Police box",
   summary:"Chicago installs the first police call box; beat officers can signal headquarters — 'wagon required,' 'accident,' 'murder' — via coded dials without leaving their post.",
@@ -62,7 +62,7 @@ window.ATLAS_EVENTS.push(
     technology:"Coded dials compress speech into machine-readable categories before radio." },
   causes:["firealarmtelegraph","rattlewatch"], effects:["policeradio","apcotencodes"] },
 
-{ id:"sfquake1906comms", year:1906, date:"1906", era:4, cat:"communications",
+{ id:"sfquake1906comms", year:1906, date:"1906", era:4, cat:"radio",
   title:"San Francisco Burns: Communications Collapse",
   wiki:"1906 San Francisco earthquake",
   summary:"The earthquake severs the city's alarm and telegraph lines; fire companies cannot coordinate and the city burns for three days — an early lesson that emergency communications must be redundant or they fail when needed most.",
@@ -106,7 +106,7 @@ window.ATLAS_EVENTS.push(
     labor:"A shared professional language binds dispatchers and officers nationwide." },
   causes:["twowayradio","policeradio"], effects:["emergency911","cad1980"] },
 
-{ id:"britain999", year:1937, date:"1937", era:4, cat:"communications",
+{ id:"britain999", year:1937, date:"1937", era:4, cat:"radio",
   title:"Britain's 999",
   wiki:"999 (emergency telephone number)",
   summary:"London introduces 999, the world's first universal three-digit emergency number, proving the concept that one short number could summon any emergency service.",
@@ -117,7 +117,7 @@ window.ATLAS_EVENTS.push(
     technology:"The telephone network is engineered to prioritize an emergency code." },
   causes:["twowayradio"], effects:["emergency911"] },
 
-{ id:"emergency911", year:1968, date:"February 16, 1968", era:5, cat:"communications",
+{ id:"emergency911", year:1968, date:"February 16, 1968", era:5, cat:"radio",
   title:"The First 911 Call",
   wiki:"9-1-1",
   summary:"The first U.S. 911 call is placed in Haleyville, Alabama; chosen for its brevity on a rotary dial, 911 becomes the nation's universal emergency number — though the infrastructure to support it will take decades to build.",
@@ -128,7 +128,7 @@ window.ATLAS_EVENTS.push(
     power:"The state guarantees a single point of access to emergency help." },
   causes:["britain999","twowayradio","apcotencodes"], effects:["cad1980","enhanced911","sept11comms"] },
 
-{ id:"cad1980", year:1980, date:"1980", era:5, cat:"communications",
+{ id:"cad1980", year:1980, date:"1980", era:5, cat:"radio",
   title:"Computer-Aided Dispatch",
   wiki:"Computer-aided dispatch",
   summary:"Large answering centers adopt Computer-Aided Dispatch: call-takers enter incidents that the system routes to the nearest available unit, and paper dispatch logs become digital records.",
@@ -139,7 +139,7 @@ window.ATLAS_EVENTS.push(
     labor:"The call-taker's work is reorganized around the terminal." },
   causes:["emergency911","apcotencodes"], effects:["enhanced911","aidispatch"] },
 
-{ id:"enhanced911", year:1996, date:"1981–1996", era:6, cat:"communications",
+{ id:"enhanced911", year:1996, date:"1981–1996", era:6, cat:"radio",
   title:"Enhanced 911: The Call Locates Itself",
   wiki:"Enhanced 9-1-1",
   summary:"Enhanced 911 adds automatic number and location identification, so the dispatcher sees the caller's number and address automatically — even when the caller cannot speak.",
@@ -150,7 +150,7 @@ window.ATLAS_EVENTS.push(
     power:"Help can reach a caller who cannot describe where they are." },
   causes:["emergency911","cad1980"], effects:["wirelesse911","ng911"] },
 
-{ id:"project25", year:1989, date:"late 1980s", era:5, cat:"communications",
+{ id:"project25", year:1989, date:"late 1980s", era:5, cat:"radio",
   title:"Project 25: The Interoperability Standard",
   wiki:"Project 25",
   summary:"APCO and industry begin Project 25, an open digital-radio standard so police, fire, and EMS can talk across jurisdictions regardless of manufacturer — because every major disaster had exposed incompatible radios as a lethal failure.",
@@ -161,7 +161,7 @@ window.ATLAS_EVENTS.push(
     power:"Disaster-driven failures are reframed as a solvable standards problem." },
   causes:["twowayradio"], effects:["sept11comms","firstnet"] },
 
-{ id:"sept11comms", year:2001, date:"September 11, 2001", era:6, cat:"communications",
+{ id:"sept11comms", year:2001, date:"September 11, 2001", era:6, cat:"radio",
   title:"9/11: The Radios That Could Not Talk",
   wiki:"September 11 attacks",
   summary:"At the World Trade Center, NYPD and FDNY operate incompatible radio systems; police aviators broadcast evacuation warnings that fire commanders never hear, and cellular networks collapse under load — the defining communications failure in American public safety.",
@@ -183,7 +183,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Precise handset location, mandated for rescue, becomes infrastructure with broader uses." },
   causes:["enhanced911"], effects:["ng911","firstnet"] },
 
-{ id:"firstnet", year:2012, date:"2012", era:7, cat:"communications",
+{ id:"firstnet", year:2012, date:"2012", era:7, cat:"radio",
   title:"FirstNet: A Network for First Responders",
   wiki:"FirstNet",
   summary:"Congress creates FirstNet — a nationwide public-safety broadband network with dedicated spectrum and priority access — the direct legislative descendant of the 9/11 communications failure.",
@@ -194,7 +194,7 @@ window.ATLAS_EVENTS.push(
     technology:"Public safety moves from voice radio to data-rich broadband." },
   causes:["sept11comms","project25","wirelesse911"], effects:["aidispatch","ng911"] },
 
-{ id:"textto911", year:2014, date:"2013–2016", era:7, cat:"communications",
+{ id:"textto911", year:2014, date:"2013–2016", era:7, cat:"radio",
   title:"Text-to-911",
   wiki:"9-1-1",
   summary:"Carriers begin supporting text messages to 911, letting people reach help silently — vital for domestic-violence and active-shooter situations and for deaf and hard-of-hearing callers.",
@@ -260,7 +260,7 @@ window.ATLAS_EVENTS.push(
     power:"The accountability promised in 2014 is left only partly secured in law." },
   causes:["bodycameras","aibodycam"], effects:[] },
 
-{ id:"policetelephone1877", year:1877, date:"1877", era:4, cat:"communications",
+{ id:"policetelephone1877", year:1877, date:"1877", era:4, cat:"radio",
   title:"The First Police Telephone",
   wiki:"Police box",
   summary:"Albany, New York installs the first police telephone, beginning the transition from coded telegraph signals to actual speech between the beat and headquarters.",
@@ -271,7 +271,7 @@ window.ATLAS_EVENTS.push(
     labor:"The beat officer gains a richer, faster way to summon aid and report." },
   causes:["firealarmtelegraph","telegraph"], effects:["policeboxchicago","policeradio"] },
 
-{ id:"wtcbombing93", year:1993, date:"February 1993", era:6, cat:"communications",
+{ id:"wtcbombing93", year:1993, date:"February 1993", era:6, cat:"radio",
   title:"The 1993 Warning Ignored",
   wiki:"1993 World Trade Center bombing",
   summary:"During the World Trade Center bombing, New York police and fire crews struggle to coordinate on incompatible systems — a clear interoperability failure that is noted and then left unaddressed, eight years before 9/11.",

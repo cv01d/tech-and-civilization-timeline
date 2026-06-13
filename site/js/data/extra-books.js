@@ -5,7 +5,7 @@
 window.ATLAS_EVENTS.push(
 
 // ========== INFORMATION & COMMUNICATION ==========
-{ id:"talkingdrums", year:-1000, date:"antiquity", era:1, cat:"communications",
+{ id:"talkingdrums", year:-1000, date:"antiquity", era:1, cat:"radio",
   title:"The African Talking Drums",
   wiki:"Talking drum", gallery:["Slit drum","Griot","Sub-Saharan Africa"],
   summary:"Across central Africa, tonal drums relay messages village to village faster than any runner — a telecommunications network ages before the telegraph.",
@@ -16,7 +16,7 @@ window.ATLAS_EVENTS.push(
     society:"An oral culture builds a communications system as sophisticated, in principle, as the telegraph." },
   causes:[], effects:["telegraph","shannon"] },
 
-{ id:"johnsondictionary", year:1755, date:"1755", era:2, cat:"communications",
+{ id:"johnsondictionary", year:1755, date:"1755", era:2, cat:"power",
   title:"Johnson's Dictionary",
   wiki:"A Dictionary of the English Language", gallery:["Samuel Johnson","Dictionary"],
   summary:"Samuel Johnson, nearly single-handed, fixes the spelling and meaning of English — standardizing the code of a language.",
@@ -71,7 +71,7 @@ window.ATLAS_EVENTS.push(
     technology:"Self-regulating systems — from autopilots to the smart thermostat — trace to this synthesis." },
   causes:["shannon","turing1936"], effects:["dartmouth","meme"] },
 
-{ id:"dnacode", year:1953, date:"1953", era:5, cat:"technology",
+{ id:"dnacode", year:1953, date:"1953", era:5, cat:["biotech","computing"],
   title:"The Genetic Code",
   wiki:"DNA", gallery:["Francis Crick","Rosalind Franklin","Genetic code"],
   summary:"Watson and Crick — on Rosalind Franklin's data — reveal DNA's double helix, and biology discovers it has been running an information code all along.",
@@ -82,7 +82,7 @@ window.ATLAS_EVENTS.push(
     society:"Life itself joins the list of things best understood as information." },
   causes:["shannon"], effects:["meme"] },
 
-{ id:"meme", year:1976, date:"1976", era:5, cat:"communications",
+{ id:"meme", year:1976, date:"1976", era:5, cat:["internet","social"],
   title:"The Meme",
   wiki:"Meme", gallery:["Richard Dawkins","The Selfish Gene"],
   summary:"Richard Dawkins coins the 'meme' — an idea as a replicator, copying itself from mind to mind like a gene. Culture as information that evolves.",
@@ -104,7 +104,7 @@ window.ATLAS_EVENTS.push(
     society:"'It from bit' — the speculative idea that information underlies physics itself enters serious science." },
   causes:["maxwellsdemon","shannon","turing1936"], effects:[] },
 
-{ id:"wikipedia", year:2001, date:"2001", era:6, cat:"communications",
+{ id:"wikipedia", year:2001, date:"2001", era:6, cat:"internet",
   title:"Wikipedia",
   wiki:"Wikipedia", gallery:["Jimmy Wales","Encyclopédie"],
   summary:"Anyone can edit. A free encyclopedia written by volunteers becomes the largest reference work in history — and the emblem of information abundance.",
@@ -116,7 +116,7 @@ window.ATLAS_EVENTS.push(
   causes:["webpublic","memex"], effects:["chatgpt"] },
 
 // ========== MONEY & FINANCE ==========
-{ id:"coinage", year:-600, date:"c. 600 BCE", era:1, cat:"technology",
+{ id:"coinage", year:-600, date:"c. 600 BCE", era:1, cat:"power",
   title:"The First Coins",
   wiki:"Coin", gallery:["Lydia","Croeseid","Electrum"],
   summary:"The kingdom of Lydia strikes the first standardized coins from electrum — money becomes a portable, state-stamped technology.",
@@ -127,7 +127,7 @@ window.ATLAS_EVENTS.push(
     society:"Value is abstracted and made portable, accelerating commerce far beyond barter." },
   causes:[], effects:["taxation","fibonacci","medici"] },
 
-{ id:"fibonacci", year:1202, date:"1202", era:1, cat:"technology",
+{ id:"fibonacci", year:1202, date:"1202", era:1, cat:"power",
   title:"Fibonacci's Liber Abaci",
   wiki:"Liber Abaci", gallery:["Fibonacci","Hindu–Arabic numeral system","Arabic numerals"],
   summary:"Leonardo of Pisa brings Hindu-Arabic numerals and place-value arithmetic to European merchants — the math that makes modern finance computable.",

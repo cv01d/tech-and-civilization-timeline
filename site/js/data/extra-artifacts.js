@@ -3,7 +3,7 @@
 // smiley, the lexicon. Interleaves chronologically via the `era` field.
 window.ATLAS_EVENTS.push(
 
-{ id:"arpanetmap", year:1977, date:"1977", era:5, cat:"communications",
+{ id:"arpanetmap", year:1977, date:"1977", era:5, cat:"internet",
   title:"The Map of ARPANET",
   wiki:"ARPANET", gallery:["History of the Internet","Interface Message Processor"],
   summary:"A logical map of ARPANET in 1977 shows 111 host computers wired together — the small, strange seed of the internet, drawn by hand.",
@@ -14,7 +14,7 @@ window.ATLAS_EVENTS.push(
     society:"A military research tool quietly becomes social infrastructure — the pattern of the net's whole history." },
   causes:["arpanet"], effects:["firstspam","webpublic"] },
 
-{ id:"firstspam", year:1978, date:"May 1, 1978", era:5, cat:"communications",
+{ id:"firstspam", year:1978, date:"May 1, 1978", era:5, cat:"internet",
   title:"The First Spam Email",
   wiki:"History of email spam", gallery:["Email spam","ARPANET"],
   summary:"A DEC marketer emails 393 ARPANET users to pitch a new computer — the first spam, and the first taste of the network's oldest nuisance.",
@@ -25,7 +25,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Begins the long, half-won campaign against spam — filters, blocklists, and the CAN-SPAM Act (2003)." },
   causes:["arpanet","arpanetmap"], effects:["tcpa"] },
 
-{ id:"firstsmiley", year:1982, date:"September 19, 1982", era:5, cat:"communications",
+{ id:"firstsmiley", year:1982, date:"September 19, 1982", era:5, cat:"internet",
   title:"The First Smiley",
   wiki:"Emoticon", gallery:["Scott Fahlman","Smiley","Carnegie Mellon University"],
   summary:"On a Carnegie Mellon bulletin board, Scott Fahlman proposes :-) and :-( to mark jokes — and gives text the tone it had been missing.",
@@ -36,7 +36,7 @@ window.ATLAS_EVENTS.push(
     technology:"A reminder that users, not designers, supply the missing humanity of a medium." },
   causes:["arpanet"], effects:["meme","likebutton"] },
 
-{ id:"hackersdictionary", year:1983, date:"1983", era:5, cat:"communications",
+{ id:"hackersdictionary", year:1983, date:"1983", era:5, cat:"internet",
   title:"The Hacker's Dictionary",
   wiki:"Jargon File", gallery:["Hacker culture","Guy L. Steele Jr."],
   summary:"The Jargon File — a crowd-written lexicon of hacker slang from MIT, Stanford, and CMU — is published in print, preserving a culture's private language.",

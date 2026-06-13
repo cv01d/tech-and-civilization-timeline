@@ -115,7 +115,7 @@ window.ATLAS_EVENTS.push(
     technology:"Defines the state of the art the Transformer is built to surpass." },
   causes:["backprop"], effects:["transformer"] },
 
-{ id:"darpachallenge", year:2005, date:"2004–2007", era:6, cat:"technology",
+{ id:"darpachallenge", year:2005, date:"2004–2007", era:6, cat:["robotics","computing"],
   title:"The DARPA Grand Challenge",
   wiki:"DARPA Grand Challenge", gallery:["Stanley (vehicle)","Self-driving car","Sebastian Thrun"],
   summary:"A desert race for driverless cars: no one finishes in 2004; a year later Stanford's 'Stanley' completes 150 miles — and the autonomous-vehicle era begins.",

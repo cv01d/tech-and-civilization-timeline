@@ -35,7 +35,7 @@ window.ATLAS_EVENTS.push(
     government:"Demonstrates the durable formula: welfare concessions as the price of political stability." },
   causes:["manifesto1848"], effects:["ssa1935","beveridge"] },
 
-{ id:"standardtime", year:1884, date:"1884", era:4, cat:"technology",
+{ id:"standardtime", year:1884, date:"1884", era:4, cat:"power",
   title:"The World Adopts Standard Time",
   wiki:"International Meridian Conference", gallery:["Time zone","Royal Observatory, Greenwich"],
   summary:"The International Meridian Conference fixes Greenwich as zero and divides the planet into time zones — railway and telegraph coordination made global.",
@@ -58,7 +58,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The eight-hour demand, here a hanging offense by association, becomes federal law within two generations (FLSA, 1938)." },
   causes:["railroadstrike1877","firstinternational","deirstrike"], effects:["pullman","flsa"] },
 
-{ id:"kodak", year:1888, date:"1888", era:4, cat:"technology",
+{ id:"kodak", year:1888, date:"1888", era:4, cat:"surveillance",
   title:"The Kodak Camera",
   wiki:"Kodak", gallery:["George Eastman","Box camera"],
   summary:"'You press the button, we do the rest.' Eastman puts photography in everyone's hands — and privacy law is invented in response.",
@@ -176,7 +176,7 @@ window.ATLAS_EVENTS.push(
     technology:"Management itself becomes a 'technology,' exported worldwide from Ford's lines to Soviet planning." },
   causes:["clock","ford"], effects:["gigeconomy"] },
 
-{ id:"wright", year:1903, date:"1903", era:4, cat:"technology",
+{ id:"wright", year:1903, date:"1903", era:4, cat:"power",
   title:"First Powered Flight",
   wiki:"Wright Flyer", gallery:["Wright brothers","Kitty Hawk, North Carolina"],
   summary:"The Wright brothers fly at Kitty Hawk — beginning the technology that will transform commerce, war, and the view from above.",
@@ -187,7 +187,7 @@ window.ATLAS_EVENTS.push(
     labor:"Aviation builds new skilled trades — pilots, machinists, controllers — central to 20th-century labor history." },
   causes:[], effects:["patco"] },
 
-{ id:"audion", year:1906, date:"1906", era:4, cat:"technology",
+{ id:"audion", year:1906, date:"1906", era:4, cat:["radio","computing"],
   title:"De Forest's Audion",
   wiki:"Audion", gallery:["Lee de Forest","Vacuum tube","Triode"],
   summary:"The triode vacuum tube: amplification. Without it, no broadcasting, no long-distance telephony, no electronic computing.",

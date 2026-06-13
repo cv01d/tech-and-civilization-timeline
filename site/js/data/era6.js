@@ -1,6 +1,6 @@
 // GALLERY VI — The Connected World (1991–2011)
 window.ATLAS_EVENTS.push(
-{ id:"webpublic", year:1991, date:"August 6, 1991", era:6, cat:"communications",
+{ id:"webpublic", year:1991, date:"August 6, 1991", era:6, cat:"internet",
   title:"The Web Goes Public",
   wiki:"World Wide Web", gallery:["Tim Berners-Lee","CERN","NeXT Computer"],
   summary:"Berners-Lee posts the Web to the internet at large; Linux is released the same year. The commons era of computing opens.",
@@ -12,7 +12,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Regulators inherit a borderless medium that fits none of their categories — the defining legal problem of the era." },
   causes:["wwwproposal","arpanet","berlinwall"], effects:["mosaic","cookie","telecomact"] },
 
-{ id:"pgp", year:1991, date:"1991", era:6, cat:"technology",
+{ id:"pgp", year:1991, date:"1991", era:6, cat:["internet","surveillance"],
   title:"PGP & the Crypto Wars",
   wiki:"Pretty Good Privacy", gallery:["Phil Zimmermann","Clipper chip","Public-key cryptography"],
   summary:"Phil Zimmermann releases strong encryption to everyone — and is investigated for exporting munitions.",
@@ -36,7 +36,7 @@ window.ATLAS_EVENTS.push(
     power:"Unipolar globalization begins — the WTO, NAFTA, and the China Shock follow within the decade." },
   causes:["berlinwall","solidarity","russianrev"], effects:["chinawto"] },
 
-{ id:"mosaic", year:1993, date:"1993–1994", era:6, cat:"technology",
+{ id:"mosaic", year:1993, date:"1993–1994", era:6, cat:"internet",
   title:"Mosaic & Netscape",
   wiki:"Mosaic (web browser)", gallery:["Netscape Navigator","Marc Andreessen"],
   summary:"The graphical browser makes the web visible; Netscape's IPO (1995) makes it a gold rush.",
@@ -154,7 +154,7 @@ window.ATLAS_EVENTS.push(
     government:"Political change between administrations decides a landmark case's outcome — enforcement as electoral artifact." },
   causes:["ibmpc","shermanact","standardoil","attbreakup","mosaic"], effects:["googlecase"] },
 
-{ id:"napster", year:1999, date:"1999–2001", era:6, cat:"technology",
+{ id:"napster", year:1999, date:"1999–2001", era:6, cat:"internet",
   title:"Napster",
   wiki:"Napster", gallery:["Shawn Fanning","Peer-to-peer","MP3"],
   summary:"Sixty million users share music as files; the courts shut it down; the industry is transformed anyway.",

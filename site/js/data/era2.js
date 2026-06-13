@@ -1,6 +1,6 @@
 // GALLERY II — Print, Plague & Powder (1400–1791)
 window.ATLAS_EVENTS.push(
-{ id:"printingpress", year:1440, date:"c. 1440", era:2, cat:"communications",
+{ id:"printingpress", year:1440, date:"c. 1440", era:2, cat:"power",
   title:"Gutenberg's Printing Press",
   wiki:"Printing press", gallery:["Johannes Gutenberg","Gutenberg Bible","Movable type"],
   summary:"Movable type arrives in Mainz. Within fifty years Europe prints more books than it had produced in the previous thousand.",
@@ -13,7 +13,7 @@ window.ATLAS_EVENTS.push(
     government:"States gain a propaganda instrument and lose their monopoly on truth in the same stroke." },
   causes:["alphabet","bologna"], effects:["reformation","statuteofanne"] },
 
-{ id:"bookkeeping", year:1494, date:"1494", era:2, cat:"technology",
+{ id:"bookkeeping", year:1494, date:"1494", era:2, cat:"power",
   title:"Double-Entry Bookkeeping Codified",
   wiki:"Luca Pacioli", gallery:["Double-entry bookkeeping","Republic of Venice"],
   summary:"Luca Pacioli publishes the Venetian method of debits and credits — the information system of capitalism.",
@@ -184,7 +184,7 @@ window.ATLAS_EVENTS.push(
     labor:"Creative work acquires a legal claim on its own products — the writer's wage becomes a right." },
   causes:["printingpress"], effects:["sonybetamax","aitraining"] },
 
-{ id:"newcomen", year:1712, date:"1712", era:2, cat:"technology",
+{ id:"newcomen", year:1712, date:"1712", era:2, cat:["power","labor"],
   title:"Newcomen's Steam Engine",
   wiki:"Newcomen atmospheric engine", gallery:["Thomas Newcomen","Steam engine"],
   summary:"The first practical steam engine pumps water from coal mines — fossil energy enters the economy.",
@@ -206,7 +206,7 @@ window.ATLAS_EVENTS.push(
     government:"Parliamentary investigation of corporate fraud sets the template for every later inquiry from Pecora to Enron to Cambridge Analytica." },
   causes:["voc","bankofengland"], effects:["crash1929"] },
 
-{ id:"spinningjenny", year:1764, date:"1764–1771", era:2, cat:"technology",
+{ id:"spinningjenny", year:1764, date:"1764–1771", era:2, cat:"labor",
   title:"Jenny, Frame & Mill: Textile Machinery",
   wiki:"Spinning jenny", gallery:["Richard Arkwright","Cromford Mill","Water frame"],
   summary:"Hargreaves' spinning jenny and Arkwright's water frame mechanize spinning; Arkwright's Cromford Mill (1771) is arguably the first true factory.",
@@ -218,7 +218,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Factory conditions eventually summon the Factory Acts — the founding genre of modern labor law." },
   causes:["clock","newcomen"], effects:["watt","luddites","factoryact1833"] },
 
-{ id:"watt", year:1769, date:"1769–1776", era:2, cat:"technology",
+{ id:"watt", year:1769, date:"1769–1776", era:2, cat:["power","labor"],
   title:"Watt's Steam Engine",
   wiki:"Watt steam engine", gallery:["James Watt","Industrial Revolution","Steam engine"],
   summary:"Watt patents the separate condenser; by 1776 his efficient engine is commercially available — power for any factory, anywhere.",
@@ -301,7 +301,7 @@ window.ATLAS_EVENTS.push(
     government:"Enumerated limits on federal power become the American constitutional style." },
   causes:["magnacarta","glorious","leviathan","constitution"], effects:["katz","carpenter"] },
 
-{ id:"slatermill", year:1791, date:"1791", era:2, cat:"technology",
+{ id:"slatermill", year:1791, date:"1791", era:2, cat:"labor",
   title:"Slater's Mill: Industry Crosses the Atlantic",
   wiki:"Slater Mill", gallery:["Samuel Slater","Pawtucket, Rhode Island"],
   summary:"Samuel Slater, carrying British machine designs in his memory, opens America's first water-powered cotton mill in Rhode Island.",
