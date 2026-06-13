@@ -382,6 +382,6 @@ window.ATLAS_EVENTS.push(
     law:"The dominant form of television operates with essentially no content regulation.",
     communications:"Children streaming face none of the protections children watching broadcast have.",
     power:"Regulation governs the declining medium while the dominant one answers to no one." },
-  causes:["houseofcards","cordcutting","streamingwars","euquota","redlion","fairnessrepeal","childrenstvact","vchip","retranswars"], effects:[] }
+  causes:["houseofcards","cordcutting","streamingwars","euquota","redlion","fairnessrepeal","childrenstvact","vchip","retranswars"], effects:["globalstreamingmilestone"] }
 
 );
