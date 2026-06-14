@@ -95,7 +95,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Battlefield-grade analytics are applied to a civilian population at scale." },
   causes:["palantirgotham"] },
 
-{ id:"palantircambridge", year:2018, date:"2018", era:7, cat:"computing",
+{ id:"palantircambridge", year:2018, date:"2018", era:7, cat:["computing","social"],
   title:"A Palantir Engineer & Cambridge Analytica",
   wiki:"Facebook–Cambridge Analytica data scandal",
   gallery:["Cambridge Analytica"],
@@ -309,7 +309,7 @@ window.ATLAS_EVENTS.push(
 // ===================================================================
 window.ATLAS_EVENTS.push(
 
-{ id:"fable5ban", year:2026, date:"June 2026", era:7, cat:"computing",
+{ id:"fable5ban", year:2026, date:"June 2026", era:7, cat:["computing","law"],
   title:"The Fable 5 Export Ban",
   wiki:"Anthropic",
   gallery:["Export Administration Regulations","Artificial intelligence"],

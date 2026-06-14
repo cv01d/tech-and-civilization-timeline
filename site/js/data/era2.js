@@ -24,7 +24,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Auditable books later become the precondition for taxation of enterprise, securities law, and corporate accountability." },
   causes:["writing"], effects:["eastindia","voc"] },
 
-{ id:"columbus", year:1492, date:"1492–1494", era:2, cat:"general",
+{ id:"columbus", year:1492, date:"1492–1494", era:2, cat:["general","law"],
   title:"Columbus & the Treaty of Tordesillas",
   wiki:"Voyages of Christopher Columbus", gallery:["Treaty of Tordesillas","Christopher Columbus"],
   summary:"European colonization of the Americas begins; within two years Spain and Portugal divide the non-European world by treaty.",

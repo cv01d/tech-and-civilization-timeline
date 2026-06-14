@@ -560,7 +560,7 @@ window.ATLAS_EVENTS.push(
     print:"A major Mexican daily is brought to heel by an engineered editorial purge.",
     power:"Soft state control — ownership, newsprint, ad spending — disciplines the press." } },
 
-{ id:"clarin", year:1945, date:"1945", era:5, cat:"print",
+{ id:"clarin", year:1945, date:"1945", era:5, cat:["print","law"],
   title:"Clarín and the Media Law",
   wiki:"Clarín (Argentine newspaper)",
   summary:"Founded 1945 in Buenos Aires, Clarín grew into Argentina's largest newspaper and media conglomerate; it became the target of the Kirchner government's 2009 'Ley de Medios' (Media Law), aimed at breaking up its market dominance — a law the courts partly struck down and the Macri government substantially repealed in 2015–16.",

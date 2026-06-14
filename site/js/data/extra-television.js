@@ -142,7 +142,7 @@ window.ATLAS_EVENTS.push(
     law:"Whether a signal-carrying wire is 'broadcasting' becomes the foundational question." },
   causes:["licensefreeze"], effects:["catvregulation","hbo"] },
 
-{ id:"catvregulation", year:1965, date:"1959–1972", era:5, cat:"tv",
+{ id:"catvregulation", year:1965, date:"1959–1972", era:5, cat:["tv","law"],
   title:"The FCC Claims the Wire",
   wiki:"Must-carry",
   summary:"The FCC first says it has no jurisdiction over cable (1959), then reverses: by 1965 it imposes 'must-carry' (cable must include local stations) and program-duplication limits, and by 1972 a full federal cable regime — explicitly protecting the broadcasters it licenses over the cable it does not.",
@@ -230,7 +230,7 @@ window.ATLAS_EVENTS.push(
     society:"Unchecked, cable prices rise far faster than inflation." },
   causes:["redlion","backyarddish"], effects:["cable1992"] },
 
-{ id:"fairnessrepeal", year:1987, date:"1987", era:5, cat:"tv",
+{ id:"fairnessrepeal", year:1987, date:"1987", era:5, cat:["tv","law"],
   title:"The Fairness Doctrine Falls",
   wiki:"FCC fairness doctrine",
   summary:"Reagan's FCC abolishes the Fairness Doctrine, arguing it chilled speech by making broadcasters avoid controversy. Talk radio explodes as stations, no longer required to balance political content, choose not to — and the polarization of American media begins.",
@@ -241,7 +241,7 @@ window.ATLAS_EVENTS.push(
     power:"The polarization of American political media accelerates from this point." },
   causes:["redlion","fairnessdoctrine"], effects:["streamingvoid"] },
 
-{ id:"childrenstvact", year:1990, date:"1990", era:6, cat:"tv",
+{ id:"childrenstvact", year:1990, date:"1990", era:6, cat:["tv","law"],
   title:"The Children's Television Act",
   wiki:"Children's Television Act",
   summary:"The first federal law requiring broadcasters to serve the educational needs of children; the FCC must weigh children's programming in license renewals, and by 1997 stations must air at least three hours a week of educational children's content.",
@@ -252,7 +252,7 @@ window.ATLAS_EVENTS.push(
     communications:"The public-interest obligation is made concrete for child audiences." },
   causes:["publicbroadcasting"], effects:["vchip","streamingvoid"] },
 
-{ id:"cable1992", year:1992, date:"1992", era:6, cat:"tv",
+{ id:"cable1992", year:1992, date:"1992", era:6, cat:["tv","law"],
   title:"Re-Regulation and Retransmission Consent",
   wiki:"Cable Television Consumer Protection and Competition Act of 1992",
   summary:"Over a presidential veto, Congress re-regulates cable: rate regulation is restored, must-carry is revived as economic regulation, and retransmission consent is created — letting each broadcaster choose every three years between guaranteed carriage or negotiated payment. This binary defines broadcast-cable economics for thirty years.",
@@ -307,7 +307,7 @@ window.ATLAS_EVENTS.push(
     power:"The dominant new form of television is born entirely unregulated." },
   causes:["netflixstreaming"], effects:["euquota","streamingvoid"] },
 
-{ id:"aereo", year:2014, date:"2014", era:7, cat:"tv",
+{ id:"aereo", year:2014, date:"2014", era:7, cat:["tv","law"],
   title:"ABC v. Aereo",
   wiki:"American Broadcasting Cos., Inc. v. Aereo, Inc.",
   summary:"Aereo rents subscribers tiny individual antennas in data centers to stream over-the-air TV without paying retransmission fees; the Supreme Court rules this a 'public performance' requiring copyright permission, and Aereo shuts down within weeks.",
@@ -340,7 +340,7 @@ window.ATLAS_EVENTS.push(
     power:"Europe again sets the regulatory standard the U.S. declines to write." },
   causes:["houseofcards"], effects:["streamingvoid"] },
 
-{ id:"netneutrality", year:2017, date:"2017", era:7, cat:"tv",
+{ id:"netneutrality", year:2017, date:"2017", era:7, cat:["tv","internet"],
   title:"Net Neutrality Repealed",
   wiki:"Net neutrality in the United States",
   summary:"The Trump FCC repeals net neutrality rules that had barred internet providers from throttling traffic — creating the legal possibility that an ISP could degrade a rival's streaming video while prioritizing its own.",

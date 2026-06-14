@@ -32,7 +32,7 @@ window.ATLAS_EVENTS.push(
     law:"The first international radio regulation precedes any national framework." },
   causes:["marconi"], effects:["radioact1912","kdka"] },
 
-{ id:"radioact1912", year:1912, date:"1910–1912", era:4, cat:"radio",
+{ id:"radioact1912", year:1912, date:"1910–1912", era:4, cat:["radio","law"],
   title:"The Radio Act of 1912",
   wiki:"Radio Act of 1912",
   summary:"After the Wireless Ship Act of 1910 and the Titanic disaster, Congress asserts authority over all U.S. radio — requiring licenses, assigning wavelengths, and banishing amateurs to the short wavelengths that, it turns out, travel farthest of all.",
@@ -153,7 +153,7 @@ window.ATLAS_EVENTS.push(
     society:"The local station as community institution is replaced by syndicated national formats." },
   causes:["chainbroadcasting","payola","telecomact"], effects:["satelliteradio","iheartbankruptcy"] },
 
-{ id:"satelliteradio", year:1997, date:"1997–2008", era:6, cat:"radio",
+{ id:"satelliteradio", year:1997, date:"1997–2008", era:6, cat:["radio","law"],
   title:"Satellite Radio: A Refuge From Regulation",
   wiki:"Satellite radio",
   summary:"XM and Sirius launch national subscription satellite radio — hundreds of ad-free channels, beyond FCC content rules — positioned as what FM was meant to be before consolidation degraded it; in 2006 Howard Stern's move validates it, and in 2008 the two merge into a regulator-approved monopoly.",

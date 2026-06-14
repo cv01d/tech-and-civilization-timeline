@@ -61,7 +61,7 @@ window.ATLAS_EVENTS.push(
     law:"Minimal restrictions become xAI's identity — and its central safety controversy." },
   causes:["grok1"], effects:["grok3","groksafety"] },
 
-{ id:"muskvaltman", year:2024, date:"2024–2026", era:7, cat:"computing",
+{ id:"muskvaltman", year:2024, date:"2024–2026", era:7, cat:["computing","law"],
   title:"Musk v. Altman",
   wiki:"Musk v. Altman",
   summary:"Musk sues OpenAI and Sam Altman in February 2024 for abandoning the nonprofit mission, abruptly drops it in May, refiles in federal court in August — and in May 2026 a jury rules against him, finding his claims time-barred. OpenAI wins.",

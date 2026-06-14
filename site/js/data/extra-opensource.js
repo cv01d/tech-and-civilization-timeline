@@ -200,7 +200,7 @@ window.ATLAS_EVENTS.push(
     computing:"Her principles for commons governance prefigure how open-source communities self-organize." },
   causes:["hardin","inclosureacts"], effects:["wikipedia","creativecommons"] },
 
-{ id:"linux", year:1991, date:"1991", era:5, cat:["opensource","computing"],
+{ id:"linux", year:1991, date:"1991", era:5, cat:["opensource","computing","internet"],
   title:"Linux Fills the Void",
   wiki:"Linux kernel", gallery:["Linus Torvalds","Tux (mascot)"],
   summary:"Frustrated by the licensing limits of Minix, Finnish student Linus Torvalds writes a hobby operating-system kernel and releases it under the GPL — and it fuses perfectly with Stallman's GNU tools to form a complete, entirely free operating system.",

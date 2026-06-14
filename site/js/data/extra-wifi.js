@@ -17,7 +17,7 @@ window.ATLAS_EVENTS.push(
     communications:"The access method beneath modern wireless networking is established." },
   causes:["arpanet"], effects:["ethernet","ismband","wifi80211"] },
 
-{ id:"ethernet", year:1973, date:"1973", era:5, cat:"radio",
+{ id:"ethernet", year:1973, date:"1973", era:5, cat:["radio","internet"],
   title:"Ethernet",
   wiki:"Ethernet",
   summary:"Robert Metcalfe invents Ethernet at Xerox PARC — a wired local-area-network standard adapting ALOHAnet's shared-channel idea to a cable. Ethernet and WiFi will spend the next half-century as complements: Ethernet in walls and data centers, WiFi through the air for the last few feet.",
@@ -28,7 +28,7 @@ window.ATLAS_EVENTS.push(
     communications:"The local network gains a universal, vendor-neutral standard." },
   causes:["alohanet"], effects:["wifi80211"] },
 
-{ id:"computerinquiry2", year:1981, date:"1981", era:5, cat:"radio",
+{ id:"computerinquiry2", year:1981, date:"1981", era:5, cat:["radio","internet","law"],
   title:"Basic vs. Enhanced: The Fateful Line",
   wiki:"Communications Act of 1934",
   summary:"The FCC's Second Computer Inquiry distinguishes 'basic services' (regulated telephone networks) from 'enhanced services' (information services running on top of them), exempting early online services from Title II common-carrier rules — the classification that will govern broadband for forty years and trigger endless legal war.",
@@ -50,7 +50,7 @@ window.ATLAS_EVENTS.push(
     power:"An accidental decision unleashes the most widespread wireless tech in history." },
   causes:["computerinquiry2","cbradio"], effects:["wavelan","wifi80211","sixghz"] },
 
-{ id:"wavelan", year:1991, date:"1991–1992", era:6, cat:"radio",
+{ id:"wavelan", year:1991, date:"1991–1992", era:6, cat:["radio","law"],
   title:"WaveLAN and the CSIRO Patent",
   wiki:"Wireless LAN",
   summary:"NCR and AT&T build WaveLAN, the first practical wireless LAN (for retail point-of-sale), the direct precursor to 802.11; NCR's Vic Hayes begins leading the IEEE standardization effort. In 1992 Australia's CSIRO patents the signal-processing method for 'unsmearing' indoor reflections that makes fast indoor WiFi possible — later worth $430 million in royalties.",
@@ -61,7 +61,7 @@ window.ATLAS_EVENTS.push(
     law:"The CSIRO patent later yields $430M, a landmark technology-patent victory." },
   causes:["ismband"], effects:["wifi80211","wifialliance"] },
 
-{ id:"wifi80211", year:1997, date:"1997", era:6, cat:"radio",
+{ id:"wifi80211", year:1997, date:"1997", era:6, cat:["radio","internet"],
   title:"802.11: The WiFi Standard",
   wiki:"IEEE 802.11",
   summary:"The IEEE ratifies 802.11, the first official WiFi specification — 2 Mbps at 2.4 GHz, its spread-spectrum design shaped directly by the FCC's unlicensed-band rules. It is technically sound but practically limited: one vendor's gear is not guaranteed to work with another's.",
@@ -72,7 +72,7 @@ window.ATLAS_EVENTS.push(
     technology:"The foundation of all later WiFi is laid, if slow and not yet interoperable." },
   causes:["alohanet","ethernet","ismband","wavelan"], effects:["wifialliance","wifi5"] },
 
-{ id:"wifialliance", year:1999, date:"1999", era:6, cat:"radio",
+{ id:"wifialliance", year:1999, date:"1999", era:6, cat:["radio","internet"],
   title:"'Wi-Fi' and the Consumer Revolution",
   wiki:"Wi-Fi Alliance",
   summary:"802.11b (11 Mbps) solves interoperability; the Wi-Fi Alliance forms to certify cross-vendor compatibility and coins the brand 'Wi-Fi' (chosen purely for its sound — it stands for nothing). Apple's AirPort router and the WiFi-equipped iBook — demoed surfing the web while swung from a hula hoop — make wireless networking a consumer phenomenon overnight.",
@@ -94,7 +94,7 @@ window.ATLAS_EVENTS.push(
     technology:"Wireless security becomes a permanent arms race, not a solved problem." },
   causes:["wifialliance"], effects:["krack"] },
 
-{ id:"dialupisp", year:1994, date:"1993–1996", era:6, cat:"radio",
+{ id:"dialupisp", year:1994, date:"1993–1996", era:6, cat:["radio","internet"],
   title:"The Brief Age of ISP Competition",
   wiki:"Internet service provider",
   summary:"Mosaic makes the web usable and demand explodes; hundreds of small ISPs spring up offering dial-up over the regulated telephone network, AOL blankets America with free trial discs, and the 1996 Telecom Act forces phone companies to rent their lines to competing ISPs — briefly creating a market of over 7,000 providers, the most competitive internet access will ever be.",
@@ -105,7 +105,7 @@ window.ATLAS_EVENTS.push(
     power:"Internet access is, for a moment, a genuinely competitive market." },
   causes:["mosaic","telecomact","aol"], effects:["aoltw","titleone"] },
 
-{ id:"aoltw", year:2000, date:"2000", era:6, cat:"radio",
+{ id:"aoltw", year:2000, date:"2000", era:6, cat:["radio","internet"],
   title:"AOL–Time Warner",
   wiki:"AOL",
   summary:"AOL, valued at $350 billion at the dot-com peak, buys Time Warner for $165 billion — the largest merger in American history, approved with conditions to open its cable systems to competing ISPs. It becomes one of the great corporate disasters, destroying some $200 billion in value before the companies split by 2009.",
@@ -116,7 +116,7 @@ window.ATLAS_EVENTS.push(
     law:"Cable open-access conditions foreshadow the coming broadband classification fight." },
   causes:["dialupisp","dotcom"], effects:["titleone"] },
 
-{ id:"titleone", year:2002, date:"2002–2005", era:6, cat:"radio",
+{ id:"titleone", year:2002, date:"2002–2005", era:6, cat:["radio","internet"],
   title:"Reclassification: Rebuilding the Monopoly",
   wiki:"Brand X",
   summary:"The FCC's 2002 Cable Modem Order classifies cable broadband as a Title I 'information service,' not a common carrier — ending the duty to share infrastructure with competing ISPs; the Supreme Court upholds it in Brand X (2005), and DSL is reclassified the same way. The 7,000 competing ISPs are squeezed out, and the AT&T/Verizon and Comcast/Charter duopoly forms.",
@@ -171,7 +171,7 @@ window.ATLAS_EVENTS.push(
     law:"The light-touch unlicensed model delivers again, 35 years after the ISM band." },
   causes:["ismband","wifi5","krack","cbrs"], effects:[] },
 
-{ id:"digitaldivide", year:2019, date:"1996–2024", era:7, cat:"radio",
+{ id:"digitaldivide", year:2019, date:"1996–2024", era:7, cat:["radio","internet"],
   title:"The Digital Divide and the Map That Lied",
   wiki:"Digital divide in the United States",
   summary:"Federal broadband policy chases a gap it can't even measure: the FCC long counts an entire census block as 'served' if one address has access, lets ISPs self-report, and finds (2019) they systematically overstated coverage to claim subsidies. Definitions creep up (25/3 in 2019, 100/20 in 2022) and each rise reveals millions more unserved.",
@@ -182,7 +182,7 @@ window.ATLAS_EVENTS.push(
     society:"Tens of millions, mostly rural, are left without adequate broadband." },
   causes:["titleone","telecomact"], effects:["broadbandinvest"] },
 
-{ id:"broadbandinvest", year:2021, date:"2009–2025", era:7, cat:"radio",
+{ id:"broadbandinvest", year:2021, date:"2009–2025", era:7, cat:["radio","internet"],
   title:"The Broadband Reckoning",
   wiki:"Broadband Equity, Access, and Deployment Program",
   summary:"After 25 years of failed market policy, money pours in: stimulus broadband (2009), the RDOF auction (2020), and the 2021 Infrastructure law's $65 billion — including $42.45B for state-run deployment (BEAD) and $14.2B to subsidize low-income subscriptions (ACP). But ACP runs out and ends in 2024, cutting off 23 million households, and BEAD fiber won't be built until 2028–2030.",

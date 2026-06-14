@@ -228,7 +228,7 @@ window.ATLAS_EVENTS.push(
     law:"Business-improvement districts run private camera networks with no public accountability." },
   causes:["maxsurveillance","chicagocameras"], effects:["martinboise","grantspass"] },
 
-{ id:"martinboise", year:2018, date:"2018", era:7, cat:"cctv",
+{ id:"martinboise", year:2018, date:"2018", era:7, cat:["cctv","law"],
   title:"Martin v. Boise",
   wiki:"Martin v. City of Boise",
   summary:"The Ninth Circuit rules that cities cannot enforce anti-camping ordinances against homeless people when no shelter is available — the first constitutional limit on encampment sweeps, against which CCTV-documented sweep evidence is challenged for five years across nine western states.",
@@ -239,7 +239,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Footage gathered to justify sweeps is forced to meet a legal standard." },
   causes:["hostilearchitecture"], effects:["grantspass"] },
 
-{ id:"grantspass", year:2024, date:"June 28, 2024", era:7, cat:"cctv",
+{ id:"grantspass", year:2024, date:"June 28, 2024", era:7, cat:["cctv","law"],
   title:"Grants Pass v. Johnson",
   wiki:"City of Grants Pass v. Johnson",
   summary:"The Supreme Court rules 6–3 that enforcing camping bans against homeless people is not cruel and unusual punishment, overturning Martin v. Boise; sweeps resume within weeks, and cities rapidly expand camera and AI tools to monitor encampments and document 'repeat occupiers.'",
@@ -272,7 +272,7 @@ window.ATLAS_EVENTS.push(
     power:"Oversight is granted in form while the cameras stay exactly where they are." },
   causes:["maxsurveillance","kingslynn"], effects:["bridges2019","euaiactfr"] },
 
-{ id:"bridges2019", year:2019, date:"2019–2020", era:7, cat:"cctv",
+{ id:"bridges2019", year:2019, date:"2019–2020", era:7, cat:["cctv","law"],
   title:"Bridges v. South Wales Police",
   wiki:"R (Bridges) v Chief Constable of South Wales Police",
   summary:"The first European court ruling on public live facial recognition: a UK court finds South Wales Police's use lawful in 2019, but the Court of Appeal overturns it in 2020, holding the deployment unlawful for breaching privacy and equality duties.",

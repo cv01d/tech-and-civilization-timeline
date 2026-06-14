@@ -233,7 +233,7 @@ window.ATLAS_EVENTS.push(
     government:"Antitrust becomes a presidential-scale political instrument." },
   causes:["shermanact"], effects:["attbreakup","microsoftcase"] },
 
-{ id:"titanic", year:1912, date:"April–August 1912", era:4, cat:"radio",
+{ id:"titanic", year:1912, date:"April–August 1912", era:4, cat:["radio","law"],
   title:"The Titanic & the Radio Act of 1912",
   wiki:"Sinking of the Titanic", gallery:["RMS Titanic","Radio Act of 1912","Wireless telegraphy"],
   summary:"Confused and crowded airwaves hamper the rescue; four months later, Congress licenses the spectrum. The fastest invention-to-regulation chain in this atlas.",
@@ -269,7 +269,7 @@ window.ATLAS_EVENTS.push(
     technology:"Continuous-flow production becomes the century's industrial paradigm." },
   causes:["taylorism","watt"], effects:["flint","treatyofdetroit"] },
 
-{ id:"clayton", year:1914, date:"1914", era:4, cat:"law",
+{ id:"clayton", year:1914, date:"1914", era:4, cat:["law","radio","computing"],
   title:"The Clayton Act & the FTC",
   wiki:"Federal Trade Commission", gallery:["Clayton Antitrust Act of 1914","Woodrow Wilson"],
   summary:"Congress patches the Sherman Act, declares labor 'not a commodity,' and creates the FTC — whose Section 5 becomes America's de facto privacy regulator.",
@@ -363,7 +363,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The persuasion industries remain essentially unregulated, a silence stretching to micro-targeting and dark patterns." },
   causes:["wwi","attention"], effects:["cambridgeanalytica"] },
 
-{ id:"radioact1927", year:1927, date:"1927", era:4, cat:"radio",
+{ id:"radioact1927", year:1927, date:"1927", era:4, cat:["radio","law"],
   title:"The Radio Act of 1927",
   wiki:"Radio Act of 1927", gallery:["Federal Radio Commission","NBC"],
   summary:"Spectrum chaos and network consolidation (NBC 1926, CBS 1927) force a new framework: licensed broadcasters as public trustees.",

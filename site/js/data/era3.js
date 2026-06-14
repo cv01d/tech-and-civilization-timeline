@@ -264,7 +264,7 @@ window.ATLAS_EVENTS.push(
     government:"Reform from above, designed to forestall revolution from below, becomes the autocracy's signature gamble." },
   causes:["abolition1833"], effects:["russianrev"] },
 
-{ id:"emancipation", year:1865, date:"1861–1865", era:3, cat:"general",
+{ id:"emancipation", year:1865, date:"1861–1865", era:3, cat:["general","law"],
   title:"The Civil War & the Thirteenth Amendment",
   wiki:"Thirteenth Amendment to the United States Constitution", gallery:["Emancipation Proclamation","Abraham Lincoln","American Civil War"],
   summary:"War destroys American slavery; the Thirteenth Amendment abolishes it — 'except as a punishment for crime.'",

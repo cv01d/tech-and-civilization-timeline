@@ -5,7 +5,7 @@
 // likebutton cards. cat:"print" (+ internet/social). Round one: data only.
 window.ATLAS_EVENTS.push(
 
-{ id:"googlenews", year:2002, date:"1998–2002", era:6, cat:["print","internet"],
+{ id:"googlenews", year:2002, date:"1998–2002", era:6, cat:["print","internet","social"],
   title:"Google News and the Ad Machine",
   wiki:"Google News",
   summary:"Google (1998) launches Google News in 2002 — algorithmically aggregating the world's journalism onto one page — while its AdSense and search-ad systems, later joined by Facebook, come to dominate digital advertising. The platforms capture the ad revenue that journalism produces but no longer controls.",

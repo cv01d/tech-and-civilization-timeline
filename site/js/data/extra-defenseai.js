@@ -63,7 +63,7 @@ window.ATLAS_EVENTS.push(
     power:"Responsible-AI policy is articulated without a tested mechanism to enforce it." },
   causes:["jedi","projectmaven"], effects:["openaimilitary","unautonomousweapons","anthropicstandoff"] },
 
-{ id:"openaimilitary", year:2024, date:"January 2024", era:7, cat:"computing",
+{ id:"openaimilitary", year:2024, date:"January 2024", era:7, cat:["computing","law"],
   title:"OpenAI Drops Its Military Ban",
   wiki:"OpenAI",
   summary:"OpenAI quietly deletes the explicit prohibition on military and warfare use from its policy, replacing it with a vague 'applicable law' standard, and announces a DARPA cybersecurity partnership — a reversal that draws sharp criticism once noticed.",
@@ -96,7 +96,7 @@ window.ATLAS_EVENTS.push(
     law:"A contractor's acceptable-use policy is written into the terms binding the Pentagon." },
   causes:["jedi","openaimilitary","projectnimbus","anthropicfounded","claude","constitutionalai"], effects:["anthropicstandoff","maduroai"] },
 
-{ id:"anthropicstandoff", year:2026, date:"2025–2026", era:7, cat:"computing",
+{ id:"anthropicstandoff", year:2026, date:"2025–2026", era:7, cat:["computing","law"],
   title:"Anthropic v. the Pentagon",
   wiki:"Anthropic",
   summary:"When the Pentagon demands its AI be usable for 'all lawful purposes' — stripping limits on surveillance and autonomous weapons — Anthropic refuses; the administration designates it a 'supply chain risk to national security' (a first for an American company) and Anthropic sues. A federal court grants a preliminary injunction.",

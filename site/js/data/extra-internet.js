@@ -97,7 +97,7 @@ window.ATLAS_EVENTS.push(
     law:"The last restrictions on commercial internet use are removed by Congress." },
   causes:["nsfnet","webpublic"], effects:["icann","renoaclu"] },
 
-{ id:"renoaclu", year:1997, date:"1997", era:6, cat:"internet",
+{ id:"renoaclu", year:1997, date:"1997", era:6, cat:["internet","law"],
   title:"Reno v. ACLU: The Internet Is Not Television",
   wiki:"Reno v. American Civil Liberties Union",
   summary:"The Supreme Court strikes down the Communications Decency Act's speech provisions, holding the internet is not like broadcast — there is no spectrum-scarcity rationale for content regulation — and granting internet speech the highest First Amendment protection. Section 230 survives intact.",
@@ -119,7 +119,7 @@ window.ATLAS_EVENTS.push(
     communications:"The naming layer of a worldwide network is administered from one country." },
   causes:["dns","nsfnetprivatized"], effects:["icanntransition","splinternet"] },
 
-{ id:"dmca", year:1998, date:"1998", era:6, cat:["internet","opensource"],
+{ id:"dmca", year:1998, date:"1998", era:6, cat:["law","internet"],
   title:"The Digital Millennium Copyright Act",
   wiki:"Digital Millennium Copyright Act",
   summary:"The DMCA criminalizes circumventing digital copy protection and creates a 'safe harbor' shielding platforms that remove infringing content when notified — shaping the relationship between copyright holders and internet platforms for decades.",
@@ -174,7 +174,7 @@ window.ATLAS_EVENTS.push(
     communications:"The internet's naming system is, formally, internationalized." },
   causes:["icann","dns","snowden"], effects:["splinternet"] },
 
-{ id:"fostasesta", year:2018, date:"2018", era:7, cat:"internet",
+{ id:"fostasesta", year:2018, date:"2018", era:7, cat:["internet","law"],
   title:"FOSTA-SESTA: The First Crack in Section 230",
   wiki:"FOSTA-SESTA",
   summary:"FOSTA-SESTA amends Section 230 to create platform liability for facilitating sex trafficking — the first statutory carve-out from the immunity, establishing that Congress can restrict platform protection for specific categories of harm.",

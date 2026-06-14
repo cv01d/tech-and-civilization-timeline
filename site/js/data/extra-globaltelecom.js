@@ -257,7 +257,7 @@ window.ATLAS_EVENTS.push(
     radio:"Telecommunications infrastructure built to connect a population becomes the mechanism for isolating it." },
   causes:["myanmarsaffron2007"], effects:["sovereigninternet2019"] },
 
-{ id:"indiaappban2020", year:2020, date:"2020", era:7, cat:["radio","law"],
+{ id:"indiaappban2020", year:2020, date:"2020", era:7, cat:["radio","law","social"],
   title:"India Bans the Apps",
   wiki:"2020 China–India skirmishes",
   gallery:["TikTok"],
@@ -281,7 +281,7 @@ window.ATLAS_EVENTS.push(
     law:"No government can fully compel or override a foreign private company's control of communications infrastructure on its own soil." },
   causes:[], effects:["starlink"] },
 
-{ id:"sovereigninternet2019", year:2019, date:"2019–2025", era:7, cat:["radio","law"],
+{ id:"sovereigninternet2019", year:2019, date:"2019–2025", era:7, cat:["radio","law","internet"],
   title:"The Sovereign Internet",
   wiki:"Sovereign Internet Law",
   gallery:["Runet","BRICS"],

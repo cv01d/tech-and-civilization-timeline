@@ -24,7 +24,7 @@ window.ATLAS_EVENTS.push(
     computing:"Makes the integrated circuit, and thus Moore's Law, physically possible." },
   causes:["audion"], effects:["ic1958","attdecree1956"] },
 
-{ id:"coldwar", year:1947, date:"1947", era:5, cat:"general",
+{ id:"coldwar", year:1947, date:"1947", era:5, cat:["general","law"],
   title:"The National Security Act: CIA & Five Eyes",
   wiki:"Central Intelligence Agency", gallery:["UKUSA Agreement","Cold War"],
   summary:"The U.S. builds a peacetime intelligence apparatus; the UKUSA agreement binds five anglophone powers into a signals-intelligence alliance.",
@@ -125,7 +125,7 @@ window.ATLAS_EVENTS.push(
     technology:"Frames machine intelligence as behavioral and testable — the engineering orientation the field keeps." },
   causes:["turing1936","lovelace"], effects:["dartmouth","chatgpt"] },
 
-{ id:"treatyofdetroit", year:1950, date:"1950", era:5, cat:"general",
+{ id:"treatyofdetroit", year:1950, date:"1950", era:5, cat:["general","law"],
   title:"The Treaty of Detroit",
   wiki:"Treaty of Detroit", gallery:["United Auto Workers","Walter Reuther"],
   summary:"GM and the UAW sign a five-year contract trading labor peace for pensions, health insurance, and cost-of-living wages.",
@@ -507,7 +507,7 @@ window.ATLAS_EVENTS.push(
     government:"Demonstrates strike-breaking as planned state strategy, not improvisation." },
   causes:["patco"], effects:[] },
 
-{ id:"sonybetamax", year:1984, date:"1984", era:5, cat:"law",
+{ id:"sonybetamax", year:1984, date:"1984", era:5, cat:["law","social"],
   title:"The Betamax Case",
   wiki:"Sony Corp. of America v. Universal City Studios, Inc.", gallery:["Betamax","Videocassette recorder"],
   summary:"Hollywood sues to ban the VCR; the Supreme Court holds that technology with substantial non-infringing uses cannot be outlawed.",

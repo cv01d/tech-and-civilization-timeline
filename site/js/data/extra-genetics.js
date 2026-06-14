@@ -84,7 +84,7 @@ window.ATLAS_EVENTS.push(
     law:"A pseudo-scientific doctrine is readied for translation into coercive statute." },
   causes:["ancientbreeding","geneticsfield"], effects:["eugenicssterilization","buckvbell","nazieugenics"] },
 
-{ id:"eugenicssterilization", year:1907, date:"1907", era:4, cat:"biotech",
+{ id:"eugenicssterilization", year:1907, date:"1907", era:4, cat:["biotech","law"],
   title:"The First Sterilization Law",
   wiki:"Compulsory sterilization",
   summary:"Indiana passes the world's first compulsory sterilization law, authorizing the state to sterilize people deemed 'unfit' — criminals, the mentally ill, the disabled. Some 60,000 Americans will be sterilized under such laws.",
@@ -95,7 +95,7 @@ window.ATLAS_EVENTS.push(
     law:"Forced sterilization is normalized in American statute for over sixty years." },
   causes:["galton"], effects:["buckvbell","nazieugenics"] },
 
-{ id:"buckvbell", year:1927, date:"1927", era:4, cat:"biotech",
+{ id:"buckvbell", year:1927, date:"1927", era:4, cat:["biotech","law"],
   title:"Buck v. Bell",
   wiki:"Buck v. Bell",
   summary:"The U.S. Supreme Court upholds forced sterilization 8–1; Justice Holmes writes 'three generations of imbeciles are enough.' The decision has never been overturned.",
@@ -172,7 +172,7 @@ window.ATLAS_EVENTS.push(
     society:"Millions gain a path to parenthood as the embryo becomes a contested object." },
   causes:["recombinantdna"], effects:["dolly","hejiankui"] },
 
-{ id:"chakrabarty", year:1980, date:"1980", era:5, cat:"biotech",
+{ id:"chakrabarty", year:1980, date:"1980", era:5, cat:["biotech","law"],
   title:"Diamond v. Chakrabarty: Patenting Life",
   wiki:"Diamond v. Chakrabarty",
   summary:"The U.S. Supreme Court rules that a genetically modified organism can be patented — that life, engineered, is intellectual property — opening the floodgates for the biotechnology industry.",
@@ -271,7 +271,7 @@ window.ATLAS_EVENTS.push(
     society:"The eugenic past explicitly motivates a modern protective statute." },
   causes:["hgp","dnafingerprinting"], effects:["aigenomics"] },
 
-{ id:"myriadgenes", year:2013, date:"2013", era:7, cat:"biotech",
+{ id:"myriadgenes", year:2013, date:"2013", era:7, cat:["biotech","law"],
   title:"You Cannot Patent a Gene",
   wiki:"Association for Molecular Pathology v. Myriad Genetics",
   summary:"The U.S. Supreme Court rules unanimously that naturally occurring DNA sequences cannot be patented — overturning Myriad's monopoly on the BRCA breast-cancer genes and reshaping patient access to genetic testing.",

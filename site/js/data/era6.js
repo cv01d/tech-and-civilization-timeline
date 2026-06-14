@@ -95,7 +95,7 @@ window.ATLAS_EVENTS.push(
     government:"Brussels emerges as the internet's most consequential regulator — before the internet notices." },
   causes:["volkszahlung","fipps","privacyact","fcra"], effects:["gdpr","schrems"] },
 
-{ id:"telecomact", year:1996, date:"February 8, 1996", era:6, cat:"law",
+{ id:"telecomact", year:1996, date:"February 8, 1996", era:6, cat:["law","radio","internet"],
   title:"The Telecom Act & Section 230",
   wiki:"Telecommunications Act of 1996", gallery:["Section 230","Federal Communications Commission"],
   summary:"The biggest communications rewrite since 1934 deregulates media ownership — and twenty-six words in Section 230 build the platform economy.",
@@ -130,7 +130,7 @@ window.ATLAS_EVENTS.push(
     technology:"Specialized triumph, general brittleness: the lesson the deep-learning era inverts." },
   causes:["dartmouth"], effects:["alphago"] },
 
-{ id:"googlefounding", year:1998, date:"1998", era:6, cat:"computing",
+{ id:"googlefounding", year:1998, date:"1998", era:6, cat:["computing","internet"],
   title:"Google Is Founded",
   wiki:"Google", gallery:["Larry Page","Sergey Brin","PageRank"],
   summary:"Two Stanford students incorporate a search engine whose ranking algorithm treats the web's links as votes.",
@@ -189,7 +189,7 @@ window.ATLAS_EVENTS.push(
     government:"State accounts of contested events meet citizen video — an accountability technology with no statute behind it." },
   causes:["kodak","mobilephone"], effects:["ferguson","iphone"] },
 
-{ id:"patriotact", year:2001, date:"2001", era:6, cat:"law",
+{ id:"patriotact", year:2001, date:"2001", era:6, cat:["law","internet"],
   title:"9/11 & the PATRIOT Act",
   wiki:"Patriot Act", gallery:["September 11 attacks","Total Information Awareness"],
   summary:"Forty-five days after the attacks, surveillance authorities expand across the board; Section 215 will justify bulk collection of Americans' phone records.",
@@ -249,7 +249,7 @@ window.ATLAS_EVENTS.push(
     labor:"Content creation becomes gig work for millions, governed by opaque algorithmic pay and reach." },
   causes:["facebook","adwords"], effects:["gigeconomy"] },
 
-{ id:"aws", year:2006, date:"2006", era:6, cat:"computing",
+{ id:"aws", year:2006, date:"2006", era:6, cat:["computing","internet"],
   title:"Amazon Web Services",
   wiki:"Amazon Web Services", gallery:["Cloud computing","Data center"],
   summary:"Amazon rents its infrastructure by the hour — computing becomes a utility, and the cloud era begins.",
@@ -261,7 +261,7 @@ window.ATLAS_EVENTS.push(
     technology:"Elastic scale makes data hoarding and model training economically routine." },
   causes:["amazon"], effects:["alexnet","chatgpt"] },
 
-{ id:"iphone", year:2007, date:"June 29, 2007", era:6, cat:"radio",
+{ id:"iphone", year:2007, date:"June 29, 2007", era:6, cat:["radio","internet"],
   title:"The iPhone",
   wiki:"IPhone (1st generation)", gallery:["Steve Jobs","IPhone","Android (operating system)"],
   summary:"The most regulatorily consequential invention of the 21st century, per the source timeline: the networked sensor-computer that goes everywhere humans go.",
@@ -284,7 +284,7 @@ window.ATLAS_EVENTS.push(
     technology:"Its exposure drives default encryption across the industry — architecture as political response." },
   causes:["patriotact","nsa","cabinetnoir"], effects:["snowden"] },
 
-{ id:"appstore", year:2008, date:"2008", era:6, cat:"computing",
+{ id:"appstore", year:2008, date:"2008", era:6, cat:["computing","internet"],
   title:"The App Store",
   wiki:"App Store (Apple)", gallery:["Mobile app","Epic Games v. Apple"],
   summary:"Apple opens a software marketplace it entirely controls — thirty percent toll, review required. The gatekept computer arrives.",
@@ -344,7 +344,7 @@ window.ATLAS_EVENTS.push(
     power:"Brand reputation becomes the supply chain's main, inadequate, regulator." },
   causes:["chinawto","iphone","triangle"], effects:["ranaplaza"] },
 
-{ id:"arabspring", year:2011, date:"2011", era:6, cat:"general",
+{ id:"arabspring", year:2011, date:"2011", era:6, cat:["general","social"],
   title:"The Arab Spring",
   wiki:"Arab Spring", gallery:["Tahrir Square","2011 Egyptian revolution"],
   summary:"Uprisings sweep the Arab world, organized partly through the platforms — which authoritarians then learn to master.",

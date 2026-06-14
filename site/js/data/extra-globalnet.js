@@ -1,6 +1,6 @@
 // SUPPLEMENT — the international history of networked information: a deliberately
-// global, non-US-centric thread running from the hydraulic telegraph and the first
-// transatlantic cable through Minitel, FidoNet, and the sovereign-internet era. It
+// global, non-US-centric thread running from wartime wireless through Minitel,
+// FidoNet, and the sovereign-internet era. (Pre-1904 entries removed for now.) It
 // decentres Silicon Valley — Minitel, JUNET, RNP, KII, Alibaba, M-Pesa, BATX,
 // Aadhaar, Marco Civil, Falcon — and tracks how states and regions built, bent, and
 // fenced the network on their own terms. Cross-links to existing cards (writing,
@@ -13,42 +13,8 @@
 // and did not derive from GDPR. Round one: data only, no images.
 window.ATLAS_EVENTS.push(
 
-// ===== I. GLOBAL INFORMATION FOUNDATIONS =====
-{ id:"hydraulictelegraph", year:-350, date:"c. 350 BCE", era:1, cat:["internet","radio"],
-  title:"The Hydraulic Telegraph",
-  wiki:"Hydraulic telegraph", gallery:["Aeneas Tacticus","Polybius"],
-  summary:"The Greek tactician Aeneas Tacticus devises a hydraulic telegraph — paired water vessels drained in synchrony, a floating rod marking a pre-agreed message as the level falls — to flash military alerts between distant hilltops faster than any runner.",
-  importance:"Aeneas's device, recorded by Polybius, is one of antiquity's first true telecommunications systems: two stations, synchronized clocks of water, and a shared codebook that turned a falling level into a chosen signal across miles. Its limit was the whole problem of communication in miniature — it could send only the pre-arranged messages painted on the rod, a constraint Polybius himself criticized, and which drove the later invention of the Polybius square for spelling arbitrary text. The trade-off it exposed — speed bought with a fixed vocabulary — recurs in every signaling system down to the optical and electric telegraph.",
-  impact:{
-    communications:"A synchronized, code-based system sends military signals across distance in antiquity.",
-    technology:"Establishes the signaling pattern — shared clock, shared codebook — that telegraphy later inherits.",
-    government:"Battlefield command gains its first long-distance information channel." },
-  causes:["writing"], effects:["chappe"] },
-
-{ id:"manidelanda", year:1562, date:"July 1562", era:2, cat:["internet","print"],
-  title:"The Burning of the Maya Codices at Maní",
-  wiki:"Diego de Landa", gallery:["Maya codices","Auto-da-fé","Maní, Yucatán"],
-  summary:"At the auto-da-fé of Maní in Yucatán, the Franciscan friar Diego de Landa orchestrates the burning of 27 Maya codices and roughly 5,000 sacred images — over the objection of the colony's actual bishop, Francisco de Toral, who was so appalled he forced Landa back to Spain to answer for the abuse.",
-  importance:"Maní is the archetype of information warfare as cultural erasure: the deliberate destruction of a people's written record to sever them from their own history. The Maya had a full writing system and bark-paper books; Landa burned nearly all of them, and only a handful of pre-conquest codices survive anywhere on Earth today. The episode carries a sharp irony — the sitting bishop opposed the burning, and Landa himself later wrote the account of Maya script that helped scholars partially decipher what he had helped destroy. It stands as the founding case study in how controlling the record means controlling a civilization.",
-  impact:{
-    print:"A people's written record is deliberately destroyed; only a few Maya codices survive.",
-    society:"Cultural erasure by burning the archive becomes the colonial template for severing a people from its past.",
-    government:"Control of the historical record is wielded as an instrument of conquest." },
-  causes:["writing"], effects:[] },
-
-// ===== II. WIRED EMPIRES =====
-{ id:"transatlantic1858", year:1858, date:"1858", era:3, cat:["internet","radio"],
-  title:"The First Transatlantic Cable",
-  wiki:"Transatlantic telegraph cable", gallery:["Cyrus West Field","SS Great Eastern","Submarine communications cable"],
-  summary:"Financed largely by British imperial capital, the first transatlantic telegraph cable links Ireland and Newfoundland in 1858 — carrying a message from Queen Victoria to President Buchanan — but operates for barely three weeks before its insulation fails under the excessive voltage used to push signals across the ocean.",
-  importance:"For three weeks in 1858 the Atlantic was bridged by electricity, collapsing a ten-day mail voyage into minutes and previewing the globe-spanning network to come. The failure was as instructive as the triumph: an operator's impatience drove ever-higher voltages through the cable until its gutta-percha insulation broke down, a lesson in the physics of long-distance transmission that engineers absorbed before the durable 1866 cable succeeded. The episode marks the moment intercontinental real-time communication became thinkable — and the moment Britain's cable empire, which would soon girdle the world, began in earnest.",
-  impact:{
-    communications:"Real-time communication crosses an ocean for the first time, however briefly.",
-    technology:"The failure teaches the physics of submarine transmission that the 1866 cable would master.",
-    government:"Britain's imperial cable network — the backbone of a global telegraph empire — is launched." },
-  causes:["telegraph"], effects:["marconi"] },
-
-{ id:"russojapanesewireless", year:1904, date:"1904–1905", era:4, cat:["internet","radio"],
+// ===== I. WIRED EMPIRES =====
+{ id:"russojapanesewireless", year:1904, date:"1904–1905", era:4, cat:"radio",
   title:"Wireless Goes to War: The Russo-Japanese War",
   wiki:"Russo-Japanese War", gallery:["Wireless telegraphy","Battle of Tsushima","Marconi Company"],
   summary:"During the Russo-Japanese War, naval operators on both sides use shipborne wireless telegraphy to relay fleet positions and war dispatches in real time — and at Tsushima in 1905, Japanese scouts wireless the sighting of the Russian fleet, helping deliver one of history's most decisive naval victories.",
@@ -57,18 +23,7 @@ window.ATLAS_EVENTS.push(
     communications:"Wireless networks the fleet, turning real-time coordination into decisive advantage.",
     surveillance:"Interception and jamming of enemy signals begin — the seed of signals intelligence.",
     government:"Control of the radio spectrum becomes a recognized dimension of military power." },
-  causes:["marconi"], effects:["colossus1943"] },
-
-{ id:"colossus1943", year:1943, date:"1943–1944", era:4, cat:["internet","computing"],
-  title:"Colossus Breaks the Lorenz Cipher",
-  wiki:"Colossus computer", gallery:["Bletchley Park","Tommy Flowers","Lorenz cipher"],
-  summary:"British engineers led by Tommy Flowers build Colossus at Bletchley Park — the world's first programmable electronic digital computer — to systematically crack the high-level Lorenz cipher carrying Hitler's communications with his generals, not the better-known Enigma.",
-  importance:"Colossus was the first machine to bring electronic speed to a programmable computing task, using thousands of vacuum tubes to tear through the Lorenz cipher's settings far faster than any human could. Its existence was kept secret for decades, so credit for the first electronic computer long went elsewhere, and the Lorenz work it did — against the strategic teleprinter traffic of the German high command, distinct from the tactical Enigma — shaped the closing campaigns of the war. It is the hidden ancestor of the digital age, born of a code-breaking effort that fused cryptanalysis, electronics, and computation.",
-  impact:{
-    computing:"The first programmable electronic digital computer is built, in secret.",
-    surveillance:"Industrial-scale cryptanalysis cracks the high command's strategic traffic.",
-    technology:"Electronic, programmable computation is proven a decade before it is publicly known." },
-  causes:["russojapanesewireless"], effects:["arpanet"] },
+  causes:["marconi"], effects:["arpanet"] },
 
 // ===== III. COLD WAR CODE & GRASSROOTS NETWORKS =====
 { id:"minitel", year:1982, date:"1982", era:5, cat:["internet","radio"],
@@ -160,7 +115,7 @@ window.ATLAS_EVENTS.push(
     society:"The legal framework for both digital India and its later shutdowns and takedowns is set." },
   causes:["webpublic"], effects:["indianetneutrality","freebasics"] },
 
-{ id:"woredanet", year:2005, date:"2005", era:6, cat:["internet"],
+{ id:"woredanet", year:2005, date:"2005", era:6, cat:["internet","social"],
   title:"WoredaNet: Wiring the Ethiopian State",
   wiki:"Internet in Ethiopia", gallery:["VSAT","E-government"],
   summary:"Ethiopia deploys WoredaNet, a satellite (VSAT) and fibre grid linking remote district administrations directly to the central government for video conferencing, e-government, and the delivery of services across one of Africa's largest and least-connected countries.",
@@ -193,7 +148,7 @@ window.ATLAS_EVENTS.push(
     technology:"A global-South innovation is studied and copied worldwide, inverting technology transfer." },
   causes:["koreakii"], effects:["batx"] },
 
-{ id:"batx", year:2007, date:"2007", era:6, cat:["internet"],
+{ id:"batx", year:2007, date:"2007", era:6, cat:["internet","social"],
   title:"The Great Firewall Hardens and BATX Rises",
   wiki:"Great Firewall", gallery:["Baidu","Tencent","Internet censorship in China"],
   summary:"As China hardens the Golden Shield Project into a comprehensive Great Firewall, blocking foreign platforms, it creates a sealed domestic market in which a parallel ecosystem of national champions — Baidu, Alibaba, Tencent, and later Xiaomi, the 'BATX' — grows to fill the space their walled-out rivals cannot.",
@@ -227,7 +182,7 @@ window.ATLAS_EVENTS.push(
     society:"The global South sets internet-governance norms rather than merely inheriting them." },
   causes:["snowden","rnp","moscow2011"], effects:["lgpd"] },
 
-{ id:"freebasics", year:2016, date:"2015–2016", era:7, cat:["internet","law"],
+{ id:"freebasics", year:2016, date:"2015–2016", era:7, cat:["internet","law","social"],
   title:"India Blocks Free Basics",
   wiki:"Net neutrality in India", gallery:["Internet.org","Telecom Regulatory Authority of India","Zero-rating"],
   summary:"India's telecom regulator, TRAI, blocks Facebook's Free Basics — a 'zero-rated' app offering free access to a walled set of services chosen by Facebook — ruling that differential pricing of data violates net neutrality, a landmark stand against what critics called digital neocolonialism.",
@@ -260,7 +215,7 @@ window.ATLAS_EVENTS.push(
     government:"Control of the feed becomes a sovereignty issue, triggering bans and forced-sale demands." },
   causes:["batx","orkutbrazil"], effects:["tiktokban","indonesiatiktokshop"] },
 
-{ id:"nigeriatwitterban", year:2021, date:"2021–2022", era:7, cat:["internet","law"],
+{ id:"nigeriatwitterban", year:2021, date:"2021–2022", era:7, cat:["internet","law","social"],
   title:"Nigeria Bans Twitter",
   wiki:"2021 Twitter ban in Nigeria", gallery:["End SARS","Muhammadu Buhari"],
   summary:"In the wake of the #EndSARS protests against police abuse, and after Twitter deleted a tweet by President Buhari, the Nigerian government imposes a seven-month nationwide suspension of Twitter (June 2021–January 2022) — a high-profile instance of the expanding wave of state platform bans across Africa.",
@@ -293,7 +248,7 @@ window.ATLAS_EVENTS.push(
     society:"Local vendors are shielded from a foreign platform's vertically integrated dominance." },
   causes:["tiktokseasia","nigeriatwitterban"], effects:["aigovernancepillars"] },
 
-{ id:"aigovernancepillars", year:2025, date:"2024–2026", era:7, cat:["internet","law","computing"],
+{ id:"aigovernancepillars", year:2025, date:"2024–2026", era:7, cat:["internet","law","computing","social"],
   title:"AI Governance Splits into Geopolitical Pillars",
   wiki:"Regulation of artificial intelligence", gallery:["Artificial Intelligence Act","Falcon (language model)"],
   summary:"AI governance fragments into rival geopolitical blocs: the EU enforces its comprehensive, risk-tiered AI Act; China mandates algorithmic transparency and content rules; and states like the UAE pursue sovereign capability, funding open-weight systems such as the Falcon large language models to avoid dependence on either pole.",
@@ -302,6 +257,17 @@ window.ATLAS_EVENTS.push(
     law:"AI governance fragments into rival blocs — EU risk-tiering, Chinese control, US market-led.",
     government:"Middle powers fund sovereign open-weight models to avoid dependence on either pole.",
     computing:"The governance of intelligence itself splinters along geopolitical lines." },
-  causes:["aiact","lgpd","chatgptitalyban","indonesiatiktokshop"], effects:[] }
+  causes:["aiact","lgpd","chatgptitalyban","indonesiatiktokshop"], effects:[] },
+
+{ id:"marcocivil", year:2014, date:"April 2014", era:7, cat:["internet","law"],
+  title:"Brazil's Marco Civil da Internet",
+  wiki:"Marco Civil da Internet", gallery:["Dilma Rousseff"],
+  summary:"Spurred by Snowden's revelation that the U.S. had spied on Brazilian communications — including President Dilma Rousseff's own phone — Brazil passes the Marco Civil, a landmark 'digital bill of rights' enshrining net neutrality, privacy, and freedom of expression as founding principles of the network.",
+  importance:"The Marco Civil was the global South's most influential answer to the surveillance age: rather than fence off its internet, Brazil wrote openness, privacy, and net neutrality into law as civil rights, a rights-based model held up against both the American market approach and authoritarian control. That it grew directly out of Snowden's disclosures — and out of the indignity of a president learning her phone had been tapped — made it a statement of digital sovereignty as much as a statute. It proved a democracy could respond to mass surveillance by strengthening rights rather than borders.",
+  impact:{
+    law:"A 'digital bill of rights' enshrines net neutrality, privacy, and free expression.",
+    government:"Snowden's spying on Brazil prompts a rights-based, not walled-off, response.",
+    society:"A major democracy answers mass surveillance by codifying digital civil rights." },
+  causes:["snowden"], effects:["lgpd","splinternet"] }
 
 );

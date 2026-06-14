@@ -95,7 +95,7 @@ window.ATLAS_EVENTS.push(
     society:"AI safety, alignment, and 'who builds this' enter public discourse as founding questions, not afterthoughts." },
   causes:["deepmind","alexnet"], effects:["gpt3","chatgpt"] },
 
-{ id:"schrems", year:2015, date:"2015 & 2020", era:7, cat:"law",
+{ id:"schrems", year:2015, date:"2015 & 2020", era:7, cat:["law","social"],
   title:"Schrems I & II",
   wiki:"Max Schrems", gallery:["Court of Justice of the European Union","EU–US Privacy Shield"],
   summary:"One Austrian law student's complaints, powered by Snowden's evidence, twice invalidate the EU–US data-transfer framework.",
@@ -155,7 +155,7 @@ window.ATLAS_EVENTS.push(
     technology:"Patch management enters the congressional vocabulary; security negligence acquires a poster child." },
   causes:["creditreporting","fcra","ssa1935"], effects:["ccpa"] },
 
-{ id:"gdpr", year:2018, date:"May 25, 2018", era:7, cat:"law",
+{ id:"gdpr", year:2018, date:"May 25, 2018", era:7, cat:["law","internet"],
   title:"GDPR Takes Effect",
   wiki:"General Data Protection Regulation", gallery:["European Union","Privacy by design"],
   summary:"Europe's General Data Protection Regulation arrives: rights, fines up to 4% of global revenue, and the de facto world standard.",
@@ -168,7 +168,7 @@ window.ATLAS_EVENTS.push(
     government:"Regulatory divergence completes: Europe writes rules, America litigates, China builds state systems." },
   causes:["dpd1995","volkszahlung","fipps","brandeis","cookie","adwords","cambridgeanalytica","schrems","rtbf","ibmnazi","udhr","fcra","privacyact"], effects:["ccpa","aiact"] },
 
-{ id:"carpenter", year:2018, date:"2018", era:7, cat:"radio",
+{ id:"carpenter", year:2018, date:"2018", era:7, cat:["radio","law"],
   title:"Carpenter v. United States",
   wiki:"Carpenter v. United States", gallery:["Cell site","Supreme Court of the United States"],
   summary:"The Supreme Court holds that cell-site location history requires a warrant — the third-party doctrine's first major retreat.",
@@ -192,7 +192,7 @@ window.ATLAS_EVENTS.push(
     government:"Federal inaction's costs are institutionalized: fifty laboratories, no national floor." },
   causes:["gdpr","cambridgeanalytica","equifaxbreach"], effects:[] },
 
-{ id:"ftcfacebook", year:2019, date:"2019", era:7, cat:"law",
+{ id:"ftcfacebook", year:2019, date:"2019", era:7, cat:["law","social"],
   title:"The $5 Billion Facebook Settlement",
   wiki:"Federal Trade Commission", gallery:["Facebook","Privacy"],
   summary:"The FTC's largest privacy penalty ever — and, critics note, a rounding error on the business model it addressed.",
@@ -227,7 +227,7 @@ window.ATLAS_EVENTS.push(
     government:"State capacity — fiscal, medical, digital — is stress-tested in public, with lasting trust consequences." },
   causes:[], effects:["unionwave"] },
 
-{ id:"googlecase", year:2020, date:"2020–2024", era:7, cat:"law",
+{ id:"googlecase", year:2020, date:"2020–2024", era:7, cat:["law","social"],
   title:"United States v. Google",
   wiki:"United States v. Google LLC (2020)", gallery:["Google","United States Department of Justice"],
   summary:"The DOJ's search-monopolization case ends in a 2024 liability verdict — the platform era's first great structural antitrust judgment.",
@@ -288,7 +288,7 @@ window.ATLAS_EVENTS.push(
     government:"AI capability becomes a first-order question of national strategy, safety institutes, and summitry." },
   causes:["gpt3","openai","transformer","turingtest","aws"], effects:["aiact","claude","wga2023","agents"] },
 
-{ id:"dma", year:2022, date:"2022", era:7, cat:"law",
+{ id:"dma", year:2022, date:"2022", era:7, cat:["law","internet"],
   title:"The DMA & DSA",
   wiki:"Digital Markets Act", gallery:["Digital Services Act","European Commission"],
   summary:"Europe regulates the gatekeepers ex ante: interoperability, self-preferencing bans, content-governance duties — no case required.",

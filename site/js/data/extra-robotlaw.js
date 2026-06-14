@@ -7,7 +7,7 @@
 // kivarobots, foxconn, luddites, oshact, prop22, aiact cards. Round one: data only.
 window.ATLAS_EVENTS.push(
 
-{ id:"japanrobots1981", year:1981, date:"1981", era:7, cat:"robotics",
+{ id:"japanrobots1981", year:1981, date:"1981", era:7, cat:["robotics","law"],
   title:"Japan Writes the First Robot Safety Law",
   wiki:"Industrial robot",
   summary:"Japan's Ministry of Labour issues the world's first national occupational-safety standards for industrial robots — physical barriers, emergency stops, operator training — as the country becomes the planet's leading robot adopter.",
@@ -29,7 +29,7 @@ window.ATLAS_EVENTS.push(
     power:"Robot policy becomes demographic and social policy, not just industrial." },
   causes:["japanrobots1981"], effects:["koreadensity","chinahumanoids"] },
 
-{ id:"koreabotlaw", year:2008, date:"2008", era:7, cat:"robotics",
+{ id:"koreabotlaw", year:2008, date:"2008", era:7, cat:["robotics","law"],
   title:"South Korea's Standalone Robot Law",
   wiki:"Intelligent robot",
   summary:"South Korea passes the Intelligent Robots Development and Distribution Promotion Act — the first standalone national law specifically governing robot development, deployment, and safety, treating robotics as a strategic national industry.",
@@ -73,7 +73,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"China exports a surveillance-integrated 'smart factory' model with its robots." },
   causes:["madeinchina2025","koreadensity","japanrobotstrategy"], effects:[] },
 
-{ id:"machinerydirective", year:2006, date:"2006", era:6, cat:"robotics",
+{ id:"machinerydirective", year:2006, date:"2006", era:6, cat:["robotics","law"],
   title:"Europe's Machinery Directive",
   wiki:"Machinery Directive",
   summary:"The EU Machinery Directive sets baseline safety requirements for all mechanical equipment, including robots, sold in European markets — the foundational framework that still governs industrial-robot safety in Europe, applied under codetermination laws giving workers a say in automation.",

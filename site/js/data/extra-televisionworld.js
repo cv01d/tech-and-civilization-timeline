@@ -324,7 +324,7 @@ window.ATLAS_EVENTS.push(
     law:"Content control is asserted as a comprehensive principle rather than genre by genre." },
   causes:["cctvgoingout","tiananmentv"], effects:[] },
 
-{ id:"indianetneutrality", year:2016, date:"2015–2018", era:7, cat:["tv","law","internet"],
+{ id:"indianetneutrality", year:2016, date:"2015–2018", era:7, cat:["tv","law","internet","social"],
   title:"India Protects the Open Pipe",
   wiki:"Net neutrality in India",
   summary:"After more than a million public comments, India's telecom regulator bans 'zero-rating' deals that would let carriers favor certain apps' data in 2016, and the government adopts a comprehensive net-neutrality framework in 2018 — just as the United States moves the opposite way, repealing its own net-neutrality rules the year before.",

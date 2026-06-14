@@ -205,7 +205,7 @@ window.ATLAS_EVENTS.push(
     society:"The technology linked to teen deaths is valued in the billions even as it is sued." },
   causes:["characterai"], effects:["garcialawsuit","caisettlement"] },
 
-{ id:"garcialawsuit", year:2024, date:"October 2024", era:7, cat:"law",
+{ id:"garcialawsuit", year:2024, date:"October 2024", era:7, cat:["law","social"],
   title:"Garcia v. Character Technologies",
   wiki:"Character.ai",
   summary:"Megan Garcia files the first wrongful-death lawsuit against Character.AI and Google, triggering a wave of similar suits and the pivot of social-media litigators into AI.",

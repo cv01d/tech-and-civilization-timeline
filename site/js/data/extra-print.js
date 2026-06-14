@@ -83,7 +83,7 @@ window.ATLAS_EVENTS.push(
     society:"The 'marketplace of ideas' — truth from open debate — gets its great statement." },
   causes:["printindex","stationers"], effects:["licensinglapse","firstamendment"] },
 
-{ id:"licensinglapse", year:1695, date:"1662–1695", era:2, cat:"print",
+{ id:"licensinglapse", year:1695, date:"1662–1695", era:2, cat:["print","law"],
   title:"The Licensing Act Lapses",
   wiki:"Licensing of the Press Act 1662",
   summary:"England's 1662 Licensing Act made all printed matter subject to government approval before publication; in 1695 Parliament simply lets it lapse — not on principle but because the system had grown corrupt and unworkable — and never restores pre-publication licensing. Publication-then-consequences becomes the default.",
@@ -105,7 +105,7 @@ window.ATLAS_EVENTS.push(
     power:"The advertising-funded newspaper answers to readers, not to the state." },
   causes:["licensinglapse"], effects:["firstamendment","pennypress"] },
 
-{ id:"firstamendment", year:1791, date:"1765–1798", era:2, cat:"print",
+{ id:"firstamendment", year:1791, date:"1765–1798", era:2, cat:["print","law"],
   title:"The Revolutionary Press and the First Amendment",
   wiki:"Freedom of the press in the United States",
   summary:"The Stamp Act's tax on print (1765) fuses press and liberty in colonial minds; Revolutionary newspapers, openly partisan, spread Paine's Common Sense (100,000 copies); and the First Amendment (1791) forbids any law 'abridging the freedom… of the press' — absolute in form, contested from the first, and almost at once betrayed by the 1798 Sedition Act.",
@@ -314,7 +314,7 @@ window.ATLAS_EVENTS.push(
     power:"A website accomplishes what no censor could — the gutting of the press." },
   causes:["pennypress","printpeak","desktoppublishing"], effects:["newspapercollapse"] },
 
-{ id:"newspapercollapse", year:2008, date:"2004–2009", era:6, cat:["print","internet"],
+{ id:"newspapercollapse", year:2008, date:"2004–2009", era:6, cat:["print","internet","social"],
   title:"The Digital Destruction",
   wiki:"Decline of newspapers",
   summary:"Facebook, YouTube, and Google's ad tools capture display advertising with targeting newspapers can't match; the dot-com bust and the 2008 Great Recession compound the loss. Newspaper revenue falls from $49B (2006) toward $14B (2018); the Tribune Company's debt-laden buyout collapses into bankruptcy; and in 2009 papers begin closing as no two-daily city stays that way.",

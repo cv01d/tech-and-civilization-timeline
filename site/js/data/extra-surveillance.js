@@ -4,7 +4,7 @@
 // people. Interleaves chronologically; each carries an `era` field for its gallery.
 window.ATLAS_EVENTS.push(
 
-{ id:"lanternlaws", year:1713, date:"1700s", era:2, cat:"general",
+{ id:"lanternlaws", year:1713, date:"1700s", era:2, cat:["general","law"],
   title:"The Lantern Laws",
   wiki:"Lantern laws", gallery:["Slavery in the colonial history of the United States","New York City"],
   summary:"New York requires Black, mixed-race, and Indigenous enslaved people to carry a lit lantern after dark when not accompanied by a white person — surveillance written onto the body.",
@@ -301,7 +301,7 @@ window.ATLAS_EVENTS.push(
     society:"Patients gain rights over records that can decide employment, insurance, and stigma." },
   causes:["ferpa","fipps"], effects:["glba"] },
 
-{ id:"coppa", year:1998, date:"1998", era:6, cat:"law",
+{ id:"coppa", year:1998, date:"1998", era:6, cat:["law","internet"],
   title:"COPPA: Children's Online Privacy",
   wiki:"Children's Online Privacy Protection Act", gallery:["Federal Trade Commission","Internet privacy"],
   summary:"The U.S. bars websites from collecting data on children under 13 without verifiable parental consent — one of the few broadly applicable federal online-privacy laws.",
@@ -389,7 +389,7 @@ window.ATLAS_EVENTS.push(
     society:"Sets the Court on the path to constraining digital-age location surveillance." },
   causes:["kyllo","katz"], effects:["carpenter"] },
 
-{ id:"riley", year:2014, date:"2014", era:7, cat:"radio",
+{ id:"riley", year:2014, date:"2014", era:7, cat:["radio","law"],
   title:"Riley v. California",
   wiki:"Riley v. California", gallery:["Smartphone","Fourth Amendment to the United States Constitution"],
   summary:"Police need a warrant to search an arrestee's phone, a unanimous Court rules — the device holds 'the privacies of life,' not the contents of a pocket.",
@@ -400,7 +400,7 @@ window.ATLAS_EVENTS.push(
     society:"Affirms digital privacy at the point of arrest — a landmark for everyone who carries a phone." },
   causes:["kyllo","iphone","katz"], effects:["carpenter"] },
 
-{ id:"usafreedom", year:2015, date:"2015", era:7, cat:"law",
+{ id:"usafreedom", year:2015, date:"2015", era:7, cat:["law","internet"],
   title:"The USA FREEDOM Act",
   wiki:"USA Freedom Act", gallery:["Edward Snowden","Mass surveillance in the United States","Patriot Act"],
   summary:"Two years after Snowden, Congress ends the NSA's bulk collection of Americans' phone records — the first real rollback of post-9/11 surveillance.",

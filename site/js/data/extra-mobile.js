@@ -18,7 +18,7 @@ window.ATLAS_EVENTS.push(
     technology:"The mobile transceiver, however bulky, proves the concept of two-way mobile radio." },
   causes:["marconi","fessenden"], effects:["fccradioban","walkietalkie","policeradio"] },
 
-{ id:"fccradioban", year:1933, date:"1933–1935", era:4, cat:"radio",
+{ id:"fccradioban", year:1933, date:"1933–1935", era:4, cat:["radio","law"],
   title:"The FCC Slows Police Radio",
   wiki:"Federal Communications Commission",
   summary:"The FCC first bans interdepartmental radio communication, insisting agencies use telephone and telegraph instead — protecting the wireline carriers — then reverses in 1935, finally making the modern public-safety radio system legally possible.",
@@ -128,7 +128,7 @@ window.ATLAS_EVENTS.push(
     power:"Spectrum becomes a financial asset favoring well-capitalized incumbents." },
   causes:["gsm2g","communicationsact"], effects:["fourg","fiveg"] },
 
-{ id:"cpni", year:1996, date:"1996", era:6, cat:"radio",
+{ id:"cpni", year:1996, date:"1996", era:6, cat:["radio","law"],
   title:"CPNI: The First Carrier Privacy Rule",
   wiki:"Customer proprietary network information",
   summary:"The Telecommunications Act of 1996 creates Customer Proprietary Network Information protections — the first federal privacy law specifically covering telephone customer data, including call records and the location information generated during calls.",
@@ -183,7 +183,7 @@ window.ATLAS_EVENTS.push(
     power:"The data CPNI was meant to protect is monetized by the carriers themselves." },
   causes:["cpni","stingray"], effects:["cpnigap"] },
 
-{ id:"huawei", year:2019, date:"2019–2024", era:7, cat:"radio",
+{ id:"huawei", year:2019, date:"2019–2024", era:7, cat:["radio","law"],
   title:"The Huawei Ban and 'Rip and Replace'",
   wiki:"Huawei",
   summary:"The FCC designates Huawei and ZTE national-security risks and bars them from networks receiving federal funds; a 'rip and replace' program begins removing Chinese equipment from rural U.S. carriers. The $1.9 billion reimbursement is underfunded from the start — carriers need $5.6 billion — and Chinese gear remains in parts of rural networks past the 2024 deadline.",

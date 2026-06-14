@@ -41,7 +41,7 @@ window.ATLAS_EVENTS.push(
     technology:"The many-to-many chat protocol sets patterns later platforms inherit." },
   causes:["bbs"], effects:["aol","twitter"] },
 
-{ id:"aol", year:1993, date:"1993", era:6, cat:"social",
+{ id:"aol", year:1993, date:"1993", era:6, cat:["social","internet"],
   title:"AOL and the Mass-Market Online",
   wiki:"AOL",
   summary:"America Online floods mailboxes with free trial discs and brings tens of millions of ordinary Americans their first email address, chat room, and screen name — the internet's mainstream on-ramp.",
@@ -52,7 +52,7 @@ window.ATLAS_EVENTS.push(
     technology:"The walled-garden portal model previews the platform era." },
   causes:["thewell","irc"], effects:["sixdegrees","myspace"] },
 
-{ id:"section230", year:1996, date:"1996", era:6, cat:"social",
+{ id:"section230", year:1996, date:"1996", era:6, cat:["law","internet"],
   title:"Section 230: Twenty-Six Words",
   wiki:"Section 230",
   summary:"The Communications Decency Act tries to police internet speech; the Supreme Court strikes most of it down in 1997, but Section 230 survives — granting platforms immunity for what their users post, the most consequential internet law ever written.",
@@ -184,7 +184,7 @@ window.ATLAS_EVENTS.push(
     law:"The episode fuels global demands that platforms answer for real-world harm." },
   causes:["facebook","likebutton"], effects:["christchurch","dsa"] },
 
-{ id:"gamergate", year:2014, date:"2014", era:7, cat:"social",
+{ id:"gamergate", year:2014, date:"2014", era:7, cat:"law",
   title:"Gamergate: The Harassment Template",
   wiki:"Gamergate (harassment campaign)",
   summary:"A coordinated campaign targeting women in the games industry shows that platforms can be weaponized for sustained, organized mob harassment with effectively no accountability — a playbook later adopted broadly.",
@@ -283,7 +283,7 @@ window.ATLAS_EVENTS.push(
     law:"The leak supplies the evidentiary basis for child-safety legislation worldwide." },
   causes:["russia2016","instagram","snapchat"], effects:["kosa","onlinesafetyact","australiaban"] },
 
-{ id:"dsa", year:2022, date:"2022", era:7, cat:"social",
+{ id:"dsa", year:2022, date:"2022", era:7, cat:["social","internet","law"],
   title:"The EU Digital Services Act",
   wiki:"Digital Services Act",
   summary:"The EU passes the DSA, the most comprehensive platform regulation in history: very large platforms must assess systemic risks, open data to researchers, allow algorithm audits, and remove illegal content — with fines up to 6% of global revenue.",
@@ -305,7 +305,7 @@ window.ATLAS_EVENTS.push(
     power:"The American pattern of hearings-without-legislation repeats once more." },
   causes:["haugen","section230","gamergate"], effects:["australiaban"] },
 
-{ id:"metafine2023", year:2023, date:"May 2023", era:7, cat:"social",
+{ id:"metafine2023", year:2023, date:"May 2023", era:7, cat:["social","law"],
   title:"The Largest GDPR Fine",
   wiki:"General Data Protection Regulation",
   summary:"Meta is fined €1.2 billion under GDPR for unlawfully transferring EU user data to U.S. servers — the largest privacy penalty in history, the enforcement edge of the Schrems data-transfer rulings.",
@@ -316,7 +316,7 @@ window.ATLAS_EVENTS.push(
     power:"Europe's privacy regime is shown to have enforcement teeth the U.S. lacks." },
   causes:["gdpr","schrems"], effects:["dsa"] },
 
-{ id:"gonzalez", year:2023, date:"2023", era:7, cat:"social",
+{ id:"gonzalez", year:2023, date:"2023", era:7, cat:["social","internet","law"],
   title:"Section 230 Survives the Court",
   wiki:"Gonzalez v. Google LLC",
   summary:"In Gonzalez v. Google, the Supreme Court declines to narrow Section 230's immunity for algorithmic recommendations, leaving the 1996 law — and the legal foundation of the platform economy — intact for now.",
@@ -327,7 +327,7 @@ window.ATLAS_EVENTS.push(
     communications:"The legal bedrock of the platform economy survives its biggest test." },
   causes:["section230"], effects:["kosa"] },
 
-{ id:"onlinesafetyact", year:2023, date:"2023", era:7, cat:"social",
+{ id:"onlinesafetyact", year:2023, date:"2023", era:7, cat:["social","law"],
   title:"The UK Online Safety Act",
   wiki:"Online Safety Act 2023",
   summary:"Britain's Online Safety Act becomes law, requiring platforms to protect users from illegal and harmful content, imposing child-safety duties, and creating new offenses for sharing intimate images without consent.",
@@ -338,7 +338,7 @@ window.ATLAS_EVENTS.push(
     power:"The democratic world's post-self-regulation settlement takes hold." },
   causes:["christchurch","haugen","trumpban","alexjones"], effects:["australiaban"] },
 
-{ id:"tiktokban", year:2024, date:"2024–2025", era:7, cat:"social",
+{ id:"tiktokban", year:2024, date:"2024–2025", era:7, cat:["social","law"],
   title:"The TikTok Divestment Law",
   wiki:"Restrictions on TikTok in the United States",
   summary:"Citing national-security fears over Chinese ownership, Congress passes a law forcing ByteDance to sell TikTok or face a U.S. ban; the Supreme Court upholds it unanimously, and TikTok briefly goes dark in January 2025 before a reprieve.",
@@ -358,6 +358,84 @@ window.ATLAS_EVENTS.push(
     law:"The first national, age-based social-media ban is enacted and enforced.",
     society:"Other nations move to copy the model as the global child-safety wave crests.",
     power:"Early results show regulation, even at its boldest, still lagging the technology." },
-  causes:["haugen","dsa","kosa","onlinesafetyact","tiktokban"], effects:[] }
+  causes:["haugen","dsa","kosa","onlinesafetyact","tiktokban"], effects:[] },
+
+// ===== FOUNDINGS: THE PORTALS, FORUMS, AND REVIEW SITES =====
+{ id:"yahoofounding", year:1994, date:"1994", era:6, cat:["social","internet"],
+  title:"Yahoo!: The Web's First Directory",
+  wiki:"Yahoo!", gallery:["Jerry Yang","David Filo"],
+  summary:"Stanford students Jerry Yang and David Filo launch 'Jerry and David's Guide to the World Wide Web' — soon renamed Yahoo! — a hand-curated directory organizing the young web into browsable categories. It becomes the dominant front door to the internet and the template for the portal era.",
+  importance:"Before search engines ranked the web by algorithm, Yahoo! mapped it by hand, with human editors sorting sites into a hierarchy of topics — an approach that worked precisely because the web was still small enough to catalog. As the portal it pioneered news, mail, and chat that kept users inside its walls, defining the late-1990s model of the internet as a curated destination rather than an open field. Yahoo!'s rise and slow eclipse by Google's algorithmic search traces the web's shift from human curation to machine ranking.",
+  impact:{
+    communications:"A hand-curated directory becomes the dominant front door to the early web.",
+    society:"The 'portal' model — news, mail, chat in one walled destination — is established.",
+    technology:"Human curation organizes the web before algorithmic search displaces it." },
+  causes:["webpublic","mosaic"], effects:["googlefounding","dotcom"] },
+
+{ id:"fourchanfounding", year:2003, date:"2003", era:6, cat:["social","internet"],
+  title:"4chan: The Anonymous Image Board",
+  wiki:"4chan", gallery:["Christopher Poole","Imageboard"],
+  summary:"Fifteen-year-old Christopher Poole launches 4chan, an anonymous image board where users post without registration or persistent identity and threads vanish as they age. It becomes one of the internet's most influential and notorious culture engines — birthplace of memes, of Anonymous, and of darker movements.",
+  importance:"4chan distilled the early internet's ethos of anonymity to its extreme: no accounts, no names, no permanent record, a design that incubated an enormous share of online culture — from countless memes to the hacktivist collective Anonymous. The same namelessness that fueled creativity also removed accountability, making the board a wellspring of harassment campaigns and extremist radicalization. It stands as the sharpest case study in the double edge of anonymous speech, the freedom and the cruelty issuing from the same architecture.",
+  impact:{
+    society:"Anonymous, ephemeral posting incubates a vast share of internet culture.",
+    communications:"Memes, Anonymous, and online subcultures emerge from a single image board.",
+    law:"The board becomes a test case in the harms and freedoms of anonymous speech." },
+  causes:["webpublic","usenet"], effects:["gamergate","christchurch"] },
+
+{ id:"yelpfounding", year:2004, date:"2004", era:6, cat:["social","internet"],
+  title:"Yelp: Crowdsourced Reputation",
+  wiki:"Yelp", gallery:["Jeremy Stoppelman"],
+  summary:"Former PayPal employees Jeremy Stoppelman and Russel Simmons launch Yelp, letting users review local businesses and turning crowdsourced star ratings into a powerful, sometimes feared arbiter of a restaurant's or shop's fortunes.",
+  importance:"Yelp put the reputation of every local business in the hands of its customers, aggregating individual reviews into a rating that could make or break a neighborhood restaurant — a striking transfer of power from professional critics to the crowd. It also surfaced the hard problems of user-generated reputation: fake reviews, extortion accusations, and disputes over how its algorithm ranked and filtered opinions. Yelp is the canonical example of crowdsourced trust, and of how much weight a platform's hidden ranking can carry over real livelihoods.",
+  impact:{
+    society:"Crowdsourced reviews transfer the power of reputation from critics to customers.",
+    communications:"Aggregated star ratings become a feared arbiter of local-business fortunes.",
+    law:"Fake reviews and ranking disputes expose the hard problems of user-generated trust." },
+  causes:["webpublic"], effects:["section230"] },
+
+{ id:"redditfounding", year:2005, date:"2005", era:6, cat:["social","internet"],
+  title:"Reddit: The Front Page of the Internet",
+  wiki:"Reddit", gallery:["Steve Huffman","Alexis Ohanian"],
+  summary:"Steve Huffman and Alexis Ohanian launch Reddit, a link-aggregator where users submit content and vote it up or down, organized into countless community-run 'subreddits.' Voting and volunteer moderation make it 'the front page of the internet' — and a recurring flashpoint over speech and moderation.",
+  importance:"Reddit revived the forum for the social-media age, letting communities form around any topic and letting their members, through up- and down-votes, decide collectively what rose to visibility — a democratic curation engine run largely by unpaid volunteer moderators. That structure made it extraordinarily generative and extraordinarily hard to govern, as the same hands-off design that empowered communities also sheltered toxic ones, forcing repeated reckonings over which subreddits to ban. It is the modern internet's town square: bottom-up, self-governing, and perpetually testing the limits of platform moderation.",
+  impact:{
+    communications:"Community voting and volunteer moderation create 'the front page of the internet.'",
+    society:"Self-governing topical communities revive the forum for the social-media age.",
+    law:"Hands-off, community-run moderation becomes a recurring flashpoint over speech." },
+  causes:["webpublic","usenet"], effects:["gamergate","section230"] },
+
+{ id:"quorafounding", year:2009, date:"2009", era:6, cat:["social","internet"],
+  title:"Quora: The Question-and-Answer Network",
+  wiki:"Quora", gallery:["Adam D'Angelo"],
+  summary:"Former Facebook executives Adam D'Angelo and Charlie Cheever launch Quora, a question-and-answer site built on real names and expert reputation — an attempt to capture and organize human knowledge through the answers of credible, identified contributors rather than anonymous crowds.",
+  importance:"Quora bet against the anonymity that defined boards like 4chan, wagering that tying answers to real identities and reputations would draw out higher-quality knowledge — experts, insiders, and practitioners answering in their own names. It represented the optimistic, knowledge-organizing strand of social media, a descendant of the old dream of the internet as a collective encyclopedia of human expertise. Its later turn toward AI-generated answers marks the same crossroads facing every knowledge platform: whether the next layer of human knowledge will be written by people or by machines.",
+  impact:{
+    society:"Real-name reputation is wagered against anonymity to elicit expert knowledge.",
+    communications:"A question-and-answer network tries to organize human expertise at scale.",
+    computing:"Its pivot toward AI-written answers previews the future of knowledge platforms." },
+  causes:["webpublic","facebook"], effects:["chatgpt"] },
+
+{ id:"wordpressfounding", year:2003, date:"2003", era:6, cat:["internet","social","opensource"],
+  title:"WordPress: Publishing for Everyone",
+  wiki:"WordPress", gallery:["Matt Mullenweg","Blog"],
+  summary:"Matt Mullenweg and Mike Little fork an abandoned blogging tool to launch WordPress, a free, open-source publishing platform released under the GPL. Anyone can install it, extend it with plugins and themes, and own their own site — and within two decades it powers over 40% of all websites on earth.",
+  importance:"WordPress took the promise of the personal website and made it real for non-programmers, turning publishing from a specialist skill into a few clicks and giving millions their own corner of the web outside the walled gardens of the big platforms. Its open-source license and vast ecosystem of plugins and themes built an entire economy of developers, hosts, and agencies around free software, and made it the single most widely used content system on the internet. It is the great counterweight to platform centralization — the open, self-hosted web at planetary scale.",
+  impact:{
+    communications:"Open-source publishing puts a self-owned website within reach of non-programmers.",
+    society:"A free platform comes to power over 40% of all websites, outside the walled gardens.",
+    technology:"A plugin-and-theme ecosystem builds a vast economy around GPL-licensed software." },
+  causes:["blogging","gplcopyleft"], effects:["wpengineacf"] },
+
+{ id:"wpengineacf", year:2024, date:"2024–2025", era:7, cat:["internet","opensource","law"],
+  title:"The WordPress–WP Engine War",
+  wiki:"WordPress", gallery:["Matt Mullenweg","Automattic"],
+  summary:"WordPress co-founder Matt Mullenweg, who runs both the nonprofit WordPress.org and the for-profit Automattic, publicly brands the hosting company WP Engine a 'cancer to WordPress' for not contributing enough back, demands roughly 8% of its revenue in licensing, and cuts off its access to WordPress.org. In October 2024 he seizes WP Engine's popular Advanced Custom Fields plugin and forks it into 'Secure Custom Fields' — and a federal judge orders the access and plugin restored.",
+  importance:"The dispute laid bare the central tension of open source at commercial scale: WordPress is free GPL software, but one man controlled the .org infrastructure, the trademark, and a competing business, and used that leverage to extract payment from a rival and to commandeer a plugin its team maintained. The takeover of Advanced Custom Fields — pulling a widely used plugin from its maintainers and forking it under a new name — broke the trust that the WordPress ecosystem ran on, and the court's injunction restoring WP Engine's access affirmed that governance of a public commons cannot simply be wielded as a weapon. It is a parable of the open-source commercialization wars: who owns a project that everyone depends on and no one can quite own.",
+  impact:{
+    law:"A federal judge orders restored the access and plugin a project leader had seized.",
+    power:"Control of open-source infrastructure, trademark, and a rival business collides in one person.",
+    society:"The takeover of a widely used plugin breaks the trust the WordPress commons ran on." },
+  causes:["wordpressfounding","gplcopyleft","awslicensing"], effects:[] }
 
 );

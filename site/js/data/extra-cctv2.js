@@ -551,7 +551,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Algorithmic bulk-metadata analysis of internet and phone communications is authorized without individual judicial warrant." },
   causes:["madridbombings2004","tokyosarin1995"], effects:["ipa2016"] },
 
-{ id:"ipa2016", year:2016, date:"2016", era:7, cat:"cctv",
+{ id:"ipa2016", year:2016, date:"2016", era:7, cat:["cctv","law"],
   title:"The Snoopers' Charter: Britain Writes Surveillance into Law",
   wiki:"Investigatory Powers Act 2016",
   summary:"The UK's Investigatory Powers Act 2016 becomes law, compiling and extending surveillance powers that had previously operated in legal shadow: bulk interception of communications, bulk equipment interference, bulk personal datasets, and a requirement that internet providers retain all customers' browsing histories for 12 months.",
