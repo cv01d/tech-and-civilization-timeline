@@ -130,7 +130,7 @@ window.ATLAS_EVENTS.push(
   title:"Hinton Revives Deep Learning",
   wiki:"Deep belief network", gallery:["Geoffrey Hinton","Deep learning","Restricted Boltzmann machine"],
   summary:"Geoffrey Hinton shows deep networks can be trained layer by layer — reopening the door that the AI winters had shut.",
-  importance:"Hinton's 2006 work on deep belief networks demonstrated a way to train many-layered networks effectively, and rebranded the unfashionable 'neural networks' as 'deep learning.' It marked the beginning of the revival that — with ImageNet's data and the GPU's speed — culminated in AlexNet (2012). Hinton's decades of persistence through the winters, chronicled in Genius Makers, made him the central figure of the field's resurrection and a 2024 Nobel laureate.",
+  importance:"Hinton's 2006 work on deep belief networks demonstrated a way to train many-layered networks effectively, and rebranded the unfashionable 'neural networks' as 'deep learning.' It marked the beginning of the revival that — with ImageNet's data and the GPU's speed — culminated in AlexNet (2012). Hinton's decades of persistence through the winters made him the central figure of the field's resurrection and a 2024 Nobel laureate.",
   impact:{
     computing:"Deep networks become trainable; the deep-learning era's groundwork is laid.",
     society:"Connectionism returns from exile, rebranded and ascendant.",

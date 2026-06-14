@@ -123,7 +123,7 @@ window.ATLAS_EVENTS.push(
   title:"Deep Blue Defeats Kasparov",
   wiki:"Deep Blue (chess computer)", gallery:["Garry Kasparov","IBM"],
   summary:"A machine beats the world chess champion — symbolic AI's greatest public triumph, and nearly its last.",
-  importance:"IBM's Deep Blue won by brute search and hand-tuned evaluation — the symbolic, engineered tradition at its summit. Kasparov's defeat was a civilizational headline: the game long held as intelligence's proxy had fallen. Yet the victory generalized to nothing; chess machinery stayed chess machinery. The contrast with what came next — networks that learn rather than search, AlphaGo's intuition versus Deep Blue's enumeration — frames Genius Makers' central turn.",
+  importance:"IBM's Deep Blue won by brute search and hand-tuned evaluation — the symbolic, engineered tradition at its summit. Kasparov's defeat was a civilizational headline: the game long held as intelligence's proxy had fallen. Yet the victory generalized to nothing; chess machinery stayed chess machinery. The contrast with what came next — networks that learn rather than search, AlphaGo's intuition versus Deep Blue's enumeration — marks the field's central turn.",
   impact:{
     computing:"Search-and-rules AI peaks publicly; its limits quietly frame the learning revolution to come.",
     society:"The first mass experience of machine superiority at a 'human' skill — a rehearsal for the 2020s' versions.",

@@ -118,7 +118,7 @@ window.ATLAS_EVENTS.push(
   title:"'Computing Machinery and Intelligence'",
   wiki:"Turing test", gallery:["Alan Turing","Computing Machinery and Intelligence"],
   summary:"Turing asks 'Can machines think?' — and proposes the imitation game to make the question answerable.",
-  importance:"Turing's Mind paper anticipated and rebutted the objections — including Lady Lovelace's, that machines originate nothing — and predicted machines would one day converse indistinguishably from humans. Genius Makers opens the modern AI story in this paper's long shadow: the test it proposed became the field's popular benchmark, finally claimed in earnest by the conversational systems of the 2020s. Turing, prosecuted by the state he had helped save, did not live to see the field named.",
+  importance:"Turing's Mind paper anticipated and rebutted the objections — including Lady Lovelace's, that machines originate nothing — and predicted machines would one day converse indistinguishably from humans. The modern AI story unfolds in this paper's long shadow: the test it proposed became the field's popular benchmark, finally claimed in earnest by the conversational systems of the 2020s. Turing, prosecuted by the state he had helped save, did not live to see the field named.",
   impact:{
     computing:"AI acquires its founding question and its most famous benchmark.",
     society:"The thinking machine becomes a serious intellectual prospect rather than an automaton fantasy.",
@@ -164,7 +164,7 @@ window.ATLAS_EVENTS.push(
   title:"Dartmouth: 'Artificial Intelligence' Is Named",
   wiki:"Dartmouth workshop", gallery:["John McCarthy (computer scientist)","Marvin Minsky","Claude Shannon"],
   summary:"McCarthy, Minsky, Shannon, and colleagues convene to study how 'every aspect of learning... can be so precisely described that a machine can be made to simulate it.'",
-  importance:"The summer workshop's proposal coined the field's name and its founding wager. Genius Makers traces both AI traditions to this generation: the symbolic school that dominated for decades, and the neural-network heresy — Rosenblatt's perceptron, two years later — that would lose the early battles and, half a century on, win the war. The cycle the workshop began — extravagant promise, partial delivery, winter, rebirth — is the field's recurring weather.",
+  importance:"The summer workshop's proposal coined the field's name and its founding wager. Both AI traditions trace to this generation: the symbolic school that dominated for decades, and the neural-network heresy — Rosenblatt's perceptron, two years later — that would lose the early battles and, half a century on, win the war. The cycle the workshop began — extravagant promise, partial delivery, winter, rebirth — is the field's recurring weather.",
   impact:{
     computing:"AI becomes a named research field with a program and patrons.",
     society:"The promise of machine intelligence enters public expectation, decades ahead of capability.",
@@ -187,7 +187,7 @@ window.ATLAS_EVENTS.push(
   title:"Rosenblatt's Perceptron",
   wiki:"Perceptron", gallery:["Frank Rosenblatt","Artificial neural network"],
   summary:"A machine that learns from examples — the Navy demonstration promises computers that will 'walk, talk, see, write, reproduce itself and be conscious.'",
-  importance:"Frank Rosenblatt's perceptron, simulated on an IBM 704 and built as the Mark I hardware, learned to classify images by adjusting connection weights — the founding artifact of the neural-network tradition Genius Makers chronicles. The New York Times relayed the Navy's extravagant claims, setting the field's pattern of promise and backlash: Minsky and Papert's 1969 critique would freeze the approach for a generation, until backpropagation and AlexNet vindicated Rosenblatt's instinct decades after his death.",
+  importance:"Frank Rosenblatt's perceptron, simulated on an IBM 704 and built as the Mark I hardware, learned to classify images by adjusting connection weights — the founding artifact of the neural-network tradition. The New York Times relayed the Navy's extravagant claims, setting the field's pattern of promise and backlash: Minsky and Papert's 1969 critique would freeze the approach for a generation, until backpropagation and AlexNet vindicated Rosenblatt's instinct decades after his death.",
   impact:{
     computing:"Machine learning from data is born — the lineage running directly to deep learning.",
     society:"The first AI hype cycle inflates and detonates in public, a template repeated ever since.",
@@ -303,7 +303,7 @@ window.ATLAS_EVENTS.push(
   title:"Minsky, Papert & the First AI Winter",
   wiki:"Perceptrons (book)", gallery:["Marvin Minsky","Seymour Papert"],
   summary:"Perceptrons proves single-layer networks can't even compute XOR — and neural-network funding freezes for a generation.",
-  importance:"Minsky and Papert's mathematical critique was correct about single layers and fatally discouraging about the field: agencies redirected money to symbolic AI, and connectionism entered exile. Genius Makers tells the sequel as a story of stubbornness — Hinton, LeCun, and Bengio carrying the approach through decades of disrepute until multi-layer networks trained by backpropagation did everything the book's shadow said they couldn't. Science's gatekeeping, the episode shows, can delay a truth without killing it.",
+  importance:"Minsky and Papert's mathematical critique was correct about single layers and fatally discouraging about the field: agencies redirected money to symbolic AI, and connectionism entered exile. The sequel was a story of stubbornness — Hinton, LeCun, and Bengio carrying the approach through decades of disrepute until multi-layer networks trained by backpropagation did everything the critique's shadow said they couldn't. Science's gatekeeping, the episode shows, can delay a truth without killing it.",
   impact:{
     computing:"The first AI winter: a research lineage frozen by one authoritative book.",
     society:"Hype's collapse teaches AI's boom-bust rhythm — promise, disillusion, quiet persistence.",
@@ -547,7 +547,7 @@ window.ATLAS_EVENTS.push(
   title:"Backpropagation",
   wiki:"Backpropagation", gallery:["Geoffrey Hinton","Artificial neural network","David Rumelhart"],
   summary:"Rumelhart, Hinton, and Williams show how multi-layer neural networks can learn — the algorithm that ends the first AI winter's verdict.",
-  importance:"The Nature paper popularized training deep networks by propagating error backward through layers — answering, in practice, the limitation Minsky and Papert had made canonical. Genius Makers centers Hinton's decades of persistence here: connectionism worked, but needed data and compute that wouldn't exist for twenty-five more years. Backprop is the algorithm beneath AlexNet, the Transformer, and ChatGPT — the atlas's longest fuse between method and detonation.",
+  importance:"The Nature paper popularized training deep networks by propagating error backward through layers — answering, in practice, the limitation Minsky and Papert had made canonical. Hinton's decades of persistence center here: connectionism worked, but needed data and compute that wouldn't exist for twenty-five more years. Backprop is the algorithm beneath AlexNet, the Transformer, and ChatGPT — the atlas's longest fuse between method and detonation.",
   impact:{
     computing:"Deep learning's core algorithm arrives — and waits a quarter-century for its hardware.",
     technology:"Learning from data re-established as AI's viable path.",

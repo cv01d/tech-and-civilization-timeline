@@ -4,7 +4,7 @@ window.ATLAS_EVENTS.push(
   title:"AlexNet: Deep Learning Breaks Through",
   wiki:"AlexNet", gallery:["Geoffrey Hinton","ImageNet","Ilya Sutskever"],
   summary:"Hinton's students crush the ImageNet competition with a neural network trained on gaming GPUs — the deep-learning era begins.",
-  importance:"Genius Makers' pivotal scene: Alex Krizhevsky and Ilya Sutskever, in Geoffrey Hinton's Toronto lab, halved the error rate of the field's best vision systems using a deep convolutional network — backpropagation's 1986 promise finally redeemed by Moore's Law and Fei-Fei Li's ImageNet data. Within months the industry converged on the method; Hinton auctioned his tiny startup to Google for $44 million in a hotel-room bidding war. Every system in this gallery descends from this result.",
+  importance:"In Geoffrey Hinton's Toronto lab, Alex Krizhevsky and Ilya Sutskever halved the error rate of the field's best vision systems using a deep convolutional network — backpropagation's 1986 promise finally redeemed by Moore's Law and Fei-Fei Li's ImageNet data. Within months the industry converged on the method; Hinton auctioned his tiny startup to Google for $44 million in a hotel-room bidding war. Every system in this gallery descends from this result.",
   impact:{
     computing:"Neural networks become the dominant paradigm overnight — vision, then speech, then language fall in sequence.",
     technology:"GPUs become AI's substrate; compute becomes the strategic resource.",
@@ -41,7 +41,7 @@ window.ATLAS_EVENTS.push(
   title:"Google Buys DeepMind",
   wiki:"DeepMind", gallery:["Demis Hassabis","Google"],
   summary:"Google pays ~$650 million for a London lab with no products — a bet that general AI is buildable, and buyable.",
-  importance:"Demis Hassabis's DeepMind sold on the explicit mission of artificial general intelligence, with an ethics-board condition attached — Genius Makers tracks the deal as the moment Big Tech began acquiring the future of AI wholesale (Facebook had courted it too; Ian Goodfellow's GANs, invented the same year, opened the generative thread). DeepMind's Atari-playing reinforcement learner had shown the method; AlphaGo would shortly show the world. Frontier AI's concentration inside a few platform companies starts here.",
+  importance:"Demis Hassabis's DeepMind sold on the explicit mission of artificial general intelligence, with an ethics-board condition attached — the deal marked the moment Big Tech began acquiring the future of AI wholesale (Facebook had courted it too; Ian Goodfellow's GANs, invented the same year, opened the generative thread). DeepMind's Atari-playing reinforcement learner had shown the method; AlphaGo would shortly show the world. Frontier AI's concentration inside a few platform companies starts here.",
   impact:{
     computing:"AGI moves from fringe aspiration to funded corporate program.",
     power:"The frontier-lab acquisition pattern begins — AI's trajectory increasingly set inside platform giants.",
@@ -88,7 +88,7 @@ window.ATLAS_EVENTS.push(
   title:"OpenAI Is Founded",
   wiki:"OpenAI", gallery:["Sam Altman","Elon Musk","Greg Brockman"],
   summary:"Musk, Altman, and a billion-dollar pledge launch a nonprofit to build safe AGI 'for humanity' — outside Big Tech, briefly.",
-  importance:"Founded explicitly as a counterweight to Google's AI concentration — Genius Makers narrates the founding dinner and the talent raid that followed — OpenAI began as a nonprofit committed to openness, then restructured around capped profit and Microsoft's billions as compute costs exploded. Its trajectory — idealist charter, commercial gravity, governance crisis (the 2023 board drama) — became the era's case study in whether AI's stewards can be institutionally designed. Its products would shortly define the era outright.",
+  importance:"Founded explicitly as a counterweight to Google's AI concentration — its founding dinner followed by an aggressive talent raid — OpenAI began as a nonprofit committed to openness, then restructured around capped profit and Microsoft's billions as compute costs exploded. Its trajectory — idealist charter, commercial gravity, governance crisis (the 2023 board drama) — became the era's case study in whether AI's stewards can be institutionally designed. Its products would shortly define the era outright.",
   impact:{
     computing:"A frontier lab outside the platform giants — for as long as the economics allowed.",
     power:"Compute's costs pull every frontier effort toward hyperscaler capital — mission versus money, institutionalized.",
