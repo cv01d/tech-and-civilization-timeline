@@ -142,7 +142,7 @@ window.ATLAS_EVENTS.push(
     regulation:"COPPA passes the same year: children's data gets rules; everyone else's waits." },
   causes:["telecomact","mosaic"], effects:["adwords","googlecase"] },
 
-{ id:"microsoftcase", year:1998, date:"1998–2001", era:6, cat:"law",
+{ id:"microsoftcase", year:1998, date:"1998–2001", era:6, cat:["law","computing"],
   title:"United States v. Microsoft",
   wiki:"United States v. Microsoft Corp.", gallery:["Bill Gates","Internet Explorer","Windows 98"],
   summary:"The government proves Microsoft illegally defended its monopoly; the breakup order is reversed; the settlement sets two decades of permissive tech antitrust.",

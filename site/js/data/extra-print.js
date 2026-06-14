@@ -521,6 +521,17 @@ window.ATLAS_EVENTS.push(
     law:"The state cannot compel a newspaper to print a reply — editorial control is absolute.",
     print:"Print's lighter regime is confirmed as the inverse of broadcast's fairness rules.",
     power:"The print/broadcast regulatory asymmetry is grounded in spectrum scarcity." },
-  causes:["sullivan","nearvmn"], effects:[] }
+  causes:["sullivan","nearvmn"], effects:[] },
+
+{ id:"typewriter", year:1874, date:"1868–1874", era:3, cat:["print","computing"],
+  title:"The Typewriter and QWERTY",
+  wiki:"Typewriter", gallery:["Sholes and Glidden typewriter","QWERTY","Christopher Latham Sholes"],
+  summary:"Christopher Latham Sholes perfects the first commercially successful typewriter, manufactured by Remington from 1874, and arranges its keys in the QWERTY layout — a design meant to keep common letter pairs from jamming that survives, unchanged, on the keyboards of the present.",
+  importance:"The typewriter mechanized writing itself, standardizing the printed page outside the print shop, accelerating business and bureaucracy, and — by opening the new occupation of 'typist' — drawing women into the office in large numbers for the first time. Its QWERTY key arrangement, a solution to the mechanical problem of jamming typebars, became so entrenched that it outlived the machine entirely and persists on every computer keyboard and phone today. It is the direct ancestor of the keyboard, the interface through which most text still enters the digital world.",
+  impact:{
+    print:"Writing is mechanized and standardized outside the print shop.",
+    society:"The 'typist' becomes a mass occupation and a path of women into the office.",
+    computing:"The QWERTY keyboard layout is set and survives onto every later computer and phone." },
+  causes:["printingpress"], effects:["linotype","applefounding"] }
 
 );
