@@ -38,6 +38,9 @@
   function galleryFor(ev) {
     // de-duped list of {title, t, p}, preserving curated order but
     // floating already-local images first so the hero is guaranteed to load.
+    // `noimg:true` on an exhibit suppresses all imagery (card + popup) while
+    // keeping its wiki reference link intact.
+    if (ev.noimg) return [];
     const out = [], seen = new Set();
     const push = t => { const i = img(t); if (i && i.t && !seen.has(i.t)) { seen.add(i.t); out.push({ title: t, ...i }); } };
     push(ev.wiki);

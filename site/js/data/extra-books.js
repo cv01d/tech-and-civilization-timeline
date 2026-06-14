@@ -71,7 +71,7 @@ window.ATLAS_EVENTS.push(
     technology:"Self-regulating systems — from autopilots to the smart thermostat — trace to this synthesis." },
   causes:["shannon","turing1936"], effects:["dartmouth","meme"] },
 
-{ id:"dnacode", year:1953, date:"1953", era:5, cat:["biotech","computing"],
+{ id:"dnacode", year:1953, date:"1953", era:5, cat:"biotech",
   title:"The Genetic Code",
   wiki:"DNA", gallery:["Francis Crick","Rosalind Franklin","Genetic code"],
   summary:"Watson and Crick — on Rosalind Franklin's data — reveal DNA's double helix, and biology discovers it has been running an information code all along.",
@@ -127,7 +127,7 @@ window.ATLAS_EVENTS.push(
     society:"Value is abstracted and made portable, accelerating commerce far beyond barter." },
   causes:[], effects:["taxation","fibonacci","medici"] },
 
-{ id:"fibonacci", year:1202, date:"1202", era:1, cat:"computing",
+{ id:"fibonacci", year:1202, date:"1202", era:1, cat:"general",
   title:"Fibonacci's Liber Abaci",
   wiki:"Liber Abaci", gallery:["Fibonacci","Hindu–Arabic numeral system","Arabic numerals"],
   summary:"Leonardo of Pisa brings Hindu-Arabic numerals and place-value arithmetic to European merchants — the math that makes modern finance computable.",

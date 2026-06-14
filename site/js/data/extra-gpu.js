@@ -29,10 +29,10 @@ window.ATLAS_EVENTS.push(
   causes:["nvidiafounded"], effects:["gpucuda","alexnet"] },
 
 { id:"teslav100", year:2017, date:"2017", era:7, cat:"computing",
-  title:"The First AI Chip",
-  wiki:"Volta (microarchitecture)",
-  summary:"NVIDIA's Volta architecture and Tesla V100 — at $10,000 a card — is the first GPU marketed as an AI training chip rather than a graphics card. Google, Amazon, and Microsoft buy at scale, and data-center revenue begins its vertical climb.",
-  importance:"Five years after AlexNet proved GPUs could train deep networks, NVIDIA stopped pretending its AI chips were for graphics: the V100 was sold openly as a training accelerator, complete with dedicated tensor hardware, at a price no gamer would pay. The hyperscalers bought it by the rack, and NVIDIA's data-center business — once a rounding error beside gaming — began the growth that would dominate the company. The GPU had formally become AI infrastructure.",
+  title:"The First Commercial AI Chip",
+  wiki:"Volta (microarchitecture)", noimg:true,
+  summary:"NVIDIA's Volta architecture and Tesla V100 — at $10,000 a card — is the first GPU sold openly as an AI training chip rather than a graphics card. Google, Amazon, and Microsoft buy at scale, and data-center revenue begins its vertical climb.",
+  importance:"Five years after AlexNet proved GPUs could train deep networks, NVIDIA stopped pretending its AI chips were for graphics: the V100 was sold openly as a training accelerator, complete with dedicated tensor hardware, at a price no gamer would pay. Custom in-house silicon had reached the data center first — Google's TPU v1 went into its racks in 2015 for inference — but the V100 was the first chip a company could simply buy to train neural networks, and the hyperscalers bought it by the rack. NVIDIA's data-center business, once a rounding error beside gaming, began the growth that would dominate the company. The GPU had formally become AI infrastructure.",
   impact:{
     computing:"The GPU is sold explicitly as an AI training engine, not a graphics card.",
     technology:"Dedicated tensor hardware is built into the chip for neural-network math.",

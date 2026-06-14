@@ -130,7 +130,7 @@ window.ATLAS_EVENTS.push(
 
 { id:"kindroid", year:2023, date:"June 2023", era:7, cat:"computing",
   title:"Kindroid: Customization as Counter-Philosophy",
-  wiki:"Chatbot",
+  wiki:"Chatbot", noimg:true,
   summary:"Founded four months after Replika stripped its intimacy features, Kindroid is built explicitly in the space that compliance created — promising the customization and unfiltered conversation Replika withdrew.",
   importance:"Stanford dropout Jerry Meng launched Kindroid in Los Angeles directly into the market Replika had abandoned, betting on radical customization — detailed backstories, dozens of personality settings, a tiered memory designed to keep a character consistent — and on an explicitly 'unfiltered' stance, arguing that restricting a model's vocabulary is a kind of lobotomy. It enforces an 18-and-over floor as its principal safeguard. Kindroid is, in part, a product of regulatory pressure on a competitor: a company built in the gap a crackdown opened.",
   impact:{
@@ -141,7 +141,7 @@ window.ATLAS_EVENTS.push(
 
 { id:"nomi", year:2023, date:"July 2023", era:7, cat:"computing",
   title:"Nomi: The Memory-First Companion",
-  wiki:"Chatbot",
+  wiki:"Chatbot", noimg:true,
   summary:"Nomi bets that the differentiator in companion AI is memory — a three-layer architecture so a companion remembers your cat's name, your coffee order, and the inside jokes you built over months.",
   importance:"Where most chatbots forgot everything at the end of a session, Nomi (by Glimpse AI) was engineered to remember — a short-, medium-, and long-term memory system, later extended with an 'Identity Core' meant to hold a personality steady over time, not just retain facts. It markets itself as adults-only, distinguishing its regulatory exposure from Character.AI's, though critics note thin content filtering and no parental controls. Nomi's wager is that emotional depth — built from accumulated, remembered history — is what makes a companion indispensable.",
   impact:{

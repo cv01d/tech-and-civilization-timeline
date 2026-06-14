@@ -13,7 +13,7 @@ window.ATLAS_EVENTS.push(
     government:"States gain a propaganda instrument and lose their monopoly on truth in the same stroke." },
   causes:["alphabet","bologna"], effects:["reformation","statuteofanne"] },
 
-{ id:"bookkeeping", year:1494, date:"1494", era:2, cat:"computing",
+{ id:"bookkeeping", year:1494, date:"1494", era:2, cat:"general",
   title:"Double-Entry Bookkeeping Codified",
   wiki:"Luca Pacioli", gallery:["Double-entry bookkeeping","Republic of Venice"],
   summary:"Luca Pacioli publishes the Venetian method of debits and credits — the information system of capitalism.",

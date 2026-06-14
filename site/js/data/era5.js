@@ -194,7 +194,7 @@ window.ATLAS_EVENTS.push(
     technology:"Connectionism: intelligence as weighted networks rather than hand-written rules — the idea that eventually wins." },
   causes:["dartmouth"], effects:["perceptronsbook","backprop"] },
 
-{ id:"bankamericard", year:1958, date:"1958", era:5, cat:"computing",
+{ id:"bankamericard", year:1958, date:"1958", era:5, cat:"general",
   title:"The Credit Card",
   wiki:"BankAmericard", gallery:["Credit card","Visa Inc."],
   summary:"Bank of America drops 60,000 unsolicited cards on Fresno, California — mass consumer credit begins, and every purchase becomes a data point.",

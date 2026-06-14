@@ -348,7 +348,7 @@ window.ATLAS_EVENTS.push(
 
 { id:"lemoine", year:2022, date:"June 2022", era:7, cat:"computing",
   title:"'Is LaMDA Sentient?'",
-  wiki:"LaMDA", gallery:["Blake Lemoine","Chatbot","Google"],
+  wiki:"LaMDA", noimg:true,
   summary:"A Google engineer is fired after claiming the company's chatbot is sentient — and the public glimpses, early, how convincingly machines can now talk.",
   importance:"Months before ChatGPT, Google engineer Blake Lemoine went public with transcripts of LaMDA and his belief that it was conscious; Google dismissed the claim and then him. Most researchers rejected the sentience reading — but the episode was an early, vivid signal of how persuasively large language models could now converse, and of the ELIZA effect returning at industrial strength. It previewed the disorientation that ChatGPT would soon bring to everyone.",
   impact:{
