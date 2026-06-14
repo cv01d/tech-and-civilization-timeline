@@ -77,21 +77,50 @@
 
   const filters = $("#filters");
   const activeCats = new Set();
+
+  function scrollToAtlasTop() {
+    const target = $("#atlas");
+    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 0.7, scrollTo: { y: target, offsetY: 0 }, ease: "power2.inOut" });
+    else target.scrollIntoView({ behavior: "smooth" });
+  }
+
   const allChip = el("button", "chip on", "All");
-  allChip.addEventListener("click", () => { activeCats.clear(); syncChips(); applyFilter(); });
+  allChip.addEventListener("click", () => { activeCats.clear(); syncChips(); applyFilter(); scrollToAtlasTop(); });
   filters.appendChild(allChip);
+
+  // Era chips — jump links, not filters; active state driven by scroll position
+  const eraRoman = ["I","II","III","IV","V","VI","VII"];
+  const eraChips = [];
+  ERAS.forEach((era, i) => {
+    const chip = el("button", "chip chip-era", eraRoman[i] || String(era.id));
+    chip.dataset.era = era.id;
+    chip.title = `${era.num}: ${era.title} · ${era.range}`;
+    chip.setAttribute("aria-label", `${era.num}: ${era.title}`);
+    chip.addEventListener("click", () => scrollToEra(era.id));
+    filters.appendChild(chip);
+    eraChips.push(chip);
+  });
+
+  // Divider between era chips and category chips
+  const chipDiv = el("span", "chip-divider");
+  chipDiv.setAttribute("aria-hidden", "true");
+  filters.appendChild(chipDiv);
+
   CATS.forEach(c => {
     const chip = el("button", "chip", c.label);
     chip.dataset.cat = c.key;
     chip.addEventListener("click", () => {
       if (activeCats.has(c.key)) activeCats.delete(c.key); else activeCats.add(c.key);
-      syncChips(); applyFilter();
+      syncChips(); applyFilter(); scrollToAtlasTop();
     });
     filters.appendChild(chip);
   });
   function syncChips() {
     allChip.classList.toggle("on", activeCats.size === 0);
     filters.querySelectorAll(".chip[data-cat]").forEach(ch => ch.classList.toggle("on", activeCats.has(ch.dataset.cat)));
+  }
+  function syncEraChips(activeEra) {
+    eraChips.forEach(ch => ch.classList.toggle("on", +ch.dataset.era === activeEra));
   }
 
   // ---------- timeline DOM ----------
@@ -366,6 +395,10 @@
     if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 1.1, scrollTo: { y: 0 }, ease: "power2.inOut" });
     else window.scrollTo({ top: 0, behavior: "smooth" });
   });
+  $(".chrome-title").addEventListener("click", () => {
+    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 1.1, scrollTo: { y: 0 }, ease: "power2.inOut" });
+    else window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 
   function scrollToEra(id) {
     const head = eraHeads[id];
@@ -401,6 +434,7 @@
       activeEra = ev.era;
     }
     rail.querySelectorAll(".rail-item").forEach(it => it.classList.toggle("active", +it.dataset.era === activeEra));
+    syncEraChips(activeEra);
   }
   let ticking = false;
   window.addEventListener("scroll", () => {

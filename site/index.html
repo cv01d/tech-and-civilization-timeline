@@ -22,6 +22,9 @@
 <!-- ===== Ambient canvas (stars / dust) ===== -->
 <canvas id="dust" aria-hidden="true"></canvas>
 
+<!-- ===== Persistent top rule ===== -->
+<div id="top-rule" aria-hidden="true"></div>
+
 <!-- ===== Top chrome ===== -->
 <header id="chrome">
   <div class="chrome-title">
@@ -57,11 +60,24 @@
 
 <!-- ===== Gallery controls ===== -->
 <div id="controls">
-  <div id="filters" role="group" aria-label="Filter by theme"></div>
-  <div id="search-wrap">
-    <input id="search" type="search" placeholder="Search the collection…" autocomplete="off" aria-label="Search events">
-    <span id="search-count"></span>
+  <div id="controls-bar">
+    <button id="filter-toggle" aria-expanded="false" aria-controls="filters">
+      <span class="ft-icon"><span></span><span></span><span></span></span>
+      <span class="ft-label">Filters</span>
+      <span class="ft-caret">▾</span>
+    </button>
+    <div id="search-wrap">
+      <span id="search-count"></span>
+      <div class="search-field">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="10.5" cy="10.5" r="7" fill="none" stroke="currentColor" stroke-width="2"/>
+          <line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input id="search" type="search" placeholder="Search the collection…" autocomplete="off" aria-label="Search events">
+      </div>
+    </div>
   </div>
+  <div id="filters" role="group" aria-label="Filter by theme"></div>
 </div>
 
 <!-- ===== The Timeline ===== -->
@@ -187,5 +203,44 @@
 <script src="js/data/extra-aipublishing.js"></script>
 <script src="js/images.js"></script>
 <script src="js/app.js"></script>
+<script>
+(function(){
+  var btn = document.getElementById('filter-toggle');
+  var panel = document.getElementById('filters');
+  function setOpen(open) {
+    panel.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  // Start open on desktop, closed on mobile
+  setOpen(window.innerWidth >= 920);
+  var ignoreScroll = false;
+  btn.addEventListener('click', function() {
+    ignoreScroll = true;
+    setOpen(btn.getAttribute('aria-expanded') !== 'true');
+    setTimeout(function() { ignoreScroll = false; }, 400);
+  });
+
+  // Auto-collapse on scroll-down once controls are sticky; manual click always wins
+  var controls = document.getElementById('controls');
+  var lastY = window.scrollY;
+  window.addEventListener('scroll', function() {
+    if (ignoreScroll) return;
+    var y = window.scrollY;
+    if (y > lastY) {
+      var stickyTop = parseFloat(getComputedStyle(controls).top) || 64;
+      if (controls.getBoundingClientRect().top <= stickyTop) setOpen(false);
+    }
+    lastY = y;
+  }, { passive: true });
+
+  // Pin controls exactly below chrome header
+  var chrome = document.getElementById('chrome');
+  function syncChromeHeight() {
+    document.documentElement.style.setProperty('--chrome-h', (chrome.getBoundingClientRect().height - 1) + 'px');
+  }
+  syncChromeHeight();
+  window.addEventListener('resize', syncChromeHeight);
+})();
+</script>
 </body>
 </html>
