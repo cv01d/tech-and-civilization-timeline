@@ -5,7 +5,7 @@
 // sueddeutsche, espionageact cards. cat:"print" (+ power/law/internet). Round one: data only.
 window.ATLAS_EVENTS.push(
 
-{ id:"mylai", year:1969, date:"November 1969", era:5, cat:["print","power"],
+{ id:"mylai", year:1969, date:"November 1969", era:5, cat:"print",
   title:"My Lai Exposed",
   wiki:"My Lai massacre",
   summary:"Independent reporter Seymour Hersh, working through the small Dispatch News Service, breaks the story of the 1968 My Lai massacre — U.S. soldiers' killing of hundreds of unarmed Vietnamese civilians — the first major Vietnam-era war-crimes exposure by American journalism.",
@@ -16,7 +16,7 @@ window.ATLAS_EVENTS.push(
     society:"The press helps turn public opinion against the Vietnam War." },
   causes:["muckrakers"], effects:["pentagonpapers","watergate","abughraib"] },
 
-{ id:"watergate", year:1972, date:"1972–1974", era:5, cat:["print","power"],
+{ id:"watergate", year:1972, date:"1972–1974", era:5, cat:"print",
   title:"Watergate",
   wiki:"Watergate scandal",
   summary:"Washington Post reporters Bob Woodward and Carl Bernstein trace the 1972 break-in at Democratic headquarters to the Nixon White House; two years of reporting help force the first resignation of a U.S. president (August 1974) and trigger reforms — campaign-finance limits, and the Church Committee (1975–76) that produced FISA (1978).",
@@ -27,7 +27,7 @@ window.ATLAS_EVENTS.push(
     law:"The fallout produces campaign-finance reform, the Church Committee, and FISA." },
   causes:["washingtonpost1877","pentagonpapers","mylai"], effects:["churchcommittee","fisa","abughraib"] },
 
-{ id:"abughraib", year:2004, date:"2004", era:6, cat:["print","power"],
+{ id:"abughraib", year:2004, date:"2004", era:6, cat:"print",
   title:"The Abu Ghraib Photographs",
   wiki:"Abu Ghraib torture and prisoner abuse",
   summary:"CBS's 60 Minutes II and Seymour Hersh in The New Yorker publish photographs of U.S. soldiers abusing and torturing detainees at Iraq's Abu Ghraib prison, triggering congressional hearings, military investigations, and a global reckoning with American conduct in the 'war on terror.'",
@@ -49,7 +49,7 @@ window.ATLAS_EVENTS.push(
     power:"Radical transparency is offered as a permanent check on state secrecy." },
   causes:["abughraib"], effects:["collateralmurder","warlogs","cablegate","assangeplea"] },
 
-{ id:"collateralmurder", year:2010, date:"April 5, 2010", era:6, cat:["print","power"],
+{ id:"collateralmurder", year:2010, date:"April 5, 2010", era:6, cat:"print",
   title:"Collateral Murder",
   wiki:"July 12, 2007, Baghdad airstrike",
   summary:"WikiLeaks releases 'Collateral Murder' — classified U.S. military gunsight video of a 2007 Baghdad airstrike that killed civilians and two Reuters journalists — provided by Army analyst Chelsea Manning. The footage brings the abstraction of distant war to a global audience in raw form.",
@@ -60,7 +60,7 @@ window.ATLAS_EVENTS.push(
     society:"The abstraction of distant war is made visceral and undeniable." },
   causes:["wikileaks"], effects:["warlogs","cablegate"] },
 
-{ id:"warlogs", year:2010, date:"July–October 2010", era:6, cat:["print","power"],
+{ id:"warlogs", year:2010, date:"July–October 2010", era:6, cat:"print",
   title:"The War Logs",
   wiki:"Iraq War documents leak",
   summary:"WikiLeaks, partnering with the New York Times, the Guardian, and Der Spiegel, publishes the Afghan War Diary (July) and Iraq War Logs (October) — hundreds of thousands of military field reports from both wars, the largest leaks of classified military records in U.S. history to that point.",
@@ -71,7 +71,7 @@ window.ATLAS_EVENTS.push(
     society:"The largest military-records leaks to date reshape the wars' public record." },
   causes:["wikileaks","collateralmurder"], effects:["cablegate"] },
 
-{ id:"cablegate", year:2010, date:"November 2010", era:6, cat:["print","power"],
+{ id:"cablegate", year:2010, date:"November 2010", era:6, cat:"print",
   title:"Cablegate",
   wiki:"United States diplomatic cables leak",
   summary:"WikiLeaks and a consortium of international papers publish some 250,000 U.S. diplomatic cables — an unprecedented exposure of the candid inner workings of American foreign policy. The source, Chelsea Manning, is convicted and sentenced to 35 years in 2013; President Obama commutes the sentence in 2017.",

@@ -59,7 +59,7 @@ window.ATLAS_EVENTS.push(
     society:"The right to mock and offend the powerful is affirmed." },
   causes:["sullivan"], effects:["berisha"] },
 
-{ id:"satanicverses", year:1988, date:"1988–1989", era:5, cat:["print","power"],
+{ id:"satanicverses", year:1988, date:"1988–1989", era:5, cat:"print",
   title:"The Satanic Verses",
   wiki:"The Satanic Verses controversy",
   summary:"Salman Rushdie's novel The Satanic Verses provokes protests and book burnings, and in 1989 Iran's Ayatollah Khomeini issues a fatwa calling for Rushdie's death; the author goes into years of hiding, translators and publishers are attacked, and a global debate over free speech and religious offense erupts.",
@@ -70,7 +70,7 @@ window.ATLAS_EVENTS.push(
     society:"A global debate over free speech and religious offense erupts." },
   causes:["ladychatterley"], effects:["bookbanning"] },
 
-{ id:"americanpsycho", year:1997, date:"1991–1997", era:6, cat:["print","power"],
+{ id:"americanpsycho", year:1997, date:"1991–1997", era:6, cat:"print",
   title:"American Psycho",
   wiki:"American Psycho",
   summary:"Bret Easton Ellis's American Psycho, with its graphic violence against women, is dropped by its original publisher (Simon & Schuster) before publication amid outcry; Vintage picks it up, and it becomes a bestseller and modern classic — a case of corporate, not state, censorship.",
@@ -114,7 +114,7 @@ window.ATLAS_EVENTS.push(
     power:"The gravest challenge to U.S. press freedom in 60 years is made explicit." },
   causes:["sullivan","hustlerfalwell"], effects:["sullivanthreat"] },
 
-{ id:"bookbanning", year:2022, date:"2021–2026", era:7, cat:["print","power"],
+{ id:"bookbanning", year:2022, date:"2021–2026", era:7, cat:"print",
   title:"The Book-Banning Resurgence",
   wiki:"Book censorship in the United States",
   summary:"A wave of book challenges sweeps American schools and libraries — over 1,600 titles banned in a single period, disproportionately works dealing with LGBTQ+ themes and race — driven by organized campaigns and new state laws, the largest surge in literary censorship in U.S. history by volume.",

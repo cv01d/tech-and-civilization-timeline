@@ -12,7 +12,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Regulators inherit a borderless medium that fits none of their categories — the defining legal problem of the era." },
   causes:["wwwproposal","arpanet","berlinwall"], effects:["mosaic","cookie","telecomact"] },
 
-{ id:"pgp", year:1991, date:"1991", era:6, cat:["internet","surveillance"],
+{ id:"pgp", year:1991, date:"1991", era:6, cat:"internet",
   title:"PGP & the Crypto Wars",
   wiki:"Pretty Good Privacy", gallery:["Phil Zimmermann","Clipper chip","Public-key cryptography"],
   summary:"Phil Zimmermann releases strong encryption to everyone — and is investigated for exporting munitions.",
@@ -24,7 +24,7 @@ window.ATLAS_EVENTS.push(
     society:"Privacy becomes something citizens can take, not only request." },
   causes:["nsa"], effects:["snowden"] },
 
-{ id:"sovietend", year:1991, date:"December 26, 1991", era:6, cat:"power",
+{ id:"sovietend", year:1991, date:"December 26, 1991", era:6, cat:"general",
   title:"The Soviet Union Dissolves",
   wiki:"Dissolution of the Soviet Union", gallery:["Mikhail Gorbachev","Boris Yeltsin","Commonwealth of Independent States"],
   summary:"The USSR votes itself out of existence. Shock therapy follows — and a decade of labor catastrophe across the former bloc.",
@@ -48,7 +48,7 @@ window.ATLAS_EVENTS.push(
     communications:"HTML publishing's ease creates the first mass amateur media wave since the printing pamphlet." },
   causes:["webpublic"], effects:["cookie","microsoftcase","dotcom"] },
 
-{ id:"cookie", year:1994, date:"1994", era:6, cat:"surveillance",
+{ id:"cookie", year:1994, date:"1994", era:6, cat:"internet",
   title:"The HTTP Cookie",
   wiki:"HTTP cookie", gallery:["Web tracking","DoubleClick"],
   summary:"Netscape invents a small file so shopping carts remember you — and cross-site tracking is born as a side effect.",
@@ -60,7 +60,7 @@ window.ATLAS_EVENTS.push(
     society:"Being followed becomes the price of browsing — disclosed, eventually, in policies nobody reads." },
   causes:["mosaic","attention"], effects:["adwords","gdpr"] },
 
-{ id:"calea", year:1994, date:"1994", era:6, cat:"surveillance",
+{ id:"calea", year:1994, date:"1994", era:6, cat:"internet",
   title:"CALEA: Wiretaps Built In",
   wiki:"Communications Assistance for Law Enforcement Act", gallery:["Telephone tapping","Federal Bureau of Investigation"],
   summary:"Digital switching had made wiretapping hard — so Congress requires carriers to build interception into their networks.",
@@ -71,7 +71,7 @@ window.ATLAS_EVENTS.push(
     technology:"Built-in access points create risks all users share — the backdoor debate's permanent exhibit A." },
   causes:["cabinetnoir","bell"], effects:["patriotact"] },
 
-{ id:"amazon", year:1994, date:"1994–1995", era:6, cat:"power",
+{ id:"amazon", year:1994, date:"1994–1995", era:6, cat:"internet",
   title:"Amazon & the E-Commerce Era",
   wiki:"Amazon (company)", gallery:["Jeff Bezos","E-commerce","Amazon warehouse"],
   summary:"A hedge-fund quant starts selling books online; eBay launches the next year; retail begins its migration into the database.",
@@ -107,7 +107,7 @@ window.ATLAS_EVENTS.push(
     society:"The deregulated, privately governed internet becomes the American default — for better and worse, the world's." },
   causes:["communicationsact","attbreakup","webpublic"], effects:["googlefounding","facebook"] },
 
-{ id:"greatfirewall", year:1996, date:"1996–2000s", era:6, cat:"surveillance",
+{ id:"greatfirewall", year:1996, date:"1996–2000s", era:6, cat:"internet",
   title:"The Great Firewall",
   wiki:"Great Firewall", gallery:["Internet censorship in China","Censorship in China","Internet in China"],
   summary:"As Chinese internet use scales, the state builds the most comprehensive censorship and surveillance apparatus ever constructed.",
@@ -130,7 +130,7 @@ window.ATLAS_EVENTS.push(
     technology:"Specialized triumph, general brittleness: the lesson the deep-learning era inverts." },
   causes:["dartmouth"], effects:["alphago"] },
 
-{ id:"googlefounding", year:1998, date:"1998", era:6, cat:"power",
+{ id:"googlefounding", year:1998, date:"1998", era:6, cat:"computing",
   title:"Google Is Founded",
   wiki:"Google", gallery:["Larry Page","Sergey Brin","PageRank"],
   summary:"Two Stanford students incorporate a search engine whose ranking algorithm treats the web's links as votes.",
@@ -166,7 +166,7 @@ window.ATLAS_EVENTS.push(
     technology:"P2P architecture survives the lawsuit (BitTorrent, blockchain lineage) — decentralization as legal strategy." },
   causes:["sonybetamax","webpublic"], effects:["aitraining"] },
 
-{ id:"dotcom", year:2000, date:"March 2000", era:6, cat:"power",
+{ id:"dotcom", year:2000, date:"March 2000", era:6, cat:"internet",
   title:"The Dot-Com Crash",
   wiki:"Dot-com bubble", gallery:["NASDAQ","Pets.com"],
   summary:"Five trillion dollars of paper value evaporates — and the survivors pivot to the business model that defines the next era: advertising on behavioral data.",
@@ -189,7 +189,7 @@ window.ATLAS_EVENTS.push(
     government:"State accounts of contested events meet citizen video — an accountability technology with no statute behind it." },
   causes:["kodak","mobilephone"], effects:["ferguson","iphone"] },
 
-{ id:"patriotact", year:2001, date:"2001", era:6, cat:"surveillance",
+{ id:"patriotact", year:2001, date:"2001", era:6, cat:"law",
   title:"9/11 & the PATRIOT Act",
   wiki:"Patriot Act", gallery:["September 11 attacks","Total Information Awareness"],
   summary:"Forty-five days after the attacks, surveillance authorities expand across the board; Section 215 will justify bulk collection of Americans' phone records.",
@@ -201,7 +201,7 @@ window.ATLAS_EVENTS.push(
     society:"Security's claim on liberty resets a generation's baseline expectations of being watched." },
   causes:["fisa","nsa","calea"], effects:["prism","snowden"] },
 
-{ id:"chinawto", year:2001, date:"December 11, 2001", era:6, cat:"power",
+{ id:"chinawto", year:2001, date:"December 11, 2001", era:6, cat:"general",
   title:"China Joins the WTO",
   wiki:"China and the World Trade Organization", gallery:["World Trade Organization","Made in China"],
   summary:"The world's factory plugs into the world's market — and the 'China Shock' remakes manufacturing labor everywhere.",
@@ -213,7 +213,7 @@ window.ATLAS_EVENTS.push(
     government:"Trade policy's labor consequences return to the center of politics after a free-trade generation." },
   causes:["dengreform","sovietend"], effects:["foxconn"] },
 
-{ id:"adwords", year:2002, date:"2002", era:6, cat:"surveillance",
+{ id:"adwords", year:2002, date:"2002", era:6, cat:"internet",
   title:"AdWords: Surveillance Capitalism's Engine",
   wiki:"Google Ads", gallery:["Online advertising","Hal Varian"],
   summary:"Google launches pay-per-click advertising tuned by user data — the mature business model of the behavioral-data economy.",
@@ -273,7 +273,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Its consequences generate a docket spanning privacy (Carpenter), competition (Epic, DMA), and labor (gig apps) — the final galleries' caseload." },
   causes:["mobilephone","cameraphone","intel4004"], effects:["appstore","carpenter","gigeconomy"] },
 
-{ id:"prism", year:2007, date:"2007", era:6, cat:"surveillance",
+{ id:"prism", year:2007, date:"2007", era:6, cat:"internet",
   title:"PRISM Begins",
   wiki:"PRISM", gallery:["National Security Agency","XKeyscore"],
   summary:"The NSA begins collecting from the servers of America's internet companies — secret until a contractor's conscience six years later.",
@@ -284,7 +284,7 @@ window.ATLAS_EVENTS.push(
     technology:"Its exposure drives default encryption across the industry — architecture as political response." },
   causes:["patriotact","nsa","cabinetnoir"], effects:["snowden"] },
 
-{ id:"appstore", year:2008, date:"2008", era:6, cat:"power",
+{ id:"appstore", year:2008, date:"2008", era:6, cat:"computing",
   title:"The App Store",
   wiki:"App Store (Apple)", gallery:["Mobile app","Epic Games v. Apple"],
   summary:"Apple opens a software marketplace it entirely controls — thirty percent toll, review required. The gatekept computer arrives.",
@@ -296,7 +296,7 @@ window.ATLAS_EVENTS.push(
     technology:"Curated computing trades openness for safety — the era's defining architectural bargain." },
   causes:["iphone","altair"], effects:["dma"] },
 
-{ id:"financialcrisis", year:2008, date:"2008", era:6, cat:"power",
+{ id:"financialcrisis", year:2008, date:"2008", era:6, cat:"general",
   title:"The Global Financial Crisis",
   wiki:"2007–2008 financial crisis", gallery:["Lehman Brothers","Occupy Wall Street"],
   summary:"The system built since Bretton Woods's end nearly collapses; the bailouts reshape politics — and the platform economy consolidates in the wreckage.",
@@ -320,7 +320,7 @@ window.ATLAS_EVENTS.push(
     technology:"The instrumented social web: measurement and influence in one click." },
   causes:["facebook","adwords","attention"], effects:["cambridgeanalytica"] },
 
-{ id:"gigeconomy", year:2009, date:"2009–2012", era:6, cat:"labor",
+{ id:"gigeconomy", year:2009, date:"2009–2012", era:6, cat:"law",
   title:"Uber & the Gig Economy",
   wiki:"Gig economy", gallery:["Uber","DoorDash","Ridesharing company"],
   summary:"The smartphone makes the dispatcher an algorithm — and the employee an 'independent contractor.'",
@@ -332,7 +332,7 @@ window.ATLAS_EVENTS.push(
     society:"Convenience economies built on invisible, precarious logistics labor become urban infrastructure." },
   causes:["iphone","taylorism","amazon","financialcrisis"], effects:["prop22"] },
 
-{ id:"foxconn", year:2010, date:"2010", era:6, cat:"labor",
+{ id:"foxconn", year:2010, date:"2010", era:6, cat:"general",
   title:"The Foxconn Suicides",
   wiki:"Foxconn suicides", gallery:["Foxconn","Shenzhen"],
   summary:"Worker suicides at the factories assembling the iPhone force the global supply chain's conditions into view.",
@@ -344,7 +344,7 @@ window.ATLAS_EVENTS.push(
     power:"Brand reputation becomes the supply chain's main, inadequate, regulator." },
   causes:["chinawto","iphone","triangle"], effects:["ranaplaza"] },
 
-{ id:"arabspring", year:2011, date:"2011", era:6, cat:"power",
+{ id:"arabspring", year:2011, date:"2011", era:6, cat:"general",
   title:"The Arab Spring",
   wiki:"Arab Spring", gallery:["Tahrir Square","2011 Egyptian revolution"],
   summary:"Uprisings sweep the Arab world, organized partly through the platforms — which authoritarians then learn to master.",
@@ -367,7 +367,7 @@ window.ATLAS_EVENTS.push(
     technology:"The gap between stage performance and clinical reality becomes AI's recurring credibility problem." },
   causes:["deepblue"], effects:["alexnet"] },
 
-{ id:"occupy", year:2011, date:"2011", era:6, cat:"labor",
+{ id:"occupy", year:2011, date:"2011", era:6, cat:"general",
   title:"Occupy Wall Street",
   wiki:"Occupy Wall Street", gallery:["Zuccotti Park","We are the 99%"],
   summary:"'We are the 99%' — the financial crisis's deferred protest camps in Zuccotti Park and spreads to 950 cities.",

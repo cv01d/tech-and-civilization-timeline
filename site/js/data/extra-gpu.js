@@ -94,7 +94,7 @@ window.ATLAS_EVENTS.push(
     technology:"GPU supply, not ideas, becomes the binding constraint on AI progress." },
   causes:["teslav100","googletpu","mellanox","a100ampere","transformer","chatgpt"], effects:["nvidia1t","chinachips","blackwell"] },
 
-{ id:"nvidia1t", year:2023, date:"June 2023", era:7, cat:"power",
+{ id:"nvidia1t", year:2023, date:"June 2023", era:7, cat:"computing",
   title:"NVIDIA Crosses $1 Trillion",
   wiki:"Nvidia",
   summary:"NVIDIA becomes the first chipmaker worth $1 trillion, reaching the milestone faster than any company in history; Jensen Huang is anointed 'the most important person in tech.'",
@@ -116,7 +116,7 @@ window.ATLAS_EVENTS.push(
     computing:"Chinese AI is forced onto deliberately handicapped hardware." },
   causes:["chipexportcontrols","a100ampere","h100"], effects:["deepseek","h20saga"] },
 
-{ id:"nvidia3t", year:2024, date:"2024", era:7, cat:"power",
+{ id:"nvidia3t", year:2024, date:"2024", era:7, cat:"computing",
   title:"NVIDIA Becomes the World's Most Valuable Company",
   wiki:"Nvidia",
   summary:"NVIDIA crosses $3 trillion, briefly passing Microsoft and Apple to become the most valuable company on earth; revenue from H100s alone exceeds the entire revenue of most Fortune 500 companies.",
@@ -149,7 +149,7 @@ window.ATLAS_EVENTS.push(
     computing:"NVIDIA absorbs billions in losses to policy it cannot predict." },
   causes:["chinachips","deepseek"], effects:["tsmcarizona"] },
 
-{ id:"tsmcarizona", year:2026, date:"2026", era:7, cat:"power",
+{ id:"tsmcarizona", year:2026, date:"2026", era:7, cat:"computing",
   title:"Advanced Chips Made on U.S. Soil",
   wiki:"TSMC",
   summary:"NVIDIA's Blackwell B200 and GB200 reach full volume production as TSMC achieves high-yield output at its Arizona fab — the first time NVIDIA's most advanced chips are made in significant quantity in the U.S., easing dependence on Taiwan.",

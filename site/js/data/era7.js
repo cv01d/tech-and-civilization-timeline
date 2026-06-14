@@ -12,7 +12,7 @@ window.ATLAS_EVENTS.push(
     labor:"The talent rush begins: AI researchers become the priciest labor market in industrial history." },
   causes:["backprop","mooreslaw","aws","watson","dartmouth"], effects:["deepmind","transformer","alphago"] },
 
-{ id:"snowden", year:2013, date:"June 2013", era:7, cat:"surveillance",
+{ id:"snowden", year:2013, date:"June 2013", era:7, cat:"internet",
   title:"The Snowden Disclosures",
   wiki:"Edward Snowden", gallery:["PRISM","Global surveillance disclosures (2013–present)","Glenn Greenwald"],
   summary:"A contractor's archive reveals PRISM, XKeyscore, and bulk metadata collection — the surveillance state's most complete public exposure since the Church Committee.",
@@ -25,7 +25,7 @@ window.ATLAS_EVENTS.push(
     government:"Whistleblowing at archive scale joins the accountability repertoire — at permanent-exile prices." },
   causes:["prism","nsa","patriotact","churchcommittee","orwell","pgp"], effects:["schrems"] },
 
-{ id:"ranaplaza", year:2013, date:"April 24, 2013", era:7, cat:"labor",
+{ id:"ranaplaza", year:2013, date:"April 24, 2013", era:7, cat:"general",
   title:"Rana Plaza",
   wiki:"Rana Plaza collapse", gallery:["2013 Savar building collapse","Garment industry in Bangladesh"],
   summary:"A Dhaka garment factory complex collapses on its workers: 1,134 dead, sewing for the world's clothing brands.",
@@ -60,7 +60,7 @@ window.ATLAS_EVENTS.push(
     communications:"Delisting regimes force a new balance between press freedom and privacy, case by case." },
   causes:["dpd1995","googlefounding"], effects:["gdpr"] },
 
-{ id:"ferguson", year:2014, date:"2014", era:7, cat:"surveillance",
+{ id:"ferguson", year:2014, date:"2014", era:7, cat:"cctv",
   title:"Ferguson: The Camera Turns",
   wiki:"Ferguson unrest", gallery:["Body worn video (police equipment)","Black Lives Matter"],
   summary:"Michael Brown's killing, contested in the absence of video, makes the body camera national policy — and the citizen's phone the counter-surveillance instrument.",
@@ -72,7 +72,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Camera mandates spread by city and state — technology policy as police reform." },
   causes:["cameraphone","civilrightsact"], effects:[] },
 
-{ id:"ring", year:2014, date:"2014–2018", era:7, cat:"surveillance",
+{ id:"ring", year:2014, date:"2014–2018", era:7, cat:"cctv",
   title:"Alexa & Ring: The Listening Home",
   wiki:"Amazon Echo", gallery:["Amazon Alexa","Ring (company)","Smart speaker"],
   summary:"The always-on microphone enters the kitchen; the doorbell camera networks the neighborhood — domestic space joins the sensor grid.",
@@ -143,7 +143,7 @@ window.ATLAS_EVENTS.push(
     labor:"Makes possible the first automation wave aimed at writing, analysis, and code — labor's white-collar reckoning." },
   causes:["alexnet","alphago","shannon"], effects:["gpt3","chatgpt"] },
 
-{ id:"equifaxbreach", year:2017, date:"2017", era:7, cat:"surveillance",
+{ id:"equifaxbreach", year:2017, date:"2017", era:7, cat:"internet",
   title:"The Equifax Breach",
   wiki:"2017 Equifax data breach", gallery:["Equifax","Data breach"],
   summary:"147 million Americans' core identity data spills from a credit bureau they never chose — and no federal statute follows.",
@@ -215,7 +215,7 @@ window.ATLAS_EVENTS.push(
     labor:"Writing, coding (Copilot, 2021), and analysis enter automation's range — the white-collar premonition." },
   causes:["transformer","openai","aws"], effects:["chatgpt","copilot"] },
 
-{ id:"covid", year:2020, date:"2020", era:7, cat:"power",
+{ id:"covid", year:2020, date:"2020", era:7, cat:"general",
   title:"COVID-19",
   wiki:"COVID-19 pandemic", gallery:["Remote work","Zoom Video Communications","Essential workers"],
   summary:"The pandemic makes digital infrastructure society's load-bearing layer overnight — and sorts the workforce into remote and 'essential.'",
@@ -239,7 +239,7 @@ window.ATLAS_EVENTS.push(
     society:"Whether breakup, behavioral remedy, or stalemate follows will define the network economy's next constitution." },
   causes:["shermanact","microsoftcase","adwords","googlefounding","appstore","ftcfacebook"], effects:["dma"] },
 
-{ id:"prop22", year:2020, date:"2019–2020", era:7, cat:"labor",
+{ id:"prop22", year:2020, date:"2019–2020", era:7, cat:"law",
   title:"AB5 & Proposition 22",
   wiki:"2020 California Proposition 22", gallery:["California Assembly Bill 5 (2019)","Uber"],
   summary:"California legislates gig workers into employment; the platforms spend $200 million to legislate them back out.",
@@ -263,7 +263,7 @@ window.ATLAS_EVENTS.push(
     society:"Seeing stops being believing on schedule; provenance and watermarking become civic infrastructure problems." },
   causes:["gpt3","transformer"], effects:["chatgpt","aitraining","deepfakes"] },
 
-{ id:"unionwave", year:2021, date:"2021–2023", era:7, cat:"labor",
+{ id:"unionwave", year:2021, date:"2021–2023", era:7, cat:"general",
   title:"The Union Wave",
   wiki:"Amazon Labor Union", gallery:["Starbucks Workers United","2023 United Auto Workers strike","Striketober"],
   summary:"Great Resignation leverage becomes organizing energy: Amazon's Staten Island, Starbucks by the hundreds, Striketober, and the UAW's stand-up strike.",
@@ -300,7 +300,7 @@ window.ATLAS_EVENTS.push(
     government:"Europe completes its regulatory trilogy — GDPR for data, DMA for markets, DSA for content — with the AI Act next." },
   causes:["appstore","googlecase","telecomact"], effects:["aiact"] },
 
-{ id:"wga2023", year:2023, date:"2023", era:7, cat:"labor",
+{ id:"wga2023", year:2023, date:"2023", era:7, cat:"law",
   title:"The WGA & SAG-AFTRA Strikes: Labor Confronts AI",
   wiki:"2023 Writers Guild of America strike", gallery:["2023 SAG-AFTRA strike","Hollywood"],
   summary:"Hollywood's writers and actors strike for months — and win the first major contracts constraining AI's use on their work and likenesses.",
@@ -372,7 +372,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Agency law, liability, and authentication frameworks scramble to define the acting machine." },
   causes:["chatgpt","claude","ring"], effects:["present"] },
 
-{ id:"present", year:2026, date:"2026", era:7, cat:"power",
+{ id:"present", year:2026, date:"2026", era:7, cat:"general",
   title:"The Current Moment",
   wiki:"Artificial intelligence", gallery:["European Union","United States Capitol","Great Hall of the People"],
   summary:"EU frameworks mature through implementation; America regulates by lawsuit and state law; China runs the surveillance-market synthesis; the AI question is open.",

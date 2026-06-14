@@ -220,11 +220,12 @@
     setTimeout(function() { ignoreScroll = false; }, 400);
   });
 
-  // Auto-collapse on scroll-down once controls are sticky; manual click always wins
+  // Auto-collapse on scroll-down once controls are sticky — mobile only.
+  // Manual click always wins.
   var controls = document.getElementById('controls');
   var lastY = window.scrollY;
   window.addEventListener('scroll', function() {
-    if (ignoreScroll) return;
+    if (ignoreScroll || window.innerWidth >= 920) return;
     var y = window.scrollY;
     if (y > lastY) {
       var stickyTop = parseFloat(getComputedStyle(controls).top) || 64;

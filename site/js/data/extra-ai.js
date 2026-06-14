@@ -38,7 +38,7 @@ window.ATLAS_EVENTS.push(
     technology:"Demonstrates that the appearance of understanding needs no understanding at all." },
   causes:["turingtest"], effects:["chatgpt","lemoine"] },
 
-{ id:"hal9000", year:1968, date:"1968", era:5, cat:"power",
+{ id:"hal9000", year:1968, date:"1968", era:5, cat:"computing",
   title:"HAL 9000",
   wiki:"HAL 9000", gallery:["2001: A Space Odyssey","Stanley Kubrick"],
   summary:"Kubrick's 2001 gives AI its defining face — a calm, speaking, all-seeing machine that turns on its crew. The fear that outlasts every winter.",
@@ -291,7 +291,7 @@ window.ATLAS_EVENTS.push(
     government:"Export control becomes the chosen instrument for shaping the global AI balance." },
   causes:["gpucuda","scalinglaws"], effects:["deepseek","present"] },
 
-{ id:"altmanboard", year:2023, date:"November 2023", era:7, cat:"power",
+{ id:"altmanboard", year:2023, date:"November 2023", era:7, cat:"computing",
   title:"The OpenAI Board Crisis",
   wiki:"Removal of Sam Altman from OpenAI", gallery:["Sam Altman","OpenAI"],
   summary:"OpenAI's board fires CEO Sam Altman, then reinstates him in five chaotic days — exposing the fragility of 'governing' transformative AI.",
@@ -302,7 +302,7 @@ window.ATLAS_EVENTS.push(
     government:"Underscores how little external accountability governs the labs building AGI." },
   causes:["openai","anthropicfounded"], effects:["present"] },
 
-{ id:"aisafetyletters", year:2023, date:"2023", era:7, cat:"power",
+{ id:"aisafetyletters", year:2023, date:"2023", era:7, cat:"computing",
   title:"The AI Risk Letters",
   wiki:"Statement on AI risk of extinction", gallery:["Future of Life Institute","Existential risk from artificial general intelligence","Geoffrey Hinton"],
   summary:"Thousands sign open letters urging a development pause and warning that AI extinction risk deserves global priority — as Hinton quits Google to speak freely.",
@@ -346,7 +346,7 @@ window.ATLAS_EVENTS.push(
     society:"A market shock and a national-confidence jolt make AI's global contest front-page news." },
   causes:["o1reasoning","chipexportcontrols","scalinglaws"], effects:["present"] },
 
-{ id:"lemoine", year:2022, date:"June 2022", era:7, cat:"power",
+{ id:"lemoine", year:2022, date:"June 2022", era:7, cat:"computing",
   title:"'Is LaMDA Sentient?'",
   wiki:"LaMDA", gallery:["Blake Lemoine","Chatbot","Google"],
   summary:"A Google engineer is fired after claiming the company's chatbot is sentient — and the public glimpses, early, how convincingly machines can now talk.",

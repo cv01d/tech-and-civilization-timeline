@@ -1,6 +1,6 @@
 // GALLERY II — Print, Plague & Powder (1400–1791)
 window.ATLAS_EVENTS.push(
-{ id:"printingpress", year:1440, date:"c. 1440", era:2, cat:["print","power"],
+{ id:"printingpress", year:1440, date:"c. 1440", era:2, cat:"print",
   title:"Gutenberg's Printing Press",
   wiki:"Printing press", gallery:["Johannes Gutenberg","Gutenberg Bible","Movable type"],
   summary:"Movable type arrives in Mainz. Within fifty years Europe prints more books than it had produced in the previous thousand.",
@@ -13,7 +13,7 @@ window.ATLAS_EVENTS.push(
     government:"States gain a propaganda instrument and lose their monopoly on truth in the same stroke." },
   causes:["alphabet","bologna"], effects:["reformation","statuteofanne"] },
 
-{ id:"bookkeeping", year:1494, date:"1494", era:2, cat:"power",
+{ id:"bookkeeping", year:1494, date:"1494", era:2, cat:"computing",
   title:"Double-Entry Bookkeeping Codified",
   wiki:"Luca Pacioli", gallery:["Double-entry bookkeeping","Republic of Venice"],
   summary:"Luca Pacioli publishes the Venetian method of debits and credits — the information system of capitalism.",
@@ -24,7 +24,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Auditable books later become the precondition for taxation of enterprise, securities law, and corporate accountability." },
   causes:["writing"], effects:["eastindia","voc"] },
 
-{ id:"columbus", year:1492, date:"1492–1494", era:2, cat:"power",
+{ id:"columbus", year:1492, date:"1492–1494", era:2, cat:"general",
   title:"Columbus & the Treaty of Tordesillas",
   wiki:"Voyages of Christopher Columbus", gallery:["Treaty of Tordesillas","Christopher Columbus"],
   summary:"European colonization of the Americas begins; within two years Spain and Portugal divide the non-European world by treaty.",
@@ -36,7 +36,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The legal fiction of 'discovery' becomes the charter of international colonialism." },
   causes:[], effects:["slavetrade1807","jamestown"] },
 
-{ id:"reformation", year:1517, date:"1517", era:2, cat:["power","print"],
+{ id:"reformation", year:1517, date:"1517", era:2, cat:"print",
   title:"Luther's Ninety-Five Theses",
   wiki:"Ninety-five Theses", gallery:["Martin Luther","Reformation"],
   summary:"The Reformation begins — and spreads at the speed of the printing press.",
@@ -48,7 +48,7 @@ window.ATLAS_EVENTS.push(
     government:"Cuius regio, eius religio — the territorial state takes custody of belief itself." },
   causes:["printingpress"], effects:["peasantswar","poorlaw"] },
 
-{ id:"peasantswar", year:1525, date:"1524–1525", era:2, cat:"labor",
+{ id:"peasantswar", year:1525, date:"1524–1525", era:2, cat:"general",
   title:"The German Peasants' War",
   wiki:"German Peasants' War", gallery:["Thomas Müntzer","Twelve Articles"],
   summary:"The largest popular uprising in Europe before the French Revolution; over 100,000 killed in its suppression.",
@@ -82,7 +82,7 @@ window.ATLAS_EVENTS.push(
     government:"Local magistrates become the everyday administrators of the labor market." },
   causes:["statutelabourers","guilds"], effects:["combinationacts"] },
 
-{ id:"eastindia", year:1600, date:"1600", era:2, cat:"power",
+{ id:"eastindia", year:1600, date:"1600", era:2, cat:"general",
   title:"The East India Company",
   wiki:"East India Company", gallery:["Company rule in India","East Indiaman"],
   summary:"Elizabeth I charters a joint-stock company that will come to govern a subcontinent — the most powerful corporation in history.",
@@ -94,7 +94,7 @@ window.ATLAS_EVENTS.push(
     government:"Blurs the line between company and state that modern regulation still polices." },
   causes:["bookkeeping"], effects:["voc","sepoymutiny","shermanact"] },
 
-{ id:"voc", year:1602, date:"1602", era:2, cat:"power",
+{ id:"voc", year:1602, date:"1602", era:2, cat:"general",
   title:"The VOC & the Stock Exchange",
   wiki:"Dutch East India Company", gallery:["Amsterdam Stock Exchange","Bank of Amsterdam"],
   summary:"The Dutch East India Company issues the first publicly tradable shares; Amsterdam opens an exchange to trade them.",
@@ -105,7 +105,7 @@ window.ATLAS_EVENTS.push(
     society:"The investor joins the merchant and landlord as a social type; capital detaches from place." },
   causes:["eastindia","bookkeeping"], effects:["southsea","crash1929"] },
 
-{ id:"jamestown", year:1619, date:"1607–1619", era:2, cat:"labor",
+{ id:"jamestown", year:1619, date:"1607–1619", era:2, cat:"general",
   title:"Jamestown & the First Enslaved Africans in Virginia",
   wiki:"Jamestown, Virginia", gallery:["First Africans in Virginia","Indentured servitude in British America"],
   summary:"English North America begins with indentured servants; in 1619 the first enslaved Africans arrive, and the colonies turn toward chattel slavery.",
@@ -117,7 +117,7 @@ window.ATLAS_EVENTS.push(
     government:"Slavery is written into colonial law and later the constitutional compromises of 1787." },
   causes:["columbus"], effects:["constitution","emancipation"] },
 
-{ id:"leviathan", year:1651, date:"1651", era:2, cat:"power",
+{ id:"leviathan", year:1651, date:"1651", era:2, cat:"general",
   title:"Hobbes Publishes Leviathan",
   wiki:"Leviathan (Hobbes book)", gallery:["Thomas Hobbes","English Civil War"],
   summary:"Out of civil war, Hobbes argues that only an absolute sovereign — a state as artificial man — can prevent the war of all against all.",
@@ -128,7 +128,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Frames the perennial trade between liberty and security that surveillance law negotiates ever after." },
   causes:[], effects:["locke","usbillofrights"] },
 
-{ id:"cabinetnoir", year:1665, date:"1665", era:2, cat:"surveillance",
+{ id:"cabinetnoir", year:1665, date:"1665", era:2, cat:"law",
   title:"The Cabinet Noir: Mail Surveillance Institutionalized",
   wiki:"Cabinet noir", gallery:["Louis XIV","Palace of Versailles"],
   summary:"Louis XIV's 'black chamber' systematically opens, reads, and reseals the mail — the postal service formalized as a surveillance organ.",
@@ -150,7 +150,7 @@ window.ATLAS_EVENTS.push(
     society:"Political stability after 1688 underwrites the credit, commerce, and tinkering culture of the coming industrial revolution." },
   causes:["magnacarta","leviathan"], effects:["bankofengland","locke","usbillofrights"] },
 
-{ id:"locke", year:1689, date:"1689", era:2, cat:"power",
+{ id:"locke", year:1689, date:"1689", era:2, cat:"general",
   title:"Locke's Two Treatises of Government",
   wiki:"Two Treatises of Government", gallery:["John Locke"],
   summary:"Natural rights, government by consent — and property created by mixing one's labor with the world.",
@@ -161,7 +161,7 @@ window.ATLAS_EVENTS.push(
     government:"Limited government and natural rights become the vocabulary of constitution-writing for three centuries." },
   causes:["glorious","leviathan"], effects:["declaration","frenchrev"] },
 
-{ id:"bankofengland", year:1694, date:"1694", era:2, cat:"power",
+{ id:"bankofengland", year:1694, date:"1694", era:2, cat:"general",
   title:"The Bank of England",
   wiki:"Bank of England", gallery:["City of London","Pound sterling"],
   summary:"War finance births the modern central bank — and Britain's 'financial revolution.'",
@@ -184,7 +184,7 @@ window.ATLAS_EVENTS.push(
     labor:"Creative work acquires a legal claim on its own products — the writer's wage becomes a right." },
   causes:["printingpress"], effects:["sonybetamax","aitraining"] },
 
-{ id:"newcomen", year:1712, date:"1712", era:2, cat:["power","labor"],
+{ id:"newcomen", year:1712, date:"1712", era:2, cat:"general",
   title:"Newcomen's Steam Engine",
   wiki:"Newcomen atmospheric engine", gallery:["Thomas Newcomen","Steam engine"],
   summary:"The first practical steam engine pumps water from coal mines — fossil energy enters the economy.",
@@ -206,7 +206,7 @@ window.ATLAS_EVENTS.push(
     government:"Parliamentary investigation of corporate fraud sets the template for every later inquiry from Pecora to Enron to Cambridge Analytica." },
   causes:["voc","bankofengland"], effects:["crash1929"] },
 
-{ id:"spinningjenny", year:1764, date:"1764–1771", era:2, cat:"labor",
+{ id:"spinningjenny", year:1764, date:"1764–1771", era:2, cat:"general",
   title:"Jenny, Frame & Mill: Textile Machinery",
   wiki:"Spinning jenny", gallery:["Richard Arkwright","Cromford Mill","Water frame"],
   summary:"Hargreaves' spinning jenny and Arkwright's water frame mechanize spinning; Arkwright's Cromford Mill (1771) is arguably the first true factory.",
@@ -218,7 +218,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Factory conditions eventually summon the Factory Acts — the founding genre of modern labor law." },
   causes:["clock","newcomen"], effects:["watt","luddites","factoryact1833"] },
 
-{ id:"watt", year:1769, date:"1769–1776", era:2, cat:["power","labor"],
+{ id:"watt", year:1769, date:"1769–1776", era:2, cat:"general",
   title:"Watt's Steam Engine",
   wiki:"Watt steam engine", gallery:["James Watt","Industrial Revolution","Steam engine"],
   summary:"Watt patents the separate condenser; by 1776 his efficient engine is commercially available — power for any factory, anywhere.",
@@ -230,7 +230,7 @@ window.ATLAS_EVENTS.push(
     government:"Industrial capacity becomes the measure and instrument of national power." },
   causes:["newcomen","spinningjenny"], effects:["railway","luddites"] },
 
-{ id:"wealthofnations", year:1776, date:"1776", era:2, cat:"power",
+{ id:"wealthofnations", year:1776, date:"1776", era:2, cat:"general",
   title:"The Wealth of Nations",
   wiki:"The Wealth of Nations", gallery:["Adam Smith"],
   summary:"Adam Smith founds modern economics — including the warning that people of the same trade seldom meet but to conspire against the public.",
@@ -242,7 +242,7 @@ window.ATLAS_EVENTS.push(
     government:"Policy debates acquire the vocabulary they still use: free trade, monopoly, the proper limits of the state." },
   causes:["locke"], effects:["shermanact"] },
 
-{ id:"declaration", year:1776, date:"1776", era:2, cat:"power",
+{ id:"declaration", year:1776, date:"1776", era:2, cat:"general",
   title:"American Independence",
   wiki:"United States Declaration of Independence", gallery:["American Revolution","Thomas Jefferson"],
   summary:"The colonies declare independence on Lockean grounds: natural rights and government by consent.",
@@ -265,7 +265,7 @@ window.ATLAS_EVENTS.push(
     society:"Ratification by convention establishes popular sovereignty as a working procedure." },
   causes:["declaration","glorious"], effects:["usbillofrights","wagneract"] },
 
-{ id:"frenchrev", year:1789, date:"1789", era:2, cat:"power",
+{ id:"frenchrev", year:1789, date:"1789", era:2, cat:"general",
   title:"The French Revolution",
   wiki:"French Revolution", gallery:["Storming of the Bastille","Declaration of the Rights of Man and of the Citizen"],
   summary:"The Bastille falls; feudal privileges are abolished in a single August night; the Rights of Man are declared.",
@@ -301,7 +301,7 @@ window.ATLAS_EVENTS.push(
     government:"Enumerated limits on federal power become the American constitutional style." },
   causes:["magnacarta","glorious","leviathan","constitution"], effects:["katz","carpenter"] },
 
-{ id:"slatermill", year:1791, date:"1791", era:2, cat:"labor",
+{ id:"slatermill", year:1791, date:"1791", era:2, cat:"general",
   title:"Slater's Mill: Industry Crosses the Atlantic",
   wiki:"Slater Mill", gallery:["Samuel Slater","Pawtucket, Rhode Island"],
   summary:"Samuel Slater, carrying British machine designs in his memory, opens America's first water-powered cotton mill in Rhode Island.",

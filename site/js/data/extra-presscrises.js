@@ -50,7 +50,7 @@ window.ATLAS_EVENTS.push(
     power:"Defamation litigation becomes a tool to constrain reporting." },
   causes:["pentagonpapers","sullivan"], effects:[] },
 
-{ id:"gershkovich", year:2023, date:"2023–2024", era:7, cat:["print","power"],
+{ id:"gershkovich", year:2023, date:"2023–2024", era:7, cat:"print",
   title:"Evan Gershkovich Detained",
   wiki:"Evan Gershkovich",
   summary:"Russia detains Wall Street Journal reporter Evan Gershkovich on espionage charges in 2023 — the first U.S. journalist accused of spying in Russia since the Cold War — holding him for over a year before his release in a 2024 prisoner exchange. The case becomes a symbol of the global crackdown on the press.",
@@ -62,7 +62,7 @@ window.ATLAS_EVENTS.push(
   causes:["risen","russiawar2022"], effects:[] },
 
 // ===== INTERNATIONAL PRESS-FREEDOM CRISES =====
-{ id:"culturalrevolution", year:1966, date:"1966–1976", era:5, cat:["print","power"],
+{ id:"culturalrevolution", year:1966, date:"1966–1976", era:5, cat:"print",
   title:"The Cultural Revolution and the Press",
   wiki:"Cultural Revolution",
   summary:"China's Cultural Revolution (1966–76) destroys what remained of independent publishing — newspapers are made pure party organs, writers and intellectuals are persecuted, books are burned, and the press becomes wholly an instrument of Maoist mass mobilization.",
@@ -73,7 +73,7 @@ window.ATLAS_EVENTS.push(
     society:"The printed word is weaponized in a campaign of mass frenzy." },
   causes:["peoplesdaily"], effects:[] },
 
-{ id:"argentinajunta", year:1976, date:"1976–1983", era:5, cat:["print","power"],
+{ id:"argentinajunta", year:1976, date:"1976–1983", era:5, cat:"print",
   title:"Argentina's Junta and the Disappeared Journalists",
   wiki:"Dirty War",
   summary:"Argentina's 1976–83 military dictatorship censors the press and 'disappears' scores of journalists in its 'Dirty War'; the newspaper of the Mothers of the Plaza de Mayo and outlets like Robert Cox's Buenos Aires Herald become rare voices of dissent at mortal risk.",
@@ -84,7 +84,7 @@ window.ATLAS_EVENTS.push(
     society:"Press repression becomes part of the trauma of the 'Dirty War.'" },
   causes:[], effects:["khashoggi"] },
 
-{ id:"glasnost1986", year:1986, date:"1986", era:5, cat:["print","power"],
+{ id:"glasnost1986", year:1986, date:"1986", era:5, cat:"print",
   title:"Glasnost Tests the Soviet Press",
   wiki:"Glasnost",
   summary:"Gorbachev's policy of glasnost ('openness') begins loosening Soviet censorship in the mid-1980s; papers like Moskovsky Komsomolets and Ogonyok push the new boundaries, publishing once-forbidden criticism and history — a partial, state-managed liberalization that helped unravel the system.",
@@ -95,7 +95,7 @@ window.ATLAS_EVENTS.push(
     society:"Partial press freedom helps corrode the regime's legitimacy." },
   causes:["glavlit"], effects:["ntvrussia"] },
 
-{ id:"danielpearl", year:2002, date:"2002", era:6, cat:["print","power"],
+{ id:"danielpearl", year:2002, date:"2002", era:6, cat:"print",
   title:"The Murder of Daniel Pearl",
   wiki:"Daniel Pearl",
   summary:"Wall Street Journal reporter Daniel Pearl is kidnapped and murdered by al-Qaeda-linked militants in Pakistan in 2002, his killing filmed and circulated — an early, shocking instance of terrorists deliberately targeting a Western journalist as a propaganda act.",
@@ -106,7 +106,7 @@ window.ATLAS_EVENTS.push(
     society:"The targeting of journalists as propaganda victims begins." },
   causes:[], effects:["khashoggi"] },
 
-{ id:"pressfreedomindex", year:2013, date:"2013", era:7, cat:["print","power"],
+{ id:"pressfreedomindex", year:2013, date:"2013", era:7, cat:"print",
   title:"Mapping Press Freedom's Decline",
   wiki:"Press Freedom Index",
   summary:"Reporters Without Borders and Freedom House sharpen their annual measures of global press freedom; RWB's 'Predators of Press Freedom' identifies dozens of regimes systematically repressing journalists — quantifying a worldwide decline that accelerates through the 2010s.",
@@ -117,7 +117,7 @@ window.ATLAS_EVENTS.push(
     society:"The treatment of journalists becomes an index of democratic health." },
   causes:["argentinajunta"], effects:["khashoggi","myanmarcoup"] },
 
-{ id:"khashoggi", year:2018, date:"2018", era:7, cat:["print","power"],
+{ id:"khashoggi", year:2018, date:"2018", era:7, cat:"print",
   title:"The Murder of Jamal Khashoggi",
   wiki:"Assassination of Jamal Khashoggi",
   summary:"Saudi agents kill the U.S.-based Washington Post columnist Jamal Khashoggi inside the Saudi consulate in Istanbul in 2018 — a state assassination of a journalist on foreign soil that shocks the world and lays bare the impunity with which autocracies silence their critics abroad.",
@@ -128,7 +128,7 @@ window.ATLAS_EVENTS.push(
     society:"Authoritarian reach beyond borders is laid bare to the world." },
   causes:["pressfreedomindex","danielpearl","argentinajunta"], effects:[] },
 
-{ id:"myanmarcoup", year:2021, date:"2021", era:7, cat:["print","power"],
+{ id:"myanmarcoup", year:2021, date:"2021", era:7, cat:"print",
   title:"Myanmar's Coup and the Press",
   wiki:"2021 Myanmar coup d'état",
   summary:"Myanmar's 2021 military coup outlaws independent media almost overnight — revoking licenses, jailing dozens of journalists, and forcing newsrooms underground or into exile, abruptly reversing a decade of cautious press opening after military rule.",
@@ -185,7 +185,7 @@ window.ATLAS_EVENTS.push(
   causes:["sullivan"], effects:[] },
 
 // ===== ROYALTY EQUITY & AI =====
-{ id:"publishingpaidme", year:2020, date:"2020", era:7, cat:["print","labor"],
+{ id:"publishingpaidme", year:2020, date:"2020", era:7, cat:"print",
   title:"#PublishingPaidMe",
   wiki:"Publishing",
   summary:"In 2020 authors share their book advances under the hashtag #PublishingPaidMe, exposing stark racial disparities in what publishers pay Black writers versus their white peers — data-driven evidence that prompts diversity initiatives and transparency pushes across the industry.",

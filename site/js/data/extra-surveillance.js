@@ -4,7 +4,7 @@
 // people. Interleaves chronologically; each carries an `era` field for its gallery.
 window.ATLAS_EVENTS.push(
 
-{ id:"lanternlaws", year:1713, date:"1700s", era:2, cat:"surveillance",
+{ id:"lanternlaws", year:1713, date:"1700s", era:2, cat:"general",
   title:"The Lantern Laws",
   wiki:"Lantern laws", gallery:["Slavery in the colonial history of the United States","New York City"],
   summary:"New York requires Black, mixed-race, and Indigenous enslaved people to carry a lit lantern after dark when not accompanied by a white person — surveillance written onto the body.",
@@ -26,7 +26,7 @@ window.ATLAS_EVENTS.push(
     government:"Establishes the wartime ratchet: emergency powers easy to grant, hard to retract." },
   causes:["usbillofrights"], effects:["espionageact","palmerraids","patriotact"] },
 
-{ id:"slavepatrols", year:1819, date:"1819", era:3, cat:"surveillance",
+{ id:"slavepatrols", year:1819, date:"1819", era:3, cat:"general",
   title:"Slave Patrols",
   wiki:"Slave patrol", gallery:["Slavery in the United States","Fugitive slave laws in the United States"],
   summary:"South Carolina compels all white men over 18 to serve in armed patrols that police, search, and terrorize the enslaved — an ancestor of American policing.",
@@ -48,7 +48,7 @@ window.ATLAS_EVENTS.push(
     communications:"Establishes that confidentiality of transmitted messages is a legal interest." },
   causes:["telegraph"], effects:["olmstead","wiretapact1968"] },
 
-{ id:"policewiretap1895", year:1895, date:"1895", era:4, cat:"surveillance",
+{ id:"policewiretap1895", year:1895, date:"1895", era:4, cat:"law",
   title:"The First Police Wiretapping",
   wiki:"Telephone tapping", gallery:["New York City Police Department","Telephone"],
   summary:"A former telephone worker turned New York policeman proposes tapping criminals' lines; the mayor approves, and the department wiretaps in secret for years.",
@@ -59,7 +59,7 @@ window.ATLAS_EVENTS.push(
     communications:"The telephone network is revealed as a standing surveillance resource." },
   causes:["bell"], effects:["nywiretapscandal","olmstead"] },
 
-{ id:"nbi1897", year:1897, date:"1897", era:4, cat:"surveillance",
+{ id:"nbi1897", year:1897, date:"1897", era:4, cat:"law",
   title:"The National Bureau of Identification",
   wiki:"International Association of Chiefs of Police", gallery:["Mug shot","Bertillon system"],
   summary:"Police chiefs found a central bureau to pool identifying records on criminals — the first national identification database in the United States.",
@@ -70,7 +70,7 @@ window.ATLAS_EVENTS.push(
     government:"Identification becomes a shared national capacity rather than a local one." },
   causes:["kodak"], effects:["bureauinvestigation","fingerprintdb"] },
 
-{ id:"bureauinvestigation", year:1908, date:"1908", era:4, cat:"surveillance",
+{ id:"bureauinvestigation", year:1908, date:"1908", era:4, cat:"law",
   title:"The Bureau of Investigation",
   wiki:"Bureau of Investigation", gallery:["Federal Bureau of Investigation","J. Edgar Hoover","Charles Joseph Bonaparte"],
   summary:"Attorney General Charles Bonaparte creates a standing force of federal agents — the body that in 1935 becomes the FBI.",
@@ -81,7 +81,7 @@ window.ATLAS_EVENTS.push(
     society:"The fear voiced at its founding — a federal secret police — shadows it for a century." },
   causes:["nbi1897"], effects:["fingerprintdb","palmerraids","churchcommittee"] },
 
-{ id:"nywiretapscandal", year:1916, date:"1916", era:4, cat:"surveillance",
+{ id:"nywiretapscandal", year:1916, date:"1916", era:4, cat:"law",
   title:"The New York Wiretapping Scandal",
   wiki:"Telephone tapping", gallery:["New York City Police Department","Trade union"],
   summary:"An inquiry finds New York police tapping hundreds of phones a year — to track criminals and to spy on labor organizers. National outcry follows.",
@@ -103,7 +103,7 @@ window.ATLAS_EVENTS.push(
     society:"Wartime speech is criminalized, testing the First Amendment under pressure." },
   causes:["aliensedition","wwi"], effects:["palmerraids","snowden"] },
 
-{ id:"palmerraids", year:1919, date:"1919–1920", era:4, cat:"surveillance",
+{ id:"palmerraids", year:1919, date:"1919–1920", era:4, cat:"law",
   title:"The Palmer Raids & the First Red Scare",
   wiki:"Palmer Raids", gallery:["A. Mitchell Palmer","First Red Scare","J. Edgar Hoover"],
   summary:"Attorney General Palmer's agents round up and deport thousands of suspected anarchists and radicals — until the raids' brutality discredits them.",
@@ -114,7 +114,7 @@ window.ATLAS_EVENTS.push(
     society:"Civil-liberties opposition crystallizes — the ACLU is founded in its wake (1920)." },
   causes:["espionageact","russianrev","aliensedition"], effects:["huac","churchcommittee"] },
 
-{ id:"fingerprintdb", year:1924, date:"1924", era:4, cat:"surveillance",
+{ id:"fingerprintdb", year:1924, date:"1924", era:4, cat:"computing",
   title:"The National Fingerprint Database",
   wiki:"Fingerprint", gallery:["Federal Bureau of Investigation","Biometrics"],
   summary:"The FBI is given a legislative mandate to run a national fingerprint repository — 100 million records by 1946, and the backbone of American identification.",
@@ -125,7 +125,7 @@ window.ATLAS_EVENTS.push(
     government:"Identification at population scale becomes a routine federal capacity." },
   causes:["nbi1897","bureauinvestigation"], effects:["ring"] },
 
-{ id:"panopticon", year:1925, date:"1925", era:4, cat:"surveillance",
+{ id:"panopticon", year:1925, date:"1925", era:4, cat:"cctv",
   title:"The Panopticon Realized",
   wiki:"Panopticon", gallery:["Jeremy Bentham","Stateville Correctional Center","Discipline and Punish"],
   summary:"Illinois opens Stateville's 'roundhouse' — a working panopticon where one guard can watch every cell, and no prisoner can tell when he is watched.",
@@ -147,7 +147,7 @@ window.ATLAS_EVENTS.push(
     society:"Brandeis's dissent becomes the founding text of constitutional privacy, vindicated in time." },
   causes:["cawiretap1862","brandeis","policewiretap1895"], effects:["katz","keithcase"] },
 
-{ id:"lafollette", year:1936, date:"1936–1941", era:4, cat:"labor",
+{ id:"lafollette", year:1936, date:"1936–1941", era:4, cat:"law",
   title:"The La Follette Civil Liberties Committee",
   wiki:"La Follette Committee", gallery:["Robert M. La Follette Jr.","Labor spying","Strikebreaking"],
   summary:"A Senate committee exposes the vast private surveillance industry — corporate spies, informers, and munitions stockpiles used to break unions.",
@@ -158,7 +158,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Bolsters the Wagner Act's protections by documenting the methods used to defeat unions." },
   causes:["nywiretapscandal","taylorism","wagneract"], effects:["gigeconomy"] },
 
-{ id:"huac", year:1938, date:"1938", era:4, cat:"surveillance",
+{ id:"huac", year:1938, date:"1938", era:4, cat:"law",
   title:"The House Un-American Activities Committee",
   wiki:"House Un-American Activities Committee", gallery:["McCarthyism","Joseph McCarthy","Hollywood blacklist"],
   summary:"Congress creates a committee to investigate 'disloyalty' — the engine of the blacklists and, with McCarthy, of the Second Red Scare.",
@@ -169,7 +169,7 @@ window.ATLAS_EVENTS.push(
     government:"The Red Scare's machinery is given a permanent congressional seat." },
   causes:["palmerraids","russianrev"], effects:["churchcommittee"] },
 
-{ id:"shamrock", year:1939, date:"1939", era:4, cat:"surveillance",
+{ id:"shamrock", year:1939, date:"1939", era:4, cat:"law",
   title:"Operation SHAMROCK",
   wiki:"Project SHAMROCK", gallery:["National Security Agency","Western Union","Church Committee"],
   summary:"The government begins copying virtually all international telegrams leaving the United States — a bulk-collection program that runs in secret for thirty years.",
@@ -202,7 +202,7 @@ window.ATLAS_EVENTS.push(
     government:"Limits the state's reach into the most private decisions of citizens." },
   causes:["usbillofrights","prosser","brandeis"], effects:["carpenter"] },
 
-{ id:"westin", year:1967, date:"1967", era:5, cat:"power",
+{ id:"westin", year:1967, date:"1967", era:5, cat:"general",
   title:"Westin's Privacy and Freedom",
   wiki:"Alan Westin", gallery:["Information privacy","Privacy"],
   summary:"Alan Westin defines privacy as the individual's claim to control when and how information about them is shared — the conceptual seed of modern data protection.",
@@ -235,7 +235,7 @@ window.ATLAS_EVENTS.push(
     government:"A unanimous check on presidential surveillance power, on the eve of Watergate." },
   causes:["olmstead","katz"], effects:["fisa"] },
 
-{ id:"nixonenemies", year:1973, date:"1973", era:5, cat:"surveillance",
+{ id:"nixonenemies", year:1973, date:"1973", era:5, cat:"law",
   title:"Nixon's Enemies List",
   wiki:"Nixon's Enemies List", gallery:["Watergate scandal","Richard Nixon","John Dean"],
   summary:"Watergate reveals a White House list of political opponents to be harassed through tax audits and federal machinery — surveillance turned to private revenge.",
@@ -356,7 +356,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Demonstrates the state-led patchwork that substitutes for federal privacy law." },
   causes:["creditreporting"], effects:["equifaxbreach","ccpa"] },
 
-{ id:"room641a", year:2003, date:"2003", era:6, cat:"surveillance",
+{ id:"room641a", year:2003, date:"2003", era:6, cat:"internet",
   title:"Room 641A",
   wiki:"Room 641A", gallery:["Mark Klein","AT&T","NSA warrantless surveillance (2001–2007)"],
   summary:"Inside an AT&T building in San Francisco, a secret room splits the internet's traffic to the NSA — warrantless mass surveillance, exposed by a technician's conscience.",

@@ -1,6 +1,6 @@
 // GALLERY I — The Invention of the State (c. 3400 BCE – 1400 CE)
 window.ATLAS_EVENTS.push(
-{ id:"writing", year:-3300, date:"c. 3400 BCE", era:1, cat:["power","surveillance"],
+{ id:"writing", year:-3300, date:"c. 3400 BCE", era:1, cat:"print",
   title:"Writing Is Invented",
   wiki:"Cuneiform", gallery:["Egyptian hieroglyphs","Kish tablet","Scribe"],
   summary:"Formal writing systems emerge in Mesopotamia (cuneiform) and Egypt (hieroglyphics) — and the earliest surviving tablets are not poetry but receipts.",
@@ -13,7 +13,7 @@ window.ATLAS_EVENTS.push(
     government:"Systematic record-keeping of populations, taxes, and debts begins; every later surveillance system depends on this foundation." },
   causes:[], effects:["taxation","urnammu"] },
 
-{ id:"taxation", year:-3000, date:"c. 3000 BCE", era:1, cat:"surveillance",
+{ id:"taxation", year:-3000, date:"c. 3000 BCE", era:1, cat:"general",
   title:"The Registered Subject: State Taxation Begins",
   wiki:"Tax", gallery:["Cuneiform","Ancient Egypt"],
   summary:"Mesopotamia and Egypt produce the first evidence of organized state taxation — and tax requires the state to know its subjects.",
@@ -47,7 +47,7 @@ window.ATLAS_EVENTS.push(
     society:"Public, monumental law — carved in stone in the marketplace — makes justice a visible claim of the state." },
   causes:["urnammu"], effects:["diocletian","statutelabourers"] },
 
-{ id:"deirstrike", year:-1170, date:"c. 1170 BCE", era:1, cat:"labor",
+{ id:"deirstrike", year:-1170, date:"c. 1170 BCE", era:1, cat:"general",
   title:"The First Recorded Strike",
   wiki:"Deir el-Medina", gallery:["Ramesses III","Set maat"],
   summary:"Artisans building royal tombs at Deir el-Medina, Egypt, lay down their tools over late grain rations — under Ramesses III.",
@@ -58,7 +58,7 @@ window.ATLAS_EVENTS.push(
     government:"The Egyptian state's response — paying the arrears — set the oldest precedent for dispute resolution by concession." },
   causes:[], effects:["peasantsrevolt","haymarket"] },
 
-{ id:"alphabet", year:-1050, date:"c. 1050 BCE", era:1, cat:"power",
+{ id:"alphabet", year:-1050, date:"c. 1050 BCE", era:1, cat:"print",
   title:"The Phoenician Alphabet",
   wiki:"Phoenician alphabet", gallery:["Phoenicia","Greek alphabet"],
   summary:"Phoenician traders compress writing into ~22 phonetic signs — a system simple enough for merchants, not just scribes.",
@@ -92,7 +92,7 @@ window.ATLAS_EVENTS.push(
     government:"Roman legal tradition begins its 2,500-year career as the substrate of Western governance." },
   causes:["solon"], effects:["collegia"] },
 
-{ id:"collegia", year:-64, date:"64 BCE – 7 BCE", era:1, cat:"labor",
+{ id:"collegia", year:-64, date:"64 BCE – 7 BCE", era:1, cat:"general",
   title:"Rome Dissolves the Collegia",
   wiki:"Collegium (ancient Rome)", gallery:["Julius Caesar","Roman Senate"],
   summary:"The Senate, and later Caesar's Lex Iulia, dissolve the craftsmen's associations as threats to public order.",
@@ -103,7 +103,7 @@ window.ATLAS_EVENTS.push(
     society:"Mutual-aid institutions are treated as political threats whenever they might mobilize the many." },
   causes:["twelvetables"], effects:["lechapelier","combinationacts"] },
 
-{ id:"cursus", year:-20, date:"c. 20 BCE", era:1, cat:"power",
+{ id:"cursus", year:-20, date:"c. 20 BCE", era:1, cat:"radio",
   title:"Cursus Publicus: The State Post",
   wiki:"Cursus publicus", gallery:["Roman roads","Augustus"],
   summary:"Augustus establishes the Roman postal and courier system — the first systematic state communications network.",
@@ -114,7 +114,7 @@ window.ATLAS_EVENTS.push(
     government:"Administrative reach becomes a function of communications infrastructure — empires are networks." },
   causes:[], effects:["cabinetnoir","telegraph"] },
 
-{ id:"romancensus", year:6, date:"1st century CE", era:1, cat:"surveillance",
+{ id:"romancensus", year:6, date:"1st century CE", era:1, cat:"general",
   title:"The Imperial Census",
   wiki:"Census of Quirinius", gallery:["Roman Empire","Augustus"],
   summary:"Rome counts its subjects across a continent — for taxation, conscription, and grain. The Gospel of Luke dates a birth in Bethlehem by it.",
@@ -125,7 +125,7 @@ window.ATLAS_EVENTS.push(
     society:"Ordinary lives become legible to distant power; to be governed is to be counted." },
   causes:["taxation"], effects:["domesday","uscensus1790"] },
 
-{ id:"frumentarii", year:100, date:"c. 100 CE", era:1, cat:"surveillance",
+{ id:"frumentarii", year:100, date:"c. 100 CE", era:1, cat:"general",
   title:"Frumentarii: The Emperor's Informers",
   wiki:"Frumentarii", gallery:["Roman legion","Diocletian"],
   summary:"Rome's grain procurers, mobile across the empire, are repurposed as messengers, informers, and occasionally assassins.",
@@ -147,7 +147,7 @@ window.ATLAS_EVENTS.push(
     government:"Exposes the limits of administrative capacity: a law the state cannot see violated is barely a law." },
   causes:["hammurabi"], effects:["statutelabourers"] },
 
-{ id:"fallofrome", year:476, date:"476 CE", era:1, cat:"power",
+{ id:"fallofrome", year:476, date:"476 CE", era:1, cat:"general",
   title:"The Western Empire Falls",
   wiki:"Fall of the Western Roman Empire", gallery:["Odoacer","Romulus Augustulus"],
   summary:"Roman administration collapses in the West — and with it the census, the post, and written labor regulation, for centuries.",
@@ -169,7 +169,7 @@ window.ATLAS_EVENTS.push(
     government:"Byzantine bureaucratic continuity preserves the administrative playbook Europe later rediscovers." },
   causes:["collegia"], effects:["guilds"] },
 
-{ id:"domesday", year:1086, date:"1086", era:1, cat:"surveillance",
+{ id:"domesday", year:1086, date:"1086", era:1, cat:"general",
   title:"The Domesday Book",
   wiki:"Domesday Book", gallery:["William the Conqueror","Norman Conquest"],
   summary:"William the Conqueror surveys essentially every manor, ox, and obligation in England — 'not one cow nor one pig' left unrecorded.",
@@ -181,7 +181,7 @@ window.ATLAS_EVENTS.push(
     society:"A population learns what it means to be permanently legible to power." },
   causes:["taxation","romancensus","fallofrome"], effects:["uscensus1790","volkszahlung"] },
 
-{ id:"bologna", year:1088, date:"1088", era:1, cat:"power",
+{ id:"bologna", year:1088, date:"1088", era:1, cat:"general",
   title:"The First University",
   wiki:"University of Bologna", gallery:["University of Oxford","Medieval university"],
   summary:"Bologna's law teachers and students organize — as a guild. The university is born as collective self-governance of a profession.",
@@ -192,7 +192,7 @@ window.ATLAS_EVENTS.push(
     technology:"Creates the institutional home where, centuries later, the scientific revolution will live." },
   causes:["eparch"], effects:["printingpress"] },
 
-{ id:"guilds", year:1100, date:"c. 1100", era:1, cat:"labor",
+{ id:"guilds", year:1100, date:"c. 1100", era:1, cat:"general",
   title:"The Craft Guilds Rise",
   wiki:"Guild", gallery:["Apprenticeship","Hanseatic League","Medieval city"],
   summary:"Across European cities, craftsmen organize guilds — part union, part regulator, part cartel, part mutual-aid society.",
@@ -216,7 +216,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Its due-process legacy ultimately constrains search and seizure — the Fourth Amendment is its descendant." },
   causes:[], effects:["glorious","usbillofrights"] },
 
-{ id:"clock", year:1300, date:"c. 1300", era:1, cat:["labor","power"],
+{ id:"clock", year:1300, date:"c. 1300", era:1, cat:"robotics",
   title:"The Mechanical Clock",
   wiki:"Escapement", gallery:["Astronomical clock","Salisbury Cathedral clock","Prague astronomical clock"],
   summary:"The weight-driven escapement appears in European monasteries and towers — the machine Lewis Mumford called the key invention of the industrial age.",
@@ -228,7 +228,7 @@ window.ATLAS_EVENTS.push(
     government:"Standardized public time becomes civic infrastructure, prerequisite for coordinated administration and, later, railways." },
   causes:[], effects:["taylorism","standardtime"] },
 
-{ id:"blackdeath", year:1348, date:"1346–1353", era:1, cat:"power",
+{ id:"blackdeath", year:1348, date:"1346–1353", era:1, cat:"general",
   title:"The Black Death",
   wiki:"Black Death", gallery:["Plague doctor","Yersinia pestis","Danse Macabre"],
   summary:"Plague kills an estimated 30–50% of Europe. Surviving laborers suddenly hold unprecedented bargaining power — and feudalism begins to dissolve.",
@@ -252,7 +252,7 @@ window.ATLAS_EVENTS.push(
     government:"The state openly takes the employer's side — a 4,000-year pattern, here given its sharpest medieval form." },
   causes:["blackdeath","hammurabi","diocletian"], effects:["peasantsrevolt","statuteartificers"] },
 
-{ id:"peasantsrevolt", year:1381, date:"1381", era:1, cat:"labor",
+{ id:"peasantsrevolt", year:1381, date:"1381", era:1, cat:"general",
   title:"The Peasants' Revolt",
   wiki:"Peasants' Revolt", gallery:["Wat Tyler","John Ball (priest)","Richard II of England"],
   summary:"Tens of thousands march on London under Wat Tyler and John Ball — against the poll tax and three decades of the Statute of Labourers.",

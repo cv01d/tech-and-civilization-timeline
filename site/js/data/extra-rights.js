@@ -20,7 +20,7 @@ window.ATLAS_EVENTS.push(
     society:"Duties owed to one another are fixed in a portable, memorable code." },
   causes:["hammurabi","urnammu"], effects:["jesus","quran","frenchdeclaration"] },
 
-{ id:"buddha", year:-500, date:"c. 528–486 BCE", era:1, cat:"power",
+{ id:"buddha", year:-500, date:"c. 528–486 BCE", era:1, cat:"general",
   title:"The Buddha's Ethic of Non-Violence",
   wiki:"Gautama Buddha",
   summary:"In India the Buddha preaches morality, reverence for life, non-violence, and right conduct — an ethical framework, independent of any state, that places compassion and restraint at the center of the good life.",
@@ -31,7 +31,7 @@ window.ATLAS_EVENTS.push(
     law:"Right conduct is framed as universal duty, not the command of a ruler." },
   causes:[], effects:["jesus","quran","udhr"] },
 
-{ id:"jesus", year:30, date:"c. 26–33 CE", era:1, cat:"power",
+{ id:"jesus", year:30, date:"c. 26–33 CE", era:1, cat:"general",
   title:"The Teaching of Jesus",
   wiki:"Jesus",
   summary:"Jesus of Nazareth preaches morality, tolerance, justice, forgiveness, and love — an ethic of mercy toward the poor, the outcast, and the enemy that would profoundly shape Western moral and legal thought.",
@@ -42,7 +42,7 @@ window.ATLAS_EVENTS.push(
     law:"The claim of universal human dignity gains one of its enduring sources." },
   causes:["tencommandments","buddha"], effects:["quran","frenchdeclaration","abolition1833"] },
 
-{ id:"quran", year:632, date:"c. 610–632 CE", era:1, cat:"power",
+{ id:"quran", year:632, date:"c. 610–632 CE", era:1, cat:"general",
   title:"The Qur'an's Principles of Justice",
   wiki:"Quran",
   summary:"The teachings revealed through the Prophet Muhammad and gathered in the Qur'an proclaim principles of equality, justice, and compassion — a moral and legal order that would shape the law and governance of much of the world.",
@@ -53,7 +53,7 @@ window.ATLAS_EVENTS.push(
     society:"Compassion and just dealing are established as religious duty across civilizations." },
   causes:["tencommandments","jesus"], effects:["althing"] },
 
-{ id:"althing", year:930, date:"930", era:1, cat:"power",
+{ id:"althing", year:930, date:"930", era:1, cat:"general",
   title:"The Althing: The First Parliament",
   wiki:"Althing",
   summary:"Iceland founds the Althing — the oldest surviving parliamentary institution in the world — where free men gather annually to make law and settle disputes, a thousand years before universal representative democracy.",
@@ -86,7 +86,7 @@ window.ATLAS_EVENTS.push(
     society:"A neutral institution is created to safeguard human dignity in conflict." },
   causes:[], effects:["hagueconvention","un1945","udhr"] },
 
-{ id:"nzwomenvote", year:1893, date:"1893", era:4, cat:"power",
+{ id:"nzwomenvote", year:1893, date:"1893", era:4, cat:"general",
   title:"New Zealand Enfranchises Women",
   wiki:"Women's suffrage in New Zealand",
   summary:"New Zealand becomes the first self-governing country in the world to grant women the right to vote — a landmark breach in the assumption that political rights belong to men alone.",
@@ -108,7 +108,7 @@ window.ATLAS_EVENTS.push(
     society:"International humanitarian law acquires its second foundational pillar." },
   causes:["redcrossgeneva"], effects:["un1945"] },
 
-{ id:"un1945", year:1945, date:"1945", era:5, cat:"power",
+{ id:"un1945", year:1945, date:"1945", era:5, cat:"general",
   title:"The United Nations",
   wiki:"United Nations",
   summary:"From the ashes of the Second World War and the Holocaust, the United Nations is founded to 'reaffirm faith in human rights, in the dignity and worth of the human person' — and to build the institutions that would translate that faith into law.",
@@ -130,7 +130,7 @@ window.ATLAS_EVENTS.push(
     society:"Human rights acquire enforcement, not merely proclamation." },
   causes:["udhr"], effects:["americanconvention","africancharter"] },
 
-{ id:"amnesty", year:1961, date:"1961", era:5, cat:"power",
+{ id:"amnesty", year:1961, date:"1961", era:5, cat:"general",
   title:"Amnesty International",
   wiki:"Amnesty International",
   summary:"Amnesty International is founded after a campaign to free two Portuguese students jailed for raising a toast to freedom — pioneering the citizen movement that holds governments to account for political imprisonment and torture.",
@@ -174,7 +174,7 @@ window.ATLAS_EVENTS.push(
     society:"Enforceable human rights spread to a second continent." },
   causes:["echr","udhr"], effects:["africancharter"] },
 
-{ id:"soweto", year:1976, date:"1976", era:5, cat:"power",
+{ id:"soweto", year:1976, date:"1976", era:5, cat:"general",
   title:"The Soweto Uprising",
   wiki:"Soweto uprising",
   summary:"South African schoolchildren protesting apartheid education are met with police gunfire in Soweto; the killings become the turning point of the liberation struggle and a global symbol of resistance to racial oppression.",

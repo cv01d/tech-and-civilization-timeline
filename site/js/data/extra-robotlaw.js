@@ -106,7 +106,7 @@ window.ATLAS_EVENTS.push(
     power:"Regulatory fluency becomes a competitive moat for European manufacturers." },
   causes:["machinerydirective","robotpersonhood","aiact"], effects:[] },
 
-{ id:"amazoninjuries", year:2018, date:"2014–2024", era:7, cat:"labor",
+{ id:"amazoninjuries", year:2018, date:"2014–2024", era:7, cat:"robotics",
   title:"The Robot Sets the Pace",
   wiki:"Amazon Robotics",
   summary:"After Amazon deploys Kiva robots to bring shelves to stationary workers, internal data shows serious-injury rates rising — nearly quadrupling at one facility — as the robot, not a human supervisor, sets a relentless pace. Union research finds robotized warehouses run injury rates about 50% higher.",
@@ -117,7 +117,7 @@ window.ATLAS_EVENTS.push(
     power:"Productivity gains are extracted from the bodies of the workers kept in the loop." },
   causes:["kivarobots","taylorism"], effects:["oshaamazon","ab701"] },
 
-{ id:"oshaamazon", year:2023, date:"2023–2024", era:7, cat:"labor",
+{ id:"oshaamazon", year:2023, date:"2023–2024", era:7, cat:"law",
   title:"OSHA Names the Pace of Work",
   wiki:"Occupational Safety and Health Administration",
   summary:"OSHA cites Amazon at multiple warehouses, naming algorithmic 'pace of work' as a safety violation — the first time a U.S. federal agency directly links automated productivity quotas to injury; a DOJ probe later examines whether Amazon underreported injuries.",

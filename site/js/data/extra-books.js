@@ -16,7 +16,7 @@ window.ATLAS_EVENTS.push(
     society:"An oral culture builds a communications system as sophisticated, in principle, as the telegraph." },
   causes:[], effects:["telegraph","shannon"] },
 
-{ id:"johnsondictionary", year:1755, date:"1755", era:2, cat:"power",
+{ id:"johnsondictionary", year:1755, date:"1755", era:2, cat:"print",
   title:"Johnson's Dictionary",
   wiki:"A Dictionary of the English Language", gallery:["Samuel Johnson","Dictionary"],
   summary:"Samuel Johnson, nearly single-handed, fixes the spelling and meaning of English — standardizing the code of a language.",
@@ -116,7 +116,7 @@ window.ATLAS_EVENTS.push(
   causes:["webpublic","memex"], effects:["chatgpt"] },
 
 // ========== MONEY & FINANCE ==========
-{ id:"coinage", year:-600, date:"c. 600 BCE", era:1, cat:"power",
+{ id:"coinage", year:-600, date:"c. 600 BCE", era:1, cat:"general",
   title:"The First Coins",
   wiki:"Coin", gallery:["Lydia","Croeseid","Electrum"],
   summary:"The kingdom of Lydia strikes the first standardized coins from electrum — money becomes a portable, state-stamped technology.",
@@ -127,7 +127,7 @@ window.ATLAS_EVENTS.push(
     society:"Value is abstracted and made portable, accelerating commerce far beyond barter." },
   causes:[], effects:["taxation","fibonacci","medici"] },
 
-{ id:"fibonacci", year:1202, date:"1202", era:1, cat:"power",
+{ id:"fibonacci", year:1202, date:"1202", era:1, cat:"computing",
   title:"Fibonacci's Liber Abaci",
   wiki:"Liber Abaci", gallery:["Fibonacci","Hindu–Arabic numeral system","Arabic numerals"],
   summary:"Leonardo of Pisa brings Hindu-Arabic numerals and place-value arithmetic to European merchants — the math that makes modern finance computable.",
@@ -138,7 +138,7 @@ window.ATLAS_EVENTS.push(
     society:"A merchant class equipped with new mathematics reshapes the medieval economy." },
   causes:["coinage","alphabet"], effects:["medici","bookkeeping"] },
 
-{ id:"medici", year:1397, date:"1397", era:1, cat:"power",
+{ id:"medici", year:1397, date:"1397", era:1, cat:"general",
   title:"The Medici Bank",
   wiki:"Medici Bank", gallery:["House of Medici","Cosimo de' Medici","Florence"],
   summary:"The Medici master branch banking, foreign exchange, and lending to popes and princes — finance as a ladder to political power.",
@@ -149,7 +149,7 @@ window.ATLAS_EVENTS.push(
     society:"Florentine capital underwrites the Renaissance; credit and culture intertwine." },
   causes:["fibonacci"], effects:["bookkeeping","voc","bankofengland"] },
 
-{ id:"potosi", year:1545, date:"1545", era:2, cat:"power",
+{ id:"potosi", year:1545, date:"1545", era:2, cat:"general",
   title:"The Silver Mountain of Potosí",
   wiki:"Potosí", gallery:["Cerro Rico","Spanish dollar","Spanish colonization of the Americas"],
   summary:"Spain discovers a mountain of silver in the Andes — and floods the world with money, learning that silver is not the same as wealth.",
@@ -160,7 +160,7 @@ window.ATLAS_EVENTS.push(
     society:"The first truly global currency links four continents; world trade acquires a money." },
   causes:["columbus"], effects:["voc","weimarinflation"] },
 
-{ id:"lloyds", year:1688, date:"1688", era:2, cat:"power",
+{ id:"lloyds", year:1688, date:"1688", era:2, cat:"general",
   title:"Lloyd's & the Birth of Insurance",
   wiki:"Lloyd's of London", gallery:["Lloyd's Coffee House","Marine insurance"],
   summary:"At Edward Lloyd's London coffee house, merchants and underwriters invent modern marine insurance — pricing risk becomes a business.",
@@ -171,7 +171,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The pooling-of-risk principle later underwrites public social insurance and the welfare state." },
   causes:["voc"], effects:["bismarck","beveridge"] },
 
-{ id:"johnlaw", year:1719, date:"1716–1720", era:2, cat:"power",
+{ id:"johnlaw", year:1719, date:"1716–1720", era:2, cat:"general",
   title:"John Law & the Mississippi Bubble",
   wiki:"Mississippi Company", gallery:["John Law (economist)","Banque Royale"],
   summary:"A Scottish gambler turned French finance minister floats a paper-money stock scheme — the first great bubble, and a catastrophic burst.",
@@ -182,7 +182,7 @@ window.ATLAS_EVENTS.push(
     society:"'Millionaire' is coined in the frenzy; speculative mania enters the modern repertoire." },
   causes:["bankofengland","voc"], effects:["southsea","weimarinflation"] },
 
-{ id:"rothschild", year:1815, date:"1815", era:3, cat:"power",
+{ id:"rothschild", year:1815, date:"1815", era:3, cat:"general",
   title:"The Rothschilds & the Bond Market",
   wiki:"Nathan Mayer Rothschild", gallery:["Rothschild family","Battle of Waterloo"],
   summary:"Five brothers in five capitals master the government bond market — financing wars and becoming the richest family in the world.",
@@ -193,7 +193,7 @@ window.ATLAS_EVENTS.push(
     society:"Finance becomes a transnational power rivaling governments; the family becomes a byword for it." },
   causes:["bankofengland"], effects:["blackwednesday"] },
 
-{ id:"weimarinflation", year:1923, date:"1923", era:4, cat:"power",
+{ id:"weimarinflation", year:1923, date:"1923", era:4, cat:"general",
   title:"The Weimar Hyperinflation",
   wiki:"Hyperinflation in the Weimar Republic", gallery:["Weimar Republic","German Papiermark"],
   summary:"German prices double every few days; a wheelbarrow of marks buys a loaf of bread. Money dies, and a republic's legitimacy with it.",
@@ -204,7 +204,7 @@ window.ATLAS_EVENTS.push(
     government:"Economic catastrophe corrodes the Weimar Republic and feeds the extremism of the 1930s." },
   causes:["wwi","johnlaw","potosi"], effects:["hitler"] },
 
-{ id:"brettonwoods", year:1944, date:"1944", era:4, cat:"power",
+{ id:"brettonwoods", year:1944, date:"1944", era:4, cat:"general",
   title:"Bretton Woods",
   wiki:"Bretton Woods system", gallery:["Bretton Woods Conference","International Monetary Fund","John Maynard Keynes"],
   summary:"In a New Hampshire hotel, the Allies design the postwar monetary order — fixed exchange rates, the dollar-gold anchor, the IMF and World Bank.",
@@ -215,7 +215,7 @@ window.ATLAS_EVENTS.push(
     society:"Stable exchange rates underwrite a generation of growth, until the system's 1971 collapse." },
   causes:["ww2","crash1929"], effects:["chinawto","financialcrisis"] },
 
-{ id:"blackwednesday", year:1992, date:"September 16, 1992", era:6, cat:"power",
+{ id:"blackwednesday", year:1992, date:"September 16, 1992", era:6, cat:"general",
   title:"Black Wednesday",
   wiki:"Black Wednesday", gallery:["George Soros","Exchange Rate Mechanism"],
   summary:"George Soros bets a billion against the pound and wins — Britain crashes out of the ERM in a day, and a speculator beats a central bank.",
@@ -226,7 +226,7 @@ window.ATLAS_EVENTS.push(
     society:"The hedge fund enters public consciousness as a force rivaling states." },
   causes:["bankofengland","rothschild"], effects:["ltcm"] },
 
-{ id:"ltcm", year:1998, date:"1998", era:6, cat:"power",
+{ id:"ltcm", year:1998, date:"1998", era:6, cat:"general",
   title:"The Fall of Long-Term Capital Management",
   wiki:"Long-Term Capital Management", gallery:["Myron Scholes","Black–Scholes model"],
   summary:"A hedge fund run by Nobel laureates and their option-pricing math nearly takes down the financial system — when the model meets reality.",

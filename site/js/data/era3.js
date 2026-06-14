@@ -1,6 +1,6 @@
 // GALLERY III — The Age of Steam & Wire (1791–1880)
 window.ATLAS_EVENTS.push(
-{ id:"uscensus1790", year:1790, date:"1790", era:2, cat:"surveillance",
+{ id:"uscensus1790", year:1790, date:"1790", era:2, cat:"general",
   title:"The First U.S. Census",
   wiki:"1790 United States census", gallery:["United States Census Bureau","United States Constitution"],
   summary:"The new republic counts its population — surveillance written into the Constitution as a requirement of representation.",
@@ -57,7 +57,7 @@ window.ATLAS_EVENTS.push(
     government:"States accept, however partially, that some commerce is beyond legal commerce." },
   causes:["columbus"], effects:["abolition1833","emancipation"] },
 
-{ id:"luddites", year:1812, date:"1811–1816", era:3, cat:"labor",
+{ id:"luddites", year:1812, date:"1811–1816", era:3, cat:"general",
   title:"The Luddites",
   wiki:"Luddite", gallery:["Ned Ludd","Frame Breaking Act"],
   summary:"Skilled textile workers smash the machines breaking their trades; Parliament makes machine-breaking a capital crime.",
@@ -69,7 +69,7 @@ window.ATLAS_EVENTS.push(
     technology:"Establishes that adoption of technology is a labor negotiation, whether acknowledged or not." },
   causes:["jacquard","spinningjenny","watt"], effects:["chartism","wga2023"] },
 
-{ id:"peterloo", year:1819, date:"August 16, 1819", era:3, cat:"power",
+{ id:"peterloo", year:1819, date:"August 16, 1819", era:3, cat:"general",
   title:"The Peterloo Massacre",
   wiki:"Peterloo Massacre", gallery:["St Peter's Field","Manchester"],
   summary:"Cavalry charge a peaceful Manchester crowd of 60,000 demanding parliamentary reform; at least fifteen die.",
@@ -81,7 +81,7 @@ window.ATLAS_EVENTS.push(
     communications:"Demonstrates the power of the radical press — and why the state taxed and prosecuted it." },
   causes:[], effects:["chartism"] },
 
-{ id:"lowell", year:1825, date:"1820s–1830s", era:3, cat:"labor",
+{ id:"lowell", year:1825, date:"1820s–1830s", era:3, cat:"general",
   title:"The Lowell Mill Girls",
   wiki:"Lowell mill girls", gallery:["Lowell, Massachusetts","Boott Cotton Mills"],
   summary:"New England staffs its model factory city with young women — who promptly organize some of America's first industrial strikes.",
@@ -92,7 +92,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Ten-hour agitation seeds the state hours legislation of the following decades." },
   causes:["slatermill"], effects:["triangle"] },
 
-{ id:"railway", year:1830, date:"1825–1830", era:3, cat:"power",
+{ id:"railway", year:1830, date:"1825–1830", era:3, cat:"general",
   title:"The Railway Age Opens",
   wiki:"Liverpool and Manchester Railway", gallery:["Stockton and Darlington Railway","George Stephenson","Rocket (locomotive)"],
   summary:"Stockton & Darlington (1825), then Liverpool & Manchester (1830): steam railways begin annihilating distance on land.",
@@ -149,7 +149,7 @@ window.ATLAS_EVENTS.push(
     society:"The unredressed legacy of compensated abolition shapes inequality into the present." },
   causes:["slavetrade1807"], effects:["emancipation"] },
 
-{ id:"tolpuddle", year:1834, date:"1834", era:3, cat:"labor",
+{ id:"tolpuddle", year:1834, date:"1834", era:3, cat:"law",
   title:"The Tolpuddle Martyrs",
   wiki:"Tolpuddle Martyrs", gallery:["George Loveless","Dorset"],
   summary:"Six Dorset farm laborers are transported to Australia for swearing a union oath; mass protest wins their pardon.",
@@ -172,7 +172,7 @@ window.ATLAS_EVENTS.push(
     government:"Centralized poor-law commissioners mark a step toward the administrative state, aimed first at the poor." },
   causes:["poorlaw"], effects:["beveridge"] },
 
-{ id:"chartism", year:1838, date:"1838–1848", era:3, cat:"power",
+{ id:"chartism", year:1838, date:"1838–1848", era:3, cat:"general",
   title:"Chartism",
   wiki:"Chartism", gallery:["People's Charter","Kennington Common"],
   summary:"The first mass working-class political movement demands the vote — three giant petitions, all rejected; five of six demands eventually law.",
@@ -197,7 +197,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Wires can be tapped; telegram files can be subpoenaed — interception modernizes alongside transmission." },
   causes:["chappe","cursus","railway"], effects:["westernunion","bell","communicationsact"] },
 
-{ id:"irishfamine", year:1845, date:"1845–1852", era:3, cat:"power",
+{ id:"irishfamine", year:1845, date:"1845–1852", era:3, cat:"general",
   title:"The Great Irish Famine",
   wiki:"Great Famine (Ireland)", gallery:["Irish diaspora","Famine memorial"],
   summary:"Potato blight meets colonial policy: a million die while Ireland exports food; one to two million emigrate.",
@@ -208,7 +208,7 @@ window.ATLAS_EVENTS.push(
     government:"A case study, still cited, in ideology (laissez-faire) overriding evidence during humanitarian collapse." },
   causes:[], effects:[] },
 
-{ id:"revolutions1848", year:1848, date:"1848", era:3, cat:"power",
+{ id:"revolutions1848", year:1848, date:"1848", era:3, cat:"general",
   title:"The Revolutions of 1848",
   wiki:"Revolutions of 1848", gallery:["June Days uprising","Frankfurt Parliament"],
   summary:"Europe's springtime of peoples: revolutions in France, the German states, Italy, and the Habsburg lands — most defeated, none forgotten.",
@@ -219,7 +219,7 @@ window.ATLAS_EVENTS.push(
     government:"Counter-revolution teaches states modern crowd control, censorship, and political policing." },
   causes:["frenchrev","chartism"], effects:["manifesto1848","pariscommune"] },
 
-{ id:"manifesto1848", year:1848, date:"February 1848", era:3, cat:"power",
+{ id:"manifesto1848", year:1848, date:"February 1848", era:3, cat:"general",
   title:"The Communist Manifesto",
   wiki:"The Communist Manifesto", gallery:["Karl Marx","Friedrich Engels"],
   summary:"'A spectre is haunting Europe.' Marx and Engels publish the most consequential pamphlet ever printed.",
@@ -230,7 +230,7 @@ window.ATLAS_EVENTS.push(
     government:"States acquire, in time, both communist regimes and anti-communist security apparatuses — twin surveillance traditions." },
   causes:["revolutions1848","luddites"], effects:["firstinternational","russianrev"] },
 
-{ id:"senecafalls", year:1848, date:"July 1848", era:3, cat:"power",
+{ id:"senecafalls", year:1848, date:"July 1848", era:3, cat:"general",
   title:"Seneca Falls Convention",
   wiki:"Seneca Falls Convention", gallery:["Elizabeth Cady Stanton","Declaration of Sentiments"],
   summary:"The first women's rights convention issues its Declaration of Sentiments — beginning the organized American women's movement.",
@@ -241,7 +241,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The rights-convention model — declaration, organization, statute — becomes a template for excluded groups." },
   causes:["declaration"], effects:["nineteenth"] },
 
-{ id:"creditreporting", year:1860, date:"1860s", era:3, cat:"surveillance",
+{ id:"creditreporting", year:1860, date:"1860s", era:3, cat:"computing",
   title:"The Credit Bureau",
   wiki:"Dun & Bradstreet", gallery:["Credit history","Equifax"],
   summary:"R.G. Dun and Bradstreet build national ledgers of merchants' character and finances — commercial surveillance as a business.",
@@ -253,7 +253,7 @@ window.ATLAS_EVENTS.push(
     technology:"Standardized records and ratings anticipate the credit score and behavioral profiling." },
   causes:[], effects:["fcra","equifaxbreach"] },
 
-{ id:"serfemancipation", year:1861, date:"1861", era:3, cat:"labor",
+{ id:"serfemancipation", year:1861, date:"1861", era:3, cat:"general",
   title:"Russia Frees the Serfs",
   wiki:"Emancipation reform of 1861", gallery:["Alexander II of Russia","Serfdom in Russia"],
   summary:"Tsar Alexander II emancipates 23 million serfs — with land terms so burdensome that bondage continues by other means.",
@@ -264,7 +264,7 @@ window.ATLAS_EVENTS.push(
     government:"Reform from above, designed to forestall revolution from below, becomes the autocracy's signature gamble." },
   causes:["abolition1833"], effects:["russianrev"] },
 
-{ id:"emancipation", year:1865, date:"1861–1865", era:3, cat:"labor",
+{ id:"emancipation", year:1865, date:"1861–1865", era:3, cat:"general",
   title:"The Civil War & the Thirteenth Amendment",
   wiki:"Thirteenth Amendment to the United States Constitution", gallery:["Emancipation Proclamation","Abraham Lincoln","American Civil War"],
   summary:"War destroys American slavery; the Thirteenth Amendment abolishes it — 'except as a punishment for crime.'",
@@ -276,7 +276,7 @@ window.ATLAS_EVENTS.push(
     government:"Federal power proves capable of destroying a labor system — and unwilling, after 1877, to finish the work." },
   causes:["jamestown","slavetrade1807","abolition1833"], effects:["plessy","civilrightsact"] },
 
-{ id:"firstinternational", year:1864, date:"1864", era:3, cat:"labor",
+{ id:"firstinternational", year:1864, date:"1864", era:3, cat:"general",
   title:"The First International",
   wiki:"International Workingmen's Association", gallery:["Karl Marx","Mikhail Bakunin"],
   summary:"British and continental labor movements found the International Workingmen's Association in London, with Marx as its leading theorist.",
@@ -287,7 +287,7 @@ window.ATLAS_EVENTS.push(
     government:"States begin treating international labor coordination as a security concern — surveillance of the movement follows immediately." },
   causes:["manifesto1848"], effects:["haymarket","ilo"] },
 
-{ id:"westernunion", year:1866, date:"1866", era:3, cat:"power",
+{ id:"westernunion", year:1866, date:"1866", era:3, cat:"radio",
   title:"The Cable & the Monopoly",
   wiki:"Western Union", gallery:["Transatlantic telegraph cable","SS Great Eastern"],
   summary:"The transatlantic cable opens permanent intercontinental communication — the same year Western Union consolidates America's first communications monopoly.",
@@ -299,7 +299,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Centralized traffic means centralized access — telegram archives become the state's first big-data trove." },
   causes:["telegraph"], effects:["bell","kingsbury","communicationsact"] },
 
-{ id:"meiji", year:1868, date:"1868", era:3, cat:"power",
+{ id:"meiji", year:1868, date:"1868", era:3, cat:"general",
   title:"The Meiji Restoration",
   wiki:"Meiji Restoration", gallery:["Emperor Meiji","Empire of Japan"],
   summary:"Japan, forced open by Perry's gunboats, dissolves feudalism and industrializes by deliberate state design within a generation.",
@@ -311,7 +311,7 @@ window.ATLAS_EVENTS.push(
     society:"The first non-Western power to industrialize reshapes global hierarchies — announced to the world at Tsushima in 1905." },
   causes:["railway"], effects:[] },
 
-{ id:"pariscommune", year:1871, date:"1871", era:3, cat:"labor",
+{ id:"pariscommune", year:1871, date:"1871", era:3, cat:"general",
   title:"The Paris Commune",
   wiki:"Paris Commune", gallery:["Communards","Semaine sanglante"],
   summary:"Working-class Paris governs itself for 72 days; the suppression kills perhaps 20,000 in one bloody week.",
@@ -347,7 +347,7 @@ window.ATLAS_EVENTS.push(
     technology:"Carbon microphone, exchanges, and eventually electronic switching seed the circuit technologies of computing." },
   causes:["telegraph","westernunion"], effects:["strowger","kingsbury","attbreakup"] },
 
-{ id:"railroadstrike1877", year:1877, date:"1877", era:3, cat:"labor",
+{ id:"railroadstrike1877", year:1877, date:"1877", era:3, cat:"general",
   title:"The Great Railroad Strike",
   wiki:"Great Railroad Strike of 1877", gallery:["Pittsburgh railroad strike of 1877","Baltimore and Ohio Railroad"],
   summary:"Wage cuts ignite America's first national strike; federal troops shoot it down — about a hundred dead.",
@@ -359,7 +359,7 @@ window.ATLAS_EVENTS.push(
     communications:"Telegraph and rail spread the strike — the network organizing against its owners." },
   causes:["railway","westernunion"], effects:["haymarket","pullman"] },
 
-{ id:"edison", year:1879, date:"1879", era:3, cat:"power",
+{ id:"edison", year:1879, date:"1879", era:3, cat:"general",
   title:"Edison's Light",
   wiki:"Incandescent light bulb", gallery:["Thomas Edison","Pearl Street Station"],
   summary:"A practical incandescent lamp — and behind it, the generating station, the grid, and the electrified city.",

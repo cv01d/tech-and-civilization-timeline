@@ -10,7 +10,7 @@
 // streamingvoid. No images for now — data only.
 window.ATLAS_EVENTS.push(
 
-{ id:"statetv1935", year:1935, date:"1935–1939", era:4, cat:["tv","power"],
+{ id:"statetv1935", year:1935, date:"1935–1939", era:4, cat:"tv",
   title:"State Television Before the War",
   wiki:"Fernsehsender Paul Nipkow",
   gallery:["Reichs-Rundfunk-Gesellschaft","1936 Summer Olympics"],
@@ -34,7 +34,7 @@ window.ATLAS_EVENTS.push(
     power:"Broadcasting becomes a dual system rather than a single state or market monopoly." },
   causes:["baird1925","statetv1935"], effects:["channel4uk"] },
 
-{ id:"ortf", year:1964, date:"1949–1987", era:5, cat:["tv","power"],
+{ id:"ortf", year:1964, date:"1949–1987", era:5, cat:"tv",
   title:"The Television of the President",
   wiki:"ORTF",
   gallery:["Radiodiffusion-télévision française","TF1"],
@@ -58,7 +58,7 @@ window.ATLAS_EVENTS.push(
     technology:"Color broadcasting and direct satellite delivery are achieved years ahead of comparable economies." },
   causes:["tvprecursors"], effects:[] },
 
-{ id:"soviettv", year:1951, date:"1938–1970", era:5, cat:["tv","power","surveillance"],
+{ id:"soviettv", year:1951, date:"1938–1970", era:5, cat:"tv",
   title:"Soviet Central Television",
   wiki:"Soviet Central Television",
   gallery:["Ostankino Tower"],
@@ -93,7 +93,7 @@ window.ATLAS_EVENTS.push(
     law:"Years of policy debate resolve into parallel systems instead of a single framework." },
   causes:["itvuk"], effects:["ausnewsmedia"] },
 
-{ id:"palsecam", year:1967, date:"1967", era:5, cat:["tv","power"],
+{ id:"palsecam", year:1967, date:"1967", era:5, cat:"tv",
   title:"PAL, SECAM, and the Color Standards War",
   wiki:"PAL",
   gallery:["SECAM"],
@@ -105,7 +105,7 @@ window.ATLAS_EVENTS.push(
     law:"Cross-border broadcasting compatibility becomes a casualty of geopolitical signaling." },
   causes:["colortv"], effects:[] },
 
-{ id:"cancon", year:1970, date:"1970", era:5, cat:["tv","law","power"],
+{ id:"cancon", year:1970, date:"1970", era:5, cat:["tv","law"],
   title:"Canada Mandates Canadian Content",
   wiki:"Canadian content",
   summary:"The CRTC imposes the first systematic 'CanCon' quotas — minimum percentages of Canadian-made material that broadcasters must air — the first sustained attempt by any country to use broadcast regulation to protect a national culture from a much larger neighbor's media.",
@@ -116,7 +116,7 @@ window.ATLAS_EVENTS.push(
     tv:"Domestic production is sustained by regulatory requirement rather than market demand alone." },
   causes:[], effects:["canadac11"] },
 
-{ id:"italyrai", year:1976, date:"1974–1980", era:5, cat:["tv","power","law"],
+{ id:"italyrai", year:1976, date:"1974–1980", era:5, cat:["tv","law"],
   title:"Italy Breaks RAI's Monopoly",
   wiki:"RAI",
   gallery:["Mediaset","Silvio Berlusconi"],
@@ -140,7 +140,7 @@ window.ATLAS_EVENTS.push(
     power:"Foreign ownership of domestic cable systems is permitted where the US forbade it." },
   causes:["itvuk"], effects:["channel4debate"] },
 
-{ id:"iranrevolutiontv", year:1979, date:"1979", era:5, cat:["tv","power"],
+{ id:"iranrevolutiontv", year:1979, date:"1979", era:5, cat:"tv",
   title:"Television and the Iranian Revolution",
   wiki:"Iranian Revolution",
   summary:"State television, built up under the Shah as a symbol of modernization, becomes a battleground and then an instrument of the 1979 revolution — seized and repurposed within days to broadcast the new Islamic Republic's authority, showing how quickly a state's broadcast infrastructure can change hands and purpose.",
@@ -151,7 +151,7 @@ window.ATLAS_EVENTS.push(
     society:"A revolution's legitimacy is established in part through control of the airwaves." },
   causes:[], effects:["aljazeeratv"] },
 
-{ id:"tvglobobrazil", year:1985, date:"1965–1989", era:5, cat:["tv","power"],
+{ id:"tvglobobrazil", year:1985, date:"1965–1989", era:5, cat:"tv",
   title:"TV Globo and Brazilian Democracy",
   wiki:"TV Globo",
   summary:"Rede Globo, launched in 1965 and built into Brazil's dominant network under military rule, plays a contested but decisive role in covering the country's return to civilian elections in the late 1980s — a private network's news judgment shaping a fragile new democracy's first real choices.",
@@ -162,7 +162,7 @@ window.ATLAS_EVENTS.push(
     society:"A new democracy's first real choice is filtered through one company's newsroom." },
   causes:[], effects:[] },
 
-{ id:"taiwantv", year:1987, date:"1987–1993", era:5, cat:["tv","power","law"],
+{ id:"taiwantv", year:1987, date:"1987–1993", era:5, cat:["tv","law"],
   title:"Taiwan's Airwaves After Martial Law",
   wiki:"Mass media in Taiwan",
   summary:"The lifting of martial law in 1987 ends decades of state-controlled broadcasting in Taiwan; a previously unregulated cable industry — the so-called 'fourth channel' — is formally legalized only by the Cable Radio and Television Act of 1993, regulation arriving years after the practice it governs.",
@@ -173,7 +173,7 @@ window.ATLAS_EVENTS.push(
     law:"Regulation legalizes a media market years after that market already exists." },
   causes:[], effects:[] },
 
-{ id:"tiananmentv", year:1989, date:"1989", era:5, cat:["tv","power","surveillance"],
+{ id:"tiananmentv", year:1989, date:"1989", era:5, cat:"tv",
   title:"Tiananmen on Global Television",
   wiki:"1989 Tiananmen Square protests and massacre",
   summary:"International networks, including CNN, broadcast the Tiananmen Square protests live to a global audience via satellite — the Chinese government loses control of the narrative in real time, and over the following years builds some of the most extensive television and information controls of any major media market.",
@@ -184,7 +184,7 @@ window.ATLAS_EVENTS.push(
     communications:"Satellite television turns a domestic crackdown into a global, simultaneous event." },
   causes:["cnn"], effects:["cctvgoingout","documentno9"] },
 
-{ id:"tvwf1989", year:1989, date:"1989", era:5, cat:["tv","law","power"],
+{ id:"tvwf1989", year:1989, date:"1989", era:5, cat:["tv","law"],
   title:"Television Without Frontiers",
   wiki:"Television Without Frontiers",
   summary:"The European Community's Television Without Frontiers directive establishes the 'country of origin' principle — a broadcaster licensed in one EU state can transmit freely to all others — the first continent-wide broadcasting law, and the foundation every later EU media directive builds on.",
@@ -195,7 +195,7 @@ window.ATLAS_EVENTS.push(
     power:"Content quotas protecting domestic production are written into European law for the first time." },
   causes:["ortf"], effects:["avmsd2007"] },
 
-{ id:"cnneffect", year:1991, date:"1991", era:6, cat:["tv","power"],
+{ id:"cnneffect", year:1991, date:"1991", era:6, cat:"tv",
   title:"The CNN Effect",
   wiki:"CNN effect",
   summary:"CNN's live, uninterrupted coverage of the 1991 Gulf War — reporters broadcasting from Baghdad as bombs fell — gives a single cable channel a seat at the table of war planning, coining the term 'CNN effect' for real-time media's influence on policy and military decisions.",
@@ -206,7 +206,7 @@ window.ATLAS_EVENTS.push(
     tv:"A channel created as a novelty becomes indispensable to how a war is fought and watched." },
   causes:["cnn","tiananmentv"], effects:["arabspringtv"] },
 
-{ id:"startv", year:1992, date:"1991–1999", era:6, cat:["tv","power","law"],
+{ id:"startv", year:1992, date:"1991–1999", era:6, cat:["tv","law"],
   title:"Star TV and the Borderless Satellite",
   wiki:"Star TV (Asian TV networks)",
   gallery:["Disney Networks Group Asia Pacific"],
@@ -218,7 +218,7 @@ window.ATLAS_EVENTS.push(
     tv:"A single satellite service redraws the map of who can broadcast to whom." },
   causes:["eurovisionsat"], effects:["indianetneutrality"] },
 
-{ id:"bskyb", year:1990, date:"1990–2002", era:6, cat:["tv","power"],
+{ id:"bskyb", year:1990, date:"1990–2002", era:6, cat:"tv",
   title:"Europe's Pay-TV Gambles",
   wiki:"Sky Group",
   gallery:["British Satellite Broadcasting"],
@@ -230,7 +230,7 @@ window.ATLAS_EVENTS.push(
     society:"Pay television proves able to build or destroy a media empire within a single decade." },
   causes:["backyarddish"], effects:[] },
 
-{ id:"sabc", year:1994, date:"1948–1996", era:6, cat:["tv","power"],
+{ id:"sabc", year:1994, date:"1948–1996", era:6, cat:"tv",
   title:"SABC After Apartheid",
   wiki:"SABC",
   gallery:["Radio RSA"],
@@ -242,7 +242,7 @@ window.ATLAS_EVENTS.push(
     society:"A multilingual public-broadcasting mandate replaces a single-audience state messaging model overnight." },
   causes:[], effects:[] },
 
-{ id:"aljazeeratv", year:1996, date:"1996–2003", era:6, cat:["tv","power"],
+{ id:"aljazeeratv", year:1996, date:"1996–2003", era:6, cat:"tv",
   title:"Al Jazeera and the Pan-Arab Audience",
   wiki:"Al Jazeera",
   gallery:["Al Arabiya"],
@@ -266,7 +266,7 @@ window.ATLAS_EVENTS.push(
     technology:"A free-to-air digital model succeeds where pay-television digital platforms had struggled." },
   causes:[], effects:["digitaltransition"] },
 
-{ id:"cctvgoingout", year:2001, date:"2001–2008", era:6, cat:["tv","power"],
+{ id:"cctvgoingout", year:2001, date:"2001–2008", era:6, cat:"tv",
   title:"CCTV Goes Global",
   wiki:"China Central Television",
   gallery:["CCTV Headquarters"],
@@ -301,7 +301,7 @@ window.ATLAS_EVENTS.push(
     communications:"Content funded by a universal license fee is made available on demand at no extra cost." },
   causes:["channel4uk","netflixstreaming"], effects:[] },
 
-{ id:"arabspringtv", year:2011, date:"2003–2017", era:6, cat:["tv","power"],
+{ id:"arabspringtv", year:2011, date:"2003–2017", era:6, cat:"tv",
   title:"Al Jazeera, Al Arabiya, and the Arab Spring",
   wiki:"Arab Spring",
   gallery:["Al Jazeera","Al Arabiya"],
@@ -313,7 +313,7 @@ window.ATLAS_EVENTS.push(
     tv:"A broadcaster's existence becomes a formal condition in a diplomatic and economic blockade between states." },
   causes:["aljazeeratv","cnneffect"], effects:[] },
 
-{ id:"documentno9", year:2013, date:"2013", era:7, cat:["tv","power","surveillance"],
+{ id:"documentno9", year:2013, date:"2013", era:7, cat:"tv",
   title:"Document No. 9 and Entertainment Television",
   wiki:"Document Number Nine",
   summary:"A confidential 2013 Chinese Communist Party directive, 'Document No. 9,' warns against seven Western-associated ideological influences and reasserts party control over media — extending ideological screening, for the first time this explicitly, from news into entertainment programming, the genre television regulation elsewhere had mostly left alone.",
@@ -335,7 +335,7 @@ window.ATLAS_EVENTS.push(
     tv:"Streaming video's growth proceeds under opposite network-neutrality regimes in two major markets." },
   causes:["startv"], effects:[] },
 
-{ id:"singaporemedia", year:2019, date:"1972–2019", era:7, cat:["tv","law","power","surveillance"],
+{ id:"singaporemedia", year:2019, date:"1972–2019", era:7, cat:["tv","law"],
   title:"Singapore's Media State",
   wiki:"Protection from Online Falsehoods and Manipulation Act 2019",
   summary:"Singapore abolished its television license fee in 1972 to guarantee universal access to state-aligned broadcasting at no cost to viewers; nearly fifty years later, the 2019 'fake news' law (POFMA) gives the government power to order corrections or removals of online content — two very different tools serving the same underlying goal of a state-shaped information environment.",
@@ -346,7 +346,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Universal access and content correction serve the same underlying policy goal, decades apart." },
   causes:[], effects:[] },
 
-{ id:"covidstreaming", year:2020, date:"2020–2021", era:7, cat:["tv","labor"],
+{ id:"covidstreaming", year:2020, date:"2020–2021", era:7, cat:"tv",
   title:"The Pandemic Living Room",
   wiki:"Impact of the COVID-19 pandemic on television",
   summary:"COVID-19 lockdowns drive the fastest acceleration in streaming adoption in the medium's history while simultaneously halting almost all television and film production worldwide — the supply of new content collapses in the same months that demand for it spikes hardest.",
@@ -357,7 +357,7 @@ window.ATLAS_EVENTS.push(
     society:"A surge in demand for content coincides with a near-total stop in producing it." },
   causes:["streamingwars","cordcutting"], effects:["globalstreamingmilestone"] },
 
-{ id:"ausnewsmedia", year:2021, date:"2006–2021", era:7, cat:["tv","power","law"],
+{ id:"ausnewsmedia", year:2021, date:"2006–2021", era:7, cat:["tv","law"],
   title:"Australia Makes Platforms Pay for News",
   wiki:"News Media Bargaining Code",
   summary:"Australia relaxes media ownership rules in 2006, accelerating consolidation of its television and newspaper industries — then in 2021 reverses the flow of money entirely, becoming the first country to force Google and Meta to pay news organizations for content shared on their platforms, a 'world-first' model other governments would study.",
@@ -368,7 +368,7 @@ window.ATLAS_EVENTS.push(
     tv:"Television and newspaper consolidation, encouraged as a survival strategy, precedes a much larger platform threat." },
   causes:["australiatv"], effects:[] },
 
-{ id:"channel4debate", year:2022, date:"2011–2022", era:7, cat:["tv","power","law"],
+{ id:"channel4debate", year:2022, date:"2011–2022", era:7, cat:["tv","law"],
   title:"Channel 4: Privatize, Then Don't",
   wiki:"Channel 4",
   gallery:["Leveson Inquiry"],
@@ -380,7 +380,7 @@ window.ATLAS_EVENTS.push(
     tv:"A four-decade-old hybrid public/commercial structure survives a direct challenge from the streaming era." },
   causes:["channel4uk"], effects:[] },
 
-{ id:"canadac11", year:2023, date:"2021–2023", era:7, cat:["tv","law","power"],
+{ id:"canadac11", year:2023, date:"2021–2023", era:7, cat:["tv","law"],
   title:"Canada Regulates Streaming Like Broadcast",
   wiki:"Online Streaming Act",
   summary:"The Online Streaming Act extends Canada's decades-old broadcasting law — and its CanCon content quotas — to Netflix, Disney+, and other streaming platforms operating in Canada, requiring financial contributions to Canadian content and 'discoverability' rules ensuring Canadian programming surfaces in recommendation algorithms, not just catalogues.",
@@ -402,7 +402,7 @@ window.ATLAS_EVENTS.push(
     computing:"Algorithmic recommendation systems become subject to transparency requirements regardless of the content they recommend." },
   causes:["euquota","avmsd2007"], effects:[] },
 
-{ id:"skbroadbandnetflix", year:2023, date:"2019–2025", era:7, cat:["tv","law","power"],
+{ id:"skbroadbandnetflix", year:2023, date:"2019–2025", era:7, cat:["tv","law"],
   title:"Who Pays for the Pipe",
   wiki:"Net neutrality",
   gallery:["Netflix"],

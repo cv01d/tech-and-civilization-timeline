@@ -80,8 +80,8 @@
 
   function scrollToAtlasTop() {
     const target = $("#atlas");
-    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 0.7, scrollTo: { y: target, offsetY: 0 }, ease: "power2.inOut" });
-    else target.scrollIntoView({ behavior: "smooth" });
+    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 0.7, scrollTo: { y: target, offsetY: topOffset() }, ease: "power2.inOut" });
+    else { const y = target.getBoundingClientRect().top + window.scrollY - topOffset(); window.scrollTo({ top: y, behavior: "smooth" }); }
   }
 
   const allChip = el("button", "chip on", "All");
@@ -149,7 +149,9 @@
 
       const hero = heroImageFor(ev);
       const primaryCat = catsOf(ev)[0];
-      const catLabel = (CATS.find(c => c.key === primaryCat) || {}).label || primaryCat;
+      const GENERAL_LABEL = window.ATLAS_GENERAL_LABEL || "History & Society";
+      const catLabel = (CATS.find(c => c.key === primaryCat) || {}).label
+        || (primaryCat === "general" ? GENERAL_LABEL : primaryCat);
 
       row.innerHTML = `
         <span class="ev-node"></span>
@@ -400,11 +402,20 @@
     else window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
+  // Combined height of the fixed chrome header + the sticky controls bar, so a
+  // jump target lands in the space *below* the controls (not clipped under it).
+  function topOffset() {
+    const chromeEl = $("#chrome"), controlsEl = $("#controls");
+    const ch = chromeEl ? chromeEl.getBoundingClientRect().height : 0;
+    const co = controlsEl ? controlsEl.getBoundingClientRect().height : 0;
+    return ch + co + 24;
+  }
+
   function scrollToEra(id) {
     const head = eraHeads[id];
     if (!head) return;
-    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 1.1, scrollTo: { y: head, offsetY: 60 }, ease: "power2.inOut" });
-    else head.scrollIntoView({ behavior: "smooth" });
+    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 1.1, scrollTo: { y: head, offsetY: topOffset() }, ease: "power2.inOut" });
+    else { const y = head.getBoundingClientRect().top + window.scrollY - topOffset(); window.scrollTo({ top: y, behavior: "smooth" }); }
   }
 
   // year + progress + chrome on scroll

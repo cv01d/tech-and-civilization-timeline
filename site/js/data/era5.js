@@ -24,7 +24,7 @@ window.ATLAS_EVENTS.push(
     computing:"Makes the integrated circuit, and thus Moore's Law, physically possible." },
   causes:["audion"], effects:["ic1958","attdecree1956"] },
 
-{ id:"coldwar", year:1947, date:"1947", era:5, cat:"surveillance",
+{ id:"coldwar", year:1947, date:"1947", era:5, cat:"general",
   title:"The National Security Act: CIA & Five Eyes",
   wiki:"Central Intelligence Agency", gallery:["UKUSA Agreement","Cold War"],
   summary:"The U.S. builds a peacetime intelligence apparatus; the UKUSA agreement binds five anglophone powers into a signals-intelligence alliance.",
@@ -47,7 +47,7 @@ window.ATLAS_EVENTS.push(
     government:"Anti-communism becomes an instrument of domestic labor discipline." },
   causes:["wagneract"], effects:["patco"] },
 
-{ id:"indianindependence", year:1947, date:"1947", era:5, cat:"power",
+{ id:"indianindependence", year:1947, date:"1947", era:5, cat:"general",
   title:"Indian Independence & Partition",
   wiki:"Partition of India", gallery:["Mahatma Gandhi","Indian independence movement","Jawaharlal Nehru"],
   summary:"The Raj ends; partition displaces fourteen million and kills perhaps two million. Decolonization's largest single moment.",
@@ -103,7 +103,7 @@ window.ATLAS_EVENTS.push(
     communications:"Defines the recurring question: do gatekeepers of mass attention owe the public balance?" },
   causes:["radioact1927","communicationsact"], effects:[] },
 
-{ id:"orwell", year:1949, date:"1949", era:5, cat:"power",
+{ id:"orwell", year:1949, date:"1949", era:5, cat:"general",
   title:"Nineteen Eighty-Four",
   wiki:"Nineteen Eighty-Four", gallery:["George Orwell","Big Brother (Nineteen Eighty-Four)"],
   summary:"Orwell gives surveillance its permanent vocabulary: Big Brother, the telescreen, thoughtcrime, memory holes.",
@@ -125,7 +125,7 @@ window.ATLAS_EVENTS.push(
     technology:"Frames machine intelligence as behavioral and testable — the engineering orientation the field keeps." },
   causes:["turing1936","lovelace"], effects:["dartmouth","chatgpt"] },
 
-{ id:"treatyofdetroit", year:1950, date:"1950", era:5, cat:"labor",
+{ id:"treatyofdetroit", year:1950, date:"1950", era:5, cat:"general",
   title:"The Treaty of Detroit",
   wiki:"Treaty of Detroit", gallery:["United Auto Workers","Walter Reuther"],
   summary:"GM and the UAW sign a five-year contract trading labor peace for pensions, health insurance, and cost-of-living wages.",
@@ -136,7 +136,7 @@ window.ATLAS_EVENTS.push(
     government:"The private welfare state substitutes for public provision — durable, and durably unequal." },
   causes:["wagneract","flint","ford"], effects:["patco"] },
 
-{ id:"nsa", year:1952, date:"October 24, 1952", era:5, cat:"surveillance",
+{ id:"nsa", year:1952, date:"October 24, 1952", era:5, cat:"general",
   title:"The NSA Is Established",
   wiki:"National Security Agency", gallery:["Fort Meade, Maryland","Signals intelligence"],
   summary:"A presidential memorandum, itself classified, creates the signals-intelligence agency whose existence is denied for years — 'No Such Agency.'",
@@ -194,7 +194,7 @@ window.ATLAS_EVENTS.push(
     technology:"Connectionism: intelligence as weighted networks rather than hand-written rules — the idea that eventually wins." },
   causes:["dartmouth"], effects:["perceptronsbook","backprop"] },
 
-{ id:"bankamericard", year:1958, date:"1958", era:5, cat:"surveillance",
+{ id:"bankamericard", year:1958, date:"1958", era:5, cat:"computing",
   title:"The Credit Card",
   wiki:"BankAmericard", gallery:["Credit card","Visa Inc."],
   summary:"Bank of America drops 60,000 unsolicited cards on Fresno, California — mass consumer credit begins, and every purchase becomes a data point.",
@@ -241,7 +241,7 @@ window.ATLAS_EVENTS.push(
     society:"Permanent technological acceleration becomes a background assumption of modern life — and of regulatory lag." },
   causes:["ic1958"], effects:["intel4004","alexnet"] },
 
-{ id:"natdatacenter", year:1965, date:"1965", era:5, cat:"surveillance",
+{ id:"natdatacenter", year:1965, date:"1965", era:5, cat:"computing",
   title:"The National Data Center Is Rejected",
   wiki:"National Data Center", gallery:["United States Congress","Database"],
   summary:"A proposal to consolidate federal records into one databank dies under public and congressional fire — American privacy politics' founding victory.",
@@ -276,7 +276,7 @@ window.ATLAS_EVENTS.push(
     society:"The reasonable-expectation formula becomes the hinge on which every new technology's privacy turns." },
   causes:["usbillofrights","brandeis","bell"], effects:["miller","carpenter","ecpa"] },
 
-{ id:"may68", year:1968, date:"1968", era:5, cat:"labor",
+{ id:"may68", year:1968, date:"1968", era:5, cat:"general",
   title:"1968: The Global Uprising",
   wiki:"May 68", gallery:["Prague Spring","Tlatelolco massacre","Protests of 1968"],
   summary:"Ten million French workers strike as students hold the Sorbonne; Prague's spring is crushed by tanks; Mexico City's students are massacred before the Olympics.",
@@ -377,7 +377,7 @@ window.ATLAS_EVENTS.push(
     government:"The U.S. sectoral approach to privacy is set, distinguishing it from Europe's omnibus path for the next half-century." },
   causes:["fipps","natdatacenter","ssa1935"], effects:["gdpr"] },
 
-{ id:"churchcommittee", year:1975, date:"1975", era:5, cat:"surveillance",
+{ id:"churchcommittee", year:1975, date:"1975", era:5, cat:"law",
   title:"The Church Committee",
   wiki:"Church Committee", gallery:["Frank Church","COINTELPRO","Watergate scandal"],
   summary:"The Senate opens the intelligence agencies' files: COINTELPRO, SHAMROCK, mail-opening, and the campaign against Martin Luther King.",
@@ -423,7 +423,7 @@ window.ATLAS_EVENTS.push(
     government:"The FISA Court becomes the emblem of oversight's promise and its limits." },
   causes:["churchcommittee","nsa","cabinetnoir","coldwar"], effects:["patriotact","snowden"] },
 
-{ id:"dengreform", year:1978, date:"1978", era:5, cat:"power",
+{ id:"dengreform", year:1978, date:"1978", era:5, cat:"general",
   title:"China's Reform and Opening Up",
   wiki:"Chinese economic reform", gallery:["Deng Xiaoping","Special economic zones of China","Shenzhen"],
   summary:"Deng Xiaoping turns China toward the market — beginning the largest labor migration and industrial transformation in human history.",
@@ -435,7 +435,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Prosperity and monitoring grow together — the Great Firewall and social-credit experiments are reform's shadow." },
   causes:["meiji","stalin"], effects:["chinawto","greatfirewall"] },
 
-{ id:"solidarity", year:1980, date:"1980", era:5, cat:"labor",
+{ id:"solidarity", year:1980, date:"1980", era:5, cat:"general",
   title:"Solidarity",
   wiki:"Solidarity (Polish trade union)", gallery:["Lech Wałęsa","Gdańsk Shipyard","Round Table Agreement"],
   summary:"Gdańsk's shipyard strike births the Soviet bloc's first independent union — ten million members within a year, and the lever that cracks communism.",
@@ -447,7 +447,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Survives one of history's densest informer states — organization as counter-surveillance." },
   causes:["russianrev","may68"], effects:["berlinwall"] },
 
-{ id:"patco", year:1981, date:"1979–1981", era:5, cat:"labor",
+{ id:"patco", year:1981, date:"1979–1981", era:5, cat:"general",
   title:"PATCO & the Neoliberal Turn",
   wiki:"Professional Air Traffic Controllers Organization (1968)", gallery:["Ronald Reagan","Margaret Thatcher"],
   summary:"Reagan fires 11,345 striking air-traffic controllers; with Thatcher's Britain, the Anglo-American assault on union power defines an era.",
@@ -495,7 +495,7 @@ window.ATLAS_EVENTS.push(
     government:"European and American privacy law's divergence becomes doctrine: dignity and self-determination versus sectoral patchwork." },
   causes:["ibmnazi","hitler","domesday","fipps"], effects:["dpd1995","gdpr"] },
 
-{ id:"minersstrike", year:1984, date:"1984–1985", era:5, cat:"labor",
+{ id:"minersstrike", year:1984, date:"1984–1985", era:5, cat:"general",
   title:"The UK Miners' Strike",
   wiki:"1984–85 United Kingdom miners' strike", gallery:["National Union of Mineworkers","Battle of Orgreave"],
   summary:"A year-long strike against pit closures is defeated by stockpiled coal, militarized policing, and surveillance — British labor's Waterloo.",
@@ -519,7 +519,7 @@ window.ATLAS_EVENTS.push(
     power:"Incumbent industries' instinct to ban the new is judicially checked — narrowly, once." },
   causes:["statuteofanne"], effects:["napster","aitraining"] },
 
-{ id:"bhopal", year:1984, date:"December 1984", era:5, cat:"labor",
+{ id:"bhopal", year:1984, date:"December 1984", era:5, cat:"general",
   title:"Bhopal",
   wiki:"Bhopal disaster", gallery:["Union Carbide","Bhopal"],
   summary:"A Union Carbide pesticide plant releases methyl isocyanate over a sleeping Indian city — thousands dead at once, tens of thousands eventually. The worst industrial disaster in history.",
@@ -577,7 +577,7 @@ window.ATLAS_EVENTS.push(
     technology:"URL, HTTP, HTML: three simple standards as civilization-scale infrastructure." },
   causes:["arpanet"], effects:["webpublic","mosaic"] },
 
-{ id:"tiananmen", year:1989, date:"June 4, 1989", era:5, cat:"power",
+{ id:"tiananmen", year:1989, date:"June 4, 1989", era:5, cat:"general",
   title:"Tiananmen Square",
   wiki:"1989 Tiananmen Square protests and massacre", gallery:["Tank Man","Tiananmen"],
   summary:"Students and workers fill the square demanding reform; the army clears it with gunfire. China chooses markets without political opening.",
@@ -589,7 +589,7 @@ window.ATLAS_EVENTS.push(
     society:"The memory war — erasure at home, icon abroad — previews the censored internet's geopolitics." },
   causes:["dengreform","may68"], effects:["greatfirewall"] },
 
-{ id:"berlinwall", year:1989, date:"November 9, 1989", era:5, cat:"power",
+{ id:"berlinwall", year:1989, date:"November 9, 1989", era:5, cat:"general",
   title:"The Berlin Wall Falls",
   wiki:"Fall of the Berlin Wall", gallery:["Berlin Wall","Revolutions of 1989","Stasi"],
   summary:"East Germany's border opens amid the revolutions of 1989; within two years the Soviet Union itself dissolves.",

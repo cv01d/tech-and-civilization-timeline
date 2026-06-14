@@ -1,6 +1,6 @@
 // GALLERY IV — Networks & Empires (1880–1945)  [+ two late–Gallery III entries]
 window.ATLAS_EVENTS.push(
-{ id:"sepoymutiny", year:1857, date:"1857–1858", era:3, cat:"power",
+{ id:"sepoymutiny", year:1857, date:"1857–1858", era:3, cat:"general",
   title:"The Indian Rebellion of 1857",
   wiki:"Indian Rebellion of 1857", gallery:["British Raj","East India Company"],
   summary:"India rises against East India Company rule; the suppression ends company government and begins the British Raj.",
@@ -35,7 +35,7 @@ window.ATLAS_EVENTS.push(
     government:"Demonstrates the durable formula: welfare concessions as the price of political stability." },
   causes:["manifesto1848"], effects:["ssa1935","beveridge"] },
 
-{ id:"standardtime", year:1884, date:"1884", era:4, cat:"power",
+{ id:"standardtime", year:1884, date:"1884", era:4, cat:"general",
   title:"The World Adopts Standard Time",
   wiki:"International Meridian Conference", gallery:["Time zone","Royal Observatory, Greenwich"],
   summary:"The International Meridian Conference fixes Greenwich as zero and divides the planet into time zones — railway and telegraph coordination made global.",
@@ -46,7 +46,7 @@ window.ATLAS_EVENTS.push(
     government:"International technical coordination emerges as a quiet new form of governance." },
   causes:["clock","railway","telegraph"], effects:[] },
 
-{ id:"haymarket", year:1886, date:"May 1886", era:4, cat:"labor",
+{ id:"haymarket", year:1886, date:"May 1886", era:4, cat:"general",
   title:"Haymarket & the Birth of May Day",
   wiki:"Haymarket affair", gallery:["Eight-hour day","International Workers' Day"],
   summary:"A bomb at a Chicago eight-hour-day rally brings a show trial and four hangings — and gives the world's workers their holiday.",
@@ -58,7 +58,7 @@ window.ATLAS_EVENTS.push(
     regulation:"The eight-hour demand, here a hanging offense by association, becomes federal law within two generations (FLSA, 1938)." },
   causes:["railroadstrike1877","firstinternational","deirstrike"], effects:["pullman","flsa"] },
 
-{ id:"kodak", year:1888, date:"1888", era:4, cat:"surveillance",
+{ id:"kodak", year:1888, date:"1888", era:4, cat:"cctv",
   title:"The Kodak Camera",
   wiki:"Kodak", gallery:["George Eastman","Box camera"],
   summary:"'You press the button, we do the rest.' Eastman puts photography in everyone's hands — and privacy law is invented in response.",
@@ -140,7 +140,7 @@ window.ATLAS_EVENTS.push(
     government:"Navies and empires seize wireless as strategic infrastructure from the first spark." },
   causes:["hertz","westernunion"], effects:["titanic","audion","kdka"] },
 
-{ id:"pullman", year:1894, date:"1894–1895", era:4, cat:"labor",
+{ id:"pullman", year:1894, date:"1894–1895", era:4, cat:"law",
   title:"Pullman, In re Debs & the Injunction",
   wiki:"Pullman Strike", gallery:["Eugene V. Debs","Pullman Company"],
   summary:"A national rail boycott is broken by federal troops and a court injunction — which the Supreme Court unanimously blesses.",
@@ -164,7 +164,7 @@ window.ATLAS_EVENTS.push(
     government:"Demonstrates the Court's capacity to entrench, as well as dismantle, caste." },
   causes:["emancipation"], effects:["civilrightsact"] },
 
-{ id:"taylorism", year:1911, date:"1903–1911", era:4, cat:"labor",
+{ id:"taylorism", year:1911, date:"1903–1911", era:4, cat:"robotics",
   title:"Scientific Management",
   wiki:"Scientific management", gallery:["Frederick Winslow Taylor","Time and motion study"],
   summary:"Frederick Taylor's stopwatch makes the worker's every motion an object of measurement — workplace surveillance acquires a science.",
@@ -176,7 +176,7 @@ window.ATLAS_EVENTS.push(
     technology:"Management itself becomes a 'technology,' exported worldwide from Ford's lines to Soviet planning." },
   causes:["clock","ford"], effects:["gigeconomy"] },
 
-{ id:"wright", year:1903, date:"1903", era:4, cat:"power",
+{ id:"wright", year:1903, date:"1903", era:4, cat:"general",
   title:"First Powered Flight",
   wiki:"Wright Flyer", gallery:["Wright brothers","Kitty Hawk, North Carolina"],
   summary:"The Wright brothers fly at Kitty Hawk — beginning the technology that will transform commerce, war, and the view from above.",
@@ -209,7 +209,7 @@ window.ATLAS_EVENTS.push(
     government:"The judiciary reveals itself as the decisive arena of American labor policy." },
   causes:["statutelabourers"], effects:["wagneract","flsa"] },
 
-{ id:"triangle", year:1911, date:"March 25, 1911", era:4, cat:"labor",
+{ id:"triangle", year:1911, date:"March 25, 1911", era:4, cat:"general",
   title:"The Triangle Shirtwaist Fire",
   wiki:"Triangle Shirtwaist Factory fire", gallery:["International Ladies' Garment Workers' Union","Frances Perkins"],
   summary:"146 garment workers — mostly young immigrant women — die behind locked doors in Manhattan. The witnesses build the New Deal.",
@@ -257,7 +257,7 @@ window.ATLAS_EVENTS.push(
     government:"Regulation by consent decree and commitment letter enters the toolkit." },
   causes:["bell","shermanact","westernunion"], effects:["communicationsact","attdecree1956","attbreakup"] },
 
-{ id:"ford", year:1913, date:"1913–1914", era:4, cat:"labor",
+{ id:"ford", year:1913, date:"1913–1914", era:4, cat:"robotics",
   title:"The Assembly Line & the Five-Dollar Day",
   wiki:"Assembly line", gallery:["Ford Model T","Highland Park Ford Plant","Henry Ford"],
   summary:"Ford's moving line cuts Model T assembly from hours to minutes; doubling pay to $5 a day cuts the turnover the line created.",
@@ -281,7 +281,7 @@ window.ATLAS_EVENTS.push(
     government:"Expert commissions begin their long career as the fourth branch." },
   causes:["shermanact"], effects:["ftcfacebook"] },
 
-{ id:"wwi", year:1914, date:"1914–1918", era:4, cat:"power",
+{ id:"wwi", year:1914, date:"1914–1918", era:4, cat:"general",
   title:"The First World War",
   wiki:"World War I", gallery:["Trench warfare","Zimmermann Telegram","Women in World War I"],
   summary:"Industrial war: 17–19 million dead, four empires destroyed, women in the factories, signals intelligence institutionalized, and propaganda made a science.",
@@ -293,7 +293,7 @@ window.ATLAS_EVENTS.push(
     government:"Four empires collapse; the war's settlement creates the ILO and the conditions for the next war." },
   causes:[], effects:["russianrev","ilo","nsa","bernays"] },
 
-{ id:"russianrev", year:1917, date:"1917", era:4, cat:"power",
+{ id:"russianrev", year:1917, date:"1917", era:4, cat:"general",
   title:"The Russian Revolution",
   wiki:"Russian Revolution", gallery:["Vladimir Lenin","October Revolution","Cheka"],
   summary:"The Tsar falls in February; the Bolsheviks seize October. The world's first communist state — and within weeks, the Cheka.",
@@ -339,7 +339,7 @@ window.ATLAS_EVENTS.push(
     technology:"The advertising-supported model invented at WEAF becomes the business plan of radio, TV, and eventually the internet." },
   causes:["audion","marconi","edison"], effects:["radioact1927","attention"] },
 
-{ id:"attention", year:1923, date:"1923–1929", era:4, cat:"surveillance",
+{ id:"attention", year:1923, date:"1923–1929", era:4, cat:"general",
   title:"The Attention Industry Is Born",
   wiki:"Nielsen Holdings", gallery:["Audience measurement","Advertising"],
   summary:"Crossley's ratings (1923), Starch's readership research (1924), Nielsen (1929): the systematic measurement of human attention begins.",
@@ -351,7 +351,7 @@ window.ATLAS_EVENTS.push(
     technology:"Sampling, panels, and ratings anticipate the metrics-driven design of the platform era." },
   causes:["kdka"], effects:["adwords","likebutton"] },
 
-{ id:"bernays", year:1928, date:"1923–1928", era:4, cat:"power",
+{ id:"bernays", year:1928, date:"1923–1928", era:4, cat:"general",
   title:"Bernays & the Engineering of Consent",
   wiki:"Edward Bernays", gallery:["Propaganda (book)","Public relations"],
   summary:"Freud's nephew, trained on wartime propaganda, founds public relations — Crystallizing Public Opinion (1923), then Propaganda (1928).",
@@ -375,7 +375,7 @@ window.ATLAS_EVENTS.push(
     society:"Decisions about who may speak to millions become administrative law." },
   causes:["titanic","kdka","marconi"], effects:["communicationsact","fairnessdoctrine"] },
 
-{ id:"crash1929", year:1929, date:"1929", era:4, cat:"power",
+{ id:"crash1929", year:1929, date:"1929", era:4, cat:"general",
   title:"The Crash & the Great Depression",
   wiki:"Wall Street Crash of 1929", gallery:["Great Depression","Dust Bowl","Bank run"],
   summary:"The bubble bursts; unemployment reaches a quarter of the workforce; the political answer remakes the state's relationship to labor and markets.",
@@ -387,7 +387,7 @@ window.ATLAS_EVENTS.push(
     government:"The interventionist state becomes the democratic standard — and the autocracies' foil." },
   causes:["southsea","voc"], effects:["wagneract","ssa1935","hitler"] },
 
-{ id:"stalin", year:1930, date:"1928–1938", era:4, cat:"power",
+{ id:"stalin", year:1930, date:"1928–1938", era:4, cat:"general",
   title:"Stalin: Five-Year Plans, Famine & Terror",
   wiki:"Joseph Stalin", gallery:["Gulag","Holodomor","First five-year plan"],
   summary:"Forced collectivization, the Holodomor's millions, the Great Purge, and a Gulag through which 18 million pass — coerced labor at totalitarian scale.",
@@ -399,7 +399,7 @@ window.ATLAS_EVENTS.push(
     society:"The purge and the show trial enter the world's political vocabulary." },
   causes:["russianrev"], effects:["coldwar"] },
 
-{ id:"hitler", year:1933, date:"1933", era:4, cat:"power",
+{ id:"hitler", year:1933, date:"1933", era:4, cat:"general",
   title:"The Nazi Seizure of Power",
   wiki:"Adolf Hitler's rise to power", gallery:["Nazi Germany","German Labour Front","Reichstag fire"],
   summary:"Hitler is appointed Chancellor; within months, unions are destroyed, parties banned, and the surveillance state armed with card files.",
@@ -411,7 +411,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Its memory produces the UDHR, the German Basic Law, and the informational self-determination doctrine behind GDPR." },
   causes:["crash1929","wwi"], effects:["ibmnazi","ww2","volkszahlung"] },
 
-{ id:"ibmnazi", year:1933, date:"1933–1945", era:4, cat:"surveillance",
+{ id:"ibmnazi", year:1933, date:"1933–1945", era:4, cat:"computing",
   title:"IBM's Punch Cards & the Nazi Registries",
   wiki:"IBM and the Holocaust", gallery:["Dehomag","Punched card"],
   summary:"Hollerith machines, leased via IBM's German subsidiary Dehomag, serve the Nazi regime's censuses and registries.",
@@ -469,7 +469,7 @@ window.ATLAS_EVENTS.push(
     society:"The idea of the thinking machine acquires mathematical respectability — Turing himself will press the question in 1950." },
   causes:["babbage","lovelace"], effects:["ww2","turingtest","eniac"] },
 
-{ id:"flint", year:1937, date:"1936–1937", era:4, cat:"labor",
+{ id:"flint", year:1937, date:"1936–1937", era:4, cat:"general",
   title:"The Flint Sit-Down Strike",
   wiki:"Flint sit-down strike", gallery:["United Auto Workers","General Motors"],
   summary:"Auto workers occupy GM's plants for 44 days; the company that ruled American industry signs with the UAW.",
@@ -503,7 +503,7 @@ window.ATLAS_EVENTS.push(
     government:"Carve-outs for excluded occupations demonstrate how discrimination is engineered into neutral-seeming law." },
   causes:["haymarket","lochner","crash1929","factoryact1833"], effects:[] },
 
-{ id:"ww2", year:1939, date:"1939–1945", era:4, cat:"power",
+{ id:"ww2", year:1939, date:"1939–1945", era:4, cat:"general",
   title:"The Second World War",
   wiki:"World War II", gallery:["Bletchley Park","Colossus computer","Rosie the Riveter","Manhattan Project"],
   summary:"70–85 million dead. Codebreaking builds the first electronic computers; war work transforms labor; the postwar order is drafted in the rubble.",
@@ -516,7 +516,7 @@ window.ATLAS_EVENTS.push(
     society:"The Holocaust's bureaucratic machinery makes data, registry, and identity into permanent moral questions." },
   causes:["hitler","turing1936","wwi"], effects:["eniac","nsa","udhr","cctv"] },
 
-{ id:"cctv", year:1942, date:"1942", era:4, cat:"surveillance",
+{ id:"cctv", year:1942, date:"1942", era:4, cat:"cctv",
   title:"The First CCTV",
   wiki:"Closed-circuit television", gallery:["Peenemünde Army Research Center","Surveillance camera"],
   summary:"Walter Bruch installs closed-circuit television at Peenemünde to watch V-2 rocket tests — the camera detaches from the human eye.",

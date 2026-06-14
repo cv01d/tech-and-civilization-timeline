@@ -14,7 +14,7 @@
 // broadbandinvest), extra-socialmedia.js (tiktokban). No images for now — data only.
 window.ATLAS_EVENTS.push(
 
-{ id:"uktelegraphmonopoly", year:1850, date:"1846–1870", era:3, cat:["radio","power","law"],
+{ id:"uktelegraphmonopoly", year:1850, date:"1846–1870", era:3, cat:["radio","law"],
   title:"Britain's First Communications Monopoly",
   wiki:"Electric Telegraph Company",
   gallery:["Telegraph Act 1868","General Post Office"],
@@ -37,7 +37,7 @@ window.ATLAS_EVENTS.push(
     radio:"The institutional framework that will later govern radio spectrum exists before radio is invented." },
   causes:["uktelegraphmonopoly"], effects:["radioconvention1906"] },
 
-{ id:"japanmeijitelegraph", year:1869, date:"1869–1890s", era:3, cat:["radio","power"],
+{ id:"japanmeijitelegraph", year:1869, date:"1869–1890s", era:3, cat:"radio",
   title:"Japan Wires Itself, State-First",
   wiki:"Telecommunications in Japan",
   summary:"The new Meiji government completes Japan's first telegraph line, between Tokyo and Yokohama, in 1869 — built, owned, and operated by the state from the outset, a deliberate break from the private-monopoly-then-nationalization sequence Britain and the United States had each just lived through.",
@@ -48,7 +48,7 @@ window.ATLAS_EVENTS.push(
     law:"Telecommunications ownership and regulation are unified in the state from the technology's introduction." },
   causes:[], effects:["nhkradio1925"] },
 
-{ id:"cablewars", year:1872, date:"1858–1902", era:3, cat:["radio","power","law"],
+{ id:"cablewars", year:1872, date:"1858–1902", era:3, cat:["radio","law"],
   title:"The Cable Empire",
   wiki:"Eastern Telegraph Company",
   gallery:["All Red Line","Submarine communications cable"],
@@ -71,7 +71,7 @@ window.ATLAS_EVENTS.push(
     power:"No single company or nation can claim ownership of the wavelengths used at sea." },
   causes:["marconi","fessenden","itu1865"], effects:["radioact1912","wwitelecomseizure"] },
 
-{ id:"wwitelecomseizure", year:1914, date:"1914–1918", era:4, cat:["radio","power","law"],
+{ id:"wwitelecomseizure", year:1914, date:"1914–1918", era:4, cat:["radio","law"],
   title:"War Claims the Wires",
   wiki:"Defence of the Realm Act 1914",
   gallery:["Submarine communications cable"],
@@ -83,7 +83,7 @@ window.ATLAS_EVENTS.push(
     radio:"Cutting an enemy's cables becomes one of the first acts of a world war." },
   causes:["cablewars","radioconvention1906"], effects:["radiomoscow1922","bbcempireservice1932"] },
 
-{ id:"radiomoscow1922", year:1922, date:"1922–1991", era:4, cat:["radio","power"],
+{ id:"radiomoscow1922", year:1922, date:"1922–1991", era:4, cat:"radio",
   title:"Radio Moscow and the State Voice",
   wiki:"Radio Moscow",
   summary:"The young Soviet state begins regular shortwave broadcasts from Moscow in 1922 over what was then the world's most powerful transmitter — the first sustained case of a government building radio, from its first broadcast, as the permanent ideological voice of the state to both its own citizens and the world.",
@@ -105,7 +105,7 @@ window.ATLAS_EVENTS.push(
     law:"A receiver-fee funding model fixed at radio's birth carries unchanged into the television era." },
   causes:["japanmeijitelegraph"], effects:["nhkjapan"] },
 
-{ id:"bbcempireservice1932", year:1932, date:"1932–1939", era:4, cat:["radio","power"],
+{ id:"bbcempireservice1932", year:1932, date:"1932–1939", era:4, cat:"radio",
   title:"The BBC Goes Imperial",
   wiki:"BBC World Service",
   gallery:["BBC Empire Service"],
@@ -117,7 +117,7 @@ window.ATLAS_EVENTS.push(
     communications:"International broadcasting splits between an editorially independent service and an explicitly state-funded one." },
   causes:["radiomoscow1922","wwitelecomseizure"], effects:["allindiaradio1950"] },
 
-{ id:"volksempfanger1933", year:1933, date:"1933–1945", era:4, cat:["radio","power","surveillance"],
+{ id:"volksempfanger1933", year:1933, date:"1933–1945", era:4, cat:"radio",
   title:"The Volksempfänger and the Ministry of Propaganda",
   wiki:"Volksempfänger",
   gallery:["Reich Ministry of Public Enlightenment and Propaganda","Joseph Goebbels"],
@@ -129,7 +129,7 @@ window.ATLAS_EVENTS.push(
     power:"Engineering the affordability of receiving equipment becomes as important to a propaganda strategy as the content itself." },
   causes:["firesidechats","radiomoscow1922"], effects:["statetv1935"] },
 
-{ id:"allindiaradio1950", year:1950, date:"1936–1990s", era:5, cat:["radio","power"],
+{ id:"allindiaradio1950", year:1950, date:"1936–1990s", era:5, cat:"radio",
   title:"All India Radio and the Nation-Building Voice",
   wiki:"All India Radio",
   summary:"Renamed from the Indian State Broadcasting Service in 1936, All India Radio becomes independent India's primary instrument of nation-building after 1947 — broadcasting in dozens of languages to a vast, largely rural and multilingual population — and remains a government broadcasting monopoly on news for seventy years, until private FM stations are finally permitted to air news in 2017.",
@@ -140,7 +140,7 @@ window.ATLAS_EVENTS.push(
     law:"Private broadcasters are licensed for entertainment for years before being permitted to broadcast news at all." },
   causes:["bbcempireservice1932"], effects:[] },
 
-{ id:"radiofreeeurope1956", year:1956, date:"1950–1989", era:5, cat:["radio","power","surveillance"],
+{ id:"radiofreeeurope1956", year:1956, date:"1950–1989", era:5, cat:"radio",
   title:"Radio Free Europe and the Jammed Airwaves",
   wiki:"Radio Free Europe/Radio Liberty",
   gallery:["Hungarian Revolution of 1956","Jamming (broadcasting)"],
@@ -152,7 +152,7 @@ window.ATLAS_EVENTS.push(
     power:"A broadcast is blamed for encouraging an uprising the broadcaster's own government would not back militarily." },
   causes:["radiomoscow1922"], effects:[] },
 
-{ id:"hotline1963", year:1963, date:"1962–1963", era:5, cat:["radio","power","law"],
+{ id:"hotline1963", year:1963, date:"1962–1963", era:5, cat:["radio","law"],
   title:"The Hotline That Wasn't a Phone",
   wiki:"Moscow–Washington hotline",
   gallery:["Cuban Missile Crisis"],
@@ -164,7 +164,7 @@ window.ATLAS_EVENTS.push(
     radio:"A near-miss in which a crisis message travels by public broadcast prompts a dedicated private channel instead." },
   causes:[], effects:[] },
 
-{ id:"swadhinbanglabetar1971", year:1971, date:"1971", era:5, cat:["radio","power"],
+{ id:"swadhinbanglabetar1971", year:1971, date:"1971", era:5, cat:"radio",
   title:"A Radio Station Declares a Country",
   wiki:"Shadhin Bangla Betar Kendro",
   gallery:["Bangladesh Liberation War"],
@@ -176,7 +176,7 @@ window.ATLAS_EVENTS.push(
     communications:"Radio substitutes for every institution of a state that has not yet been born." },
   causes:[], effects:[] },
 
-{ id:"indonesiaradio1965", year:1965, date:"1965–1966", era:5, cat:["radio","power","surveillance"],
+{ id:"indonesiaradio1965", year:1965, date:"1965–1966", era:5, cat:"radio",
   title:"State Radio and Mass Violence",
   wiki:"Radio Republik Indonesia",
   gallery:["Indonesian killings of 1965–1966"],
@@ -188,7 +188,7 @@ window.ATLAS_EVENTS.push(
     radio:"The infrastructure that unifies a nation under one broadcast voice can be turned against part of that nation." },
   causes:[], effects:[] },
 
-{ id:"khomeinicassettes1979", year:1979, date:"1970s–1979", era:5, cat:["radio","power"],
+{ id:"khomeinicassettes1979", year:1979, date:"1970s–1979", era:5, cat:"radio",
   title:"Revolution by Cassette Tape",
   wiki:"Iranian Revolution",
   gallery:["Cassette tape","Ruhollah Khomeini"],
@@ -200,7 +200,7 @@ window.ATLAS_EVENTS.push(
     communications:"'Small media' — cheap, copyable formats — prove that broadcast infrastructure is not the only path to mass reach." },
   causes:[], effects:["iranrevolutiontv"] },
 
-{ id:"mobileleapfrogafrica", year:1994, date:"1994–2010", era:6, cat:["radio","power","law"],
+{ id:"mobileleapfrogafrica", year:1994, date:"1994–2010", era:6, cat:["radio","law"],
   title:"The Mobile Leapfrog",
   wiki:"M-Pesa",
   gallery:["Vodacom"],
@@ -212,7 +212,7 @@ window.ATLAS_EVENTS.push(
     law:"Regulation follows a financial-services innovation rather than preceding it, inverting the usual order." },
   causes:["cellularconcept","digitaldivide"], effects:[] },
 
-{ id:"myanmarsaffron2007", year:2007, date:"2007", era:6, cat:["radio","power","surveillance"],
+{ id:"myanmarsaffron2007", year:2007, date:"2007", era:6, cat:"radio",
   title:"The Saffron Revolution, Filmed on Phones",
   wiki:"2007 Burmese anti-government protests",
   summary:"When Buddhist monks lead mass protests against Myanmar's military government in September 2007, citizens with mobile phone cameras smuggle footage of the crackdown out of the country within hours — and the junta responds by shutting down the country's internet access entirely for nearly a week, one of the first national-scale internet shutdowns used explicitly as a crackdown tool.",
@@ -234,7 +234,7 @@ window.ATLAS_EVENTS.push(
     power:"Courts and regulators, not only markets, are made responsible for guaranteeing connectivity." },
   causes:[], effects:[] },
 
-{ id:"dutertedrugwar2016", year:2016, date:"2016–2022", era:7, cat:["radio","power"],
+{ id:"dutertedrugwar2016", year:2016, date:"2016–2022", era:7, cat:"radio",
   title:"The Drug War on the Airwaves",
   wiki:"Philippine Drug War",
   gallery:["Rodrigo Duterte"],
@@ -246,7 +246,7 @@ window.ATLAS_EVENTS.push(
     society:"Years of recorded, broadcast rhetoric become evidence in international accountability proceedings." },
   causes:["firesidechats"], effects:[] },
 
-{ id:"ethiopiashutdowns2018", year:2018, date:"2016–2023", era:7, cat:["radio","power","law"],
+{ id:"ethiopiashutdowns2018", year:2018, date:"2016–2023", era:7, cat:["radio","law"],
   title:"The Shutdown Becomes a Toolkit",
   wiki:"Internet censorship in Ethiopia",
   summary:"Ethiopia declares states of emergency in 2016 and 2018, each time cutting mobile internet and social media nationwide, and during the 2020–2022 Tigray war imposes one of the longest regional internet blackouts on record; by 2023, monitoring groups count more than one hundred government-ordered internet shutdowns worldwide that year alone — a tactic Ethiopia helped normalize at scale.",
@@ -257,7 +257,7 @@ window.ATLAS_EVENTS.push(
     radio:"Telecommunications infrastructure built to connect a population becomes the mechanism for isolating it." },
   causes:["myanmarsaffron2007"], effects:["sovereigninternet2019"] },
 
-{ id:"indiaappban2020", year:2020, date:"2020", era:7, cat:["radio","power","law"],
+{ id:"indiaappban2020", year:2020, date:"2020", era:7, cat:["radio","law"],
   title:"India Bans the Apps",
   wiki:"2020 China–India skirmishes",
   gallery:["TikTok"],
@@ -269,7 +269,7 @@ window.ATLAS_EVENTS.push(
     radio:"Control over a population's mobile app ecosystem is asserted as a sovereign prerogative." },
   causes:[], effects:["sovereigninternet2019"] },
 
-{ id:"starlinkukraine2022", year:2022, date:"2022–2023", era:7, cat:["radio","power"],
+{ id:"starlinkukraine2022", year:2022, date:"2022–2023", era:7, cat:"radio",
   title:"A Satellite Network Goes to War",
   wiki:"Starlink",
   gallery:["2022 Russian invasion of Ukraine"],
@@ -281,7 +281,7 @@ window.ATLAS_EVENTS.push(
     law:"No government can fully compel or override a foreign private company's control of communications infrastructure on its own soil." },
   causes:[], effects:["starlink"] },
 
-{ id:"sovereigninternet2019", year:2019, date:"2019–2025", era:7, cat:["radio","law","power"],
+{ id:"sovereigninternet2019", year:2019, date:"2019–2025", era:7, cat:["radio","law"],
   title:"The Sovereign Internet",
   wiki:"Sovereign Internet Law",
   gallery:["Runet","BRICS"],

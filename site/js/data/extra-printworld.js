@@ -376,7 +376,7 @@ window.ATLAS_EVENTS.push(
     print:"The Soviet state gains its official organ alongside the Party's.",
     power:"A controlled duopoly of official papers speaks for Soviet power." } },
 
-{ id:"glavlit", year:1922, date:"1922–1991", era:4, cat:["print","surveillance"],
+{ id:"glavlit", year:1922, date:"1922–1991", era:4, cat:"print",
   title:"Glavlit: The Soviet Censor",
   wiki:"Glavlit",
   summary:"Established in 1922, Glavlit was the central Soviet censorship apparatus, vetting every printed work — newspapers, books, labels — for ideological and security compliance, until it was abolished with the USSR in 1991.",

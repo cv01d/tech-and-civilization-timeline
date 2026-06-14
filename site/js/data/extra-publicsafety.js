@@ -7,7 +7,7 @@
 // Round one: data only — images to follow.
 window.ATLAS_EVENTS.push(
 
-{ id:"vigiles", year:6, date:"6 CE", era:1, cat:"power",
+{ id:"vigiles", year:6, date:"6 CE", era:1, cat:"general",
   title:"The Vigiles of Rome",
   wiki:"Vigiles",
   summary:"Augustus founds Rome's vigiles — a force of some 7,000 who patrol the city at night as combined firewatch and police, the first organized public-safety service of the ancient world.",
@@ -18,7 +18,7 @@ window.ATLAS_EVENTS.push(
     labor:"Firefighting and policing become a salaried public occupation." },
   effects:["rattlewatch","unionfire"] },
 
-{ id:"rattlewatch", year:1658, date:"1658", era:2, cat:"power",
+{ id:"rattlewatch", year:1658, date:"1658", era:2, cat:"general",
   title:"The Rattle Watch of New Amsterdam",
   wiki:"Watchman (law enforcement)",
   summary:"Eight paid men patrol the streets of New Amsterdam at night, shaking wooden rattles to summon help — among the first organized urban public-safety patrols in the Americas.",
@@ -29,7 +29,7 @@ window.ATLAS_EVENTS.push(
     labor:"A paid municipal watch precedes the professional police force." },
   causes:["vigiles"], effects:["unionfire","policeboxchicago"] },
 
-{ id:"unionfire", year:1736, date:"1736", era:2, cat:"power",
+{ id:"unionfire", year:1736, date:"1736", era:2, cat:"general",
   title:"Franklin's Union Fire Company",
   wiki:"Union Fire Company",
   summary:"Benjamin Franklin founds Philadelphia's Union Fire Company — America's first organized volunteer fire company — coordinated by runners, bells, and shouted alarms.",
@@ -205,7 +205,7 @@ window.ATLAS_EVENTS.push(
     technology:"The voice-only 911 architecture admits its first data channel." },
   causes:["enhanced911","firstnet"], effects:["ng911"] },
 
-{ id:"bodycameras", year:2015, date:"2014–2016", era:7, cat:"surveillance",
+{ id:"bodycameras", year:2015, date:"2014–2016", era:7, cat:"cctv",
   title:"Body-Worn Cameras at Scale",
   wiki:"Body worn video (police equipment)",
   summary:"After Ferguson, the Justice Department funds body cameras for hundreds of departments; within two years nearly half of U.S. agencies have them — but no uniform rule governs when they record, who sees the footage, or how long it is kept.",
@@ -238,7 +238,7 @@ window.ATLAS_EVENTS.push(
     communications:"The CAD system gains an algorithmic layer between caller and responder." },
   causes:["cad1980","ng911","firstnet"], effects:["aibodycam"] },
 
-{ id:"aibodycam", year:2024, date:"2024", era:7, cat:"surveillance",
+{ id:"aibodycam", year:2024, date:"2024", era:7, cat:"cctv",
   title:"AI Reads the Body-Camera Archive",
   wiki:"Body worn video (police equipment)",
   summary:"Departments turn to AI to sift the millions of unreviewed hours of body-camera footage that human reviewers could never watch — flagging misconduct, finding patterns, and surfacing training cases.",
@@ -293,7 +293,7 @@ window.ATLAS_EVENTS.push(
     communications:"The institutional path from 9/11 to a national responder network is laid." },
   causes:["sept11comms"], effects:["firstnet","ng911"] },
 
-{ id:"georgefloyd", year:2020, date:"May 2020", era:7, cat:"surveillance",
+{ id:"georgefloyd", year:2020, date:"May 2020", era:7, cat:"cctv",
   title:"George Floyd: Video as Witness",
   wiki:"Murder of George Floyd",
   summary:"The killing of George Floyd is captured on bystander phone video and police body cameras and seen by hundreds of millions — the most consequential single use of video evidence in American policing, driving a new wave of body-camera and transparency law.",
@@ -304,7 +304,7 @@ window.ATLAS_EVENTS.push(
     power:"Footage viewed by hundreds of millions turns the camera against the institution that holds it." },
   causes:["ferguson","bodycameras"], effects:["policecameraact","techfrpause"] },
 
-{ id:"shotspotter", year:2021, date:"2020–2022", era:7, cat:"surveillance",
+{ id:"shotspotter", year:2021, date:"2020–2022", era:7, cat:"cctv",
   title:"ShotSpotter: Automated Suspicion",
   wiki:"ShotSpotter",
   summary:"The acoustic gunshot-detection system, deployed in dozens of cities to dispatch police automatically, is found to generate heavy false positives and to disproportionately target Black and Latino neighborhoods; Chicago drops it in 2022 and others follow.",

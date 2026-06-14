@@ -53,9 +53,11 @@ window.ATLAS_CATEGORIES = [
   { key: "computing",      label: "Computing & AI" },
   { key: "robotics",       label: "Robots & Automata" },
   { key: "biotech",        label: "Genetics & Biotech" },
-  { key: "surveillance",   label: "Surveillance" },
   { key: "cctv",           label: "CCTV & Cameras" },
-  { key: "labor",          label: "Labor" },
-  { key: "law",            label: "Law & Regulation" },
-  { key: "power",          label: "Power & Society" }
+  { key: "law",            label: "Law & Regulation" }
 ];
+
+// "general" is a catch-all for exhibits with no topical home: it has no filter
+// chip (it is not listed above), so those exhibits appear only under the All
+// tab, but they always render and remain searchable.
+window.ATLAS_GENERAL_LABEL = "History & Society";
