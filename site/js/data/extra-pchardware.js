@@ -63,7 +63,7 @@ window.ATLAS_EVENTS.push(
     computing:"Typeset-quality printing arrives on the personal desktop.",
     print:"Desktop publishing lets one person lay out and print professional pages.",
     society:"The power of the print shop is miniaturized onto the desk." },
-  causes:["integratedcircuit"], effects:["inkjetprinter","windows"] },
+  causes:["ic1958"], effects:["inkjetprinter","windows"] },
 
 { id:"inkjetprinter", year:1988, date:"1984–1990s", era:6, cat:"computing",
   title:"The Home Inkjet Printer",
@@ -86,7 +86,7 @@ window.ATLAS_EVENTS.push(
     computing:"A computer's processor and memory shrink onto cheap, mass-produced chips.",
     technology:"Moore's Law's compounding density drives the whole personal-computing era.",
     society:"Exponential cheapening turns computing personal, then ubiquitous." },
-  causes:["integratedcircuit","intel4004","mooreslaw"], effects:["floppydisk","harddrive","busstandards"] },
+  causes:["ic1958","intel4004","mooreslaw"], effects:["floppydisk","harddrive","busstandards"] },
 
 { id:"floppydisk", year:1971, date:"1971–1981", era:5, cat:"computing",
   title:"The Floppy Disk",

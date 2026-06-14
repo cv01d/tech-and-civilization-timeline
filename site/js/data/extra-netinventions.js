@@ -18,17 +18,6 @@ window.ATLAS_EVENTS.push(
     society:"The weeks-long Atlantic message crossing collapses to minutes." },
   causes:["telegraph"], effects:["fiberoptic","arpanet"] },
 
-{ id:"integratedcircuit", year:1958, date:"1958–1959", era:5, cat:["internet","computing"],
-  title:"The Integrated Circuit",
-  wiki:"Integrated circuit",
-  summary:"Jack Kilby at Texas Instruments and Robert Noyce at Fairchild independently put multiple transistors on a single chip — the microchip. It is the invention that makes every internet-connected device, from server to smartphone, economically possible.",
-  importance:"The integrated circuit took the transistor's promise and made it scalable, packing first dozens and eventually billions of switches onto a sliver of silicon and driving the relentless cost collapse that put computing everywhere. Without it there is no cheap computer, no router, no phone — no economic basis for a network of billions of devices. It is the hardware foundation beneath the entire digital world, the thing that turned the transistor from a component into a civilization.",
-  impact:{
-    technology:"Many transistors on one chip launch the cost collapse of computing.",
-    computing:"Cheap, mass-produced processors and memory become possible.",
-    communications:"Every internet-connected device gains an economically viable brain." },
-  causes:["transistor"], effects:["fiberoptic","arpanet"] },
-
 { id:"motherofalldemos", year:1968, date:"December 9, 1968", era:5, cat:["internet","computing"],
   title:"The Mother of All Demos",
   wiki:"The Mother of All Demos",
@@ -49,7 +38,7 @@ window.ATLAS_EVENTS.push(
     technology:"Light in ultrapure glass replaces electricity in copper, with vastly greater capacity.",
     communications:"The high-capacity backbone of the global internet is made possible.",
     society:"The bandwidth ceiling that copper imposed is lifted for good." },
-  causes:["transatlanticcable","integratedcircuit"], effects:["arpanet","nsfnet"] },
+  causes:["transatlanticcable","ic1958"], effects:["arpanet","nsfnet"] },
 
 { id:"publickeycrypto", year:1976, date:"1976", era:5, cat:["internet","computing","encryption"],
   title:"Public-Key Cryptography",
@@ -60,7 +49,7 @@ window.ATLAS_EVENTS.push(
     technology:"Two strangers can establish a shared secret over an open channel.",
     computing:"The key-distribution problem that limited cryptography for millennia is solved.",
     communications:"The mathematical basis of every secure internet connection is created." },
-  causes:["integratedcircuit"], effects:["rsa","netscapessl","aes2001"] },
+  causes:["ic1958"], effects:["rsa","netscapessl","aes2001"] },
 
 { id:"rsa", year:1977, date:"1977", era:5, cat:["internet","computing","encryption"],
   title:"RSA: Public-Key Cryptography Made Practical",
