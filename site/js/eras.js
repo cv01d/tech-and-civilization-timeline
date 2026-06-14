@@ -54,6 +54,7 @@ window.ATLAS_CATEGORIES = [
   { key: "robotics",       label: "Robots & Automata" },
   { key: "biotech",        label: "Genetics & Biotech" },
   { key: "cctv",           label: "CCTV & Cameras" },
+  { key: "opensource",     label: "Open Source & Commons" },
   { key: "law",            label: "Law & Regulation" }
 ];
 

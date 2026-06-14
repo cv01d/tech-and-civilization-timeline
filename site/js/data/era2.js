@@ -172,7 +172,7 @@ window.ATLAS_EVENTS.push(
     society:"National debt binds the propertied classes to the state's survival — a new political alloy." },
   causes:["glorious","voc"], effects:["southsea"] },
 
-{ id:"statuteofanne", year:1710, date:"1710", era:2, cat:["print","law"],
+{ id:"statuteofanne", year:1710, date:"1710", era:2, cat:["print","law","opensource"],
   title:"The Statute of Anne: Copyright Is Born",
   wiki:"Statute of Anne", gallery:["Copyright","Stationers' Company"],
   summary:"Parliament replaces the printers' guild monopoly with a 14-year statutory right belonging to authors.",
@@ -182,7 +182,7 @@ window.ATLAS_EVENTS.push(
     technology:"Sets the recurring pattern: each new copying technology renegotiates the bargain (photography, records, VCRs, file-sharing, AI).",
     society:"The professional author becomes economically possible.",
     labor:"Creative work acquires a legal claim on its own products — the writer's wage becomes a right." },
-  causes:["printingpress"], effects:["sonybetamax","aitraining"] },
+  causes:["printingpress"], effects:["sonybetamax","aitraining","donaldsonbecket"] },
 
 { id:"newcomen", year:1712, date:"1712", era:2, cat:"general",
   title:"Newcomen's Steam Engine",

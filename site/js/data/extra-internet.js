@@ -119,7 +119,7 @@ window.ATLAS_EVENTS.push(
     communications:"The naming layer of a worldwide network is administered from one country." },
   causes:["dns","nsfnetprivatized"], effects:["icanntransition","splinternet"] },
 
-{ id:"dmca", year:1998, date:"1998", era:6, cat:"internet",
+{ id:"dmca", year:1998, date:"1998", era:6, cat:["internet","opensource"],
   title:"The Digital Millennium Copyright Act",
   wiki:"Digital Millennium Copyright Act",
   summary:"The DMCA criminalizes circumventing digital copy protection and creates a 'safe harbor' shielding platforms that remove infringing content when notified — shaping the relationship between copyright holders and internet platforms for decades.",

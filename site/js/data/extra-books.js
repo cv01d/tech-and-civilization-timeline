@@ -104,7 +104,7 @@ window.ATLAS_EVENTS.push(
     society:"'It from bit' — the speculative idea that information underlies physics itself enters serious science." },
   causes:["maxwellsdemon","shannon","turing1936"], effects:[] },
 
-{ id:"wikipedia", year:2001, date:"2001", era:6, cat:"internet",
+{ id:"wikipedia", year:2001, date:"2001", era:6, cat:["internet","opensource"],
   title:"Wikipedia",
   wiki:"Wikipedia", gallery:["Jimmy Wales","Encyclopédie"],
   summary:"Anyone can edit. A free encyclopedia written by volunteers becomes the largest reference work in history — and the emblem of information abundance.",

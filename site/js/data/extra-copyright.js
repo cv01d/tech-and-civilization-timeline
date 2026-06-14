@@ -4,7 +4,7 @@
 // cat:["print","law"] (music/art entries note their field). Round one: data only.
 window.ATLAS_EVENTS.push(
 
-{ id:"copyright1790", year:1790, date:"1790", era:2, cat:["print","law"],
+{ id:"copyright1790", year:1790, date:"1790", era:2, cat:["print","law","opensource"],
   title:"The U.S. Copyright Act of 1790",
   wiki:"Copyright Act of 1790",
   summary:"The first federal U.S. copyright law grants authors of maps, charts, and books a 14-year term, renewable once — modeled directly on Britain's Statute of Anne and grounded in the Constitution's clause to 'promote the Progress of Science and useful Arts.'",
@@ -57,7 +57,7 @@ window.ATLAS_EVENTS.push(
     print:"The collecting-society model for mass licensing is established." },
   causes:["copyright1909"], effects:["aicopyright"] },
 
-{ id:"copyright1976", year:1976, date:"1976", era:5, cat:["print","law"],
+{ id:"copyright1976", year:1976, date:"1976", era:5, cat:["print","law","opensource"],
   title:"The 1976 Copyright Act and Fair Use",
   wiki:"Copyright Act of 1976",
   summary:"The sweeping 1976 revision extends U.S. copyright to life-plus-50-years and, crucially, codifies 'fair use' into statute for the first time — its four factors (purpose, nature, amount, market effect) becoming the law's central safety valve for criticism, scholarship, parody, and new technology.",
@@ -68,7 +68,7 @@ window.ATLAS_EVENTS.push(
     society:"Criticism, scholarship, parody, and new technology gain a statutory defense." },
   causes:["chaceact","copyright1909"], effects:["dmca","googlebooks","aicopyright"] },
 
-{ id:"sonnybono", year:1998, date:"1998", era:6, cat:["print","law"],
+{ id:"sonnybono", year:1998, date:"1998", era:6, cat:["print","law","opensource"],
   title:"The Sonny Bono Term Extension",
   wiki:"Copyright Term Extension Act",
   summary:"The Copyright Term Extension Act adds 20 years to U.S. copyright — to life-plus-70 — just as early Mickey Mouse cartoons neared the public domain, earning it the nickname the 'Mickey Mouse Protection Act.' The Supreme Court upholds it in Eldred v. Ashcroft (2003).",
@@ -124,7 +124,7 @@ window.ATLAS_EVENTS.push(
     law:"The format-and-royalty contest reaches the digital edition." },
   causes:["royaltystandards","kindle"], effects:["hachetteamazon"] },
 
-{ id:"googlebooks", year:2005, date:"2004–2015", era:6, cat:["print","law"],
+{ id:"googlebooks", year:2005, date:"2004–2015", era:6, cat:["print","law","opensource"],
   title:"Google Books and Fair Use",
   wiki:"Authors Guild, Inc. v. Google, Inc.",
   summary:"Google begins scanning millions of library books without permission in 2004; a proposed class-action settlement is rejected by a court in 2011; and in 2015 the courts rule that Google's scanning to create a searchable index — showing only snippets — is transformative fair use, ending a decade of litigation.",
@@ -179,7 +179,7 @@ window.ATLAS_EVENTS.push(
     society:"The 'when does copying become creating?' question sharpens before the AI era." },
   causes:["copyright1976"], effects:["aicopyright"] },
 
-{ id:"happybirthday", year:2015, date:"2015", era:7, cat:["print","law"],
+{ id:"happybirthday", year:2015, date:"2015", era:7, cat:["print","law","opensource"],
   title:"'Happy Birthday' Freed",
   wiki:"Happy Birthday to You",
   summary:"After a lawsuit challenges the copyright that Warner/Chappell had claimed on 'Happy Birthday to You' — collecting some $2M a year in licensing — a court finds the claim invalid, and a 2016 settlement places the world's most famous song firmly in the public domain.",
@@ -190,7 +190,7 @@ window.ATLAS_EVENTS.push(
     society:"The overreach of copyright claims over shared culture is exposed." },
   causes:["sonnybono"], effects:[] },
 
-{ id:"internetarchive", year:2020, date:"2020–2024", era:7, cat:["print","law"],
+{ id:"internetarchive", year:2020, date:"2020–2024", era:7, cat:["print","law","opensource"],
   title:"The Internet Archive Lending Case",
   wiki:"Hachette v. Internet Archive",
   summary:"During the pandemic the Internet Archive launches an 'Emergency Library,' lending scanned books without the usual one-copy-one-loan limit; major publishers sue, and courts rule against the Archive's 'controlled digital lending,' finding it copyright infringement rather than fair use.",

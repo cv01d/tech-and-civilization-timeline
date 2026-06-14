@@ -27,7 +27,7 @@ window.ATLAS_EVENTS.push(
     power:"The first major image-AI lawsuit ends in a split verdict that satisfies neither side fully." },
   causes:["aicopyright"], effects:[] },
 
-{ id:"kadreymeta", year:2023, date:"2023–2025", era:7, cat:["print","computing","law"],
+{ id:"kadreymeta", year:2023, date:"2023–2025", era:7, cat:["print","computing","law","opensource"],
   title:"Kadrey v. Meta: Authors and the Shadow Libraries",
   wiki:"Llama (language model)", gallery:["Sarah Silverman","Library Genesis"],
   summary:"Comedian Sarah Silverman and a dozen novelists sue Meta in 2023, alleging it trained its LLaMA models on hundreds of thousands of books downloaded from pirate sites like Library Genesis and Anna's Archive; in June 2025 a federal judge rules the training itself was fair use, because the authors could not show it had harmed the market for their books — even while calling Meta's wholesale piracy of the source files troubling.",
@@ -71,7 +71,7 @@ window.ATLAS_EVENTS.push(
     power:"Organized rightsholders extract a narrow, immediate concession rather than wait years for a ruling." },
   causes:["ascap","aicopyright"], effects:[] },
 
-{ id:"bartzanthropic", year:2025, date:"2024–2026", era:7, cat:["print","computing","law"],
+{ id:"bartzanthropic", year:2025, date:"2024–2026", era:7, cat:["print","computing","law","opensource"],
   title:"Bartz v. Anthropic: The $1.5 Billion Settlement",
   wiki:"Bartz v. Anthropic", gallery:["Anthropic","Library Genesis"],
   summary:"Authors sue Anthropic in 2024 over the nearly half a million books — many downloaded from pirate sites, others bought and de-bound to be scanned — that built its training library; in June 2025 Judge William Alsup rules training itself can be fair use, but acquiring the books through piracy was not, and in September Anthropic agrees to pay $1.5 billion, roughly $3,000 per book, the largest copyright settlement in U.S. history.",

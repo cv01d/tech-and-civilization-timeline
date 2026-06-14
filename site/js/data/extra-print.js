@@ -61,7 +61,7 @@ window.ATLAS_EVENTS.push(
     power:"The information monopoly broken by print is defended by licensing and prohibition." },
   causes:["printingpress","reformation"], effects:["stationers","areopagitica"] },
 
-{ id:"stationers", year:1557, date:"1557", era:2, cat:"print",
+{ id:"stationers", year:1557, date:"1557", era:2, cat:["print","opensource"],
   title:"The Stationers' Company",
   wiki:"Worshipful Company of Stationers and Newspaper Makers",
   summary:"England charters the Stationers' Company — a guild of London printers granted a monopoly on all printing in exchange for enforcing censorship. Every book must be registered with the guild; its members profit from policing what others may print.",

@@ -196,7 +196,7 @@ window.ATLAS_EVENTS.push(
     society:"A reckoning with equity reshapes industry hiring and pay practices." },
   causes:["royaltystandards"], effects:[] },
 
-{ id:"aicopyright", year:2023, date:"2023–2026", era:7, cat:["print","computing","law"],
+{ id:"aicopyright", year:2023, date:"2023–2026", era:7, cat:["print","computing","law","opensource"],
   title:"AI Training and the Copyright Reckoning",
   wiki:"Artificial intelligence and copyright",
   summary:"Generative-AI companies train their models on vast troves of copyrighted books, articles, images, and news without permission or payment; authors, the New York Times, Getty Images, and others sue, while some publishers strike licensing deals — opening the defining copyright fight of the era, with no clear precedent yet.",
