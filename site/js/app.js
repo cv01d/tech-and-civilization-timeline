@@ -99,7 +99,7 @@
     chip.dataset.era = era.id;
     chip.title = `${era.num}: ${era.title} · ${era.range}`;
     chip.setAttribute("aria-label", `${era.num}: ${era.title}`);
-    chip.addEventListener("click", () => scrollToEra(era.id));
+    chip.addEventListener("click", () => { syncEraChips(era.id); scrollToEra(era.id); });
     filters.appendChild(chip);
     eraChips.push(chip);
   });
@@ -432,9 +432,9 @@
     rail.classList.toggle("visible", y > heroH() * 0.6);
     toTop.classList.toggle("visible", y > heroH() * 0.9);
 
-    // nearest event to viewport center sets the year + active era
+    // nearest event to viewport center sets the year readout
     const mid = y + window.innerHeight / 2;
-    let nearest = null, best = Infinity, activeEra = 1;
+    let nearest = null, best = Infinity;
     for (const row of allRows) {
       if (row.classList.contains("filtered")) continue;
       const r = row.getBoundingClientRect();
@@ -445,7 +445,19 @@
     if (nearest) {
       const ev = byId[nearest.dataset.id];
       chromeYear.textContent = ev.date.replace(/\s/g, " ");
-      activeEra = ev.era;
+    }
+
+    // active era = the era section at the top of the viewport: the last era
+    // header scrolled above the top offset. This matches where scrollToEra
+    // lands, so the chips track the section being read rather than the event
+    // nearest screen-center (which made boundaries fuzzy and skipped short eras).
+    // Skip headers hidden by filtering.
+    const line = y + topOffset() + 1;
+    let activeEra = ERAS[0].id;
+    for (const era of ERAS) {
+      const head = eraHeads[era.id];
+      if (!head || head.classList.contains("filtered")) continue;
+      if (head.getBoundingClientRect().top + window.scrollY <= line) activeEra = era.id; else break;
     }
     rail.querySelectorAll(".rail-item").forEach(it => it.classList.toggle("active", +it.dataset.era === activeEra));
     syncEraChips(activeEra);
