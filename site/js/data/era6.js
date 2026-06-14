@@ -12,7 +12,7 @@ window.ATLAS_EVENTS.push(
     regulation:"Regulators inherit a borderless medium that fits none of their categories — the defining legal problem of the era." },
   causes:["wwwproposal","arpanet","berlinwall"], effects:["mosaic","cookie","telecomact"] },
 
-{ id:"pgp", year:1991, date:"1991", era:6, cat:"internet",
+{ id:"pgp", year:1991, date:"1991", era:6, cat:["internet","encryption"],
   title:"PGP & the Crypto Wars",
   wiki:"Pretty Good Privacy", gallery:["Phil Zimmermann","Clipper chip","Public-key cryptography"],
   summary:"Phil Zimmermann releases strong encryption to everyone — and is investigated for exporting munitions.",

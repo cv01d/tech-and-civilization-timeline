@@ -58,7 +58,7 @@ window.ATLAS_EVENTS.push(
     society:"Nonviolent mass resistance is proven against the century's largest empire — King and others study it closely." },
   causes:["sepoymutiny"], effects:[] },
 
-{ id:"shannon", year:1948, date:"1948", era:5, cat:"computing",
+{ id:"shannon", year:1948, date:"1948", era:5, cat:["computing","encryption"],
   title:"Shannon's Information Theory",
   wiki:"A Mathematical Theory of Communication", gallery:["Claude Shannon","Information theory","Bit"],
   summary:"Claude Shannon defines information itself — the bit, channel capacity, redundancy — in one Bell Labs paper.",

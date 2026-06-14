@@ -53,6 +53,9 @@ window.ATLAS_CATEGORIES = [
   { key: "computing",      label: "Computing & AI" },
   { key: "robotics",       label: "Robots & Automata" },
   { key: "biotech",        label: "Genetics & Biotech" },
+  { key: "neurotech",      label: "Neurotech & VR" },
+  { key: "quantum",        label: "Quantum Computing" },
+  { key: "encryption",     label: "Encryption" },
   { key: "cctv",           label: "CCTV & Cameras" },
   { key: "opensource",     label: "Open Source & Commons" },
   { key: "law",            label: "Law & Regulation" }

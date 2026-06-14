@@ -7,7 +7,7 @@
 // (also law / surveillance facets). Round one: data only — images to follow.
 window.ATLAS_EVENTS.push(
 
-{ id:"clipperchip", year:1993, date:"1993", era:6, cat:["internet","law"],
+{ id:"clipperchip", year:1993, date:"1993", era:6, cat:["internet","law","encryption"],
   title:"The Clipper Chip",
   wiki:"Clipper chip",
   summary:"The NSA unveils the Clipper Chip — a government-designed encryption chip for consumer telephones that would give users strong encryption while depositing a copy of every chip's key with the government ('key escrow'), guaranteeing law-enforcement access. The entire technology industry and civil-liberties community line up against it.",
@@ -18,7 +18,7 @@ window.ATLAS_EVENTS.push(
     society:"Industry, technologists, and civil-liberties groups unite against mandated escrow." },
   causes:["pgp"], effects:["blazeclipper","calea"] },
 
-{ id:"blazeclipper", year:1994, date:"1994", era:6, cat:["internet","law"],
+{ id:"blazeclipper", year:1994, date:"1994", era:6, cat:["internet","law","encryption"],
   title:"Matt Blaze Breaks Clipper",
   wiki:"Clipper chip",
   summary:"Bell Labs researcher Matt Blaze discovers a fundamental flaw in the Clipper system — the escrow mechanism could be defeated, letting a device use Clipper's strong encryption while evading the very key-access it was built to guarantee. The technical failure, combined with political opposition, kills the proposal.",
@@ -29,7 +29,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"The principle that backdoors weaken security for all takes root in policy debate." },
   causes:["clipperchip"], effects:["calea","cryptoexport1996"] },
 
-{ id:"exportgrade", year:1995, date:"1994–1995", era:6, cat:["internet","law"],
+{ id:"exportgrade", year:1995, date:"1994–1995", era:6, cat:["internet","law","encryption"],
   title:"Export-Grade: Selling Broken Encryption",
   wiki:"Export of cryptography from the United States",
   summary:"U.S. export controls permit only weak 40-bit encryption in products sold abroad, classifying strong cryptography as a munition. In 1995, researchers in Europe break 40-bit SSL in days using ordinary workstation clusters — proving the only encryption America allows for export is demonstrably inadequate for commerce.",
@@ -40,7 +40,7 @@ window.ATLAS_EVENTS.push(
     society:"U.S. policy is exposed as exporting deliberately weakened security worldwide." },
   causes:["pgp"], effects:["netscapessl","cryptoexport1996"] },
 
-{ id:"netscapessl", year:1995, date:"1995", era:6, cat:["internet","opensource"],
+{ id:"netscapessl", year:1995, date:"1995", era:6, cat:["internet","opensource","encryption"],
   title:"SSL and the Two-Tier Browser",
   wiki:"Transport Layer Security",
   summary:"Netscape invents SSL to encrypt traffic between browser and server — the padlock that makes e-commerce possible — but export law forces it to ship two browsers: a 128-bit version for Americans and a crippled 40-bit version for everyone else. Secure online shopping exists in the U.S.; the rest of the world gets a weaker internet by decree of arms-export law.",
@@ -51,7 +51,7 @@ window.ATLAS_EVENTS.push(
     communications:"Secure e-commerce exists in the U.S. while the rest of the world runs weaker crypto." },
   causes:["exportgrade","mosaic"], effects:["cryptoexport1996","aes2001"] },
 
-{ id:"cryptoexport1996", year:1996, date:"1996", era:6, cat:["internet","law"],
+{ id:"cryptoexport1996", year:1996, date:"1996", era:6, cat:["internet","law","encryption"],
   title:"Encryption Leaves the Munitions List",
   wiki:"Export of cryptography from the United States",
   summary:"A Clinton executive order moves most commercial encryption from the State Department's Munitions List to the Commerce Control List — beginning the gradual retreat from treating cryptography as a weapon, and starting the liberalization that will culminate three years later.",
@@ -62,7 +62,7 @@ window.ATLAS_EVENTS.push(
     technology:"The path to globally deployable strong encryption is opened." },
   causes:["blazeclipper","exportgrade","netscapessl"], effects:["cryptoexport1999"] },
 
-{ id:"cryptoexport1999", year:1999, date:"1999", era:6, cat:["internet","law"],
+{ id:"cryptoexport1999", year:1999, date:"1999", era:6, cat:["internet","law","encryption"],
   title:"The First Crypto War Ends",
   wiki:"Export of cryptography from the United States",
   summary:"U.S. export controls on encryption are substantially relaxed: strong cryptography can now be exported to most countries after a one-time review. The first Crypto War ends in victory for industry and privacy — the surveillance-maximizing position loses to commerce, and the infrastructure for secure e-commerce becomes globally deployable.",
@@ -73,7 +73,7 @@ window.ATLAS_EVENTS.push(
     society:"The surveillance-maximizing position loses to commerce and privacy." },
   causes:["cryptoexport1996"], effects:["signalprotocol","earnit"] },
 
-{ id:"earnit", year:2020, date:"2019–2025", era:7, cat:["internet","law"],
+{ id:"earnit", year:2020, date:"2019–2025", era:7, cat:["internet","law","encryption"],
   title:"EARN IT and the Second Crypto War",
   wiki:"EARN IT Act",
   summary:"The EARN IT Act would condition Section 230 immunity on compliance with a government 'best-practices' list for fighting child sexual abuse material — which critics argue is designed to force platforms to either scan all encrypted messages or lose their immunity, mandating encryption backdoors through liability rather than legislation. Introduced repeatedly since 2020, it passes committee but never reaches a floor vote.",

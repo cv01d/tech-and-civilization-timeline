@@ -51,7 +51,7 @@ window.ATLAS_EVENTS.push(
     society:"The bandwidth ceiling that copper imposed is lifted for good." },
   causes:["transatlanticcable","integratedcircuit"], effects:["arpanet","nsfnet"] },
 
-{ id:"publickeycrypto", year:1976, date:"1976", era:5, cat:["internet","computing"],
+{ id:"publickeycrypto", year:1976, date:"1976", era:5, cat:["internet","computing","encryption"],
   title:"Public-Key Cryptography",
   wiki:"Public-key cryptography",
   summary:"Whitfield Diffie and Martin Hellman publish the revolutionary idea that two parties can establish a shared secret over an open, insecure channel without ever having met — solving the key-distribution problem that had limited cryptography for millennia. It is the mathematical foundation of every secure internet connection.",
@@ -62,7 +62,7 @@ window.ATLAS_EVENTS.push(
     communications:"The mathematical basis of every secure internet connection is created." },
   causes:["integratedcircuit"], effects:["rsa","netscapessl","aes2001"] },
 
-{ id:"rsa", year:1977, date:"1977", era:5, cat:["internet","computing"],
+{ id:"rsa", year:1977, date:"1977", era:5, cat:["internet","computing","encryption"],
   title:"RSA: Public-Key Cryptography Made Practical",
   wiki:"RSA (cryptosystem)",
   summary:"Ron Rivest, Adi Shamir, and Leonard Adleman turn the public-key idea into a working algorithm — RSA — that can both encrypt messages and produce digital signatures. It secures internet transactions for nearly fifty years, and is only now being phased out under the threat of quantum computing.",
@@ -73,7 +73,7 @@ window.ATLAS_EVENTS.push(
     computing:"The looming quantum threat now drives RSA's gradual replacement." },
   causes:["publickeycrypto"], effects:["netscapessl","aes2001"] },
 
-{ id:"aes2001", year:2001, date:"2001", era:6, cat:["internet","computing"],
+{ id:"aes2001", year:2001, date:"2001", era:6, cat:["internet","computing","encryption"],
   title:"AES: The Standard Cipher",
   wiki:"Advanced Encryption Standard",
   summary:"NIST adopts the Advanced Encryption Standard — chosen through an open international competition — as the symmetric cipher securing the content of internet communications. With no practical attack known, it remains the global standard a quarter-century later.",
@@ -106,7 +106,7 @@ window.ATLAS_EVENTS.push(
     society:"The internet's no-central-control ethos is applied to money and records." },
   causes:["publickeycrypto","rsa"], effects:["signalprotocol"] },
 
-{ id:"signalprotocol", year:2016, date:"2013–2016", era:7, cat:["internet","computing"],
+{ id:"signalprotocol", year:2016, date:"2013–2016", era:7, cat:["internet","computing","encryption"],
   title:"The Signal Protocol",
   wiki:"Signal Protocol",
   summary:"Open Whisper Systems develops the Signal Protocol for end-to-end encrypted messaging — adopted by WhatsApp, Messenger, and Google Messages — securing billions of messages a day so that not even the platform carrying them can read their contents.",
