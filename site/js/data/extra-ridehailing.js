@@ -49,6 +49,28 @@ window.ATLAS_EVENTS.push(
     computing:"Lidar, mapping, and deep-learning perception are aimed at removing the driver.",
     robotics:"The DARPA Challenges seed an autonomous-vehicle industry.",
     society:"Automating the driver proves a long, hard march defined by rare edge cases." },
-  causes:["uber","darpachallenge","alexnet"], effects:["uberav","waymo"] }
+  causes:["uber","darpachallenge","alexnet"], effects:["uberav","waymo"] },
+
+{ id:"googlemaps", year:2005, date:"2005", era:6, cat:["computing","internet"],
+  title:"Google Maps",
+  wiki:"Google Maps", gallery:["Google","Web mapping","Google Street View"],
+  summary:"Google launches Google Maps — a fast, draggable, zoomable map of the whole world in the browser — soon adding satellite imagery, turn-by-turn directions, and Street View's panoramic photography of actual streets. It becomes the dominant mapping service and, on the smartphone, the navigator in everyone's pocket.",
+  importance:"Google Maps turned the map from a static printed object into a live, searchable, infinitely pannable software service, and its smooth 'slippy map' interface set the standard every digital map has followed since. On the smartphone it replaced the paper atlas, the GPS unit, and the act of asking directions, quietly reorganizing how people navigate physical space. Its underlying map data, Street View imagery, and real-time traffic also became critical infrastructure for ride-hailing and the self-driving car — the digital substrate on which automated movement through the world is built.",
+  impact:{
+    computing:"The map becomes a live, searchable, pannable software service.",
+    society:"The smartphone navigator replaces the atlas, the GPS unit, and asking directions.",
+    internet:"Map data and Street View become infrastructure for ride-hailing and autonomy." },
+  causes:["googlefounding","iphone"], effects:["applemaps","selfdrivingcars","waymo"] },
+
+{ id:"applemaps", year:2012, date:"2012", era:7, cat:["computing","internet"],
+  title:"Apple Maps and the Default-App War",
+  wiki:"Apple Maps", gallery:["Apple Inc.","iOS"],
+  summary:"Apple drops Google Maps as the iPhone's built-in map and ships its own Apple Maps in 2012 — a launch so flawed (misplaced towns, melted bridges, missing cities) that CEO Tim Cook publicly apologizes. Apple rebuilds it over years; the episode shows how much power flows from controlling the default app on a billion devices.",
+  importance:"Apple Maps was both a famous product failure and a strategic landmark: Apple was willing to ship a worse map rather than leave a function as important as navigation — and the user data it generates — in a rival's hands on its own platform. The botched launch demonstrated how hard world-scale mapping actually is, and how unforgiving users are of a map that lies. It also crystallized the platform-power dynamic of the smartphone era, where the choice of which app is the default, preinstalled one shapes the fortunes of entire services and the data they harvest.",
+  impact:{
+    computing:"World-scale mapping proves brutally hard; a flawed map erodes trust instantly.",
+    society:"Controlling the default app on a billion phones becomes decisive strategic power.",
+    internet:"Navigation data is pulled in-house rather than left to a platform rival." },
+  causes:["googlemaps","iphone","appstore"], effects:["waymo"] }
 
 );

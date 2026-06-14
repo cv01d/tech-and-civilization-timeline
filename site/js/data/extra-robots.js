@@ -338,7 +338,7 @@ window.ATLAS_EVENTS.push(
     society:"R.U.R.'s premise — mass-produced artificial workers — approaches reality, fears intact." },
   causes:["asimo","atlasrobot","kivarobots","cobots","robonaut"], effects:["present"] },
 
-{ id:"waymo", year:2025, date:"2025", era:7, cat:"robotics",
+{ id:"waymo", year:2025, date:"2025", era:7, cat:["robotics","computing"],
   title:"Robotaxis at Scale",
   wiki:"Waymo", gallery:["Robotaxi","Self-driving car"],
   summary:"Waymo runs fully driverless robotaxis commercially in San Francisco, Los Angeles, and Phoenix — the first sustained at-scale autonomous transport service — still with no federal AV law.",
