@@ -172,7 +172,7 @@ body {
 #search::placeholder { color: var(--bone-faint); }
 .search-field { position: relative; display: flex; align-items: center; }
 .search-icon {
-  position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+  position: absolute; right: 14px; top: 20px; transform: translateY(-50%);
   width: 14px; height: 14px; color: var(--bone-faint); pointer-events: none;
   transition: color .25s;
 }
