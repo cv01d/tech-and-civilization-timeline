@@ -38,7 +38,29 @@ window.ATLAS_EVENTS.push(
     labor:"AI is shown to rest on a hidden, low-paid, often traumatized human workforce.",
     computing:"The 'magic' of automation is revealed to depend on outsourced human labeling.",
     power:"The value created by AI flows away from the workers who make it possible." },
-  causes:["empireofai","gebru","aitraining"], effects:["aiwater"] },
+  causes:["empireofai","gebru","aitraining"], effects:["aiwater","samakenya","acmu"] },
+
+{ id:"samakenya", year:2023, date:"2021–2023", era:7, cat:["computing","internet"],
+  title:"The Sama Workers and ChatGPT",
+  wiki:"Sama (company)", gallery:["Content moderation","OpenAI"],
+  summary:"A 2023 investigation reveals that to make ChatGPT safe, OpenAI relied on Kenyan workers employed by the outsourcing firm Sama, paid roughly $1.32 to $2 an hour to read and label graphic depictions of abuse, violence, and self-harm. Several describe lasting psychological trauma; Sama ends the contract early, and the episode becomes the defining case of AI's hidden human cost.",
+  importance:"To build the filter that keeps a chatbot from spewing horrors, someone first has to read the horrors — and in 2023 reporting revealed that someone was a team of Kenyan workers paid a few dollars an hour, hired through the firm Sama, sorting through the internet's worst material to teach the model what to refuse. Workers described recurring nightmares and broken relationships from the unending stream of trauma, with little mental-health support, and the contract collapsed before its term. The case put a specific, documented face on the abstraction of 'data work,' showing that the safety of a Silicon Valley product was manufactured out of the psychological injury of the Global South's lowest-paid labor.",
+  impact:{
+    labor:"Making a chatbot 'safe' is shown to rest on traumatizing, sub-$2-an-hour labeling work.",
+    computing:"The content filters of a flagship AI are revealed to be hand-built by outsourced workers.",
+    power:"A Western product's safety is manufactured out of the Global South's cheapest labor." },
+  causes:["ghostlabor","chatgpt","empireofai"], effects:["acmu"] },
+
+{ id:"acmu", year:2023, date:"May 2023", era:7, cat:["computing","internet","law"],
+  title:"The Content Moderators Organize",
+  wiki:"Content moderation", gallery:["Trade union","Daniel Motaung"],
+  summary:"In Nairobi, around 150 workers who moderate content and label data for Facebook, TikTok, and ChatGPT — employed through outsourcing firms like Sama and Majorel — vote to form the African Content Moderators Union, the first such union on the continent. Alongside a landmark suit by ex-moderator Daniel Motaung, a Kenyan court rules in 2023 that Meta can be sued there over working conditions.",
+  importance:"The hidden workforce behind the platforms and the models began, in 2023, to organize and to sue: roughly 150 Nairobi moderators and data labelers — the people enforcing the rules of Facebook, TikTok, and ChatGPT — formed Africa's first content-moderators union, while Daniel Motaung's case challenged the outsourced, precarious conditions of the work. When a Kenyan court held that Meta could be sued in Kenya despite working through a local contractor, it cracked the legal shield that lets platforms place the most damaging labor at arm's length offshore. It is the moment the ghost labor stopped being only a story told about these workers and became a movement and a legal claim made by them.",
+  impact:{
+    labor:"The platforms' outsourced moderators form Africa's first union and sue over their conditions.",
+    law:"A Kenyan court rules Meta can be sued locally, piercing the outsourcing shield.",
+    society:"The hidden workforce behind AI and social media becomes a visible, organized actor." },
+  causes:["ghostlabor","samakenya","gigeconomy"], effects:[] },
 
 { id:"splinterings", year:2024, date:"2024", era:7, cat:"computing",
   title:"The Safety Splinterings",

@@ -140,7 +140,7 @@ window.ATLAS_EVENTS.push(
   causes:["pressfreedomindex"], effects:[] },
 
 // ===== PLATFORM PRESSURES & NEW FIGHTS =====
-{ id:"instantarticles", year:2017, date:"2015–2017", era:7, cat:["print","social"],
+{ id:"instantarticles", year:2017, date:"2015–2017", era:7, cat:["print","social","internet"],
   title:"Facebook Instant Articles",
   wiki:"Instant Articles",
   summary:"Facebook's Instant Articles (2015) invites publishers to host their journalism directly inside the platform for speed and reach — but on Facebook's terms, with its control over data and revenue. By 2017 most publishers abandon it, wary of surrendering their audience and economics to the platform.",
@@ -151,7 +151,7 @@ window.ATLAS_EVENTS.push(
     power:"The peril of building journalism in a platform's walled garden is shown." },
   causes:["facebooknews"], effects:["substack"] },
 
-{ id:"substack", year:2021, date:"2017–2023", era:7, cat:["print","internet"],
+{ id:"substack", year:2021, date:"2017–2023", era:7, cat:["social","print","internet"],
   title:"Substack and the Newsletter Turn",
   wiki:"Substack",
   summary:"Substack's paid-newsletter platform lets individual writers earn directly from readers, drawing prominent journalists out of newsrooms into independent publishing — and igniting fierce debate when it declines to deplatform controversial writers, pitting free-speech principles against content moderation.",

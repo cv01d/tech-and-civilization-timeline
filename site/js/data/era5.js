@@ -507,7 +507,7 @@ window.ATLAS_EVENTS.push(
     government:"Demonstrates strike-breaking as planned state strategy, not improvisation." },
   causes:["patco"], effects:[] },
 
-{ id:"sonybetamax", year:1984, date:"1984", era:5, cat:["law","social"],
+{ id:"sonybetamax", year:1984, date:"1984", era:5, cat:["law","tv"],
   title:"The Betamax Case",
   wiki:"Sony Corp. of America v. Universal City Studios, Inc.", gallery:["Betamax","Videocassette recorder"],
   summary:"Hollywood sues to ban the VCR; the Supreme Court holds that technology with substantial non-infringing uses cannot be outlawed.",

@@ -95,7 +95,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"Battlefield-grade analytics are applied to a civilian population at scale." },
   causes:["palantirgotham"] },
 
-{ id:"palantircambridge", year:2018, date:"2018", era:7, cat:["computing","social"],
+{ id:"palantircambridge", year:2018, date:"2018", era:7, cat:["computing","social","internet"],
   title:"A Palantir Engineer & Cambridge Analytica",
   wiki:"Facebook–Cambridge Analytica data scandal",
   gallery:["Cambridge Analytica"],

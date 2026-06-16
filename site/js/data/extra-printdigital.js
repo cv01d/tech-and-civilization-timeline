@@ -5,7 +5,7 @@
 // likebutton cards. cat:"print" (+ internet/social). Round one: data only.
 window.ATLAS_EVENTS.push(
 
-{ id:"googlenews", year:2002, date:"1998–2002", era:6, cat:["print","internet","social"],
+{ id:"googlenews", year:2002, date:"1998–2002", era:6, cat:["print","internet"],
   title:"Google News and the Ad Machine",
   wiki:"Google News",
   summary:"Google (1998) launches Google News in 2002 — algorithmically aggregating the world's journalism onto one page — while its AdSense and search-ad systems, later joined by Facebook, come to dominate digital advertising. The platforms capture the ad revenue that journalism produces but no longer controls.",
@@ -60,7 +60,7 @@ window.ATLAS_EVENTS.push(
     society:"The bound reference book yields to the constantly-updated digital commons." },
   causes:["wikipedia","kindle"], effects:[] },
 
-{ id:"facebooknews", year:2018, date:"2015–2018", era:7, cat:["print","social"],
+{ id:"facebooknews", year:2018, date:"2015–2018", era:7, cat:["print","social","internet"],
   title:"The News Feed Turns Away",
   wiki:"News Feed",
   summary:"Through the mid-2010s Facebook's algorithm sends huge referral traffic to news publishers, who reorganize around it — then in January 2018 it pivots away from news toward 'meaningful' personal content, crashing the referral traffic many digital newsrooms depended on and driving waves of layoffs.",

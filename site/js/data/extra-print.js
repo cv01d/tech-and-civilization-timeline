@@ -314,7 +314,7 @@ window.ATLAS_EVENTS.push(
     power:"A website accomplishes what no censor could — the gutting of the press." },
   causes:["pennypress","printpeak","desktoppublishing"], effects:["newspapercollapse"] },
 
-{ id:"newspapercollapse", year:2008, date:"2004–2009", era:6, cat:["print","internet","social"],
+{ id:"newspapercollapse", year:2008, date:"2004–2009", era:6, cat:["print","internet"],
   title:"The Digital Destruction",
   wiki:"Decline of newspapers",
   summary:"Facebook, YouTube, and Google's ad tools capture display advertising with targeting newspapers can't match; the dot-com bust and the 2008 Great Recession compound the loss. Newspaper revenue falls from $49B (2006) toward $14B (2018); the Tribune Company's debt-laden buyout collapses into bankruptcy; and in 2009 papers begin closing as no two-daily city stays that way.",

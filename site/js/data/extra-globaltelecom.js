@@ -257,7 +257,7 @@ window.ATLAS_EVENTS.push(
     radio:"Telecommunications infrastructure built to connect a population becomes the mechanism for isolating it." },
   causes:["myanmarsaffron2007"], effects:["sovereigninternet2019"] },
 
-{ id:"indiaappban2020", year:2020, date:"2020", era:7, cat:["radio","law","social"],
+{ id:"indiaappban2020", year:2020, date:"2020", era:7, cat:["radio","law","social","internet"],
   title:"India Bans the Apps",
   wiki:"2020 China–India skirmishes",
   gallery:["TikTok"],

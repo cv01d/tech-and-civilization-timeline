@@ -95,7 +95,7 @@ window.ATLAS_EVENTS.push(
     society:"AI safety, alignment, and 'who builds this' enter public discourse as founding questions, not afterthoughts." },
   causes:["deepmind","alexnet"], effects:["gpt3","chatgpt"] },
 
-{ id:"schrems", year:2015, date:"2015 & 2020", era:7, cat:["law","social"],
+{ id:"schrems", year:2015, date:"2015 & 2020", era:7, cat:["law","social","internet"],
   title:"Schrems I & II",
   wiki:"Max Schrems", gallery:["Court of Justice of the European Union","EU–US Privacy Shield"],
   summary:"One Austrian law student's complaints, powered by Snowden's evidence, twice invalidate the EU–US data-transfer framework.",
@@ -119,7 +119,7 @@ window.ATLAS_EVENTS.push(
     technology:"Lovelace's originality objection takes its hardest empirical hit yet." },
   causes:["deepmind","alexnet","deepblue"], effects:["transformer"] },
 
-{ id:"cambridgeanalytica", year:2018, date:"2016–2018", era:7, cat:"social",
+{ id:"cambridgeanalytica", year:2018, date:"2016–2018", era:7, cat:["social","internet"],
   title:"Cambridge Analytica",
   wiki:"Facebook–Cambridge Analytica data scandal", gallery:["Cambridge Analytica","Mark Zuckerberg","Christopher Wylie"],
   summary:"Eighty-seven million Facebook profiles, harvested via a personality quiz, fuel political targeting — and the platform era's defining scandal.",
@@ -192,7 +192,7 @@ window.ATLAS_EVENTS.push(
     government:"Federal inaction's costs are institutionalized: fifty laboratories, no national floor." },
   causes:["gdpr","cambridgeanalytica","equifaxbreach"], effects:[] },
 
-{ id:"ftcfacebook", year:2019, date:"2019", era:7, cat:["law","social"],
+{ id:"ftcfacebook", year:2019, date:"2019", era:7, cat:["law","social","internet"],
   title:"The $5 Billion Facebook Settlement",
   wiki:"Federal Trade Commission", gallery:["Facebook","Privacy"],
   summary:"The FTC's largest privacy penalty ever — and, critics note, a rounding error on the business model it addressed.",
@@ -227,7 +227,7 @@ window.ATLAS_EVENTS.push(
     government:"State capacity — fiscal, medical, digital — is stress-tested in public, with lasting trust consequences." },
   causes:[], effects:["unionwave"] },
 
-{ id:"googlecase", year:2020, date:"2020–2024", era:7, cat:["law","social"],
+{ id:"googlecase", year:2020, date:"2020–2024", era:7, cat:["law","social","internet"],
   title:"United States v. Google",
   wiki:"United States v. Google LLC (2020)", gallery:["Google","United States Department of Justice"],
   summary:"The DOJ's search-monopolization case ends in a 2024 liability verdict — the platform era's first great structural antitrust judgment.",
@@ -336,7 +336,7 @@ window.ATLAS_EVENTS.push(
     technology:"Provenance, opt-outs, and synthetic-data strategies reshape how models are built." },
   causes:["statuteofanne","sonybetamax","napster","copilot"], effects:[] },
 
-{ id:"deepfakes", year:2024, date:"2017–2026", era:7, cat:["computing","social"],
+{ id:"deepfakes", year:2024, date:"2017–2026", era:7, cat:["computing","social","internet"],
   title:"The Synthetic Media Era",
   wiki:"Deepfake", gallery:["Synthetic media","Media literacy"],
   summary:"Voices, faces, and events are now synthesizable on demand — election robocalls, fraud, and the slow repricing of all recorded evidence.",
