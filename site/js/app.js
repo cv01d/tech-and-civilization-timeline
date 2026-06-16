@@ -179,23 +179,23 @@
   function applyFilter() {
     const q = search.value.trim().toLowerCase();
     let shown = 0;
+    const erasWithVisible = new Set();
     allRows.forEach(row => {
       const ev = byId[row.dataset.id];
       const catOk = activeCats.size === 0 || catsOf(ev).some(c => activeCats.has(c));
       const textOk = !q || (ev.title + " " + ev.summary + " " + ev.importance + " " + ev.date).toLowerCase().includes(q);
       const vis = catOk && textOk;
       row.classList.toggle("filtered", !vis);
-      if (vis) shown++;
+      if (vis) { shown++; erasWithVisible.add(ev.era); }
     });
-    // hide era heads with no visible rows
+    // hide era heads with no visible rows (tracked in the single pass above)
     ERAS.forEach(era => {
-      const any = allRows.some(r => byId[r.dataset.id].era === era.id && !r.classList.contains("filtered"));
-      eraHeads[era.id].classList.toggle("filtered", !any);
+      eraHeads[era.id].classList.toggle("filtered", !erasWithVisible.has(era.id));
     });
     if (q || activeCats.size) searchCount.textContent = `${shown} of ${EVENTS.length}`;
     else searchCount.textContent = "";
-    if (window.ScrollTrigger) window.ScrollTrigger.refresh();
   }
+
   let searchTimer;
   search.addEventListener("input", () => { clearTimeout(searchTimer); searchTimer = setTimeout(applyFilter, 140); });
 
@@ -481,22 +481,12 @@
         opacity: 0, y: 40, duration: 1, stagger: .12, ease: "power3.out"
       });
     });
-    // event rows
-    allRows.forEach(row => {
-      const card = row.querySelector(".ev-card");
-      const fromX = row.classList.contains("left") ? -50 : 50;
-      gsap.from(card, {
-        scrollTrigger: { trigger: row, start: "top 88%" },
-        opacity: 0, x: fromX, duration: .9, ease: "power3.out"
-      });
-      gsap.from(row.querySelector(".ev-year"), {
-        scrollTrigger: { trigger: row, start: "top 88%" },
-        opacity: 0, scale: .6, duration: .7, ease: "back.out(2)"
-      });
-      gsap.fromTo(row.querySelector(".ev-node"),
-        { scale: 0 },
-        { scrollTrigger: { trigger: row, start: "top 90%" }, scale: 1, duration: .5, ease: "back.out(3)" });
-    });
+    // NOTE: per-row scroll-reveal animations were intentionally removed. With ~1200+
+    // exhibits they registered thousands of ScrollTriggers on a ~280,000px-tall page,
+    // which made every filter toggle (and scrolling itself) stall for seconds while
+    // ScrollTrigger recomputed them all. Rows are now simply visible; only the 7 era
+    // heads (above) and the epilogue keep a reveal. Do not reintroduce per-row
+    // triggers without batching them into a single ScrollTrigger.batch().
     // epilogue
     gsap.from("#epilogue .epilogue-inner > *", {
       scrollTrigger: { trigger: "#epilogue", start: "top 75%" },
