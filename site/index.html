@@ -34,9 +34,6 @@
   <div class="chrome-year" id="chrome-year">3400&nbsp;BCE</div>
 </header>
 
-<!-- ===== Era rail (left navigation) ===== -->
-<nav id="era-rail" aria-label="Eras"></nav>
-
 <!-- ===== Reading progress spine glow ===== -->
 <div id="progress-bar"><div id="progress-fill"></div></div>
 
@@ -235,9 +232,31 @@
     setTimeout(function() { ignoreScroll = false; }, 400);
   });
 
+  // Scroll the timeline so its first gallery sits just below the sticky chrome +
+  // controls bars (not all the way to the page top / hero).
+  var atlas = document.getElementById('atlas');
+  var controls = document.getElementById('controls');
+  function scrollToTimelineTop() {
+    var chromeEl = document.getElementById('chrome');
+    var ch = chromeEl ? chromeEl.getBoundingClientRect().height : 0;
+    var co = controls ? controls.getBoundingClientRect().height : 0;
+    var y = atlas.getBoundingClientRect().top + window.scrollY - (ch + co + 24);
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+  }
+
+  // Picking a filter chip scrolls up to the top of the first gallery on every
+  // screen size. On mobile it also auto-collapses the panel.
+  panel.addEventListener('click', function(e) {
+    var chip = e.target.closest('.chip');
+    if (!chip) return;
+    ignoreScroll = true;
+    if (window.innerWidth < 920) setOpen(false);
+    scrollToTimelineTop();
+    setTimeout(function() { ignoreScroll = false; }, 400);
+  });
+
   // Auto-collapse on scroll-down once controls are sticky — mobile only.
   // Manual click always wins.
-  var controls = document.getElementById('controls');
   var lastY = window.scrollY;
   window.addEventListener('scroll', function() {
     if (ignoreScroll || window.innerWidth >= 920) return;

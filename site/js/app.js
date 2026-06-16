@@ -67,41 +67,14 @@
   }
 
   // ============================================================
-  //  BUILD: era rail, filters, timeline
+  //  BUILD: filters, timeline
   // ============================================================
-  const rail = $("#era-rail");
-  ERAS.forEach(era => {
-    const item = el("button", "rail-item");
-    item.dataset.era = era.id;
-    item.innerHTML = `<span class="rail-dot"></span><span class="rail-label">${era.title}</span>`;
-    item.addEventListener("click", () => scrollToEra(era.id));
-    rail.appendChild(item);
-  });
-
   const filters = $("#filters");
   const activeCats = new Set();
 
   const allChip = el("button", "chip on", "All");
   allChip.addEventListener("click", () => { activeCats.clear(); syncChips(); applyFilter(); });
   filters.appendChild(allChip);
-
-  // Era chips — jump links, not filters; active state driven by scroll position
-  const eraRoman = ["I","II","III","IV","V","VI","VII"];
-  const eraChips = [];
-  ERAS.forEach((era, i) => {
-    const chip = el("button", "chip chip-era", eraRoman[i] || String(era.id));
-    chip.dataset.era = era.id;
-    chip.title = `${era.num}: ${era.title} · ${era.range}`;
-    chip.setAttribute("aria-label", `${era.num}: ${era.title}`);
-    chip.addEventListener("click", () => { syncEraChips(era.id); scrollToEra(era.id); });
-    filters.appendChild(chip);
-    eraChips.push(chip);
-  });
-
-  // Divider between era chips and category chips
-  const chipDiv = el("span", "chip-divider");
-  chipDiv.setAttribute("aria-hidden", "true");
-  filters.appendChild(chipDiv);
 
   CATS.forEach(c => {
     const chip = el("button", "chip", c.label);
@@ -115,9 +88,6 @@
   function syncChips() {
     allChip.classList.toggle("on", activeCats.size === 0);
     filters.querySelectorAll(".chip[data-cat]").forEach(ch => ch.classList.toggle("on", activeCats.has(ch.dataset.cat)));
-  }
-  function syncEraChips(activeEra) {
-    eraChips.forEach(ch => ch.classList.toggle("on", +ch.dataset.era === activeEra));
   }
 
   // ---------- timeline DOM ----------
@@ -399,22 +369,6 @@
     else window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
-  // Combined height of the fixed chrome header + the sticky controls bar, so a
-  // jump target lands in the space *below* the controls (not clipped under it).
-  function topOffset() {
-    const chromeEl = $("#chrome"), controlsEl = $("#controls");
-    const ch = chromeEl ? chromeEl.getBoundingClientRect().height : 0;
-    const co = controlsEl ? controlsEl.getBoundingClientRect().height : 0;
-    return ch + co + 24;
-  }
-
-  function scrollToEra(id) {
-    const head = eraHeads[id];
-    if (!head) return;
-    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 1.1, scrollTo: { y: head, offsetY: topOffset() }, ease: "power2.inOut" });
-    else { const y = head.getBoundingClientRect().top + window.scrollY - topOffset(); window.scrollTo({ top: y, behavior: "smooth" }); }
-  }
-
   // year + progress + chrome on scroll
   const heroH = () => $("#hero").offsetHeight;
   function onScroll() {
@@ -423,7 +377,6 @@
     const pct = Math.max(0, Math.min(1, y / docH));
     progressFill.style.width = (pct * 100) + "%";
     chrome.classList.toggle("visible", y > heroH() * 0.6);
-    rail.classList.toggle("visible", y > heroH() * 0.6);
     toTop.classList.toggle("visible", y > heroH() * 0.9);
 
     // nearest event to viewport center sets the year readout
@@ -440,21 +393,6 @@
       const ev = byId[nearest.dataset.id];
       chromeYear.textContent = ev.date.replace(/\s/g, " ");
     }
-
-    // active era = the era section at the top of the viewport: the last era
-    // header scrolled above the top offset. This matches where scrollToEra
-    // lands, so the chips track the section being read rather than the event
-    // nearest screen-center (which made boundaries fuzzy and skipped short eras).
-    // Skip headers hidden by filtering.
-    const line = y + topOffset() + 1;
-    let activeEra = ERAS[0].id;
-    for (const era of ERAS) {
-      const head = eraHeads[era.id];
-      if (!head || head.classList.contains("filtered")) continue;
-      if (head.getBoundingClientRect().top + window.scrollY <= line) activeEra = era.id; else break;
-    }
-    rail.querySelectorAll(".rail-item").forEach(it => it.classList.toggle("active", +it.dataset.era === activeEra));
-    syncEraChips(activeEra);
   }
   let ticking = false;
   window.addEventListener("scroll", () => {
@@ -473,25 +411,16 @@
       .from(".hero-sub", { opacity: 0, y: 20, duration: 1 }, "-=.5")
       .from(".hero-cta", { opacity: 0, y: 20, duration: 1 }, "-=.6");
 
-    if (!window.ScrollTrigger) return;
-    // era heads
-    Object.values(eraHeads).forEach(head => {
-      gsap.from(head.querySelectorAll(".era-num, .era-title, .era-range, .era-blurb, .era-rule"), {
-        scrollTrigger: { trigger: head, start: "top 78%" },
-        opacity: 0, y: 40, duration: 1, stagger: .12, ease: "power3.out"
-      });
-    });
-    // NOTE: per-row scroll-reveal animations were intentionally removed. With ~1200+
-    // exhibits they registered thousands of ScrollTriggers on a ~280,000px-tall page,
-    // which made every filter toggle (and scrolling itself) stall for seconds while
-    // ScrollTrigger recomputed them all. Rows are now simply visible; only the 7 era
-    // heads (above) and the epilogue keep a reveal. Do not reintroduce per-row
-    // triggers without batching them into a single ScrollTrigger.batch().
-    // epilogue
-    gsap.from("#epilogue .epilogue-inner > *", {
-      scrollTrigger: { trigger: "#epilogue", start: "top 75%" },
-      opacity: 0, y: 30, duration: 1, stagger: .1
-    });
+    // NOTE: scroll-reveal animations for the era heads, the event rows, and the
+    // epilogue were intentionally removed. Their ScrollTriggers went stale whenever a
+    // filter changed the page height: a header scrolled to the top of the viewport
+    // (where filtering lands it) never crosses its "top 78%" trigger line, so GSAP
+    // left it stuck at opacity:0 — producing empty galleries with invisible headers.
+    // Plus, with ~1200+ rows the per-row triggers alone made every filter toggle stall
+    // for seconds. These sections are now simply visible. Only the hero (which plays
+    // once on load and is never filtered) keeps its entrance animation. Do not
+    // reintroduce scroll reveals here without a refresh-safe approach (e.g. a single
+    // ScrollTrigger.batch() plus refreshing after applyFilter).
   }
 
   // ============================================================
