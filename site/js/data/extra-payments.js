@@ -2,10 +2,10 @@
 // and the buy-now-pay-later checkout. The through-line: paying is pulled out of the
 // bank and the wallet and into the network, becoming a social act woven into how people
 // split a dinner, settle a debt, or gather. Cross-links the existing amazon, iphone,
-// appstore, palantirfounding, gigeconomy, alibaba cards. cat:"internet" (+ law).
+// appstore, palantirfounding, gigeconomy, alibaba cards. cat:["internet","crypto"].
 window.ATLAS_EVENTS.push(
 
-{ id:"paypal", year:1998, date:"1998–2002", era:6, cat:"internet",
+{ id:"paypal", year:1998, date:"1998–2002", era:6, cat:["internet","crypto"],
   title:"PayPal: Money by Email",
   wiki:"PayPal", gallery:["Peter Thiel","Elon Musk","Max Levchin"],
   summary:"A pair of startups merge into PayPal, letting anyone send money to anyone else with just an email address — the first payment system built for the internet rather than retrofitted onto it. It rides eBay's auctions to ubiquity and, after a 2002 sale to eBay, scatters a 'PayPal Mafia' across Silicon Valley.",
@@ -16,7 +16,7 @@ window.ATLAS_EVENTS.push(
     power:"The 'PayPal Mafia' of founders and engineers reshapes Silicon Valley for two decades." },
   causes:["amazon"], effects:["venmo","applepay","palantirfounding"] },
 
-{ id:"klarna", year:2005, date:"2005", era:6, cat:"internet",
+{ id:"klarna", year:2005, date:"2005", era:6, cat:["internet","crypto"],
   title:"Klarna and Buy-Now-Pay-Later",
   wiki:"Klarna", gallery:["Sebastian Siemiatkowski","Buy now, pay later"],
   summary:"Three students in Stockholm found Klarna, letting online shoppers receive goods first and pay later in interest-free installments. The 'buy now, pay later' model spreads worldwide through the 2010s — embedded in every checkout, frictionless, and quietly reviving consumer credit for a generation wary of credit cards.",
@@ -27,7 +27,7 @@ window.ATLAS_EVENTS.push(
     law:"Regulators move to police a vast, near-invisible new form of point-of-sale lending." },
   causes:["amazon","paypal"], effects:[] },
 
-{ id:"venmo", year:2009, date:"2009–2012", era:6, cat:"internet",
+{ id:"venmo", year:2009, date:"2009–2012", era:6, cat:["internet","crypto"],
   title:"Venmo: Paying as Social Feed",
   wiki:"Venmo", gallery:["Smartphone","Mobile payment"],
   summary:"Two friends build Venmo to settle a forgotten debt over a weekend, and turn paying each other into something social — a phone-to-phone transfer wrapped in a public feed of who paid whom, captioned with emoji and inside jokes. It becomes the default way a generation splits the check, the rent, and the bar tab.",
@@ -38,7 +38,7 @@ window.ATLAS_EVENTS.push(
     surveillance:"A feed of who-paid-whom turns private spending into casually visible social data." },
   causes:["paypal","iphone","appstore"], effects:["applepay"] },
 
-{ id:"applepay", year:2014, date:"October 2014", era:7, cat:"internet",
+{ id:"applepay", year:2014, date:"October 2014", era:7, cat:["internet","crypto"],
   title:"Apple Pay and the Wallet in the Phone",
   wiki:"Apple Pay", gallery:["Near-field communication","Mobile payment"],
   summary:"Apple launches Apple Pay, letting an iPhone held to a contactless terminal stand in for a credit card — tokenized, fingerprint- or face-confirmed, with the card number never shared with the merchant. Tap-to-pay, joined by Google's equivalent, makes the phone the wallet and helps push physical cash and cards toward the margins.",

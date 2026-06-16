@@ -84,16 +84,16 @@ window.ATLAS_EVENTS.push(
     society:"The ancestor lineage of every later search engine begins." },
   causes:["arpanet"], effects:["googlefounding","webpublic"] },
 
-{ id:"bitcoin", year:2009, date:"January 2009", era:7, cat:["internet","computing"],
+{ id:"bitcoin", year:2009, date:"January 2009", era:7, cat:["crypto","internet","computing"],
   title:"Bitcoin and the Blockchain",
   wiki:"Bitcoin",
-  summary:"The pseudonymous Satoshi Nakamoto launches Bitcoin — a decentralized digital ledger proving that cryptographic protocols can transfer value with no central authority and no trusted intermediary. It becomes the foundation of cryptocurrency and of every later 'decentralized' system.",
-  importance:"Bitcoin answered a problem long thought unsolvable — how to move value over a network without a bank or clearinghouse to prevent double-spending — by combining public-key cryptography with a shared, tamper-evident ledger maintained by no one in particular. Whatever one makes of its speculative excesses, the underlying demonstration was real: trustless coordination at internet scale, the same decentralizing impulse that animated TCP/IP applied to money and record-keeping. It revived, in a new domain, the founding internet dream of systems with no center to control.",
+  summary:"The pseudonymous Satoshi Nakamoto launches Bitcoin — a decentralized digital ledger proving that cryptographic protocols can transfer value with no central authority and no trusted intermediary. The first 'genesis' block is timestamped with a newspaper headline about bank bailouts, a deliberate statement of purpose. It becomes the foundation of cryptocurrency and of every later 'decentralized' system.",
+  importance:"Bitcoin answered a problem long thought unsolvable — how to move value over a network without a bank or clearinghouse to prevent double-spending — by combining public-key cryptography with a shared, tamper-evident ledger maintained by no one in particular. Mined in the wake of the 2008 crisis, its genesis block carried a Times headline about a second bank bailout, framing the project as a rebuke to centralized finance. Whatever one makes of its speculative excesses, the underlying demonstration was real: trustless coordination at internet scale, the same decentralizing impulse that animated TCP/IP applied to money and record-keeping.",
   impact:{
     technology:"A decentralized ledger transfers value with no central authority.",
     computing:"Trustless coordination at internet scale is demonstrated for the first time.",
     society:"The internet's no-central-control ethos is applied to money and records." },
-  causes:["publickeycrypto","rsa"], effects:["signalprotocol"] },
+  causes:["publickeycrypto","rsa","satoshiwhitepaper","financialcrisis"], effects:["signalprotocol","bitcoinpizza","silkroad"] },
 
 { id:"signalprotocol", year:2016, date:"2013–2016", era:7, cat:["internet","computing","encryption"],
   title:"The Signal Protocol",

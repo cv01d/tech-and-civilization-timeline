@@ -239,7 +239,7 @@ window.ATLAS_EVENTS.push(
     power:"Governments shift from requesting platform cooperation to mandating it." },
   causes:["rohingya","facebook"], effects:["onlinesafetyact","dsa"] },
 
-{ id:"libra", year:2019, date:"2019", era:7, cat:["social","internet"],
+{ id:"libra", year:2019, date:"2019", era:7, cat:["social","internet","crypto"],
   title:"Facebook's Currency Is Killed",
   wiki:"Diem (digital currency)",
   summary:"Facebook announces Libra, a global cryptocurrency; alarmed financial regulators worldwide force the project to collapse — the first time regulators successfully halt a major Facebook product before launch.",
