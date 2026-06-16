@@ -81,14 +81,8 @@
   const filters = $("#filters");
   const activeCats = new Set();
 
-  function scrollToAtlasTop() {
-    const target = $("#atlas");
-    if (gsap && window.ScrollToPlugin) gsap.to(window, { duration: 0.7, scrollTo: { y: target, offsetY: topOffset() }, ease: "power2.inOut" });
-    else { const y = target.getBoundingClientRect().top + window.scrollY - topOffset(); window.scrollTo({ top: y, behavior: "smooth" }); }
-  }
-
   const allChip = el("button", "chip on", "All");
-  allChip.addEventListener("click", () => { activeCats.clear(); syncChips(); applyFilter(); scrollToAtlasTop(); });
+  allChip.addEventListener("click", () => { activeCats.clear(); syncChips(); applyFilter(); });
   filters.appendChild(allChip);
 
   // Era chips — jump links, not filters; active state driven by scroll position
@@ -114,7 +108,7 @@
     chip.dataset.cat = c.key;
     chip.addEventListener("click", () => {
       if (activeCats.has(c.key)) activeCats.delete(c.key); else activeCats.add(c.key);
-      syncChips(); applyFilter(); scrollToAtlasTop();
+      syncChips(); applyFilter();
     });
     filters.appendChild(chip);
   });
