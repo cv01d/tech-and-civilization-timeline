@@ -307,14 +307,14 @@ body {
 
 /* ---------- Exhibit popup ---------- */
 #exhibit { position: fixed; inset: 0; z-index: 150; display: none; }
-#exhibit.open { display: block; }
+#exhibit.open { display: flex; align-items: flex-start; justify-content: center; padding: 40px 18px 18px; }
 #exhibit-backdrop {
   position: absolute; inset: 0; background: rgba(5,4,3,.82);
   backdrop-filter: blur(10px) saturate(.7);
 }
 #exhibit-card {
-  position: absolute; left: 50%; top: 40px; transform: translate(-50%, -50%);
-  width: min(1060px, calc(100vw - 36px)); height: min(86vh, 760px);
+  position: relative;
+  width: min(1060px, calc(100vw - 36px)); height: min(86vh, 760px); max-height: calc(100vh - 58px);
   background: var(--ink-2); border: 1px solid rgba(201,163,90,.3); border-radius: 4px;
   display: flex; overflow: hidden;
   box-shadow: 0 40px 120px rgba(0,0,0,.7), 0 0 0 1px rgba(0,0,0,.6);
@@ -473,8 +473,7 @@ body {
   .ev-thumb { width: 96px; }
   #exhibit-card {
     flex-direction: column;
-    left: 16px; right: 16px; top: 16px; bottom: 16px; transform: none;
-    width: auto; height: auto;
+    width: 100%; height: auto; max-height: calc(100vh - 58px);
     border-radius: 4px;
   }
   #exhibit-media { width: 100%; height: 220px; flex-shrink: 0; border-right: none; border-bottom: 1px solid rgba(201,163,90,.18); }
