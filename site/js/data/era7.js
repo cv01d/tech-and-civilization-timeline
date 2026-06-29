@@ -370,7 +370,31 @@ window.ATLAS_EVENTS.push(
     labor:"Task automation graduates to workflow automation — the disputes of 2025 are the Luddites. question again, at higher abstraction.",
     surveillance:"An agent with your accounts is the most intimate data relationship yet constructed.",
     regulation:"Agency law, liability, and authentication frameworks scramble to define the acting machine." },
-  causes:["chatgpt","claude","ring"], effects:["present"] },
+  causes:["chatgpt","claude","ring"], effects:["present","physicalai","prometheus"] },
+
+{ id:"physicalai", year:2025, date:"2025", era:7, cat:"robotics",
+  title:"The Millionth Robot & Physical AI",
+  wiki:"Amazon Robotics", gallery:["Kiva Systems","Automation","Embodied cognition"],
+  summary:"Amazon deploys its one-millionth warehouse robot and a foundation model to drive the fleet — the year machine intelligence stops being a screen and becomes a body on the floor.",
+  importance:"The same statistical models that learned to see and speak began, in the mid-2020s, to move. Amazon — which had bought Kiva Systems in 2012 and rebuilt fulfillment around mobile robots — passed a million deployed units in 2025 and introduced DeepFleet, a generative AI foundation model that coordinates the whole swarm and cut fleet travel time by roughly a tenth. Newer machines crossed older boundaries: Proteus, a fully autonomous mobile robot, left the caged zones to navigate open floors among people; multi-armed systems collapsed several manual stations into one. The company says it has retrained hundreds of thousands of workers for the maintenance and engineering roles the robots create even as they erase the picking roles they replace — the oldest argument in this atlas, restated in steel. \"Physical AI\" names the threshold: perception, language, and planning fused to actuators, the model finally given hands.",
+  impact:{
+    technology:"A foundation model graduates from text to logistics — learned coordination replaces hand-tuned routing across a continental machine.",
+    labor:"Automation reaches the warehouse body at scale: tasks dissolve faster than they are reskilled, and the displacement debate moves from the office to the floor.",
+    computing:"The same architecture behind chatbots now governs physical movement — intelligence escapes the screen.",
+    society:"The fulfillment center becomes the clearest preview of an economy where the machine does the lifting and the human does the maintenance — or neither." },
+  causes:["amazon","agents","alphago"], effects:["present"] },
+
+{ id:"prometheus", year:2025, date:"November 2025", era:7, cat:"computing",
+  title:"Project Prometheus: The Artificial General Engineer",
+  wiki:"Jeff Bezos", gallery:["Vik Bajaj","Computer-aided design","Artificial general intelligence"],
+  summary:"Bezos returns as a co-CEO to launch a $6.2-billion AI startup aimed not at chatbots but at designing physical objects — an \"artificial general engineer\" for the material world.",
+  importance:"Revealed by the New York Times in November 2025, Project Prometheus arrived with $6.2 billion in initial funding — much of it Jeff Bezos's own — and grew within months into one of the best-capitalized startups ever, raising a further round that valued it in the tens of billions. Bezos took the co-CEO title alongside Vik Bajaj, a scientist who had helped found Alphabet's Verily. Its goal sits at a different layer than the language models that defined the era's first half: not a system that talks, but one that designs — \"a very, very modern version\" of computer-aided design, software meant to automate the engineering of complex physical things, from jet engines to drug compounds. Bezos was emphatic that it has \"nothing to do with robotics,\" despite the Promethean name; where physical AI gives the machine hands, Prometheus aims to give it the drafting table — to compress the slow, expensive cycle of inventing the physical world itself.",
+  impact:{
+    technology:"AI aimed at the design loop, not the chat window — the bottleneck targeted is invention, not conversation.",
+    computing:"A bet that the next frontier is an 'artificial general engineer' for matter, distinct from the language-model race.",
+    labor:"If design and engineering compress the way writing and coding already have, the white-collar technical professions face their own automation reckoning.",
+    society:"The fortunes of the platform era turn toward accelerating physical invention — with the same concentration of capital and ambition that built the cloud." },
+  causes:["agents","aws"], effects:["present"] },
 
 { id:"present", year:2026, date:"2026", era:7, cat:"general",
   title:"The Current Moment",
@@ -382,5 +406,5 @@ window.ATLAS_EVENTS.push(
     labor:"AI displacement, gig classification, and a reviving labor movement contest the next settlement of work.",
     regulation:"Three governance models compete for the network's and the model's future.",
     government:"What the ledger was to Sumer and the census to Rome, the model is to the present: the instrument by which power knows — and the next thing law must learn to bind." },
-  causes:["aiact","agents","googlecase","unionwave"], effects:[] }
+  causes:["aiact","agents","googlecase","unionwave","physicalai","prometheus"], effects:[] }
 );
