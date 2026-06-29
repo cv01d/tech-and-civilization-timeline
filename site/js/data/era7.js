@@ -117,7 +117,7 @@ window.ATLAS_EVENTS.push(
     society:"A global audience watches machine insight exceed the human — wonder and displacement in one broadcast.",
     government:"National AI strategies accelerate, China's most consequentially — the geopolitics of AI begins in earnest.",
     technology:"Lovelace's originality objection takes its hardest empirical hit yet." },
-  causes:["deepmind","alexnet","deepblue"], effects:["transformer"] },
+  causes:["deepmind","alexnet","deepblue"], effects:["transformer","sakanafugu"] },
 
 { id:"cambridgeanalytica", year:2018, date:"2016–2018", era:7, cat:["social","internet"],
   title:"Cambridge Analytica",
@@ -141,7 +141,7 @@ window.ATLAS_EVENTS.push(
     technology:"One architecture unifies language, vision, code, and audio — the general-purpose model arrives.",
     regulation:"Unregulated itself, it produces the systems the EU AI Act answers within seven years.",
     labor:"Makes possible the first automation wave aimed at writing, analysis, and code — labor's white-collar reckoning." },
-  causes:["alexnet","alphago","shannon"], effects:["gpt3","chatgpt"] },
+  causes:["alexnet","alphago","shannon"], effects:["gpt3","chatgpt","sakanafugu"] },
 
 { id:"equifaxbreach", year:2017, date:"2017", era:7, cat:"internet",
   title:"The Equifax Breach",
@@ -370,7 +370,7 @@ window.ATLAS_EVENTS.push(
     labor:"Task automation graduates to workflow automation — the disputes of 2025 are the Luddites. question again, at higher abstraction.",
     surveillance:"An agent with your accounts is the most intimate data relationship yet constructed.",
     regulation:"Agency law, liability, and authentication frameworks scramble to define the acting machine." },
-  causes:["chatgpt","claude","ring"], effects:["present","physicalai","prometheus"] },
+  causes:["chatgpt","claude","ring"], effects:["present","physicalai","prometheus","sakanafugu"] },
 
 { id:"physicalai", year:2025, date:"2025", era:7, cat:"robotics",
   title:"The Millionth Robot & Physical AI",
@@ -396,6 +396,18 @@ window.ATLAS_EVENTS.push(
     society:"The fortunes of the platform era turn toward accelerating physical invention — with the same concentration of capital and ambition that built the cloud." },
   causes:["agents","aws"], effects:["present"] },
 
+{ id:"sakanafugu", year:2026, date:"June 2026", era:7, cat:"computing",
+  title:"Fugu: The Swarm as a Model",
+  wiki:"Sakana AI", gallery:["Swarm intelligence","Collective intelligence","Transformer (deep learning architecture)"], noimg:true,
+  summary:"Sakana ships Fugu — a \"multi-agent system as a model\" that orchestrates a swarm of smaller models to match the frontier, on the thesis that intelligence is collective, like a school of fish.",
+  importance:"Sakana AI was founded in Tokyo in 2023 by Llion Jones — a co-author of the 2017 \"Attention Is All You Need\" paper that begins this gallery's second half — and David Ha, both refugees from the scale-everything orthodoxy of the large labs. Its name is the Japanese word for fish, and its wager is biological: that coherent intelligence can emerge from many simple parts following local rules, the way a school of fish becomes one moving body without a leader. Fugu, released in June 2026, is the commercial expression of that idea — what Sakana calls a \"multi-agent system as a model,\" collective intelligence behind a single API. Rather than prescribing team roles or hand-designed workflows, Fugu learns to assemble agents from a pool and coordinate them through what the company calls \"non-obvious but highly efficient collaboration patterns,\" routing each task across the models best suited to it. Fugu and Fugu Ultra matched or beat the publicly accessible frontier — Gemini 3.1 Pro, Opus 4.8, GPT 5.5 — on hard coding, reasoning, and science benchmarks (SWE-Bench Pro, LiveCodeBench, GPQA-Diamond, CharXiv Reasoning) without training a giant model of its own. The claim cuts against the era's central assumption — that capability is bought with ever-larger single models and ever-more compute — and revives one of the oldest ideas in this atlas: that the group can know what no member does.",
+  impact:{
+    computing:"A direct challenge to the scaling thesis — capability sought through orchestration of many specialized models, not one ever-larger one.",
+    technology:"Swarm and collective-intelligence methods, long marginal to deep learning, re-enter the frontier as a hedge against brute-force compute.",
+    society:"Collective intelligence as a decentralizing bet: frontier capability emerging from smaller players, not concentrated in a few trillion-parameter incumbents.",
+    government:"A counter-model to compute concentration — if a swarm of small models suffices, the strategic chokehold on giant training runs loosens." },
+  causes:["transformer","agents","alphago"], effects:["present"] },
+
 { id:"present", year:2026, date:"2026", era:7, cat:"general",
   title:"The Current Moment",
   wiki:"Artificial intelligence", gallery:["European Union","United States Capitol","Great Hall of the People"],
@@ -406,5 +418,5 @@ window.ATLAS_EVENTS.push(
     labor:"AI displacement, gig classification, and a reviving labor movement contest the next settlement of work.",
     regulation:"Three governance models compete for the network's and the model's future.",
     government:"What the ledger was to Sumer and the census to Rome, the model is to the present: the instrument by which power knows — and the next thing law must learn to bind." },
-  causes:["aiact","agents","googlecase","unionwave","physicalai","prometheus"], effects:[] }
+  causes:["aiact","agents","googlecase","unionwave","physicalai","prometheus","sakanafugu"], effects:[] }
 );
